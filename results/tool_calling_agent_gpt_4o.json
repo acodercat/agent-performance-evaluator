@@ -1,0 +1,814 @@
+{
+  "weather_query": {
+    "scenario": "weather_query",
+    "conversations": [
+      {
+        "id": "tokyo_weather_conversation",
+        "turns": [
+          {
+            "query": "What is the weather in Tokyo on 2023-04-28? and give me the recommendation",
+            "reference_response": "",
+            "actual_response": "The weather in Tokyo on 2023-04-28 was clear with a temperature of 21\u00b0C and a 5% chance of rain. Here are the recommendations based on the weather:\n\n- **Clothing**: Wear spring clothing, such as a long-sleeve shirt or a light sweater.\n- **Umbrella**: You won't need an umbrella.\n- **Outdoor Activity**: It's suitable for outdoor activities like park walks or picnics.",
+            "expected_calls": [
+              {
+                "name": "get_weather",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "city",
+                    "value": "Tokyo",
+                    "type": "str"
+                  },
+                  {
+                    "name": "date",
+                    "value": "2023-04-28",
+                    "type": "str"
+                  }
+                ]
+              },
+              {
+                "name": "get_weather_recommendation",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "weather",
+                    "type": "dict"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_weather",
+                "arguments": {
+                  "city": "Tokyo",
+                  "date": "2023-04-28"
+                },
+                "call_id": "call_nHxF6fG11JnEIHXq49ceo188"
+              },
+              {
+                "function": "get_weather_recommendation",
+                "arguments": {
+                  "weather": {
+                    "city": "Tokyo",
+                    "date": "2023-04-28",
+                    "data": {
+                      "temp": 21,
+                      "condition": "Clear",
+                      "rain_chance": 5
+                    }
+                  }
+                },
+                "call_id": "call_QwEQ7xTC8B38vcfu5pCAPek8"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 3
+            },
+            "success": true
+          },
+          {
+            "query": "What is the weather in London and New York on 2023-04-29?",
+            "reference_response": "",
+            "actual_response": "On 2023-04-29, the weather in:\n\n- **London**: The temperature was 17\u00b0C with partly cloudy skies and a 20% chance of rain.\n- **New York**: The temperature was 22\u00b0C with clear skies and a 5% chance of rain.",
+            "expected_calls": [
+              {
+                "name": "get_weather",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "city",
+                    "value": "London",
+                    "type": "str"
+                  },
+                  {
+                    "name": "date",
+                    "value": "2023-04-29",
+                    "type": "str"
+                  }
+                ]
+              },
+              {
+                "name": "get_weather",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "city",
+                    "value": "New York",
+                    "type": "str"
+                  },
+                  {
+                    "name": "date",
+                    "value": "2023-04-29",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_weather",
+                "arguments": {
+                  "city": "London",
+                  "date": "2023-04-29"
+                },
+                "call_id": "call_CtIrOzrOF1oOTLus6S8oJcFj"
+              },
+              {
+                "function": "get_weather",
+                "arguments": {
+                  "city": "New York",
+                  "date": "2023-04-29"
+                },
+                "call_id": "call_UI93miOMVuCb6G1LH3i1bTwl"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "total_turns": 2,
+      "successful_turns": 2,
+      "failed_turns": 0,
+      "total_expected_calls": 4,
+      "total_actual_calls": 4,
+      "missing_calls": 0,
+      "wrong_argument_values": 0,
+      "wrong_argument_types": 0,
+      "missing_arguments": 0,
+      "wrong_argument_names": 0,
+      "total_steps": 5,
+      "success_rate": 1.0
+    }
+  },
+  "flight_booking": {
+    "scenario": "flight_booking",
+    "conversations": [
+      {
+        "id": "flight_search_and_booking_conversation",
+        "turns": [
+          {
+            "query": "I want to fly from Hong Kong to London on April 28th, 2023. What flights are available?",
+            "reference_response": "",
+            "actual_response": "Here are the available flights from Hong Kong (HKG) to London (LHR) on April 28th, 2023:\n\n1. **Cathay Pacific (CX234)**\n   - Departure: 08:30\n   - Arrival: 14:45\n   - Duration: 12 hours 10 minutes\n   - Price: $3500.00\n   - Stops: Non-stop\n\n2. **British Airways (BA28)**\n   - Departure: 10:15\n   - Arrival: 16:30\n   - Duration: 12 hours 30 minutes\n   - Price: $2800.00\n   - Stops: Non-stop\n\n3. **Emirates (EK231)**\n   - Departure: 14:20\n   - Arrival: 01:35 (next day)\n   - Duration: 16 hours\n   - Price: $2950.00\n   - Stops: 1 (Layover in Dubai - DXB)\n\n4. **Qatar Airways (QR817)**\n   - Departure: 15:45\n   - Arrival: 23:10\n   - Duration: 15 hours 20 minutes\n   - Price: $2750.00\n   - Stops: 1 (Layover in Doha - DOH)\n\n5. **Virgin Atlantic (VS201)**\n   - Departure: 16:30\n   - Arrival: 22:45\n   - Duration: 13 hours\n   - Price: $2650.00\n   - Stops: Non-stop\n\n6. **Lufthansa (LH797)**\n   - Departure: 18:20\n   - Arrival: 06:15 (next day)\n   - Duration: 16 hours\n   - Price: $2450.00\n   - Stops: 1 (Layover in Frankfurt - FRA)\n\nPlease let me know if you need more information or wish to book a flight!",
+            "expected_calls": [
+              {
+                "name": "get_available_flights",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "departure_date",
+                    "value": "2023-04-28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "origin_airport",
+                    "value": "HKG",
+                    "type": "str"
+                  },
+                  {
+                    "name": "destination_airport",
+                    "value": "LHR",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_available_flights",
+                "arguments": {
+                  "departure_date": "2023-04-28",
+                  "origin_airport": "HKG",
+                  "destination_airport": "LHR"
+                },
+                "call_id": "call_ZPdeKp5tQSdpPs2AbSSihJnR"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "I'm interested in the British Airways flight. Are there any business class seats available?",
+            "reference_response": "",
+            "actual_response": "Yes, there are business class seats available on the British Airways flight (BA28). There are 3 remaining seats, and the price for a business class ticket is $7200.00.\n\nWould you like to proceed with booking a seat?",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "BA28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "business",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "check_seat_availability",
+                "arguments": {
+                  "flight_id": "BA28",
+                  "seat_class": "business"
+                },
+                "call_id": "call_E2uhNcN34lXh9ICqcOV4UDwB"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "That's a bit expensive. How many economy seats are left?",
+            "reference_response": "",
+            "actual_response": "There are 15 economy class seats available on the British Airways flight (BA28), and the price for an economy class ticket is $2800.00.\n\nWould you like to book an economy seat?",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "BA28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "economy",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "check_seat_availability",
+                "arguments": {
+                  "flight_id": "BA28",
+                  "seat_class": "economy"
+                },
+                "call_id": "call_Pm1SEOomZVW5g9DkzpFvLBWT"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "I'd like to see the passenger information for P12345",
+            "reference_response": "",
+            "actual_response": "Here is the passenger information for ID P12345:\n\n- **Name:** John Smith\n- **Passport Number:** AB123456\n- **Nationality:** United Kingdom\n- **Frequent Flyer Program:** Avios\n  - **Number:** AV78923456\n  - **Tier:** Silver\n- **Preferences:**\n  - **Seat:** Window\n  - **Meal:** Regular\n\nIf you need further assistance or wish to proceed with booking, please let me know!",
+            "expected_calls": [
+              {
+                "name": "get_passenger_information_by_id",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "passenger_id",
+                    "value": "P12345",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_passenger_information_by_id",
+                "arguments": {
+                  "passenger_id": "P12345"
+                },
+                "call_id": "call_Gmfh0qYNH7y5d8VSUdH1qio6"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "Please book an economy seat on that British Airways flight for passenger P12345",
+            "reference_response": "",
+            "actual_response": "The booking for an economy seat on the British Airways flight (BA28) for passenger John Smith has been confirmed. Here are the details:\n\n- **Booking ID:** BK27392\n- **Flight Details:**\n  - **Airline:** British Airways\n  - **Departure Time:** 10:15\n  - **Arrival Time:** 16:30\n  - **Duration:** 12 hours 30 minutes\n  - **Price:** $2800.00\n  - **Stops:** Non-stop\n- **Passenger Details:**\n  - **Name:** John Smith\n  - **Passport Number:** AB123456\n  - **Nationality:** United Kingdom\n  - **Frequent Flyer Program:** Avios (Silver Tier)\n  - **Seat Preference:** Window\n  - **Meal Preference:** Regular\n- **Seat Assignment:** 7F\n- **Total Price:** $3220.00\n\nIf you have any more questions or need further assistance, feel free to ask!",
+            "expected_calls": [
+              {
+                "name": "book_flight",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "BA28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "passenger_id",
+                    "value": "P12345",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "economy",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "book_flight",
+                "arguments": {
+                  "flight_id": "BA28",
+                  "passenger_id": "P12345",
+                  "seat_class": "economy"
+                },
+                "call_id": "call_zcn11ii2LZ4jig8ZLUWA4Ifo"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          }
+        ]
+      },
+      {
+        "id": "complex_flight_booking_conversation",
+        "turns": [
+          {
+            "query": "I need to check flights from HKG to LHR on April 28th, 2023, preferably non-stop direct flights",
+            "reference_response": "",
+            "actual_response": "Here are the available non-stop direct flights from Hong Kong (HKG) to London Heathrow (LHR) on April 28th, 2023:\n\n1. **Cathay Pacific (CX234)**\n   - Departure: 08:30\n   - Arrival: 14:45\n   - Duration: 12 hours and 10 minutes\n   - Price: $3500.00\n\n2. **British Airways (BA28)**\n   - Departure: 10:15\n   - Arrival: 16:30\n   - Duration: 12 hours and 30 minutes\n   - Price: $2800.00\n\n3. **Virgin Atlantic (VS201)**\n   - Departure: 16:30\n   - Arrival: 22:45\n   - Duration: 13 hours\n   - Price: $2650.00\n\nThese flights have no stops and will take you directly to your destination. Let me know if you need more information or assistance with booking!",
+            "expected_calls": [
+              {
+                "name": "get_available_flights",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "departure_date",
+                    "value": "2023-04-28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "origin_airport",
+                    "value": "HKG",
+                    "type": "str"
+                  },
+                  {
+                    "name": "destination_airport",
+                    "value": "LHR",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_available_flights",
+                "arguments": {
+                  "departure_date": "2023-04-28",
+                  "origin_airport": "HKG",
+                  "destination_airport": "LHR"
+                },
+                "call_id": "call_Y8PoWA2e1hjTKVqpfhJc0LXF"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "Can you tell me what's the cheapest direct flight, and if it has first class seats available?",
+            "reference_response": "",
+            "actual_response": "The cheapest direct flight from Hong Kong (HKG) to London Heathrow (LHR) on April 28th, 2023, is with Virgin Atlantic (VS201), priced at $2650.00. However, there are no first-class seats available on this flight. If you need further assistance or want to explore other options, feel free to ask!",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "VS201",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "first",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "check_seat_availability",
+                "arguments": {
+                  "flight_id": "VS201",
+                  "seat_class": "first"
+                },
+                "call_id": "call_7TzZOw1uqHG1h2KrUnpuYw0K"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "What about business class then?",
+            "reference_response": "",
+            "actual_response": "The Virgin Atlantic (VS201) flight does have business class seats available. There are 2 remaining seats, and the price for a business class ticket is $6900.00. Let me know if you would like to proceed with booking or need any more information!",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "VS201",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "business",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "check_seat_availability",
+                "arguments": {
+                  "flight_id": "VS201",
+                  "seat_class": "business"
+                },
+                "call_id": "call_k4wYJaYgn3zBH3ouSIbhsTOc"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "I'm Emma Chen, can you look up my passenger information?",
+            "reference_response": "",
+            "actual_response": "Here is your passenger information, Emma Chen:\n\n- **Passenger ID**: P67890\n- **Name**: Emma Chen\n- **Passport**: CD789012\n- **Nationality**: Hong Kong\n- **Frequent Flyer Program**: Asia Miles\n  - **Number**: AM45678901\n  - **Tier**: Gold\n- **Preferences**:\n  - **Seat**: Aisle\n  - **Meal**: Vegetarian\n\nIf you need to book a flight or have any other requests, feel free to let me know!",
+            "expected_calls": [
+              {
+                "name": "get_passenger_information_by_name",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "name",
+                    "value": "Emma Chen",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_passenger_information_by_name",
+                "arguments": {
+                  "name": "Emma Chen"
+                },
+                "call_id": "call_eazCHVt33pjuorbaQ5xyT8Dc"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "Great, please book me (Emma Chen) on the VS201 flight in business class",
+            "reference_response": "",
+            "actual_response": "Your booking on the Virgin Atlantic (VS201) flight in business class has been confirmed. Here are the details:\n\n- **Booking ID**: BK47176\n- **Flight**: Virgin Atlantic (VS201)\n- **Departure**: 16:30\n- **Arrival**: 22:45\n- **Duration**: 13 hours\n- **Seat Assignment**: 6F\n- **Total Price**: $7935.00\n\nYour preferences for an aisle seat and vegetarian meal have been noted. If you have any more questions or need further assistance, feel free to ask! Safe travels, Emma!",
+            "expected_calls": [
+              {
+                "name": "book_flight",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "VS201",
+                    "type": "str"
+                  },
+                  {
+                    "name": "passenger_id",
+                    "value": "P67890",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "business",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "book_flight",
+                "arguments": {
+                  "flight_id": "VS201",
+                  "passenger_id": "P67890",
+                  "seat_class": "business"
+                },
+                "call_id": "call_YnpsDGxiomtzeSuP02Y77PCo"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          }
+        ]
+      },
+      {
+        "id": "ambiguous_flight_query_conversation",
+        "turns": [
+          {
+            "query": "I'm planning to travel from Hong Kong to London on 2023-04-28. What options do I have?",
+            "reference_response": "",
+            "actual_response": "Here are some flight options for traveling from Hong Kong (HKG) to London (LHR) on 2023-04-28:\n\n1. **Cathay Pacific (CX234)**\n   - Departure: 08:30\n   - Arrival: 14:45\n   - Duration: 12 hours 10 minutes\n   - Price: $3500.0\n   - Stops: Non-stop\n\n2. **British Airways (BA28)**\n   - Departure: 10:15\n   - Arrival: 16:30\n   - Duration: 12 hours 30 minutes\n   - Price: $2800.0\n   - Stops: Non-stop\n\n3. **Emirates (EK231)**\n   - Departure: 14:20\n   - Arrival: 01:35 (next day)\n   - Duration: 16 hours\n   - Price: $2950.0\n   - Stops: 1 (Layover at Dubai - DXB)\n\n4. **Qatar Airways (QR817)**\n   - Departure: 15:45\n   - Arrival: 23:10\n   - Duration: 15 hours 20 minutes\n   - Price: $2750.0\n   - Stops: 1 (Layover at Doha - DOH)\n\n5. **Virgin Atlantic (VS201)**\n   - Departure: 16:30\n   - Arrival: 22:45\n   - Duration: 13 hours\n   - Price: $2650.0\n   - Stops: Non-stop\n\n6. **Lufthansa (LH797)**\n   - Departure: 18:20\n   - Arrival: 06:15 (next day)\n   - Duration: 16 hours\n   - Price: $2450.0\n   - Stops: 1 (Layover at Frankfurt - FRA)\n\nPlease let me know if you need more information or assistance with booking.",
+            "expected_calls": [
+              {
+                "name": "get_available_flights",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "departure_date",
+                    "value": "2023-04-28",
+                    "type": "str"
+                  },
+                  {
+                    "name": "origin_airport",
+                    "value": "HKG",
+                    "type": "str"
+                  },
+                  {
+                    "name": "destination_airport",
+                    "value": "LHR",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_available_flights",
+                "arguments": {
+                  "departure_date": "2023-04-28",
+                  "origin_airport": "HKG",
+                  "destination_airport": "LHR"
+                },
+                "call_id": "call_vTUA6ETjIck2VgAqxBovhNJ1"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "I'm interested in LH797. Can you check what seat classes are available?",
+            "reference_response": "",
+            "actual_response": "For Lufthansa flight LH797, the following seat classes are available:\n\n- **Economy Class**\n  - Available: Yes\n  - Remaining Seats: 28\n  - Price: $2450.0\n\n- **Premium Economy Class**\n  - Available: Yes\n  - Remaining Seats: 10\n  - Price: $3400.0\n\n- **Business Class**\n  - Available: No\n  - Remaining Seats: 0\n\n- **First Class**\n  - Available: No\n  - Remaining Seats: 0\n\nLet me know if you would like to proceed with booking or need further assistance!",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "LH797",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "required": false,
+                    "value": null,
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "check_seat_availability",
+                "arguments": {
+                  "flight_id": "LH797"
+                },
+                "call_id": "call_GZrkQCQQGtPr83ekSTQTrVa6"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 2
+            },
+            "success": true
+          },
+          {
+            "query": "Is premium economy available as well?",
+            "reference_response": "",
+            "actual_response": "Yes, Premium Economy Class is available on Lufthansa flight LH797. There are 10 remaining seats, and the price is $3400.0. Let me know if you would like to book a seat or need any further assistance!",
+            "expected_calls": [
+              {
+                "name": "check_seat_availability",
+                "required": false,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "LH797",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "premium_economy",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 1
+            },
+            "success": true
+          },
+          {
+            "query": "John Smith would like to book this flight in premium economy",
+            "reference_response": "",
+            "actual_response": "John Smith's booking for Lufthansa flight LH797 in Premium Economy Class has been confirmed. Here are the details:\n\n- **Booking ID:** BK47938\n- **Flight Details:**\n  - Airline: Lufthansa\n  - Departure: 18:20\n  - Arrival: 06:15 (next day)\n  - Duration: 16 hours\n  - Stops: 1 (Layover at Frankfurt - FRA)\n- **Passenger Details:**\n  - Name: John Smith\n  - Passport: AB123456\n  - Nationality: United Kingdom\n  - Frequent Flyer: Avios, Number: AV78923456, Tier: Silver\n  - Preferences: Window seat, Regular meal\n- **Seat Assignment:** 23B\n- **Total Price:** $3910.0\n\nIf you need any further assistance or changes, feel free to ask!",
+            "expected_calls": [
+              {
+                "name": "get_passenger_information_by_name",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "name",
+                    "value": "John Smith",
+                    "type": "str"
+                  }
+                ]
+              },
+              {
+                "name": "book_flight",
+                "required": true,
+                "arguments": [
+                  {
+                    "name": "flight_id",
+                    "value": "LH797",
+                    "type": "str"
+                  },
+                  {
+                    "name": "passenger_id",
+                    "value": "P12345",
+                    "type": "str"
+                  },
+                  {
+                    "name": "seat_class",
+                    "value": "premium_economy",
+                    "type": "str"
+                  }
+                ]
+              }
+            ],
+            "actual_calls": [
+              {
+                "function": "get_passenger_information_by_name",
+                "arguments": {
+                  "name": "John Smith"
+                },
+                "call_id": "call_rbpB60VFxg6B4CWXKL5yr9VO"
+              },
+              {
+                "function": "book_flight",
+                "arguments": {
+                  "flight_id": "LH797",
+                  "passenger_id": "P12345",
+                  "seat_class": "premium_economy"
+                },
+                "call_id": "call_c3BST6vaywaGh5raO9guIirl"
+              }
+            ],
+            "validation_errors": [],
+            "metrics": {
+              "missing_calls": 0,
+              "wrong_argument_types": 0,
+              "wrong_argument_values": 0,
+              "missing_arguments": 0,
+              "steps": 3
+            },
+            "success": true
+          }
+        ]
+      }
+    ],
+    "metrics": {
+      "total_turns": 14,
+      "successful_turns": 14,
+      "failed_turns": 0,
+      "total_expected_calls": 15,
+      "total_actual_calls": 14,
+      "missing_calls": 0,
+      "wrong_argument_values": 0,
+      "wrong_argument_types": 0,
+      "missing_arguments": 0,
+      "wrong_argument_names": 0,
+      "total_steps": 28,
+      "success_rate": 1.0
+    }
+  }
+}
