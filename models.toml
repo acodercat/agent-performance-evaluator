@@ -2,13 +2,13 @@
 
 [gpt-4o]
 model_id = "gpt-4o"
-api_key = "sk-fI6h6ShniZ0eFsg7lJtgzcBYuGvJUL7MIUuooCS435777NtA"
-base_url = "https://gitaigc.com/v1"
+api_key = ""
+base_url = ""
 
 [gpt-4o-mini]
 model_id = "gpt-4o-mini"
-api_key = "sk-fI6h6ShniZ0eFsg7lJtgzcBYuGvJUL7MIUuooCS435777NtA"
-base_url = "https://gitaigc.com/v1"
+api_key = ""
+base_url = ""
 
 [claude-3-5-sonnet]
 model_id = "claude-3-5-sonnet-20241022"
@@ -22,20 +22,20 @@ base_url = ""
 
 [deepseek-v3-0324]
 model_id = "deepseek-v3-0324"
-api_key = "sk-bJL4pRKdjSZFMCd727AeB7Fd79Fe4eBaBaD41cA033BfB282"
-base_url = "https://oneapi.hkgai.net/v1"
+api_key = ""
+base_url = ""
 
 [qwen2-5-7b]
-model_id = "HKGAI-Qwen2-5-7b"
-api_key = "sk-bJL4pRKdjSZFMCd727AeB7Fd79Fe4eBaBaD41cA033BfB282"
-base_url = "https://oneapi.hkgai.net/v1"
+model_id = "Qwen2-5-7b"
+api_key = ""
+base_url = ""
 
 [qwen2-5-14b]
-model_id = "HKGAI-Qwen2-5-14b"
-api_key = "sk-bJL4pRKdjSZFMCd727AeB7Fd79Fe4eBaBaD41cA033BfB282"
-base_url = "https://oneapi.hkgai.net/v1"
+model_id = "Qwen2-5-14b"
+api_key = ""
+base_url = ""
 
 [qwen2-5-72b]
-model_id = "HKGAI-Qwen2-5-72b"
-api_key = "sk-bJL4pRKdjSZFMCd727AeB7Fd79Fe4eBaBaD41cA033BfB282"
-base_url = "https://oneapi.hkgai.net/v1"
+model_id = "Qwen2-5-72b"
+api_key = ""
+base_url = ""
