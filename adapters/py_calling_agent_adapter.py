@@ -2,7 +2,7 @@ from typing import List, Callable
 from core.evaluator import Agent, AgentFactory
 from adapters.py_calling_agent_tracker import PyCallingAgentTracker
 from py_calling_agent import PyCallingAgent, LogLevel, Model
-from py_calling_agent.python_runtime import PythonRuntime
+from py_calling_agent.python_runtime import PythonRuntime, Function
 from core.agent import AgentResponse
 import logging
 
@@ -19,13 +19,14 @@ class PyCallingAgentWrapper(Agent):
             model: The model to use
             functions: List of callable functions
         """
+        functions = [Function(f) for f in functions]
 
         runtime = PythonRuntime(
             functions=functions,
         )
 
-        self._agent = PyCallingAgent(model, runtime, max_steps=10, max_history=100, log_level=LogLevel.INFO)
-        self._functions = [f.__name__ for f in functions]
+        self._agent = PyCallingAgent(model=model, runtime=runtime, max_steps=100, max_history=200, log_level=LogLevel.INFO)
+        self._functions = [f.name for f in functions]
         self._previous_steps = 0
 
     
@@ -49,13 +50,13 @@ class PyCallingAgentWrapper(Agent):
         # Stop tracking
         tracker.stop()
 
-        total_steps = self._agent.get_total_steps()
+        total_steps = result.steps_taken
 
         current_steps = total_steps - self._previous_steps
 
         self._previous_steps = current_steps
         
-        return AgentResponse(result, tracker.get_tool_calls(), current_steps)
+        return AgentResponse(result.content, tracker.get_tool_calls(), current_steps)
 
 
 class PyCallingAgentFactory(AgentFactory):
