@@ -143,6 +143,8 @@ def validate_arguments(actual: AgentToolCall,
                     pass
                 elif actual_type == "int" and expected_type == "integer":
                     pass  
+                elif actual_type == "bool" and expected_type == "boolean":
+                    pass  
                 else:
                     errors.append(ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_TYPE,
