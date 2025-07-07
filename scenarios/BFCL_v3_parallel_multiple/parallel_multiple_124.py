@@ -1,0 +1,34 @@
+def recipe_search(ingredients, calories, meal=None):
+	"""
+	Searches for recipes based on a list of ingredients and a maximum caloric value.    
+	Parameters:
+	ingredients: A list of ingredients you want to use in the recipe.
+	calories: The maximum number of calories for the recipe.
+	meal: Type of the meal for the recipe, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+
+	"""
+	pass
+
+def ingredient_replace(original_ingredient, replacement_ingredient, calories):
+	"""
+	Replaces an ingredient in a recipe with a substitute, keeping the calories below a certain number.    
+	Parameters:
+	original_ingredient: The ingredient in the recipe to replace.
+	replacement_ingredient: The substitute ingredient to replace the original one.
+	calories: The maximum number of calories for the recipe after replacement.
+
+	"""
+	pass
+
+def restaurant_search(ingredients, calories, meal=None):
+	"""
+	Searches for restaurants based on a list of preferred ingredients and maximum calorie count.    
+	Parameters:
+	ingredients: A list of ingredients you prefer in the restaurant's dishes.
+	calories: The maximum calorie count you prefer for the restaurant's dishes.
+	meal: Type of the meal for the restaurant's dishes, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+
+	"""
+	pass
+
+tools = [recipe_search, ingredient_replace, restaurant_search]
