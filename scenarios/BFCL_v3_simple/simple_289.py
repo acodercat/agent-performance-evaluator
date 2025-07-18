@@ -1,9 +1,12 @@
-def concert_find_nearby(location, genre):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_find_nearby(location:str, genre:str):
 	"""
-	Locate nearby concerts based on specific criteria like genre.    
+	concert_find_nearby : Locate nearby concerts based on specific criteria like genre.    
 	Parameters:
-	location: The city and state, e.g. Seattle, WA
-	genre: Genre of music to be played at the concert.
+	location (str): The city and state, e.g. Seattle, WA
+	genre (str): Genre of music to be played at the concert.
+
+	Required Parameter = [location,genre,]
 
 	"""
 	pass

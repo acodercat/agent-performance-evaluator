@@ -1,10 +1,13 @@
-def maps_get_distance_duration(start_location, end_location, traffic=None):
+from typing import List, Dict, Any, Union, Tuple 
+def maps_get_distance_duration(start_location:str, end_location:str, traffic:bool=None):
 	"""
-	Retrieve the travel distance and estimated travel time from one location to another via car    
+	maps_get_distance_duration : Retrieve the travel distance and estimated travel time from one location to another via car    
 	Parameters:
-	start_location: Starting point of the journey
-	end_location: Ending point of the journey
-	traffic: If true, considers current traffic. Default is false.
+	start_location (str): Starting point of the journey
+	end_location (str): Ending point of the journey
+	traffic (bool): If true, considers current traffic. Default is false.
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass

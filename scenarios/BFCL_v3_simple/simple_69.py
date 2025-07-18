@@ -1,10 +1,13 @@
-def ecology_get_turtle_population(location, year=None, species=None):
+from typing import List, Dict, Any, Union, Tuple 
+def ecology_get_turtle_population(location:str, year:int=None, species:bool=None):
 	"""
-	Get the population and species of turtles in a specific location.    
+	ecology_get_turtle_population : Get the population and species of turtles in a specific location.    
 	Parameters:
-	location: The name of the location.
-	year: The year of the data requested. Default is 2001.
-	species: Whether to include species information. Default is false.
+	location (str): The name of the location.
+	year (int): The year of the data requested. Default is 2001.
+	species (bool): Whether to include species information. Default is false.
+
+	Required Parameter = [location,]
 
 	"""
 	pass

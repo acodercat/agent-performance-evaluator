@@ -1,21 +1,27 @@
-def kinematics_distance_traveled(initial_velocity, acceleration, time):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_distance_traveled(initial_velocity:float, acceleration:float, time:float):
 	"""
-	Computes the total distance covered by a moving object given initial velocity, acceleration and time.    
+	kinematics_distance_traveled : Computes the total distance covered by a moving object given initial velocity, acceleration and time.    
 	Parameters:
-	initial_velocity: The initial velocity of the object in m/s.
-	acceleration: The acceleration of the object in m/s^2.
-	time: The time for which the object has been moving in seconds.
+	initial_velocity (float): The initial velocity of the object in m/s.
+	acceleration (float): The acceleration of the object in m/s^2.
+	time (float): The time for which the object has been moving in seconds.
+
+	Required Parameter = [initial_velocity,acceleration,time,]
 
 	"""
 	pass
 
-def kinematics_final_velocity(initial_velocity, acceleration, time):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_final_velocity(initial_velocity:float, acceleration:float, time:float):
 	"""
-	Calculates the final velocity of a moving object given initial velocity, acceleration and time.    
+	kinematics_final_velocity : Calculates the final velocity of a moving object given initial velocity, acceleration and time.    
 	Parameters:
-	initial_velocity: The initial velocity of the object in m/s.
-	acceleration: The acceleration of the object in m/s^2.
-	time: The time for which the object has been moving in seconds.
+	initial_velocity (float): The initial velocity of the object in m/s.
+	acceleration (float): The acceleration of the object in m/s^2.
+	time (float): The time for which the object has been moving in seconds.
+
+	Required Parameter = [initial_velocity,acceleration,time,]
 
 	"""
 	pass

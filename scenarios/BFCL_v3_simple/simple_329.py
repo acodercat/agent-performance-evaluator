@@ -1,10 +1,13 @@
-def monopoly_odds_calculator(number, dice_number, dice_faces=None):
+from typing import List, Dict, Any, Union, Tuple 
+def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
-	Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
+	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
 	Parameters:
-	number: The number for which the odds are calculated.
-	dice_number: The number of dice involved in the roll.
-	dice_faces: The number of faces on a single die. Default is 6 for standard six-faced die.
+	number (int): The number for which the odds are calculated.
+	dice_number (int): The number of dice involved in the roll.
+	dice_faces (int): The number of faces on a single die. Default is 6 for standard six-faced die.
+
+	Required Parameter = [number,dice_number,]
 
 	"""
 	pass

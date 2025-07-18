@@ -1,9 +1,12 @@
-def get_metal_price(metal, measure):
+from typing import List, Dict, Any, Union, Tuple 
+def get_metal_price(metal:str, measure:str):
 	"""
-	Retrieve the current price for a specified metal and measure.    
+	get_metal_price : Retrieve the current price for a specified metal and measure.    
 	Parameters:
-	metal: The metal whose price needs to be fetched.
-	measure: The measure unit for price, like 'ounce' or 'kg'.
+	metal (str): The metal whose price needs to be fetched.
+	measure (str): The measure unit for price, like 'ounce' or 'kg'.
+
+	Required Parameter = [metal,measure,]
 
 	"""
 	pass

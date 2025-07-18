@@ -1,27 +1,36 @@
-def circle_calculate_circumference(diameter):
+from typing import List, Dict, Any, Union, Tuple 
+def circle_calculate_circumference(diameter:int):
 	"""
-	Calculate the circumference of a circle based on the diameter.    
+	circle_calculate_circumference : Calculate the circumference of a circle based on the diameter.    
 	Parameters:
-	diameter: The diameter of the circle.
+	diameter (int): The diameter of the circle.
+
+	Required Parameter = [diameter,]
 
 	"""
 	pass
 
-def circle_calculate_area(radius):
+from typing import List, Dict, Any, Union, Tuple 
+def circle_calculate_area(radius:int):
 	"""
-	Calculate the area of a circle based on the radius.    
+	circle_calculate_area : Calculate the area of a circle based on the radius.    
 	Parameters:
-	radius: The radius of the circle.
+	radius (int): The radius of the circle.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass
 
-def rectangle_calculate_perimeter(length, breadth):
+from typing import List, Dict, Any, Union, Tuple 
+def rectangle_calculate_perimeter(length:int, breadth:int):
 	"""
-	Calculate the perimeter of a rectangle based on the length and breadth.    
+	rectangle_calculate_perimeter : Calculate the perimeter of a rectangle based on the length and breadth.    
 	Parameters:
-	length: The length of the rectangle.
-	breadth: The breadth of the rectangle.
+	length (int): The length of the rectangle.
+	breadth (int): The breadth of the rectangle.
+
+	Required Parameter = [length,breadth,]
 
 	"""
 	pass

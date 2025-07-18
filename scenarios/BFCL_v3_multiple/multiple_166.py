@@ -1,32 +1,41 @@
-def religion_history_info(religion, till_century, include_people=None):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_history_info(religion:str, till_century:int, include_people:bool=None):
 	"""
-	Provides comprehensive historical details about a specified religion till a specified century.    
+	religion_history_info : Provides comprehensive historical details about a specified religion till a specified century.    
 	Parameters:
-	religion: The name of the religion for which historical details are needed.
-	till_century: The century till which historical details are needed.
-	include_people: To include influential people related to the religion during that time period, default is False
+	religion (str): The name of the religion for which historical details are needed.
+	till_century (int): The century till which historical details are needed.
+	include_people (bool): To include influential people related to the religion during that time period, default is False
+
+	Required Parameter = [religion,till_century,]
 
 	"""
 	pass
 
-def team_score_get_latest(team, include_opponent='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def team_score_get_latest(team:str, include_opponent:bool='false'):
 	"""
-	Retrieve the score of the most recent game for a specified sports team.    
+	team_score_get_latest : Retrieve the score of the most recent game for a specified sports team.    
 	Parameters:
-	team: Name of the sports team.
-	include_opponent: Include the name of the opponent team in the return.
+	team (str): Name of the sports team.
+	include_opponent (bool): Include the name of the opponent team in the return.
+
+	Required Parameter = [team,]
 
 	"""
 	pass
 
-def concert_search(genre, location, date, price_range=None):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_search(genre:str, location:str, date:str, price_range:str=None):
 	"""
-	Locate a concert based on specific criteria like genre, location, and date.    
+	concert_search : Locate a concert based on specific criteria like genre, location, and date.    
 	Parameters:
-	genre: Genre of the concert.
-	location: City of the concert.
-	date: Date of the concert, e.g. this weekend, today, tomorrow, or date string.
-	price_range: Expected price range of the concert tickets. Default is 'any'
+	genre (str): Genre of the concert.
+	location (str): City of the concert.
+	date (str): Date of the concert, e.g. this weekend, today, tomorrow, or date string.
+	price_range (str): Expected price range of the concert tickets. Default is 'any'
+
+	Required Parameter = [genre,location,date,]
 
 	"""
 	pass

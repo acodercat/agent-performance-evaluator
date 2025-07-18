@@ -1,10 +1,13 @@
-def get_current_time(city, country, format=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_current_time(city:str, country:str, format:str=None):
 	"""
-	Retrieve the current time for a specified city and country.    
+	get_current_time : Retrieve the current time for a specified city and country.    
 	Parameters:
-	city: The city for which the current time is to be retrieved.
-	country: The country where the city is located.
-	format: The format in which the time is to be displayed, optional (defaults to 'HH:MM:SS').
+	city (str): The city for which the current time is to be retrieved.
+	country (str): The country where the city is located.
+	format (str): The format in which the time is to be displayed, optional (defaults to 'HH:MM:SS').
+
+	Required Parameter = [city,country,]
 
 	"""
 	pass

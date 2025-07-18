@@ -1,9 +1,12 @@
-def museum_info(museum_name, info_type='opening_hours'):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_info(museum_name:str, info_type:str='opening_hours'):
 	"""
-	Retrieve information about the opening hours of a museum based on its name.    
+	museum_info : Retrieve information about the opening hours of a museum based on its name.    
 	Parameters:
-	museum_name: The name of the museum.
-	info_type: The type of information needed about the museum.
+	museum_name (str): The name of the museum.
+	info_type (str): The type of information needed about the museum.
+
+	Required Parameter = [museum_name,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def draw_rectangle(width, height, color=None):
+from typing import List, Dict, Any, Union, Tuple 
+def draw_rectangle(width:int, height:int, color:str=None):
 	"""
-	Draw a rectangle given its width and height.    
+	draw_rectangle : Draw a rectangle given its width and height.    
 	Parameters:
-	width: The width of the rectangle.
-	height: The height of the rectangle.
-	color: The color of the rectangle. Default is 'black'.
+	width (int): The width of the rectangle.
+	height (int): The height of the rectangle.
+	color (str): The color of the rectangle. Default is 'black'.
+
+	Required Parameter = [width,height,]
 
 	"""
 	pass

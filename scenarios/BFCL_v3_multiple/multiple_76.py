@@ -1,21 +1,27 @@
-def painting_create_custom(subject, color, size=None):
+from typing import List, Dict, Any, Union, Tuple 
+def painting_create_custom(subject:str, color:str, size:int=None):
 	"""
-	Order a custom painting with your preferred color.    
+	painting_create_custom : Order a custom painting with your preferred color.    
 	Parameters:
-	subject: The subject of the painting, e.g. horse
-	color: Preferred main color for the painting.
-	size: The desired size for the painting in inches. This parameter is optional. Default 12
+	subject (str): The subject of the painting, e.g. horse
+	color (str): Preferred main color for the painting.
+	size (int): The desired size for the painting in inches. This parameter is optional. Default 12
+
+	Required Parameter = [subject,color,]
 
 	"""
 	pass
 
-def sculpture_create_custom(item, material, size=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sculpture_create_custom(item:str, material:str, size:int=None):
 	"""
-	Order a custom sculpture with your preferred material.    
+	sculpture_create_custom : Order a custom sculpture with your preferred material.    
 	Parameters:
-	item: The subject of the sculpture, e.g. horse
-	material: Preferred material for the sculpture.
-	size: The desired size for the sculpture in inches. This parameter is optional. Default 12
+	item (str): The subject of the sculpture, e.g. horse
+	material (str): Preferred material for the sculpture.
+	size (int): The desired size for the sculpture in inches. This parameter is optional. Default 12
+
+	Required Parameter = [item,material,]
 
 	"""
 	pass

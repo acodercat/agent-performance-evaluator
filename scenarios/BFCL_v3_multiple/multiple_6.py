@@ -1,30 +1,39 @@
-def resistance_calculator_calculate(I, V):
+from typing import List, Dict, Any, Union, Tuple 
+def resistance_calculator_calculate(I:float, V:float):
 	"""
-	Calculate the resistance of an electrical circuit based on current and voltage.    
+	resistance_calculator_calculate : Calculate the resistance of an electrical circuit based on current and voltage.    
 	Parameters:
-	I: The electric current flowing in Amperes.
-	V: The voltage difference in Volts.
+	I (float): The electric current flowing in Amperes.
+	V (float): The voltage difference in Volts.
+
+	Required Parameter = [I,V,]
 
 	"""
 	pass
 
-def capacitance_calculator_calculate(A, d, K=None):
+from typing import List, Dict, Any, Union, Tuple 
+def capacitance_calculator_calculate(A:int, d:float, K:float=None):
 	"""
-	Calculate the capacitance of a parallel plate capacitor based on the area, distance and dielectric constant using the equation C = ε₀KA/d.    
+	capacitance_calculator_calculate : Calculate the capacitance of a parallel plate capacitor based on the area, distance and dielectric constant using the equation C = ε₀KA/d.    
 	Parameters:
-	A: The area of one plate of the capacitor in square meters.
-	d: The distance between the two plates in meters.
-	K: The dielectric constant (default is 1.0 for free space, optional).
+	A (int): The area of one plate of the capacitor in square meters.
+	d (float): The distance between the two plates in meters.
+	K (float): The dielectric constant (default is 1.0 for free space, optional).
+
+	Required Parameter = [A,d,]
 
 	"""
 	pass
 
-def magnetic_field_calculate(I, r):
+from typing import List, Dict, Any, Union, Tuple 
+def magnetic_field_calculate(I:float, r:float):
 	"""
-	Calculate the magnetic field based on the current flowing and the radial distance.    
+	magnetic_field_calculate : Calculate the magnetic field based on the current flowing and the radial distance.    
 	Parameters:
-	I: The electric current flowing in Amperes.
-	r: The radial distance from the line of current in meters.
+	I (float): The electric current flowing in Amperes.
+	r (float): The radial distance from the line of current in meters.
+
+	Required Parameter = [I,r,]
 
 	"""
 	pass

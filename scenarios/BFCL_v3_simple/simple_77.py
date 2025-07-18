@@ -1,9 +1,12 @@
-def restaurant_find_nearby(location, dietary_preference=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find_nearby(location:str, dietary_preference:List[str]=None):
 	"""
-	Locate nearby restaurants based on specific dietary preferences.    
+	restaurant_find_nearby : Locate nearby restaurants based on specific dietary preferences.    
 	Parameters:
-	location: The city and state, e.g. Los Angeles, CA
-	dietary_preference: Dietary preference. Default is empty list.
+	location (str): The city and state, e.g. Los Angeles, CA
+	dietary_preference (List[str]): Dietary preference. Default is empty list.
+
+	Required Parameter = [location,]
 
 	"""
 	pass

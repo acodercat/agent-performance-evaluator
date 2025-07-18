@@ -1,9 +1,12 @@
-def movie_details_brief(title, extra_info='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def movie_details_brief(title:str, extra_info:bool='false'):
 	"""
-	This function retrieves a brief about a specified movie.    
+	movie_details_brief : This function retrieves a brief about a specified movie.    
 	Parameters:
-	title: Title of the movie
-	extra_info: Option to get additional information like Director, Cast, Awards etc.
+	title (str): Title of the movie
+	extra_info (bool): Option to get additional information like Director, Cast, Awards etc.
+
+	Required Parameter = [title,]
 
 	"""
 	pass

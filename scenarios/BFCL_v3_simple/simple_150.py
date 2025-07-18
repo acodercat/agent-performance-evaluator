@@ -1,10 +1,13 @@
-def calculate_roi(deposit, annual_interest_rate, years):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_roi(deposit:int, annual_interest_rate:float, years:int):
 	"""
-	Calculate the return on investment for a given deposit amount, annual interest rate, and time frame.    
+	calculate_roi : Calculate the return on investment for a given deposit amount, annual interest rate, and time frame.    
 	Parameters:
-	deposit: The initial deposit amount.
-	annual_interest_rate: The annual interest rate provided by the bank.
-	years: The period for which the money is invested.
+	deposit (int): The initial deposit amount.
+	annual_interest_rate (float): The annual interest rate provided by the bank.
+	years (int): The period for which the money is invested.
+
+	Required Parameter = [deposit,annual_interest_rate,years,]
 
 	"""
 	pass

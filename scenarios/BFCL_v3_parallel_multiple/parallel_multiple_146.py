@@ -1,32 +1,41 @@
-def prediction_evolution(species, years, model=None):
+from typing import List, Dict, Any, Union, Tuple 
+def prediction_evolution(species:str, years:int, model:str=None):
 	"""
-	Predict the evolutionary rate for a specific species for a given timeframe.    
+	prediction_evolution : Predict the evolutionary rate for a specific species for a given timeframe.    
 	Parameters:
-	species: The species that the evolution rate will be predicted for.
-	years: Number of years for the prediction.
-	model: The model used to make the prediction, options: 'Darwin', 'Lamarck', default is 'Darwin'.
+	species (str): The species that the evolution rate will be predicted for.
+	years (int): Number of years for the prediction.
+	model (str): The model used to make the prediction, options: 'Darwin', 'Lamarck', default is 'Darwin'.
+
+	Required Parameter = [species,years,]
 
 	"""
 	pass
 
-def calculate_probability(total_outcomes, favorable_outcomes, round_to=2):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
 	"""
-	Calculate the probability of an event.    
+	calculate_probability : Calculate the probability of an event.    
 	Parameters:
-	total_outcomes: Total number of possible outcomes.
-	favorable_outcomes: Number of outcomes considered as 'successful'.
-	round_to: Number of decimal places to round the result to.
+	total_outcomes (int): Total number of possible outcomes.
+	favorable_outcomes (int): Number of outcomes considered as 'successful'.
+	round_to (int): Number of decimal places to round the result to.
+
+	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
 	pass
 
-def modify_painting(size, medium, dominant_color=None):
+from typing import List, Dict, Any, Union, Tuple 
+def modify_painting(size:str, medium:str, dominant_color:str=None):
 	"""
-	Modify an existing painting's attributes such as size, medium, and color.    
+	modify_painting : Modify an existing painting's attributes such as size, medium, and color.    
 	Parameters:
-	size: The size of the painting in inches, width by height.
-	medium: The medium of the painting, such as oil, acrylic, etc.
-	dominant_color: The dominant color of the painting. Default is 'Blue'.
+	size (str): The size of the painting in inches, width by height.
+	medium (str): The medium of the painting, such as oil, acrylic, etc.
+	dominant_color (str): The dominant color of the painting. Default is 'Blue'.
+
+	Required Parameter = [size,medium,]
 
 	"""
 	pass

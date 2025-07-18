@@ -1,10 +1,13 @@
-def calculate_return_on_equity(net_income, shareholder_equity, dividends_paid=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends_paid:int=None):
 	"""
-	Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    
+	calculate_return_on_equity : Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    
 	Parameters:
-	net_income: The company's net income.
-	shareholder_equity: The company's total shareholder's equity.
-	dividends_paid: The total dividends paid by the company. Optional. If not given, assumes it's 0 as default.
+	net_income (int): The company's net income.
+	shareholder_equity (int): The company's total shareholder's equity.
+	dividends_paid (int): The total dividends paid by the company. Optional. If not given, assumes it's 0 as default.
+
+	Required Parameter = [net_income,shareholder_equity,]
 
 	"""
 	pass

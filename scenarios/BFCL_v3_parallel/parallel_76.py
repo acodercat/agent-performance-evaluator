@@ -1,9 +1,12 @@
-def math_gcd(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_gcd(num1:int, num2:int):
 	"""
-	Compute the greatest common divisor of two numbers    
+	math_gcd : Compute the greatest common divisor of two numbers    
 	Parameters:
-	num1: The first number.
-	num2: The second number.
+	num1 (int): The first number.
+	num2 (int): The second number.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass

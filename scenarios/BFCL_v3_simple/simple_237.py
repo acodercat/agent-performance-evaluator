@@ -1,10 +1,13 @@
-def get_historical_GDP(country, start_year, end_year):
+from typing import List, Dict, Any, Union, Tuple 
+def get_historical_GDP(country:str, start_year:int, end_year:int):
 	"""
-	Retrieve historical GDP data for a specific country and time range.    
+	get_historical_GDP : Retrieve historical GDP data for a specific country and time range.    
 	Parameters:
-	country: The country for which the historical GDP data is required.
-	start_year: Starting year of the period for which GDP data is required.
-	end_year: Ending year of the period for which GDP data is required.
+	country (str): The country for which the historical GDP data is required.
+	start_year (int): Starting year of the period for which GDP data is required.
+	end_year (int): Ending year of the period for which GDP data is required.
+
+	Required Parameter = [country,start_year,end_year,]
 
 	"""
 	pass

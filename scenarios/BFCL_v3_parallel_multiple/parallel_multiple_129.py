@@ -1,22 +1,28 @@
-def unit_conversion_convert(value, from_unit, to_unit):
+from typing import List, Dict, Any, Union, Tuple 
+def unit_conversion_convert(value:int, from_unit:str, to_unit:str):
 	"""
-	Converts a value from one unit to another.    
+	unit_conversion_convert : Converts a value from one unit to another.    
 	Parameters:
-	value: The value to be converted.
-	from_unit: The unit to convert from.
-	to_unit: The unit to convert to.
+	value (int): The value to be converted.
+	from_unit (str): The unit to convert from.
+	to_unit (str): The unit to convert to.
+
+	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
 	pass
 
-def currency_exchange_convert(amount, from_currency, to_currency, live_conversion=None):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_exchange_convert(amount:int, from_currency:str, to_currency:str, live_conversion:bool=None):
 	"""
-	Converts a value from one currency to another using the latest exchange rate.    
+	currency_exchange_convert : Converts a value from one currency to another using the latest exchange rate.    
 	Parameters:
-	amount: The amount of money to be converted.
-	from_currency: The currency to convert from.
-	to_currency: The currency to convert to.
-	live_conversion: If true, use the latest exchange rate for conversion, else use the last known rate. Default is true.
+	amount (int): The amount of money to be converted.
+	from_currency (str): The currency to convert from.
+	to_currency (str): The currency to convert to.
+	live_conversion (bool): If true, use the latest exchange rate for conversion, else use the last known rate. Default is true.
+
+	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
 	pass

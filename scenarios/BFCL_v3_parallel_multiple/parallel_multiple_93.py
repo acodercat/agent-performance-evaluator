@@ -1,19 +1,25 @@
-def geology_get_era(era_name, calculate_years_ago=None):
+from typing import List, Dict, Any, Union, Tuple 
+def geology_get_era(era_name:str, calculate_years_ago:bool=None):
 	"""
-	Get the estimated date of a geological era.    
+	geology_get_era : Get the estimated date of a geological era.    
 	Parameters:
-	era_name: The name of the geological era. e.g Ice age
-	calculate_years_ago: True if years ago is to be calculated. False by default
+	era_name (str): The name of the geological era. e.g Ice age
+	calculate_years_ago (bool): True if years ago is to be calculated. False by default
+
+	Required Parameter = [era_name,]
 
 	"""
 	pass
 
-def history_get_event_date(event_name, calculate_years_ago=None):
+from typing import List, Dict, Any, Union, Tuple 
+def history_get_event_date(event_name:str, calculate_years_ago:bool=None):
 	"""
-	Get the date of an historical event.    
+	history_get_event_date : Get the date of an historical event.    
 	Parameters:
-	event_name: The name of the event.
-	calculate_years_ago: True if years ago is to be calculated. False by default
+	event_name (str): The name of the event.
+	calculate_years_ago (bool): True if years ago is to be calculated. False by default
+
+	Required Parameter = [event_name,]
 
 	"""
 	pass

@@ -1,11 +1,14 @@
-def calculate_compounded_interest(principal, interest_rate, period, compounding_frequency=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_compounded_interest(principal:int, interest_rate:float, period:int, compounding_frequency:str=None):
 	"""
-	Calculate the compounded interest for a given principal, interest rate, and period.    
+	calculate_compounded_interest : Calculate the compounded interest for a given principal, interest rate, and period.    
 	Parameters:
-	principal: The initial principal.
-	interest_rate: The annual interest rate.
-	period: The period in years.
-	compounding_frequency: The frequency of compounding per year. Defaults to 'Annually'.
+	principal (int): The initial principal.
+	interest_rate (float): The annual interest rate.
+	period (int): The period in years.
+	compounding_frequency (str): The frequency of compounding per year. Defaults to 'Annually'.
+
+	Required Parameter = [principal,interest_rate,period,]
 
 	"""
 	pass

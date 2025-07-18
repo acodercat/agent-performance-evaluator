@@ -1,12 +1,15 @@
-def hilton_hotel_check_availability(location, check_in_date, check_out_date, no_of_adults, hotel_chain='Hilton'):
+from typing import List, Dict, Any, Union, Tuple 
+def hilton_hotel_check_availability(location:str, check_in_date:str, check_out_date:str, no_of_adults:int, hotel_chain:str='Hilton'):
 	"""
-	Check hotel availability for a specific location and time frame.    
+	hilton_hotel_check_availability : Check hotel availability for a specific location and time frame.    
 	Parameters:
-	location: The city where you want to check hotel availability.
-	check_in_date: The check-in date in the format YYYY-MM-DD.
-	check_out_date: The check-out date in the format YYYY-MM-DD.
-	no_of_adults: The number of adults for the hotel booking.
-	hotel_chain: The hotel chain where you want to book the hotel.
+	location (str): The city where you want to check hotel availability.
+	check_in_date (str): The check-in date in the format YYYY-MM-DD.
+	check_out_date (str): The check-out date in the format YYYY-MM-DD.
+	no_of_adults (int): The number of adults for the hotel booking.
+	hotel_chain (str): The hotel chain where you want to book the hotel.
+
+	Required Parameter = [location,check_in_date,check_out_date,no_of_adults,]
 
 	"""
 	pass

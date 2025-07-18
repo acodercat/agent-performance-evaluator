@@ -1,10 +1,13 @@
-def calculate_density(mass, volume, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_density(mass:int, volume:int, unit:str=None):
 	"""
-	Calculate the density of a substance based on its mass and volume.    
+	calculate_density : Calculate the density of a substance based on its mass and volume.    
 	Parameters:
-	mass: The mass of the substance in kilograms.
-	volume: The volume of the substance in cubic meters.
-	unit: The unit of density. Default is kg/m³
+	mass (int): The mass of the substance in kilograms.
+	volume (int): The volume of the substance in cubic meters.
+	unit (str): The unit of density. Default is kg/m³
+
+	Required Parameter = [mass,volume,]
 
 	"""
 	pass

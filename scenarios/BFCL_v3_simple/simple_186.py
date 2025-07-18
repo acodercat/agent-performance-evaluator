@@ -1,10 +1,13 @@
-def current_weather_condition(city, country, measurement=None):
+from typing import List, Dict, Any, Union, Tuple 
+def current_weather_condition(city:str, country:str, measurement:str=None):
 	"""
-	Get the current weather conditions of a specific city including temperature and humidity.    
+	current_weather_condition : Get the current weather conditions of a specific city including temperature and humidity.    
 	Parameters:
-	city: The city that you want to get the current weather conditions for.
-	country: The country of the city you specified.
-	measurement: You can specify which unit to display the temperature in, 'c' for Celsius, 'f' for Fahrenheit. Default is 'c'.
+	city (str): The city that you want to get the current weather conditions for.
+	country (str): The country of the city you specified.
+	measurement (str): You can specify which unit to display the temperature in, 'c' for Celsius, 'f' for Fahrenheit. Default is 'c'.
+
+	Required Parameter = [city,country,]
 
 	"""
 	pass

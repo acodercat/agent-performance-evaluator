@@ -1,19 +1,25 @@
-def restaurant_find(cuisine, price=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find(cuisine:str, price:List[str]=None):
 	"""
-	Locate restaurants based on specific criteria such as cuisine and price range    
+	restaurant_find : Locate restaurants based on specific criteria such as cuisine and price range    
 	Parameters:
-	cuisine: The type of cuisine preferred.
-	price: Price range of the restaurant in format ['low', 'mid', 'high']. Default is 'mid' if not specified.
+	cuisine (str): The type of cuisine preferred.
+	price (List[str]): Price range of the restaurant in format ['low', 'mid', 'high']. Default is 'mid' if not specified.
+
+	Required Parameter = [cuisine,]
 
 	"""
 	pass
 
-def recipe_find(mainIngredient, ingredientLimit):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_find(mainIngredient:str, ingredientLimit:int):
 	"""
-	Locate cooking recipes based on specific criteria such as main ingredient and number of ingredients    
+	recipe_find : Locate cooking recipes based on specific criteria such as main ingredient and number of ingredients    
 	Parameters:
-	mainIngredient: Main ingredient for the recipe.
-	ingredientLimit: Max number of ingredients the recipe should use.
+	mainIngredient (str): Main ingredient for the recipe.
+	ingredientLimit (int): Max number of ingredients the recipe should use.
+
+	Required Parameter = [mainIngredient,ingredientLimit,]
 
 	"""
 	pass

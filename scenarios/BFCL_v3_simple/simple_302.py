@@ -1,10 +1,13 @@
-def calculate_batting_average(hits, at_bats, decimal_places=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_batting_average(hits:int, at_bats:int, decimal_places:int=None):
 	"""
-	Calculate the batting average for a baseball player based on their number of hits and at-bats.    
+	calculate_batting_average : Calculate the batting average for a baseball player based on their number of hits and at-bats.    
 	Parameters:
-	hits: The number of hits.
-	at_bats: The number of at-bats.
-	decimal_places: The number of decimal places to return in the batting average. Default is 3.
+	hits (int): The number of hits.
+	at_bats (int): The number of at-bats.
+	decimal_places (int): The number of decimal places to return in the batting average. Default is 3.
+
+	Required Parameter = [hits,at_bats,]
 
 	"""
 	pass

@@ -1,31 +1,40 @@
-def recipe_search(dietary_restriction, ingredients, servings):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
 	"""
-	Search for a recipe given dietary restriction, ingredients, and number of servings.    
+	recipe_search : Search for a recipe given dietary restriction, ingredients, and number of servings.    
 	Parameters:
-	dietary_restriction: The dietary restriction, e.g., 'Vegetarian'.
-	ingredients: The list of ingredients.
-	servings: The number of servings the recipe should make
+	dietary_restriction (str): The dietary restriction, e.g., 'Vegetarian'.
+	ingredients (List[str]): The list of ingredients.
+	servings (int): The number of servings the recipe should make
+
+	Required Parameter = [dietary_restriction,ingredients,servings,]
 
 	"""
 	pass
 
-def get_time_difference(place1, place2):
+from typing import List, Dict, Any, Union, Tuple 
+def get_time_difference(place1:str, place2:str):
 	"""
-	Get the time difference between two places.    
+	get_time_difference : Get the time difference between two places.    
 	Parameters:
-	place1: The first place for time difference.
-	place2: The second place for time difference.
+	place1 (str): The first place for time difference.
+	place2 (str): The second place for time difference.
+
+	Required Parameter = [place1,place2,]
 
 	"""
 	pass
 
-def detailed_weather_forecast(location, duration, include_precipitation=None):
+from typing import List, Dict, Any, Union, Tuple 
+def detailed_weather_forecast(location:str, duration:int, include_precipitation:bool=None):
 	"""
-	Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    
+	detailed_weather_forecast : Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	duration: Duration in hours for the detailed forecast.
-	include_precipitation: Whether to include precipitation data in the forecast. Default is false.
+	location (str): The city that you want to get the weather for.
+	duration (int): Duration in hours for the detailed forecast.
+	include_precipitation (bool): Whether to include precipitation data in the forecast. Default is false.
+
+	Required Parameter = [location,duration,]
 
 	"""
 	pass

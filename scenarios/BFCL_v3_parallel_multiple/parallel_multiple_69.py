@@ -1,33 +1,42 @@
-def finance_loan_repayment(loan_amount, interest_rate, loan_term):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_loan_repayment(loan_amount:float, interest_rate:float, loan_term:int):
 	"""
-	Calculates the monthly repayment for a loan.    
+	finance_loan_repayment : Calculates the monthly repayment for a loan.    
 	Parameters:
-	loan_amount: The amount borrowed or loaned.
-	interest_rate: The annual interest rate.
-	loan_term: The term of the loan in years.
+	loan_amount (float): The amount borrowed or loaned.
+	interest_rate (float): The annual interest rate.
+	loan_term (int): The term of the loan in years.
+
+	Required Parameter = [loan_amount,interest_rate,loan_term,]
 
 	"""
 	pass
 
-def finance_inflation_adjustment(initial_sum, years, inflation_rate):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_inflation_adjustment(initial_sum:float, years:int, inflation_rate:float):
 	"""
-	Adjusts a sum of money for inflation based on the consumer price index (CPI).    
+	finance_inflation_adjustment : Adjusts a sum of money for inflation based on the consumer price index (CPI).    
 	Parameters:
-	initial_sum: The initial sum of money.
-	years: The number of years over which inflation is calculated.
-	inflation_rate: The annual rate of inflation.
+	initial_sum (float): The initial sum of money.
+	years (int): The number of years over which inflation is calculated.
+	inflation_rate (float): The annual rate of inflation.
+
+	Required Parameter = [initial_sum,years,inflation_rate,]
 
 	"""
 	pass
 
-def finance_property_depreciation(initial_cost, depreciation_rate, years, monthly=False):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_property_depreciation(initial_cost:float, depreciation_rate:float, years:int, monthly:bool=False):
 	"""
-	Calculates the depreciated value of a property given its initial cost, depreciation rate, and the number of years.    
+	finance_property_depreciation : Calculates the depreciated value of a property given its initial cost, depreciation rate, and the number of years.    
 	Parameters:
-	initial_cost: The initial cost of the property.
-	depreciation_rate: The annual depreciation rate in percentage.
-	years: The number of years for which to calculate the depreciation.
-	monthly: If set to true, it will calculate monthly depreciation instead of annually. (optional)
+	initial_cost (float): The initial cost of the property.
+	depreciation_rate (float): The annual depreciation rate in percentage.
+	years (int): The number of years for which to calculate the depreciation.
+	monthly (bool): If set to true, it will calculate monthly depreciation instead of annually. (optional)
+
+	Required Parameter = [initial_cost,depreciation_rate,years,]
 
 	"""
 	pass

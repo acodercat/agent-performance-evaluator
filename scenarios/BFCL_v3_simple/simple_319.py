@@ -1,10 +1,13 @@
-def sports_ranking(team, league, season=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking(team:str, league:str, season:int=None):
 	"""
-	Fetch the ranking of a specific sports team in a specific league    
+	sports_ranking : Fetch the ranking of a specific sports team in a specific league    
 	Parameters:
-	team: The name of the team.
-	league: The name of the league.
-	season: Optional parameter to specify the season, default is the current season '2023' if not specified.
+	team (str): The name of the team.
+	league (str): The name of the league.
+	season (int): Optional parameter to specify the season, default is the current season '2023' if not specified.
+
+	Required Parameter = [team,league,]
 
 	"""
 	pass

@@ -1,30 +1,39 @@
-def electric_field_calculate(Q, r):
+from typing import List, Dict, Any, Union, Tuple 
+def electric_field_calculate(Q:float, r:float):
 	"""
-	Calculate the electric field based on the amount of charge and distance from the charge    
+	electric_field_calculate : Calculate the electric field based on the amount of charge and distance from the charge    
 	Parameters:
-	Q: The amount of charge in coulombs.
-	r: The distance from the charge in meters.
+	Q (float): The amount of charge in coulombs.
+	r (float): The distance from the charge in meters.
+
+	Required Parameter = [Q,r,]
 
 	"""
 	pass
 
-def magnetic_field_calculate(I, r):
+from typing import List, Dict, Any, Union, Tuple 
+def magnetic_field_calculate(I:int, r:float):
 	"""
-	Calculate the magnetic field based on the current flowing and the radial distance using Ampere’s law    
+	magnetic_field_calculate : Calculate the magnetic field based on the current flowing and the radial distance using Ampere’s law    
 	Parameters:
-	I: The electric current flowing in Amperes.
-	r: The radial distance from the line of current in meters.
+	I (int): The electric current flowing in Amperes.
+	r (float): The radial distance from the line of current in meters.
+
+	Required Parameter = [I,r,]
 
 	"""
 	pass
 
-def electric_force_calculate(Q1, Q2, r):
+from typing import List, Dict, Any, Union, Tuple 
+def electric_force_calculate(Q1:float, Q2:float, r:float):
 	"""
-	Calculate the electric force between two charges at a distance    
+	electric_force_calculate : Calculate the electric force between two charges at a distance    
 	Parameters:
-	Q1: The amount of the first charge in coulombs.
-	Q2: The amount of the second charge in coulombs.
-	r: The distance between the two charges in meters.
+	Q1 (float): The amount of the first charge in coulombs.
+	Q2 (float): The amount of the second charge in coulombs.
+	r (float): The distance between the two charges in meters.
+
+	Required Parameter = [Q1,Q2,r,]
 
 	"""
 	pass

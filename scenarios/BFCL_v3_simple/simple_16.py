@@ -1,10 +1,13 @@
-def calculus_derivative(function, value, function_variable=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculus_derivative(function:str, value:int, function_variable:str=None):
 	"""
-	Compute the derivative of a function at a specific value.    
+	calculus_derivative : Compute the derivative of a function at a specific value.    
 	Parameters:
-	function: The function to calculate the derivative of.
-	value: The value where the derivative needs to be calculated at.
-	function_variable: The variable present in the function, for instance x or y, etc. Default is 'x'.
+	function (str): The function to calculate the derivative of.
+	value (int): The value where the derivative needs to be calculated at.
+	function_variable (str): The variable present in the function, for instance x or y, etc. Default is 'x'.
+
+	Required Parameter = [function,value,]
 
 	"""
 	pass

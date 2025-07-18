@@ -1,9 +1,12 @@
-def get_protein_sequence(gene, species='Homo sapiens'):
+from typing import List, Dict, Any, Union, Tuple 
+def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	"""
-	Retrieve the protein sequence encoded by a human gene.    
+	get_protein_sequence : Retrieve the protein sequence encoded by a human gene.    
 	Parameters:
-	gene: The human gene of interest.
-	species: The species for which the gene is to be analyzed.
+	gene (str): The human gene of interest.
+	species (str): The species for which the gene is to be analyzed.
+
+	Required Parameter = [gene,]
 
 	"""
 	pass

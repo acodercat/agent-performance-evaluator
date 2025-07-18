@@ -1,31 +1,40 @@
-def historical_contrib_get_contrib(scientist, date, category=None):
+from typing import List, Dict, Any, Union, Tuple 
+def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	"""
-	Retrieve historical contribution made by a scientist on a specific date.    
+	historical_contrib_get_contrib : Retrieve historical contribution made by a scientist on a specific date.    
 	Parameters:
-	scientist: The scientist whose contributions need to be searched.
-	date: The date when the contribution was made in yyyy-mm-dd format.
-	category: The field of the contribution, such as 'Physics' or 'Chemistry'. Default is all fields.
+	scientist (str): The scientist whose contributions need to be searched.
+	date (str): The date when the contribution was made in yyyy-mm-dd format.
+	category (str): The field of the contribution, such as 'Physics' or 'Chemistry'. Default is all fields.
+
+	Required Parameter = [scientist,date,]
 
 	"""
 	pass
 
-def music_calculate_note_duration(first_note_frequency, second_note_frequency, tempo=None):
+from typing import List, Dict, Any, Union, Tuple 
+def music_calculate_note_duration(first_note_frequency:int, second_note_frequency:int, tempo:int=None):
 	"""
-	Calculate the duration between two notes based on their frequencies and harmonic rhythm.    
+	music_calculate_note_duration : Calculate the duration between two notes based on their frequencies and harmonic rhythm.    
 	Parameters:
-	first_note_frequency: The frequency of the first note in Hz.
-	second_note_frequency: The frequency of the second note in Hz.
-	tempo: The tempo of the music in beats per minute. Defaults to 120 beats per minute.
+	first_note_frequency (int): The frequency of the first note in Hz.
+	second_note_frequency (int): The frequency of the second note in Hz.
+	tempo (int): The tempo of the music in beats per minute. Defaults to 120 beats per minute.
+
+	Required Parameter = [first_note_frequency,second_note_frequency,]
 
 	"""
 	pass
 
-def math_gcd(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_gcd(num1:int, num2:int):
 	"""
-	Calculate the greatest common divisor of two integers.    
+	math_gcd : Calculate the greatest common divisor of two integers.    
 	Parameters:
-	num1: First number.
-	num2: Second number.
+	num1 (int): First number.
+	num2 (int): Second number.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass

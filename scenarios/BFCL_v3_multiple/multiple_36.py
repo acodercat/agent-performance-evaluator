@@ -1,22 +1,28 @@
-def kinematics_calculate_acceleration(initial_speed, final_speed, time, distance=0):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_calculate_acceleration(initial_speed:float, final_speed:float, time:float, distance:float=0):
 	"""
-	Calculates the acceleration of an object under given conditions.    
+	kinematics_calculate_acceleration : Calculates the acceleration of an object under given conditions.    
 	Parameters:
-	initial_speed: The initial speed of the object.
-	final_speed: The final speed of the object.
-	time: The time in seconds it took the object to reach the final speed.
-	distance: The distance in meters the object has traveled.
+	initial_speed (float): The initial speed of the object.
+	final_speed (float): The final speed of the object.
+	time (float): The time in seconds it took the object to reach the final speed.
+	distance (float): The distance in meters the object has traveled.
+
+	Required Parameter = [initial_speed,final_speed,time,]
 
 	"""
 	pass
 
-def kinematics_calculate_speed_from_rest(distance, time, initial_speed=0):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_calculate_speed_from_rest(distance:int, time:int, initial_speed:int=0):
 	"""
-	Calculates the speed of an object that starts from rest under a constant acceleration over a specified distance.    
+	kinematics_calculate_speed_from_rest : Calculates the speed of an object that starts from rest under a constant acceleration over a specified distance.    
 	Parameters:
-	distance: The distance in meters the object has traveled.
-	time: The time in seconds it took the object to travel.
-	initial_speed: The initial speed of the object.
+	distance (int): The distance in meters the object has traveled.
+	time (int): The time in seconds it took the object to travel.
+	initial_speed (int): The initial speed of the object.
+
+	Required Parameter = [distance,time,]
 
 	"""
 	pass

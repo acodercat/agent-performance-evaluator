@@ -1,9 +1,12 @@
-def get_third_chord(key, type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_third_chord(key:str, type:str=None):
 	"""
-	Calculate the third major chord in a given key.    
+	get_third_chord : Calculate the third major chord in a given key.    
 	Parameters:
-	key: The key of the scale.
-	type: Type of the scale, either major or minor. Default is 'major'.
+	key (str): The key of the scale.
+	type (str): Type of the scale, either major or minor. Default is 'major'.
+
+	Required Parameter = [key,]
 
 	"""
 	pass

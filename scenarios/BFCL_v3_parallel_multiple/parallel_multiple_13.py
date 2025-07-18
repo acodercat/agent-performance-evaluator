@@ -1,24 +1,30 @@
-def temperature_converter_convert(temperature, from_unit, to_unit, round_to=None):
+from typing import List, Dict, Any, Union, Tuple 
+def temperature_converter_convert(temperature:float, from_unit:str, to_unit:str, round_to:int=None):
 	"""
-	Convert a temperature from one unit to another.    
+	temperature_converter_convert : Convert a temperature from one unit to another.    
 	Parameters:
-	temperature: The temperature to convert.
-	from_unit: The unit to convert from.
-	to_unit: The unit to convert to.
-	round_to: The number of decimal places to round the result to. Defaults to 2.
+	temperature (float): The temperature to convert.
+	from_unit (str): The unit to convert from.
+	to_unit (str): The unit to convert to.
+	round_to (int): The number of decimal places to round the result to. Defaults to 2.
+
+	Required Parameter = [temperature,from_unit,to_unit,]
 
 	"""
 	pass
 
-def energy_calculator_calculate(substance, mass, initial_temperature, final_temperature, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def energy_calculator_calculate(substance:str, mass:float, initial_temperature:float, final_temperature:float, unit:str=None):
 	"""
-	Calculate the energy needed to heat a substance from an initial to a final temperature.    
+	energy_calculator_calculate : Calculate the energy needed to heat a substance from an initial to a final temperature.    
 	Parameters:
-	substance: The substance to be heated.
-	mass: The mass of the substance in grams.
-	initial_temperature: The initial temperature of the substance in degrees Celsius.
-	final_temperature: The final temperature of the substance in degrees Celsius.
-	unit: The unit to report the energy in. Options are 'joules' and 'calories'. Defaults to 'joules'.
+	substance (str): The substance to be heated.
+	mass (float): The mass of the substance in grams.
+	initial_temperature (float): The initial temperature of the substance in degrees Celsius.
+	final_temperature (float): The final temperature of the substance in degrees Celsius.
+	unit (str): The unit to report the energy in. Options are 'joules' and 'calories'. Defaults to 'joules'.
+
+	Required Parameter = [substance,mass,initial_temperature,final_temperature,]
 
 	"""
 	pass

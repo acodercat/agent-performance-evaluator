@@ -1,32 +1,41 @@
-def game_scores_get(game, platform, level, player=''):
+from typing import List, Dict, Any, Union, Tuple 
+def game_scores_get(game:str, platform:str, level:int, player:str=''):
 	"""
-	Retrieve scores and rankings based on player’s performance in a certain game.    
+	game_scores_get : Retrieve scores and rankings based on player’s performance in a certain game.    
 	Parameters:
-	game: The name of the game.
-	platform: The gaming platform e.g. Xbox, Playstation, PC
-	level: The level of the game for which you want to retrieve the scores.
-	player: The name of the player for whom you want to retrieve scores.
+	game (str): The name of the game.
+	platform (str): The gaming platform e.g. Xbox, Playstation, PC
+	level (int): The level of the game for which you want to retrieve the scores.
+	player (str): The name of the player for whom you want to retrieve scores.
+
+	Required Parameter = [game,platform,level,]
 
 	"""
 	pass
 
-def game_missions_list(game):
+from typing import List, Dict, Any, Union, Tuple 
+def game_missions_list(game:str):
 	"""
-	List all missions for a certain game.    
+	game_missions_list : List all missions for a certain game.    
 	Parameters:
-	game: The name of the game.
+	game (str): The name of the game.
+
+	Required Parameter = [game,]
 
 	"""
 	pass
 
-def game_rewards_get(game, platform, mission='', trophy=''):
+from typing import List, Dict, Any, Union, Tuple 
+def game_rewards_get(game:str, platform:str, mission:str='', trophy:str=''):
 	"""
-	Retrieve information about different types of rewards that you can receive when playing a certain game.    
+	game_rewards_get : Retrieve information about different types of rewards that you can receive when playing a certain game.    
 	Parameters:
-	game: The name of the game.
-	platform: The gaming platform e.g. Xbox, Playstation, PC
-	mission: The mission for which you want to know the rewards.
-	trophy: The trophy level for which you want to know the rewards.
+	game (str): The name of the game.
+	platform (str): The gaming platform e.g. Xbox, Playstation, PC
+	mission (str): The mission for which you want to know the rewards.
+	trophy (str): The trophy level for which you want to know the rewards.
+
+	Required Parameter = [game,platform,]
 
 	"""
 	pass

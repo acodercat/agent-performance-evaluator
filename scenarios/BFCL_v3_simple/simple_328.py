@@ -1,10 +1,13 @@
-def boardgame_get_info(name, parameters, language=None):
+from typing import List, Dict, Any, Union, Tuple 
+def boardgame_get_info(name:str, parameters:List[str], language:str=None):
 	"""
-	Retrieve detailed information of a board game.    
+	boardgame_get_info : Retrieve detailed information of a board game.    
 	Parameters:
-	name: Name of the board game.
-	parameters: Game characteristics interested.
-	language: The preferred language for the game information, default is English
+	name (str): Name of the board game.
+	parameters (List[str]): Game characteristics interested.
+	language (str): The preferred language for the game information, default is English
+
+	Required Parameter = [name,parameters,]
 
 	"""
 	pass

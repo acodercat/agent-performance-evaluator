@@ -1,9 +1,12 @@
-def identify_color_rgb(color_name, standard=None):
+from typing import List, Dict, Any, Union, Tuple 
+def identify_color_rgb(color_name:str, standard:str=None):
 	"""
-	This function identifies the RGB values of a named color.    
+	identify_color_rgb : This function identifies the RGB values of a named color.    
 	Parameters:
-	color_name: Name of the color.
-	standard: The color standard (e.g. basic, pantone). Default is 'basic'
+	color_name (str): Name of the color.
+	standard (str): The color standard (e.g. basic, pantone). Default is 'basic'
+
+	Required Parameter = [color_name,]
 
 	"""
 	pass

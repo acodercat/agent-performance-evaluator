@@ -1,11 +1,14 @@
-def predict_house_price(bedrooms, bathrooms, area, location):
+from typing import List, Dict, Any, Union, Tuple 
+def predict_house_price(bedrooms:int, bathrooms:int, area:int, location:str):
 	"""
-	Predict the price of a house in a given area based on number of bedrooms, bathrooms and area.    
+	predict_house_price : Predict the price of a house in a given area based on number of bedrooms, bathrooms and area.    
 	Parameters:
-	bedrooms: The number of bedrooms in the house.
-	bathrooms: The number of bathrooms in the house.
-	area: The area of the house in square feet.
-	location: The location of the house.
+	bedrooms (int): The number of bedrooms in the house.
+	bathrooms (int): The number of bathrooms in the house.
+	area (int): The area of the house in square feet.
+	location (str): The location of the house.
+
+	Required Parameter = [bedrooms,bathrooms,area,location,]
 
 	"""
 	pass

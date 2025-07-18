@@ -1,19 +1,25 @@
-def financial_ratio_net_profit_margin(net_income, total_revenue):
+from typing import List, Dict, Any, Union, Tuple 
+def financial_ratio_net_profit_margin(net_income:int, total_revenue:int):
 	"""
-	Calculate net profit margin of a company given the net income and total revenue    
+	financial_ratio_net_profit_margin : Calculate net profit margin of a company given the net income and total revenue    
 	Parameters:
-	net_income: The net income of the company.
-	total_revenue: The total revenue of the company.
+	net_income (int): The net income of the company.
+	total_revenue (int): The total revenue of the company.
+
+	Required Parameter = [net_income,total_revenue,]
 
 	"""
 	pass
 
-def financial_ratio_debt_ratio(total_liabilities, total_assets):
+from typing import List, Dict, Any, Union, Tuple 
+def financial_ratio_debt_ratio(total_liabilities:int, total_assets:int):
 	"""
-	Calculate the debt ratio of a company given the total liabilities and total assets.    
+	financial_ratio_debt_ratio : Calculate the debt ratio of a company given the total liabilities and total assets.    
 	Parameters:
-	total_liabilities: The total liabilities of the company.
-	total_assets: The total assets of the company.
+	total_liabilities (int): The total liabilities of the company.
+	total_assets (int): The total assets of the company.
+
+	Required Parameter = [total_liabilities,total_assets,]
 
 	"""
 	pass

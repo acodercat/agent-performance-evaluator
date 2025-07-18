@@ -1,9 +1,12 @@
-def parks_find_nearby(location, amenities=['Playground']):
+from typing import List, Dict, Any, Union, Tuple 
+def parks_find_nearby(location:str, amenities:List[str]=['Playground']):
 	"""
-	Locate nearby parks based on specific criteria like tennis court availability.    
+	parks_find_nearby : Locate nearby parks based on specific criteria like tennis court availability.    
 	Parameters:
-	location: The city and state, e.g. London, UK
-	amenities: Preferred amenities in park.
+	location (str): The city and state, e.g. London, UK
+	amenities (List[str]): Preferred amenities in park.
+
+	Required Parameter = [location,]
 
 	"""
 	pass

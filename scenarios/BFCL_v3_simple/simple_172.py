@@ -1,9 +1,12 @@
-def legal_case_fetch(case_id, details):
+from typing import List, Dict, Any, Union, Tuple 
+def legal_case_fetch(case_id:str, details:bool):
 	"""
-	Fetch detailed legal case information from database.    
+	legal_case_fetch : Fetch detailed legal case information from database.    
 	Parameters:
-	case_id: The ID of the legal case.
-	details: True if need the detail info. 
+	case_id (str): The ID of the legal case.
+	details (bool): True if need the detail info. 
+
+	Required Parameter = [case_id,details,]
 
 	"""
 	pass

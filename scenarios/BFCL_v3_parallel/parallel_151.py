@@ -1,10 +1,13 @@
-def geometry_area_triangle(base, height, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_triangle(base:int, height:int, unit:str=None):
 	"""
-	Calculate the area of a triangle.    
+	geometry_area_triangle : Calculate the area of a triangle.    
 	Parameters:
-	base: The length of the base of the triangle.
-	height: The height of the triangle from the base.
-	unit: The measurement unit for the area. Defaults to square meters.
+	base (int): The length of the base of the triangle.
+	height (int): The height of the triangle from the base.
+	unit (str): The measurement unit for the area. Defaults to square meters.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass

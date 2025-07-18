@@ -1,45 +1,57 @@
-def hotel_booking(location, room_type, duration, start_date, preferences=None):
+from typing import List, Dict, Any, Union, Tuple 
+def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
 	"""
-	Books a hotel room given the location, room type, stay duration and any additional preferences.    
+	hotel_booking : Books a hotel room given the location, room type, stay duration and any additional preferences.    
 	Parameters:
-	location: The city where you want to book the hotel.
-	room_type: Type of the room required. Options: 'single', 'double', 'deluxe', etc.
-	duration: The number of nights you want to book the hotel for.
-	start_date: The date when your stay begins.
-	preferences: Optional preferences of stay at the hotel. Default is none if not provided.
+	location (str): The city where you want to book the hotel.
+	room_type (str): Type of the room required. Options: 'single', 'double', 'deluxe', etc.
+	duration (int): The number of nights you want to book the hotel for.
+	start_date (str): The date when your stay begins.
+	preferences (List[str]): Optional preferences of stay at the hotel. Default is none if not provided.
+
+	Required Parameter = [location,room_type,duration,start_date,]
 
 	"""
 	pass
 
-def sports_team_get_schedule(team_name, num_of_games, league, location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, location:str=None):
 	"""
-	Fetches the schedule of the specified sports team for the specified number of games in the given league.    
+	sports_team_get_schedule : Fetches the schedule of the specified sports team for the specified number of games in the given league.    
 	Parameters:
-	team_name: The name of the sports team.
-	num_of_games: Number of games for which to fetch the schedule.
-	league: The name of the sports league. If not provided, the function will fetch the schedule for all games, regardless of the league.
-	location: Optional. The city or venue where games are to be held. If not provided, all venues will be considered by default.
+	team_name (str): The name of the sports team.
+	num_of_games (int): Number of games for which to fetch the schedule.
+	league (str): The name of the sports league. If not provided, the function will fetch the schedule for all games, regardless of the league.
+	location (str): Optional. The city or venue where games are to be held. If not provided, all venues will be considered by default.
+
+	Required Parameter = [team_name,num_of_games,league,]
 
 	"""
 	pass
 
-def find_card_in_deck(rank, suit, deck=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
-	Locate a particular card in a deck based on rank and suit.    
+	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
 	Parameters:
-	rank: Rank of the card (e.g. Ace, Two, King).
-	suit: Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
-	deck: Deck of cards. If not provided, the deck will be a default standard 52 card deck
+	rank (str): Rank of the card (e.g. Ace, Two, King).
+	suit (str): Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
+	deck (List[Dict[str, str]]): Deck of cards. If not provided, the deck will be a default standard 52 card deck
+
+	Required Parameter = [rank,suit,]
 
 	"""
 	pass
 
-def vegan_restaurant_find_nearby(location, operating_hours=None):
+from typing import List, Dict, Any, Union, Tuple 
+def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
 	"""
-	Locate nearby vegan restaurants based on specific criteria like operating hours.    
+	vegan_restaurant_find_nearby : Locate nearby vegan restaurants based on specific criteria like operating hours.    
 	Parameters:
-	location: The city and state, e.g. New York, NY
-	operating_hours: Preferred latest closing time of the restaurant. E.g. if 11 is given, then restaurants that close at or after 11 PM will be considered. This is in 24 hour format. Default is 24
+	location (str): The city and state, e.g. New York, NY
+	operating_hours (int): Preferred latest closing time of the restaurant. E.g. if 11 is given, then restaurants that close at or after 11 PM will be considered. This is in 24 hour format. Default is 24
+
+	Required Parameter = [location,]
 
 	"""
 	pass

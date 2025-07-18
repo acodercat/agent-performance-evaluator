@@ -1,27 +1,36 @@
-def card_game_search(theme):
+from typing import List, Dict, Any, Union, Tuple 
+def card_game_search(theme:str):
 	"""
-	Locate a card game based on a specific theme.    
+	card_game_search : Locate a card game based on a specific theme.    
 	Parameters:
-	theme: The theme for the card game.
+	theme (str): The theme for the card game.
+
+	Required Parameter = [theme,]
 
 	"""
 	pass
 
-def board_game_search(complexity, player_count):
+from typing import List, Dict, Any, Union, Tuple 
+def board_game_search(complexity:float, player_count:int):
 	"""
-	Locate a board game based on specific criteria.    
+	board_game_search : Locate a board game based on specific criteria.    
 	Parameters:
-	complexity: The maximum complexity rating of the board game (lower is simpler).
-	player_count: The minimum player count for the board game.
+	complexity (float): The maximum complexity rating of the board game (lower is simpler).
+	player_count (int): The minimum player count for the board game.
+
+	Required Parameter = [complexity,player_count,]
 
 	"""
 	pass
 
-def trivia_game_search(duration):
+from typing import List, Dict, Any, Union, Tuple 
+def trivia_game_search(duration:float):
 	"""
-	Locate a trivia game based on play duration.    
+	trivia_game_search : Locate a trivia game based on play duration.    
 	Parameters:
-	duration: The maximum playing duration for the trivia game in minutes.
+	duration (float): The maximum playing duration for the trivia game in minutes.
+
+	Required Parameter = [duration,]
 
 	"""
 	pass

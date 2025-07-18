@@ -1,10 +1,13 @@
-def whole_foods_find_top_brands(product, number=None, organic=None):
+from typing import List, Dict, Any, Union, Tuple 
+def whole_foods_find_top_brands(product:str, number:int=None, organic:bool=None):
 	"""
-	Get top brands based on a specific product from Whole Foods    
+	whole_foods_find_top_brands : Get top brands based on a specific product from Whole Foods    
 	Parameters:
-	product: The product for which the top brands should be fetched.
-	number: Number of top brands to be fetched. Default is 5
-	organic: If the product should be organic. Default is false
+	product (str): The product for which the top brands should be fetched.
+	number (int): Number of top brands to be fetched. Default is 5
+	organic (bool): If the product should be organic. Default is false
+
+	Required Parameter = [product,]
 
 	"""
 	pass

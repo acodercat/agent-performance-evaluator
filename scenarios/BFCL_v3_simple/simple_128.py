@@ -1,9 +1,12 @@
-def finance_calculate_quarterly_dividend_per_share(total_payout, outstanding_shares):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding_shares:int):
 	"""
-	Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    
+	finance_calculate_quarterly_dividend_per_share : Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    
 	Parameters:
-	total_payout: The total amount of dividends paid out in USD
-	outstanding_shares: Total number of outstanding shares
+	total_payout (int): The total amount of dividends paid out in USD
+	outstanding_shares (int): Total number of outstanding shares
+
+	Required Parameter = [total_payout,outstanding_shares,]
 
 	"""
 	pass

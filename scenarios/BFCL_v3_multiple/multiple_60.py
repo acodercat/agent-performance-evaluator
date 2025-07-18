@@ -1,29 +1,38 @@
-def event_search(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def event_search(location:str, days:int):
 	"""
-	Search for events happening in a specific location for a future date.    
+	event_search : Search for events happening in a specific location for a future date.    
 	Parameters:
-	location: The city that you want to get the event information for.
-	days: Number of future days for which to retrieve the event information.
+	location (str): The city that you want to get the event information for.
+	days (int): Number of future days for which to retrieve the event information.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def movie_showtimes(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def movie_showtimes(location:str, days:int):
 	"""
-	Retrieve movie showtimes for a specific location and for a future date.    
+	movie_showtimes : Retrieve movie showtimes for a specific location and for a future date.    
 	Parameters:
-	location: The city that you want to get the movie showtimes for.
-	days: Number of future days for which to retrieve the showtimes.
+	location (str): The city that you want to get the movie showtimes for.
+	days (int): Number of future days for which to retrieve the showtimes.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def humidity_temperature_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def humidity_temperature_forecast(location:str, days:int):
 	"""
-	Retrieve forecast of humidity and temperature for a specific location and for a future date.    
+	humidity_temperature_forecast : Retrieve forecast of humidity and temperature for a specific location and for a future date.    
 	Parameters:
-	location: The city that you want to get the humidity and temperature forecast for.
-	days: Number of future days for which to retrieve the forecast.
+	location (str): The city that you want to get the humidity and temperature forecast for.
+	days (int): Number of future days for which to retrieve the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

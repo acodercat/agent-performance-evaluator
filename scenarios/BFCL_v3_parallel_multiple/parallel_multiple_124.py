@@ -1,32 +1,41 @@
-def recipe_search(ingredients, calories, meal=None):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_search(ingredients:List[str], calories:int, meal:str=None):
 	"""
-	Searches for recipes based on a list of ingredients and a maximum caloric value.    
+	recipe_search : Searches for recipes based on a list of ingredients and a maximum caloric value.    
 	Parameters:
-	ingredients: A list of ingredients you want to use in the recipe.
-	calories: The maximum number of calories for the recipe.
-	meal: Type of the meal for the recipe, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+	ingredients (List[str]): A list of ingredients you want to use in the recipe.
+	calories (int): The maximum number of calories for the recipe.
+	meal (str): Type of the meal for the recipe, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+
+	Required Parameter = [ingredients,calories,]
 
 	"""
 	pass
 
-def ingredient_replace(original_ingredient, replacement_ingredient, calories):
+from typing import List, Dict, Any, Union, Tuple 
+def ingredient_replace(original_ingredient:str, replacement_ingredient:str, calories:int):
 	"""
-	Replaces an ingredient in a recipe with a substitute, keeping the calories below a certain number.    
+	ingredient_replace : Replaces an ingredient in a recipe with a substitute, keeping the calories below a certain number.    
 	Parameters:
-	original_ingredient: The ingredient in the recipe to replace.
-	replacement_ingredient: The substitute ingredient to replace the original one.
-	calories: The maximum number of calories for the recipe after replacement.
+	original_ingredient (str): The ingredient in the recipe to replace.
+	replacement_ingredient (str): The substitute ingredient to replace the original one.
+	calories (int): The maximum number of calories for the recipe after replacement.
+
+	Required Parameter = [original_ingredient,replacement_ingredient,calories,]
 
 	"""
 	pass
 
-def restaurant_search(ingredients, calories, meal=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_search(ingredients:List[str], calories:int, meal:str=None):
 	"""
-	Searches for restaurants based on a list of preferred ingredients and maximum calorie count.    
+	restaurant_search : Searches for restaurants based on a list of preferred ingredients and maximum calorie count.    
 	Parameters:
-	ingredients: A list of ingredients you prefer in the restaurant's dishes.
-	calories: The maximum calorie count you prefer for the restaurant's dishes.
-	meal: Type of the meal for the restaurant's dishes, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+	ingredients (List[str]): A list of ingredients you prefer in the restaurant's dishes.
+	calories (int): The maximum calorie count you prefer for the restaurant's dishes.
+	meal (str): Type of the meal for the restaurant's dishes, it's optional and could be breakfast, lunch or dinner. Default is all if not specified.
+
+	Required Parameter = [ingredients,calories,]
 
 	"""
 	pass

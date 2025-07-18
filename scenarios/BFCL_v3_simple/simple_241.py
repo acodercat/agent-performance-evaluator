@@ -1,9 +1,12 @@
-def US_President_During_Event(event, country=None):
+from typing import List, Dict, Any, Union, Tuple 
+def US_President_During_Event(event:str, country:str=None):
 	"""
-	Returns the U.S. president during a specified historical event.    
+	US_President_During_Event : Returns the U.S. president during a specified historical event.    
 	Parameters:
-	event: The historical event.
-	country: The country the president leads (optional parameter, defaults to 'USA' if not specified).
+	event (str): The historical event.
+	country (str): The country the president leads (optional parameter, defaults to 'USA' if not specified).
+
+	Required Parameter = [event,]
 
 	"""
 	pass

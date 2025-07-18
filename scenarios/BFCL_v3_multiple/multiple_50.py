@@ -1,30 +1,39 @@
-def house_price_forecast(location, months, features=None):
+from typing import List, Dict, Any, Union, Tuple 
+def house_price_forecast(location:str, months:int, features:List[str]=None):
 	"""
-	Predict the house prices for a specific location and time frame.    
+	house_price_forecast : Predict the house prices for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the house price prediction for.
-	months: Number of future months for the prediction.
-	features: Additional features considered for prediction. Not required. Default empty array
+	location (str): The city that you want to get the house price prediction for.
+	months (int): Number of future months for the prediction.
+	features (List[str]): Additional features considered for prediction. Not required. Default empty array
+
+	Required Parameter = [location,months,]
 
 	"""
 	pass
 
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def stock_market_forecast(company, days):
+from typing import List, Dict, Any, Union, Tuple 
+def stock_market_forecast(company:str, days:int):
 	"""
-	Predict the stock prices for a specific company and time frame.    
+	stock_market_forecast : Predict the stock prices for a specific company and time frame.    
 	Parameters:
-	company: The company that you want to get the stock price prediction for.
-	days: Number of future days for the prediction.
+	company (str): The company that you want to get the stock price prediction for.
+	days (int): Number of future days for the prediction.
+
+	Required Parameter = [company,days,]
 
 	"""
 	pass

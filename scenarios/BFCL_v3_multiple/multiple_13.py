@@ -1,20 +1,26 @@
-def corporate_finance_product_price(company, product):
+from typing import List, Dict, Any, Union, Tuple 
+def corporate_finance_product_price(company:str, product:str):
 	"""
-	Fetch the current selling price of the product.    
+	corporate_finance_product_price : Fetch the current selling price of the product.    
 	Parameters:
-	company: The company that sells the product.
-	product: The product whose price we want to fetch.
+	company (str): The company that sells the product.
+	product (str): The product whose price we want to fetch.
+
+	Required Parameter = [company,product,]
 
 	"""
 	pass
 
-def corporate_finance_revenue_forecast(company, product, sales_units_increase_percentage=None):
+from typing import List, Dict, Any, Union, Tuple 
+def corporate_finance_revenue_forecast(company:str, product:str, sales_units_increase_percentage:int=None):
 	"""
-	Estimate the revenue of a company by multiplying the sales units of the product with its selling price.    
+	corporate_finance_revenue_forecast : Estimate the revenue of a company by multiplying the sales units of the product with its selling price.    
 	Parameters:
-	company: The company that you want to calculate the revenue for.
-	product: The product sold by the company.
-	sales_units_increase_percentage: Percentage increase in the sales units. This value is optional and defaults to zero if not provided.
+	company (str): The company that you want to calculate the revenue for.
+	product (str): The product sold by the company.
+	sales_units_increase_percentage (int): Percentage increase in the sales units. This value is optional and defaults to zero if not provided.
+
+	Required Parameter = [company,product,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def restaurant_search_find_closest(location, cuisine, amenities=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str]=None):
 	"""
-	Locate the closest sushi restaurant based on certain criteria, such as the presence of a patio.    
+	restaurant_search_find_closest : Locate the closest sushi restaurant based on certain criteria, such as the presence of a patio.    
 	Parameters:
-	location: The city, for instance Boston, MA
-	cuisine: Type of food like Sushi.
-	amenities: Preferred amenities in the restaurant. Default 'Wi-Fi'.
+	location (str): The city, for instance Boston, MA
+	cuisine (str): Type of food like Sushi.
+	amenities (List[str]): Preferred amenities in the restaurant. Default 'Wi-Fi'.
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass

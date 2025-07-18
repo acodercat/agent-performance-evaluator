@@ -1,9 +1,12 @@
-def calculate_genotype_frequency(allele_frequency, genotype):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
-	Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
+	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
 	Parameters:
-	allele_frequency: The frequency of the dominant allele in the population.
-	genotype: The genotype which frequency is needed, default is homozygous dominant. 
+	allele_frequency (float): The frequency of the dominant allele in the population.
+	genotype (str): The genotype which frequency is needed, default is homozygous dominant. 
+
+	Required Parameter = [allele_frequency,genotype,]
 
 	"""
 	pass

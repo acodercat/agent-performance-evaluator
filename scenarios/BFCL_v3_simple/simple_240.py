@@ -1,9 +1,12 @@
-def history_api_get_president_by_year(year, full_term_only=False):
+from typing import List, Dict, Any, Union, Tuple 
+def history_api_get_president_by_year(year:int, full_term_only:bool=False):
 	"""
-	Get the name of the U.S. President for a specified year.    
+	history_api_get_president_by_year : Get the name of the U.S. President for a specified year.    
 	Parameters:
-	year: The year you want to know the U.S. president of.
-	full_term_only: Flag to determine if we should only return presidents that served a full term for the specified year.
+	year (int): The year you want to know the U.S. president of.
+	full_term_only (bool): Flag to determine if we should only return presidents that served a full term for the specified year.
+
+	Required Parameter = [year,]
 
 	"""
 	pass

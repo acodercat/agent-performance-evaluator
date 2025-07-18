@@ -1,10 +1,13 @@
-def music_composer_create_mix(scale, note_duration, track_length):
+from typing import List, Dict, Any, Union, Tuple 
+def music_composer_create_mix(scale:str, note_duration:str, track_length:int):
 	"""
-	Create a mix of a song based on a particular music scale and duration    
+	music_composer_create_mix : Create a mix of a song based on a particular music scale and duration    
 	Parameters:
-	scale: The musical scale to be used. E.g: C Major, A Minor, etc.
-	note_duration: Duration of each note. Options: 'whole', 'half', 'quarter', 'eighth', 'sixteenth'.
-	track_length: Length of the mix track in seconds.
+	scale (str): The musical scale to be used. E.g: C Major, A Minor, etc.
+	note_duration (str): Duration of each note. Options: 'whole', 'half', 'quarter', 'eighth', 'sixteenth'.
+	track_length (int): Length of the mix track in seconds.
+
+	Required Parameter = [scale,note_duration,track_length,]
 
 	"""
 	pass

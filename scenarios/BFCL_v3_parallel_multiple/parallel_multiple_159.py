@@ -1,42 +1,54 @@
-def get_song_lyrics(song_title, artist_name, lang=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
-	Retrieve the lyrics of a song based on the artist's name and song title.    
+	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
 	Parameters:
-	song_title: The title of the song.
-	artist_name: The name of the artist who performed the song.
-	lang: The language of the lyrics. Default is English.
+	song_title (str): The title of the song.
+	artist_name (str): The name of the artist who performed the song.
+	lang (str): The language of the lyrics. Default is English.
+
+	Required Parameter = [song_title,artist_name,]
 
 	"""
 	pass
 
-def law_case_search_find_historical(subject, from_year, to_year):
+from typing import List, Dict, Any, Union, Tuple 
+def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	"""
-	Search for a historical law case based on specific criteria like the subject and year.    
+	law_case_search_find_historical : Search for a historical law case based on specific criteria like the subject and year.    
 	Parameters:
-	subject: The subject matter of the case, e.g., 'fraud'
-	from_year: The start year for the range of the case. The case should happen after this year.
-	to_year: The end year for the range of the case. The case should happen before this year.
+	subject (str): The subject matter of the case, e.g., 'fraud'
+	from_year (int): The start year for the range of the case. The case should happen after this year.
+	to_year (int): The end year for the range of the case. The case should happen before this year.
+
+	Required Parameter = [subject,from_year,to_year,]
 
 	"""
 	pass
 
-def calculate_return_on_equity(net_income, shareholder_equity, dividends_paid=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends_paid:int=None):
 	"""
-	Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    
+	calculate_return_on_equity : Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    
 	Parameters:
-	net_income: The company's net income.
-	shareholder_equity: The company's total shareholder's equity.
-	dividends_paid: The total dividends paid by the company. Optional. If not given, default to 0.
+	net_income (int): The company's net income.
+	shareholder_equity (int): The company's total shareholder's equity.
+	dividends_paid (int): The total dividends paid by the company. Optional. If not given, default to 0.
+
+	Required Parameter = [net_income,shareholder_equity,]
 
 	"""
 	pass
 
-def public_library_find_nearby(location, facilities):
+from typing import List, Dict, Any, Union, Tuple 
+def public_library_find_nearby(location:str, facilities:List[str]):
 	"""
-	Locate nearby public libraries based on specific criteria like English fiction availability and Wi-Fi.    
+	public_library_find_nearby : Locate nearby public libraries based on specific criteria like English fiction availability and Wi-Fi.    
 	Parameters:
-	location: The city and state, e.g. Boston, MA
-	facilities: Facilities and sections in public library.
+	location (str): The city and state, e.g. Boston, MA
+	facilities (List[str]): Facilities and sections in public library.
+
+	Required Parameter = [location,facilities,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def get_instrument_details(instrument, manufacturer, features=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_instrument_details(instrument:str, manufacturer:str, features:List[str]=None):
 	"""
-	Retrieve the average price and ratings of an instrument from a particular manufacturer.    
+	get_instrument_details : Retrieve the average price and ratings of an instrument from a particular manufacturer.    
 	Parameters:
-	instrument: The name of the instrument.
-	manufacturer: The manufacturer of the instrument.
-	features: The features to retrieve about the instrument. Default is 'price'
+	instrument (str): The name of the instrument.
+	manufacturer (str): The manufacturer of the instrument.
+	features (List[str]): The features to retrieve about the instrument. Default is 'price'
+
+	Required Parameter = [instrument,manufacturer,]
 
 	"""
 	pass

@@ -1,20 +1,26 @@
-def sports_ranking(team, league, season=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking(team:str, league:str, season:int=None):
 	"""
-	Fetch the ranking of a specific sports team in a specific league    
+	sports_ranking : Fetch the ranking of a specific sports team in a specific league    
 	Parameters:
-	team: The name of the team.
-	league: The name of the league.
-	season: Optional parameter to specify the season, default is the current season.
+	team (str): The name of the team.
+	league (str): The name of the league.
+	season (int): Optional parameter to specify the season, default is the current season.
+
+	Required Parameter = [team,league,]
 
 	"""
 	pass
 
-def air_quality(location, date):
+from typing import List, Dict, Any, Union, Tuple 
+def air_quality(location:str, date:str):
 	"""
-	Retrieve the air quality index for a specific location.    
+	air_quality : Retrieve the air quality index for a specific location.    
 	Parameters:
-	location: The city that you want to get the air quality index for.
-	date: The date you want to get the air quality index for. Default is today.
+	location (str): The city that you want to get the air quality index for.
+	date (str): The date you want to get the air quality index for. Default is today.
+
+	Required Parameter = [location,date,]
 
 	"""
 	pass

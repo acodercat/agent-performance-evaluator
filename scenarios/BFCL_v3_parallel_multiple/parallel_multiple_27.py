@@ -1,21 +1,27 @@
-def bank_account_transfer(from_account, to_account, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def bank_account_transfer(from_account:str, to_account:str, amount:float):
 	"""
-	Transfer a given amount from one account to another.    
+	bank_account_transfer : Transfer a given amount from one account to another.    
 	Parameters:
-	from_account: The account to transfer from.
-	to_account: The account to transfer to.
-	amount: The amount to be transferred.
+	from_account (str): The account to transfer from.
+	to_account (str): The account to transfer to.
+	amount (float): The amount to be transferred.
+
+	Required Parameter = [from_account,to_account,amount,]
 
 	"""
 	pass
 
-def bank_account_calculate_interest(principal, rate, time):
+from typing import List, Dict, Any, Union, Tuple 
+def bank_account_calculate_interest(principal:float, rate:float, time:int):
 	"""
-	Calculate the amount of interest accrued over a given time period.    
+	bank_account_calculate_interest : Calculate the amount of interest accrued over a given time period.    
 	Parameters:
-	principal: The initial amount of money.
-	rate: The annual interest rate as a decimal.
-	time: The number of years the money is invested for.
+	principal (float): The initial amount of money.
+	rate (float): The annual interest rate as a decimal.
+	time (int): The number of years the money is invested for.
+
+	Required Parameter = [principal,rate,time,]
 
 	"""
 	pass

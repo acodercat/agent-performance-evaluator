@@ -1,9 +1,12 @@
-def board_game_info(game_name, info_required):
+from typing import List, Dict, Any, Union, Tuple 
+def board_game_info(game_name:str, info_required:List[str]):
 	"""
-	Get the information about a board game from a database.     
+	board_game_info : Get the information about a board game from a database.     
 	Parameters:
-	game_name: Name of the board game.
-	info_required: Array of information requested for the game.
+	game_name (str): Name of the board game.
+	info_required (List[str]): Array of information requested for the game.
+
+	Required Parameter = [game_name,info_required,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def publication_year_find(author, work_title, location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def publication_year_find(author:str, work_title:str, location:str=None):
 	"""
-	Fetches the year a particular scientific work was published.    
+	publication_year_find : Fetches the year a particular scientific work was published.    
 	Parameters:
-	author: Name of the author of the work.
-	work_title: Title of the scientific work.
-	location: Place of the publication, if known. Default to 'all'.
+	author (str): Name of the author of the work.
+	work_title (str): Title of the scientific work.
+	location (str): Place of the publication, if known. Default to 'all'.
+
+	Required Parameter = [author,work_title,]
 
 	"""
 	pass

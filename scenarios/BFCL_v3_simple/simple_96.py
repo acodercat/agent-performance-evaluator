@@ -1,9 +1,12 @@
-def database_query(table, conditions):
+from typing import List, Dict, Any, Union, Tuple 
+def database_query(table:str, conditions:List[Dict[str, str]]):
 	"""
-	Query the database based on certain conditions.    
+	database_query : Query the database based on certain conditions.    
 	Parameters:
-	table: Name of the table to query.
-	conditions: Conditions for the query.
+	table (str): Name of the table to query.
+	conditions (List[Dict[str, str]]): Conditions for the query.
+
+	Required Parameter = [table,conditions,]
 
 	"""
 	pass

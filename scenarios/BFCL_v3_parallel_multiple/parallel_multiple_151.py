@@ -1,45 +1,57 @@
-def book_hotel(hotel_name, location, room_type, start_date, stay_duration, view='No preference'):
+from typing import List, Dict, Any, Union, Tuple 
+def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay_duration:int, view:str='No preference'):
 	"""
-	Book a room in a specific hotel with particular preferences    
+	book_hotel : Book a room in a specific hotel with particular preferences    
 	Parameters:
-	hotel_name: The name of the hotel.
-	location: The location of the hotel.
-	room_type: The type of room preferred.
-	start_date: The starting date of the stay in format MM-DD-YYYY.
-	stay_duration: The duration of the stay in days.
-	view: The preferred view from the room, can be ignored if no preference. If none provided, assumes no preference.
+	hotel_name (str): The name of the hotel.
+	location (str): The location of the hotel.
+	room_type (str): The type of room preferred.
+	start_date (str): The starting date of the stay in format MM-DD-YYYY.
+	stay_duration (int): The duration of the stay in days.
+	view (str): The preferred view from the room, can be ignored if no preference. If none provided, assumes no preference.
+
+	Required Parameter = [hotel_name,location,room_type,start_date,stay_duration,]
 
 	"""
 	pass
 
-def safeway_order(location, items, quantity):
+from typing import List, Dict, Any, Union, Tuple 
+def safeway_order(location:str, items:List[str], quantity:List[int]):
 	"""
-	Order specified items from a Safeway location.    
+	safeway_order : Order specified items from a Safeway location.    
 	Parameters:
-	location: The location of the Safeway store, e.g. Palo Alto, CA.
-	items: List of items to order.
-	quantity: Quantity of each item in the order list.
+	location (str): The location of the Safeway store, e.g. Palo Alto, CA.
+	items (List[str]): List of items to order.
+	quantity (List[int]): Quantity of each item in the order list.
+
+	Required Parameter = [location,items,quantity,]
 
 	"""
 	pass
 
-def latest_exchange_rate(source_currency, target_currency, amount=None):
+from typing import List, Dict, Any, Union, Tuple 
+def latest_exchange_rate(source_currency:str, target_currency:str, amount:int=None):
 	"""
-	Retrieve the latest exchange rate between two specified currencies.    
+	latest_exchange_rate : Retrieve the latest exchange rate between two specified currencies.    
 	Parameters:
-	source_currency: The currency you are converting from.
-	target_currency: The currency you are converting to.
-	amount: The amount to be converted. If omitted, default to xchange rate of 1 unit source currency.
+	source_currency (str): The currency you are converting from.
+	target_currency (str): The currency you are converting to.
+	amount (int): The amount to be converted. If omitted, default to xchange rate of 1 unit source currency.
+
+	Required Parameter = [source_currency,target_currency,]
 
 	"""
 	pass
 
-def light_travel_time(distance_in_light_years, speed_of_light=None):
+from typing import List, Dict, Any, Union, Tuple 
+def light_travel_time(distance_in_light_years:float, speed_of_light:int=None):
 	"""
-	Calculate the time taken for light to travel from a celestial body to another.    
+	light_travel_time : Calculate the time taken for light to travel from a celestial body to another.    
 	Parameters:
-	distance_in_light_years: The distance between the two celestial bodies in light years.
-	speed_of_light: The speed of light in vacuum, in m/s. Default value is 299792458 m/s.
+	distance_in_light_years (float): The distance between the two celestial bodies in light years.
+	speed_of_light (int): The speed of light in vacuum, in m/s. Default value is 299792458 m/s.
+
+	Required Parameter = [distance_in_light_years,]
 
 	"""
 	pass

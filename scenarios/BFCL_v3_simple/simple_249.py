@@ -1,10 +1,13 @@
-def religion_history_info(religion, till_century, include_people=None):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_history_info(religion:str, till_century:int, include_people:bool=None):
 	"""
-	Provides comprehensive historical details about a specified religion till a specified century.    
+	religion_history_info : Provides comprehensive historical details about a specified religion till a specified century.    
 	Parameters:
-	religion: The name of the religion for which historical details are needed.
-	till_century: The century till which historical details are needed.
-	include_people: To include influential people related to the religion during that time period, default is False
+	religion (str): The name of the religion for which historical details are needed.
+	till_century (int): The century till which historical details are needed.
+	include_people (bool): To include influential people related to the religion during that time period, default is False
+
+	Required Parameter = [religion,till_century,]
 
 	"""
 	pass

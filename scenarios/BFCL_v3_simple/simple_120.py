@@ -1,10 +1,13 @@
-def run_two_sample_ttest(group1, group2, equal_variance=True):
+from typing import List, Dict, Any, Union, Tuple 
+def run_two_sample_ttest(group1:List[int], group2:List[int], equal_variance:bool=True):
 	"""
-	Runs a two sample t-test for two given data groups.    
+	run_two_sample_ttest : Runs a two sample t-test for two given data groups.    
 	Parameters:
-	group1: First group of data points.
-	group2: Second group of data points.
-	equal_variance: Assumption about whether the two samples have equal variance.
+	group1 (List[int]): First group of data points.
+	group2 (List[int]): Second group of data points.
+	equal_variance (bool): Assumption about whether the two samples have equal variance.
+
+	Required Parameter = [group1,group2,]
 
 	"""
 	pass

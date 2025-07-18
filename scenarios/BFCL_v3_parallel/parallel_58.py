@@ -1,9 +1,12 @@
-def get_exchange_rate(base_currency, target_currency):
+from typing import List, Dict, Any, Union, Tuple 
+def get_exchange_rate(base_currency:str, target_currency:str):
 	"""
-	Fetch the current exchange rate for the provided currency pairs.    
+	get_exchange_rate : Fetch the current exchange rate for the provided currency pairs.    
 	Parameters:
-	base_currency: The base currency in the pair.
-	target_currency: The currency to which the base currency needs to be converted.
+	base_currency (str): The base currency in the pair.
+	target_currency (str): The currency to which the base currency needs to be converted.
+
+	Required Parameter = [base_currency,target_currency,]
 
 	"""
 	pass

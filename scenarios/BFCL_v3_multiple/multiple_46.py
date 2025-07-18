@@ -1,28 +1,37 @@
-def filter_list(elements, condition):
+from typing import List, Dict, Any, Union, Tuple 
+def filter_list(elements:List[str], condition:str):
 	"""
-	Filters elements of a list based on a given condition    
+	filter_list : Filters elements of a list based on a given condition    
 	Parameters:
-	elements: The list of elements to filter.
-	condition: The condition to filter the elements on.
+	elements (List[str]): The list of elements to filter.
+	condition (str): The condition to filter the elements on.
+
+	Required Parameter = [elements,condition,]
 
 	"""
 	pass
 
-def sum_elements(elements):
+from typing import List, Dict, Any, Union, Tuple 
+def sum_elements(elements:List[int]):
 	"""
-	Add all elements of a numeric list    
+	sum_elements : Add all elements of a numeric list    
 	Parameters:
-	elements: The list of numeric elements to add.
+	elements (List[int]): The list of numeric elements to add.
+
+	Required Parameter = [elements,]
 
 	"""
 	pass
 
-def sort_list(elements, order='asc'):
+from typing import List, Dict, Any, Union, Tuple 
+def sort_list(elements:List[str], order:str='asc'):
 	"""
-	Sort the elements of a list in ascending or descending order    
+	sort_list : Sort the elements of a list in ascending or descending order    
 	Parameters:
-	elements: The list of elements to sort.
-	order: The order in which to sort the elements. This can be 'asc' for ascending order, or 'desc' for descending order.
+	elements (List[str]): The list of elements to sort.
+	order (str): The order in which to sort the elements. This can be 'asc' for ascending order, or 'desc' for descending order.
+
+	Required Parameter = [elements,]
 
 	"""
 	pass

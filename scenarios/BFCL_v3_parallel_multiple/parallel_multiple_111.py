@@ -1,17 +1,23 @@
-def religion_get_core_beliefs(religion):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_get_core_beliefs(religion:str):
 	"""
-	Retrieves the core beliefs and practices of a specified religion.    
+	religion_get_core_beliefs : Retrieves the core beliefs and practices of a specified religion.    
 	Parameters:
-	religion: Name of the religion for which to retrieve the core beliefs and practices.
+	religion (str): Name of the religion for which to retrieve the core beliefs and practices.
+
+	Required Parameter = [religion,]
 
 	"""
 	pass
 
-def religion_get_origin(religion):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_get_origin(religion:str):
 	"""
-	Retrieves the origin and founder information of a specified religion.    
+	religion_get_origin : Retrieves the origin and founder information of a specified religion.    
 	Parameters:
-	religion: Name of the religion for which to retrieve the founder and origin.
+	religion (str): Name of the religion for which to retrieve the founder and origin.
+
+	Required Parameter = [religion,]
 
 	"""
 	pass

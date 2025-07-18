@@ -1,28 +1,37 @@
-def translate(text, source_language, target_language):
+from typing import List, Dict, Any, Union, Tuple 
+def translate(text:str, source_language:str, target_language:str):
 	"""
-	Translate text from a specified source language to a specified target language.    
+	translate : Translate text from a specified source language to a specified target language.    
 	Parameters:
-	text: The text to be translated.
-	source_language: The language the text is currently in.
-	target_language: The language the text will be translated to.
+	text (str): The text to be translated.
+	source_language (str): The language the text is currently in.
+	target_language (str): The language the text will be translated to.
+
+	Required Parameter = [text,source_language,target_language,]
 
 	"""
 	pass
 
-def sentiment_analysis(text):
+from typing import List, Dict, Any, Union, Tuple 
+def sentiment_analysis(text:str):
 	"""
-	Analyze the sentiment of a specified text.    
+	sentiment_analysis : Analyze the sentiment of a specified text.    
 	Parameters:
-	text: The text whose sentiment is to be analyzed.
+	text (str): The text whose sentiment is to be analyzed.
+
+	Required Parameter = [text,]
 
 	"""
 	pass
 
-def word_count(text):
+from typing import List, Dict, Any, Union, Tuple 
+def word_count(text:str):
 	"""
-	Count the number of words in the given text.    
+	word_count : Count the number of words in the given text.    
 	Parameters:
-	text: The text that the number of words is to be calculated.
+	text (str): The text that the number of words is to be calculated.
+
+	Required Parameter = [text,]
 
 	"""
 	pass

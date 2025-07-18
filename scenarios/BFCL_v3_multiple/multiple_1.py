@@ -1,29 +1,38 @@
-def math_triangle_area_heron(side1, side2, side3):
+from typing import List, Dict, Any, Union, Tuple 
+def math_triangle_area_heron(side1:int, side2:int, side3:int):
 	"""
-	Calculates the area of a triangle using Heron's formula, given the lengths of its three sides.    
+	math_triangle_area_heron : Calculates the area of a triangle using Heron's formula, given the lengths of its three sides.    
 	Parameters:
-	side1: Length of the first side of the triangle.
-	side2: Length of the second side of the triangle.
-	side3: Length of the third side of the triangle.
+	side1 (int): Length of the first side of the triangle.
+	side2 (int): Length of the second side of the triangle.
+	side3 (int): Length of the third side of the triangle.
+
+	Required Parameter = [side1,side2,side3,]
 
 	"""
 	pass
 
-def math_circle_area(radius):
+from typing import List, Dict, Any, Union, Tuple 
+def math_circle_area(radius:float):
 	"""
-	Calculates the area of a circle given its radius.    
+	math_circle_area : Calculates the area of a circle given its radius.    
 	Parameters:
-	radius: The radius of the circle.
+	radius (float): The radius of the circle.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass
 
-def math_triangle_area_base_height(base, height):
+from typing import List, Dict, Any, Union, Tuple 
+def math_triangle_area_base_height(base:float, height:float):
 	"""
-	Calculates the area of a triangle using the formula (1/2)base*height.    
+	math_triangle_area_base_height : Calculates the area of a triangle using the formula (1/2)base*height.    
 	Parameters:
-	base: The base length of the triangle.
-	height: The height of the triangle.
+	base (float): The base length of the triangle.
+	height (float): The height of the triangle.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass

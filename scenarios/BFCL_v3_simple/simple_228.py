@@ -1,9 +1,12 @@
-def get_personality_traits(hobby, trait_count=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_personality_traits(hobby:str, trait_count:int=None):
 	"""
-	Retrieve the common personality traits of people based on their hobbies or activities.    
+	get_personality_traits : Retrieve the common personality traits of people based on their hobbies or activities.    
 	Parameters:
-	hobby: The hobby or activity of interest.
-	trait_count: The number of top traits to return, default is 5
+	hobby (str): The hobby or activity of interest.
+	trait_count (int): The number of top traits to return, default is 5
+
+	Required Parameter = [hobby,]
 
 	"""
 	pass

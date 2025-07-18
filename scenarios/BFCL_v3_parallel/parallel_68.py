@@ -1,10 +1,13 @@
-def calculate_area(base, height, unit='cm'):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_area(base:int, height:int, unit:str='cm'):
 	"""
-	Calculate the area of a right-angled triangle given the lengths of its base and height.    
+	calculate_area : Calculate the area of a right-angled triangle given the lengths of its base and height.    
 	Parameters:
-	base: The length of the base of the right-angled triangle.
-	height: The height of the right-angled triangle.
-	unit: The unit of measure used. Defaults to cm.
+	base (int): The length of the base of the right-angled triangle.
+	height (int): The height of the right-angled triangle.
+	unit (str): The unit of measure used. Defaults to cm.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass

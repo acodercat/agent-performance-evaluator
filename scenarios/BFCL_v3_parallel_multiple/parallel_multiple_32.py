@@ -1,29 +1,38 @@
-def weather_forecast_precipitation(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast_precipitation(location:str, days:int):
 	"""
-	Retrieve a precipitation forecast for a specific location for a certain number of days.    
+	weather_forecast_precipitation : Retrieve a precipitation forecast for a specific location for a certain number of days.    
 	Parameters:
-	location: The city that you want to get the precipitation forecast for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the precipitation forecast for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def weather_forecast_humidity(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast_humidity(location:str, days:int):
 	"""
-	Retrieve a humidity forecast for a specific location for a certain number of days.    
+	weather_forecast_humidity : Retrieve a humidity forecast for a specific location for a certain number of days.    
 	Parameters:
-	location: The city that you want to get the humidity forecast for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the humidity forecast for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def weather_forecast_temperature(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast_temperature(location:str, days:int):
 	"""
-	Retrieve a temperature forecast for a specific location for a certain number of days.    
+	weather_forecast_temperature : Retrieve a temperature forecast for a specific location for a certain number of days.    
 	Parameters:
-	location: The city that you want to get the temperature forecast for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the temperature forecast for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

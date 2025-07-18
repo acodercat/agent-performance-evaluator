@@ -1,9 +1,12 @@
-def check_instrument_availability(instrument, city):
+from typing import List, Dict, Any, Union, Tuple 
+def check_instrument_availability(instrument:str, city:str):
 	"""
-	Get the price and availability of a specified instrument in a music store located in a specified city    
+	check_instrument_availability : Get the price and availability of a specified instrument in a music store located in a specified city    
 	Parameters:
-	instrument: The name of the musical instrument.
-	city: City where the store is located.
+	instrument (str): The name of the musical instrument.
+	city (str): City where the store is located.
+
+	Required Parameter = [instrument,city,]
 
 	"""
 	pass

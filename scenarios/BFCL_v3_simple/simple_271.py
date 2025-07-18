@@ -1,10 +1,13 @@
-def analyze_structure(building_id, floors, mode=None):
+from typing import List, Dict, Any, Union, Tuple 
+def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	"""
-	Analyze a structure of a building based on its Id and floor numbers.    
+	analyze_structure : Analyze a structure of a building based on its Id and floor numbers.    
 	Parameters:
-	building_id: The unique identification number of the building.
-	floors: Floor numbers to be analyzed.
-	mode: Mode of analysis, e.g. 'static' or 'dynamic'. Default is 'static'.
+	building_id (str): The unique identification number of the building.
+	floors (List[int]): Floor numbers to be analyzed.
+	mode (str): Mode of analysis, e.g. 'static' or 'dynamic'. Default is 'static'.
+
+	Required Parameter = [building_id,floors,]
 
 	"""
 	pass

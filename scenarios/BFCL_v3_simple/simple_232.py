@@ -1,10 +1,13 @@
-def monarch_getMonarchOfYear(location, year, fullName=False):
+from typing import List, Dict, Any, Union, Tuple 
+def monarch_getMonarchOfYear(location:str, year:int, fullName:bool=False):
 	"""
-	Retrieve the monarch of a specific location during a specified year.    
+	monarch_getMonarchOfYear : Retrieve the monarch of a specific location during a specified year.    
 	Parameters:
-	location: The location (e.g., country) whose monarch needs to be found.
-	year: The year to search the monarch.
-	fullName: If true, returns the full name and title of the monarch.
+	location (str): The location (e.g., country) whose monarch needs to be found.
+	year (int): The year to search the monarch.
+	fullName (bool): If true, returns the full name and title of the monarch.
+
+	Required Parameter = [location,year,]
 
 	"""
 	pass

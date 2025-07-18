@@ -1,10 +1,13 @@
-def player_status_check(team, player_id, season=None):
+from typing import List, Dict, Any, Union, Tuple 
+def player_status_check(team:str, player_id:int, season:int=None):
 	"""
-	Check a player's status in a team for a particular season.    
+	player_status_check : Check a player's status in a team for a particular season.    
 	Parameters:
-	team: The team where the player plays.
-	player_id: The id of the player.
-	season: The season for which player's status need to be checked. Optional. Default is season 2023.
+	team (str): The team where the player plays.
+	player_id (int): The id of the player.
+	season (int): The season for which player's status need to be checked. Optional. Default is season 2023.
+
+	Required Parameter = [team,player_id,]
 
 	"""
 	pass

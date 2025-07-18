@@ -1,28 +1,37 @@
-def volume_cylinder_calculate(radius, height):
+from typing import List, Dict, Any, Union, Tuple 
+def volume_cylinder_calculate(radius:float, height:float):
 	"""
-	Calculate the volume of a cylinder given the radius and the height.    
+	volume_cylinder_calculate : Calculate the volume of a cylinder given the radius and the height.    
 	Parameters:
-	radius: The radius of the cylinder.
-	height: The height of the cylinder.
+	radius (float): The radius of the cylinder.
+	height (float): The height of the cylinder.
+
+	Required Parameter = [radius,height,]
 
 	"""
 	pass
 
-def area_rectangle_calculate(length, breadth):
+from typing import List, Dict, Any, Union, Tuple 
+def area_rectangle_calculate(length:float, breadth:float):
 	"""
-	Calculate the area of a rectangle given the length and breadth.    
+	area_rectangle_calculate : Calculate the area of a rectangle given the length and breadth.    
 	Parameters:
-	length: The length of the rectangle.
-	breadth: The breadth of the rectangle.
+	length (float): The length of the rectangle.
+	breadth (float): The breadth of the rectangle.
+
+	Required Parameter = [length,breadth,]
 
 	"""
 	pass
 
-def area_circle_calculate(radius):
+from typing import List, Dict, Any, Union, Tuple 
+def area_circle_calculate(radius:float):
 	"""
-	Calculate the area of a circle given the radius.    
+	area_circle_calculate : Calculate the area of a circle given the radius.    
 	Parameters:
-	radius: The radius of the circle.
+	radius (float): The radius of the circle.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

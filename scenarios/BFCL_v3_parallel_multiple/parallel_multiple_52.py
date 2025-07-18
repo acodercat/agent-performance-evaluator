@@ -1,18 +1,24 @@
-def chess_play(moves):
+from typing import List, Dict, Any, Union, Tuple 
+def chess_play(moves:List[str]):
 	"""
-	Makes moves in a chess game.    
+	chess_play : Makes moves in a chess game.    
 	Parameters:
-	moves: List of moves to play in the game.
+	moves (List[str]): List of moves to play in the game.
+
+	Required Parameter = [moves,]
 
 	"""
 	pass
 
-def game_of_life_play(rounds, start_board):
+from typing import List, Dict, Any, Union, Tuple 
+def game_of_life_play(rounds:int, start_board:List[int]):
 	"""
-	Runs a round of game of life based on provided board.    
+	game_of_life_play : Runs a round of game of life based on provided board.    
 	Parameters:
-	rounds: Number of rounds to play.
-	start_board: Starting board of game, leave empty for random starting point.
+	rounds (int): Number of rounds to play.
+	start_board (List[int]): Starting board of game, leave empty for random starting point.
+
+	Required Parameter = [rounds,start_board,]
 
 	"""
 	pass

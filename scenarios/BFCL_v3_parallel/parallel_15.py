@@ -1,10 +1,13 @@
-def calculate_capital_gains_tax(short_term_gain, long_term_gain, state='federal'):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_capital_gains_tax(short_term_gain:int, long_term_gain:int, state:str='federal'):
 	"""
-	Calculate the capital gains tax for a given gains type and amount    
+	calculate_capital_gains_tax : Calculate the capital gains tax for a given gains type and amount    
 	Parameters:
-	short_term_gain: The short term capital gain amount.
-	long_term_gain: The long term capital gain amount.
-	state: The state where the income is generated.
+	short_term_gain (int): The short term capital gain amount.
+	long_term_gain (int): The long term capital gain amount.
+	state (str): The state where the income is generated.
+
+	Required Parameter = [short_term_gain,long_term_gain,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def calculate_electric_field(charge, distance, permitivity=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_electric_field(charge:int, distance:int, permitivity:int=None):
 	"""
-	Calculate the electric field produced by a charge at a certain distance.    
+	calculate_electric_field : Calculate the electric field produced by a charge at a certain distance.    
 	Parameters:
-	charge: Charge in coulombs producing the electric field.
-	distance: Distance from the charge in meters where the field is being measured.
-	permitivity: Permitivity of the space where field is being calculated, default is for vacuum.
+	charge (int): Charge in coulombs producing the electric field.
+	distance (int): Distance from the charge in meters where the field is being measured.
+	permitivity (int): Permitivity of the space where field is being calculated, default is for vacuum.
+
+	Required Parameter = [charge,distance,]
 
 	"""
 	pass

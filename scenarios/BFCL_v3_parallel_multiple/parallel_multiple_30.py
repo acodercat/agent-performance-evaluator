@@ -1,28 +1,37 @@
-def movie_ratings_get_movie(movie_name):
+from typing import List, Dict, Any, Union, Tuple 
+def movie_ratings_get_movie(movie_name:str):
 	"""
-	Get a movie by its name.    
+	movie_ratings_get_movie : Get a movie by its name.    
 	Parameters:
-	movie_name: The name of the movie to be retrieved
+	movie_name (str): The name of the movie to be retrieved
+
+	Required Parameter = [movie_name,]
 
 	"""
 	pass
 
-def legal_case_get_summary(case_id, summary_type='brief'):
+from typing import List, Dict, Any, Union, Tuple 
+def legal_case_get_summary(case_id:str, summary_type:str='brief'):
 	"""
-	Get a summary of a legal case    
+	legal_case_get_summary : Get a summary of a legal case    
 	Parameters:
-	case_id: The unique ID of the case to summarise
-	summary_type: Type of the summary to get, e.g., brief, full
+	case_id (str): The unique ID of the case to summarise
+	summary_type (str): Type of the summary to get, e.g., brief, full
+
+	Required Parameter = [case_id,]
 
 	"""
 	pass
 
-def legal_case_find_parties(party_name, city):
+from typing import List, Dict, Any, Union, Tuple 
+def legal_case_find_parties(party_name:str, city:str):
 	"""
-	Locate legal cases involving a specified party in a particular city    
+	legal_case_find_parties : Locate legal cases involving a specified party in a particular city    
 	Parameters:
-	party_name: The name of the party involved in the case
-	city: The city where the case was heard
+	party_name (str): The name of the party involved in the case
+	city (str): The city where the case was heard
+
+	Required Parameter = [party_name,city,]
 
 	"""
 	pass

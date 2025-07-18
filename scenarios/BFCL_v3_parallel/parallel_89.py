@@ -1,10 +1,13 @@
-def get_directions(start_location, end_location, route_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_directions(start_location:str, end_location:str, route_type:str=None):
 	"""
-	Retrieve directions from one location to another.    
+	get_directions : Retrieve directions from one location to another.    
 	Parameters:
-	start_location: The starting point of the journey.
-	end_location: The destination point of the journey.
-	route_type: Type of route to use (e.g., fastest, scenic). Default is fastest.
+	start_location (str): The starting point of the journey.
+	end_location (str): The destination point of the journey.
+	route_type (str): Type of route to use (e.g., fastest, scenic). Default is fastest.
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass

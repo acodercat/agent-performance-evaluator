@@ -1,29 +1,38 @@
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def paint_color_trends(room, period=None):
+from typing import List, Dict, Any, Union, Tuple 
+def paint_color_trends(room:str, period:str=None):
 	"""
-	Find the most popular paint color for a specific area in the home.    
+	paint_color_trends : Find the most popular paint color for a specific area in the home.    
 	Parameters:
-	room: Type of the room e.g. Living room, Bathroom etc.
-	period: The period over which to check the paint color trend. Default 'Daily'
+	room (str): Type of the room e.g. Living room, Bathroom etc.
+	period (str): The period over which to check the paint color trend. Default 'Daily'
+
+	Required Parameter = [room,]
 
 	"""
 	pass
 
-def house_price_trends(location, period=None):
+from typing import List, Dict, Any, Union, Tuple 
+def house_price_trends(location:str, period:str=None):
 	"""
-	Find the average house price in a specific area.    
+	house_price_trends : Find the average house price in a specific area.    
 	Parameters:
-	location: City and state, e.g. New York, NY.
-	period: The period over which to check the price trend. Default 'Yearly'
+	location (str): City and state, e.g. New York, NY.
+	period (str): The period over which to check the price trend. Default 'Yearly'
+
+	Required Parameter = [location,]
 
 	"""
 	pass

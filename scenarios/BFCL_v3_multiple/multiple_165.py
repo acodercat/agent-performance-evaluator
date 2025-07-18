@@ -1,31 +1,40 @@
-def identify_color_rgb(color_name, standard=None):
+from typing import List, Dict, Any, Union, Tuple 
+def identify_color_rgb(color_name:str, standard:str=None):
 	"""
-	This function identifies the RGB values of a named color.    
+	identify_color_rgb : This function identifies the RGB values of a named color.    
 	Parameters:
-	color_name: Name of the color.
-	standard: The color standard (e.g. basic, pantone). Default is 'basic'
+	color_name (str): Name of the color.
+	standard (str): The color standard (e.g. basic, pantone). Default is 'basic'
+
+	Required Parameter = [color_name,]
 
 	"""
 	pass
 
-def board_game_chess_get_top_players(location, minimum_rating, number_of_players=10):
+from typing import List, Dict, Any, Union, Tuple 
+def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of_players:int=10):
 	"""
-	Find top chess players in a location based on rating.    
+	board_game_chess_get_top_players : Find top chess players in a location based on rating.    
 	Parameters:
-	location: The city you want to find the players from.
-	minimum_rating: Minimum rating to filter the players.
-	number_of_players: Number of players you want to retrieve, default value is 10
+	location (str): The city you want to find the players from.
+	minimum_rating (int): Minimum rating to filter the players.
+	number_of_players (int): Number of players you want to retrieve, default value is 10
+
+	Required Parameter = [location,minimum_rating,]
 
 	"""
 	pass
 
-def guitar_price_find(model, condition, location):
+from typing import List, Dict, Any, Union, Tuple 
+def guitar_price_find(model:str, condition:str, location:str):
 	"""
-	Retrieve the price of a specific used guitar model based on its condition and location.    
+	guitar_price_find : Retrieve the price of a specific used guitar model based on its condition and location.    
 	Parameters:
-	model: The model of the guitar.
-	condition: The condition of the guitar.
-	location: The location where the guitar is being sold.
+	model (str): The model of the guitar.
+	condition (str): The condition of the guitar.
+	location (str): The location where the guitar is being sold.
+
+	Required Parameter = [model,condition,location,]
 
 	"""
 	pass

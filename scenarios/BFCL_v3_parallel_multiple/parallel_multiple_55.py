@@ -1,28 +1,37 @@
-def recipe_prep_time(recipe):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_prep_time(recipe:str):
 	"""
-	Calculate the estimated preparation and cooking time for a specified recipe.    
+	recipe_prep_time : Calculate the estimated preparation and cooking time for a specified recipe.    
 	Parameters:
-	recipe: Name of the recipe to calculate time for.
+	recipe (str): Name of the recipe to calculate time for.
+
+	Required Parameter = [recipe,]
 
 	"""
 	pass
 
-def recipe_nutrition_info(recipe):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_nutrition_info(recipe:str):
 	"""
-	Provide detailed nutritional information for a specified recipe.    
+	recipe_nutrition_info : Provide detailed nutritional information for a specified recipe.    
 	Parameters:
-	recipe: Name of the recipe to fetch nutrition info for.
+	recipe (str): Name of the recipe to fetch nutrition info for.
+
+	Required Parameter = [recipe,]
 
 	"""
 	pass
 
-def recipe_search(ingredient, dietary_requirements, isHomemade):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_search(ingredient:str, dietary_requirements:List[str], isHomemade:bool):
 	"""
-	Search for a recipe based on a particular ingredient or dietary requirement.    
+	recipe_search : Search for a recipe based on a particular ingredient or dietary requirement.    
 	Parameters:
-	ingredient: The ingredient that you want to have in the recipe.
-	dietary_requirements: Dietary requirements in the recipe.
-	isHomemade: If true, returns homemade recipe; otherwise, return not homemade recipe.
+	ingredient (str): The ingredient that you want to have in the recipe.
+	dietary_requirements (List[str]): Dietary requirements in the recipe.
+	isHomemade (bool): If true, returns homemade recipe; otherwise, return not homemade recipe.
+
+	Required Parameter = [ingredient,dietary_requirements,isHomemade,]
 
 	"""
 	pass

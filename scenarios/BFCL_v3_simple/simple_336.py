@@ -1,8 +1,11 @@
-def cards_shuffle_and_draw(num_cards):
+from typing import List, Dict, Any, Union, Tuple 
+def cards_shuffle_and_draw(num_cards:int):
 	"""
-	Shuffle a standard deck of 52 cards and draw a specified number of cards from the top.    
+	cards_shuffle_and_draw : Shuffle a standard deck of 52 cards and draw a specified number of cards from the top.    
 	Parameters:
-	num_cards: Number of cards to be drawn. The default is 1 if no value is provided.
+	num_cards (int): Number of cards to be drawn. The default is 1 if no value is provided.
+
+	Required Parameter = [num_cards,]
 
 	"""
 	pass

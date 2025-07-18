@@ -1,9 +1,12 @@
-def lawsuit_lookup(company_name, year):
+from typing import List, Dict, Any, Union, Tuple 
+def lawsuit_lookup(company_name:str, year:int):
 	"""
-	Look up lawsuit cases against a company by year.    
+	lawsuit_lookup : Look up lawsuit cases against a company by year.    
 	Parameters:
-	company_name: The name of the company.
-	year: The year in which the lawsuit was filed.
+	company_name (str): The name of the company.
+	year (int): The year in which the lawsuit was filed.
+
+	Required Parameter = [company_name,year,]
 
 	"""
 	pass

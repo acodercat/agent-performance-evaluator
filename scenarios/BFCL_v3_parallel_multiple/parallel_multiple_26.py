@@ -1,20 +1,26 @@
-def bank_get_transaction_history(account, days):
+from typing import List, Dict, Any, Union, Tuple 
+def bank_get_transaction_history(account:str, days:int):
 	"""
-	Retrieve transaction history for a specific bank account over a specified time frame.    
+	bank_get_transaction_history : Retrieve transaction history for a specific bank account over a specified time frame.    
 	Parameters:
-	account: The account number for which transaction history is required.
-	days: Number of past days for which to retrieve the transaction history.
+	account (str): The account number for which transaction history is required.
+	days (int): Number of past days for which to retrieve the transaction history.
+
+	Required Parameter = [account,days,]
 
 	"""
 	pass
 
-def bank_calculate_balance(account, transactions=[], starting_balance=None):
+from typing import List, Dict, Any, Union, Tuple 
+def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[str, float]]]=[], starting_balance:float=None):
 	"""
-	Calculate the balance of a specified bank account based on the transactions.    
+	bank_calculate_balance : Calculate the balance of a specified bank account based on the transactions.    
 	Parameters:
-	account: The account number for which balance is to be calculated.
-	transactions: Transaction array Default is empty array.
-	starting_balance: The starting balance of the account, if known. Default 0.0
+	account (str): The account number for which balance is to be calculated.
+	transactions (List[Dict[str, Union[str, float]]]): Transaction array Default is empty array.
+	starting_balance (float): The starting balance of the account, if known. Default 0.0
+
+	Required Parameter = [account,]
 
 	"""
 	pass

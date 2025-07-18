@@ -1,10 +1,13 @@
-def museum_exhibition_detail(exhibition_name, museum_name, visitor_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_exhibition_detail(exhibition_name:str, museum_name:str, visitor_type:List[str]=None):
 	"""
-	Provides details of a particular exhibition in a museum, including the cost per visit for different age groups.    
+	museum_exhibition_detail : Provides details of a particular exhibition in a museum, including the cost per visit for different age groups.    
 	Parameters:
-	exhibition_name: The name of the exhibition.
-	museum_name: The name of the museum.
-	visitor_type: Age group of the visitor. Default is: ['adult']
+	exhibition_name (str): The name of the exhibition.
+	museum_name (str): The name of the museum.
+	visitor_type (List[str]): Age group of the visitor. Default is: ['adult']
+
+	Required Parameter = [exhibition_name,museum_name,]
 
 	"""
 	pass

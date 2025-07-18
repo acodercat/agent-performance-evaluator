@@ -1,10 +1,13 @@
-def find_recipe(dietary_restrictions, recipe_type, time):
+from typing import List, Dict, Any, Union, Tuple 
+def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
-	Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
+	find_recipe : Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
 	Parameters:
-	dietary_restrictions: Dietary restrictions e.g. vegan, vegetarian, gluten free, dairy free.
-	recipe_type: Type of the recipe. E.g. dessert, main course, breakfast.
-	time: Time limit in minutes to prep the meal.
+	dietary_restrictions (str): Dietary restrictions e.g. vegan, vegetarian, gluten free, dairy free.
+	recipe_type (str): Type of the recipe. E.g. dessert, main course, breakfast.
+	time (int): Time limit in minutes to prep the meal.
+
+	Required Parameter = [dietary_restrictions,recipe_type,time,]
 
 	"""
 	pass

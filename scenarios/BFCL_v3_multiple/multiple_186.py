@@ -1,20 +1,26 @@
-def find_recipe(dietary_restrictions, recipe_type, time):
+from typing import List, Dict, Any, Union, Tuple 
+def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
-	Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
+	find_recipe : Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
 	Parameters:
-	dietary_restrictions: Dietary restrictions e.g. vegan, vegetarian, gluten free, dairy free.
-	recipe_type: Type of the recipe. E.g. dessert, main course, breakfast.
-	time: Time limit in minutes to prep the meal.
+	dietary_restrictions (str): Dietary restrictions e.g. vegan, vegetarian, gluten free, dairy free.
+	recipe_type (str): Type of the recipe. E.g. dessert, main course, breakfast.
+	time (int): Time limit in minutes to prep the meal.
+
+	Required Parameter = [dietary_restrictions,recipe_type,time,]
 
 	"""
 	pass
 
-def science_history_get_discovery_details(discovery, method_used=None):
+from typing import List, Dict, Any, Union, Tuple 
+def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	"""
-	Retrieve the details of a scientific discovery based on the discovery name.    
+	science_history_get_discovery_details : Retrieve the details of a scientific discovery based on the discovery name.    
 	Parameters:
-	discovery: The name of the discovery, e.g. Gravity
-	method_used: The method used for the discovery, default value is 'default' which gives the most accepted method.
+	discovery (str): The name of the discovery, e.g. Gravity
+	method_used (str): The method used for the discovery, default value is 'default' which gives the most accepted method.
+
+	Required Parameter = [discovery,]
 
 	"""
 	pass

@@ -1,29 +1,38 @@
-def sculptor_info_get(name):
+from typing import List, Dict, Any, Union, Tuple 
+def sculptor_info_get(name:str):
 	"""
-	Get information about a specific sculptor.    
+	sculptor_info_get : Get information about a specific sculptor.    
 	Parameters:
-	name: The name of the sculptor.
+	name (str): The name of the sculptor.
+
+	Required Parameter = [name,]
 
 	"""
 	pass
 
-def sculpture_price_calculate(material, size, complexity='medium'):
+from typing import List, Dict, Any, Union, Tuple 
+def sculpture_price_calculate(material:str, size:int, complexity:str='medium'):
 	"""
-	Calculate the estimated price to commission a sculpture based on the material and size.    
+	sculpture_price_calculate : Calculate the estimated price to commission a sculpture based on the material and size.    
 	Parameters:
-	material: The material used for the sculpture.
-	size: The size of the sculpture in feet.
-	complexity: The complexity level of the sculpture. Default is 'medium'.
+	material (str): The material used for the sculpture.
+	size (int): The size of the sculpture in feet.
+	complexity (str): The complexity level of the sculpture. Default is 'medium'.
+
+	Required Parameter = [material,size,]
 
 	"""
 	pass
 
-def sculpture_availability_check(sculpture_name, material):
+from typing import List, Dict, Any, Union, Tuple 
+def sculpture_availability_check(sculpture_name:str, material:str):
 	"""
-	Check the availability of a specific sculpture in the inventory.    
+	sculpture_availability_check : Check the availability of a specific sculpture in the inventory.    
 	Parameters:
-	sculpture_name: The name of the sculpture.
-	material: The material of the sculpture.
+	sculpture_name (str): The name of the sculpture.
+	material (str): The material of the sculpture.
+
+	Required Parameter = [sculpture_name,material,]
 
 	"""
 	pass

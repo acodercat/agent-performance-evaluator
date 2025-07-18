@@ -1,10 +1,13 @@
-def museum_get_hours(name, location, day=None):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_get_hours(name:str, location:str, day:str=None):
 	"""
-	Retrieve the open hours for a museum based on its name and location.    
+	museum_get_hours : Retrieve the open hours for a museum based on its name and location.    
 	Parameters:
-	name: The name of the museum.
-	location: The city where the museum is located.
-	day: Optional: Day of the week for specific open hours. Default 'Monday'.
+	name (str): The name of the museum.
+	location (str): The city where the museum is located.
+	day (str): Optional: Day of the week for specific open hours. Default 'Monday'.
+
+	Required Parameter = [name,location,]
 
 	"""
 	pass

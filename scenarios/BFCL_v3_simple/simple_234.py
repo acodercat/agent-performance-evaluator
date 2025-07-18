@@ -1,10 +1,13 @@
-def history_eu_fetch_events(century, region, category=None):
+from typing import List, Dict, Any, Union, Tuple 
+def history_eu_fetch_events(century:int, region:str, category:str=None):
 	"""
-	Fetches significant historical events within a specific time period in European history.    
+	history_eu_fetch_events : Fetches significant historical events within a specific time period in European history.    
 	Parameters:
-	century: The century you are interested in.
-	region: The region of Europe you are interested in.
-	category: Category of the historical events. Default is 'Culture'.
+	century (int): The century you are interested in.
+	region (str): The region of Europe you are interested in.
+	category (str): Category of the historical events. Default is 'Culture'.
+
+	Required Parameter = [century,region,]
 
 	"""
 	pass

@@ -1,20 +1,26 @@
-def sports_ranking_get_current(team, league, season=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking_get_current(team:str, league:str, season:str=None):
 	"""
-	Retrieve the current ranking of a specific team in a particular league.    
+	sports_ranking_get_current : Retrieve the current ranking of a specific team in a particular league.    
 	Parameters:
-	team: The name of the team whose ranking is sought.
-	league: The league in which the team participates.
-	season: The season for which the ranking is sought. Defaults to the current season if not provided.
+	team (str): The name of the team whose ranking is sought.
+	league (str): The league in which the team participates.
+	season (str): The season for which the ranking is sought. Defaults to the current season if not provided.
+
+	Required Parameter = [team,league,]
 
 	"""
 	pass
 
-def get_earliest_reference(name, source=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_earliest_reference(name:str, source:str=None):
 	"""
-	Retrieve the earliest historical reference of a person.    
+	get_earliest_reference : Retrieve the earliest historical reference of a person.    
 	Parameters:
-	name: The name of the person.
-	source: Source to fetch the reference. Default is 'scriptures'
+	name (str): The name of the person.
+	source (str): Source to fetch the reference. Default is 'scriptures'
+
+	Required Parameter = [name,]
 
 	"""
 	pass

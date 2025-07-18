@@ -1,10 +1,13 @@
-def lawyer_find_nearby(city, specialty, fee):
+from typing import List, Dict, Any, Union, Tuple 
+def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
 	"""
-	Locate nearby lawyers based on specific criteria like specialty, fee per hour and city.    
+	lawyer_find_nearby : Locate nearby lawyers based on specific criteria like specialty, fee per hour and city.    
 	Parameters:
-	city: The city and state, e.g. Chicago, IL.
-	specialty: Specialization of the lawyer.
-	fee: Hourly fee charged by lawyer
+	city (str): The city and state, e.g. Chicago, IL.
+	specialty (List[str]): Specialization of the lawyer.
+	fee (int): Hourly fee charged by lawyer
+
+	Required Parameter = [city,specialty,fee,]
 
 	"""
 	pass

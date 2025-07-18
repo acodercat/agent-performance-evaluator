@@ -1,9 +1,12 @@
-def math_hcf(number1, number2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_hcf(number1:int, number2:int):
 	"""
-	Calculate the highest common factor of two numbers.    
+	math_hcf : Calculate the highest common factor of two numbers.    
 	Parameters:
-	number1: First number.
-	number2: Second number.
+	number1 (int): First number.
+	number2 (int): Second number.
+
+	Required Parameter = [number1,number2,]
 
 	"""
 	pass

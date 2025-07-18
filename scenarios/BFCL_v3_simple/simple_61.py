@@ -1,10 +1,13 @@
-def diabetes_prediction(weight, height, activity_level):
+from typing import List, Dict, Any, Union, Tuple 
+def diabetes_prediction(weight:int, height:int, activity_level:str):
 	"""
-	Predict the likelihood of diabetes type 2 based on a person's weight and height.    
+	diabetes_prediction : Predict the likelihood of diabetes type 2 based on a person's weight and height.    
 	Parameters:
-	weight: Weight of the person in lbs.
-	height: Height of the person in inches.
-	activity_level: Physical activity level of the person.
+	weight (int): Weight of the person in lbs.
+	height (int): Height of the person in inches.
+	activity_level (str): Physical activity level of the person.
+
+	Required Parameter = [weight,height,activity_level,]
 
 	"""
 	pass

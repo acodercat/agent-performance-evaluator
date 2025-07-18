@@ -1,10 +1,13 @@
-def get_lawsuit_details(case_number, court_location, with_verdict=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_lawsuit_details(case_number:str, court_location:str, with_verdict:bool=None):
 	"""
-	Retrieve details of a lawsuit based on its case number and court location.    
+	get_lawsuit_details : Retrieve details of a lawsuit based on its case number and court location.    
 	Parameters:
-	case_number: Case number of the lawsuit.
-	court_location: The location of the court where the lawsuit was filed.
-	with_verdict: Flag to include verdict details if available. Default is False
+	case_number (str): Case number of the lawsuit.
+	court_location (str): The location of the court where the lawsuit was filed.
+	with_verdict (bool): Flag to include verdict details if available. Default is False
+
+	Required Parameter = [case_number,court_location,]
 
 	"""
 	pass

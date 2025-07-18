@@ -1,32 +1,41 @@
-def crop_yield_get_history(country, crop, years):
+from typing import List, Dict, Any, Union, Tuple 
+def crop_yield_get_history(country:str, crop:str, years:int):
 	"""
-	Retrieve historical crop yield data of a specific crop in a given country.    
+	crop_yield_get_history : Retrieve historical crop yield data of a specific crop in a given country.    
 	Parameters:
-	country: The country of interest.
-	crop: Type of crop.
-	years: Number of years of history to retrieve.
+	country (str): The country of interest.
+	crop (str): Type of crop.
+	years (int): Number of years of history to retrieve.
+
+	Required Parameter = [country,crop,years,]
 
 	"""
 	pass
 
-def animal_population_get_history(country, species, years):
+from typing import List, Dict, Any, Union, Tuple 
+def animal_population_get_history(country:str, species:str, years:int):
 	"""
-	Retrieve historical population size of a specific species in a given country.    
+	animal_population_get_history : Retrieve historical population size of a specific species in a given country.    
 	Parameters:
-	country: The country of interest.
-	species: Species of the animal.
-	years: Number of years of history to retrieve.
+	country (str): The country of interest.
+	species (str): Species of the animal.
+	years (int): Number of years of history to retrieve.
+
+	Required Parameter = [country,species,years,]
 
 	"""
 	pass
 
-def animal_population_get_projection(country, species, years):
+from typing import List, Dict, Any, Union, Tuple 
+def animal_population_get_projection(country:str, species:str, years:int):
 	"""
-	Predict the future population size of a specific species in a given country.    
+	animal_population_get_projection : Predict the future population size of a specific species in a given country.    
 	Parameters:
-	country: The country of interest.
-	species: Species of the animal.
-	years: Number of years in the future to predict.
+	country (str): The country of interest.
+	species (str): Species of the animal.
+	years (int): Number of years in the future to predict.
+
+	Required Parameter = [country,species,years,]
 
 	"""
 	pass

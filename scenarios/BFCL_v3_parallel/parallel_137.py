@@ -1,9 +1,12 @@
-def array_sort(list, order):
+from typing import List, Dict, Any, Union, Tuple 
+def array_sort(list:List[int], order:str):
 	"""
-	Sorts a given list in ascending or descending order.    
+	array_sort : Sorts a given list in ascending or descending order.    
 	Parameters:
-	list: The list of numbers to be sorted.
-	order: Order of sorting. If not specified, it will default to ascending.
+	list (List[int]): The list of numbers to be sorted.
+	order (str): Order of sorting. If not specified, it will default to ascending.
+
+	Required Parameter = [list,order,]
 
 	"""
 	pass

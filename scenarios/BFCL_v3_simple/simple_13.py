@@ -1,10 +1,13 @@
-def calculate_area_under_curve(function, interval, method=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_area_under_curve(function:str, interval:List[float], method:str=None):
 	"""
-	Calculate the area under a mathematical function within a given interval.    
+	calculate_area_under_curve : Calculate the area under a mathematical function within a given interval.    
 	Parameters:
-	function: The mathematical function as a string.
-	interval: An array that defines the interval to calculate the area under the curve from the start to the end point.
-	method: The numerical method to approximate the area under the curve. The default value is 'trapezoidal'.
+	function (str): The mathematical function as a string.
+	interval (List[float]): An array that defines the interval to calculate the area under the curve from the start to the end point.
+	method (str): The numerical method to approximate the area under the curve. The default value is 'trapezoidal'.
+
+	Required Parameter = [function,interval,]
 
 	"""
 	pass

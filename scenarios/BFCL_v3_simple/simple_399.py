@@ -1,11 +1,14 @@
-def restaurant_search(location, cuisine, rating, accepts_credit_cards):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_search(location:str, cuisine:str, rating:int, accepts_credit_cards:bool):
 	"""
-	Locates top rated restaurants based on specific criteria such as type of cuisine, ratings, and facilities.    
+	restaurant_search : Locates top rated restaurants based on specific criteria such as type of cuisine, ratings, and facilities.    
 	Parameters:
-	location: The city and state, e.g. New York City, NY
-	cuisine: Preferred type of cuisine e.g., Italian, Indian, American, etc.
-	rating: Minimum average customer rating out of 5
-	accepts_credit_cards: If the restaurant should accept credit cards.
+	location (str): The city and state, e.g. New York City, NY
+	cuisine (str): Preferred type of cuisine e.g., Italian, Indian, American, etc.
+	rating (int): Minimum average customer rating out of 5
+	accepts_credit_cards (bool): If the restaurant should accept credit cards.
+
+	Required Parameter = [location,cuisine,rating,accepts_credit_cards,]
 
 	"""
 	pass

@@ -1,29 +1,38 @@
-def primeFactors(num, withMultiplicity='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def primeFactors(num:int, withMultiplicity:bool='false'):
 	"""
-	Find all prime factors of an integer.    
+	primeFactors : Find all prime factors of an integer.    
 	Parameters:
-	num: The integer.
-	withMultiplicity: If true, includes the multiplicity of each factor.
+	num (int): The integer.
+	withMultiplicity (bool): If true, includes the multiplicity of each factor.
+
+	Required Parameter = [num,]
 
 	"""
 	pass
 
-def lcm(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def lcm(num1:int, num2:int):
 	"""
-	Calculate the least common multiple of two integers.    
+	lcm : Calculate the least common multiple of two integers.    
 	Parameters:
-	num1: The first integer.
-	num2: The second integer.
+	num1 (int): The first integer.
+	num2 (int): The second integer.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass
 
-def gcd(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def gcd(num1:int, num2:int):
 	"""
-	Calculate the greatest common divisor of two integers.    
+	gcd : Calculate the greatest common divisor of two integers.    
 	Parameters:
-	num1: The first integer.
-	num2: The second integer.
+	num1 (int): The first integer.
+	num2 (int): The second integer.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass

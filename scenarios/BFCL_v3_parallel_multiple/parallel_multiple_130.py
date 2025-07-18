@@ -1,33 +1,42 @@
-def solve_quadratic_equation(a, b, c):
+from typing import List, Dict, Any, Union, Tuple 
+def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
-	Function solves the quadratic equation and returns its roots.    
+	solve_quadratic_equation : Function solves the quadratic equation and returns its roots.    
 	Parameters:
-	a: Coefficient of x squared
-	b: Coefficient of x
-	c: Constant term in the quadratic equation
+	a (int): Coefficient of x squared
+	b (int): Coefficient of x
+	c (int): Constant term in the quadratic equation
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass
 
-def portfolio_future_value(stock, invested_amount, expected_annual_return, years):
+from typing import List, Dict, Any, Union, Tuple 
+def portfolio_future_value(stock:str, invested_amount:int, expected_annual_return:float, years:int):
 	"""
-	Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
+	portfolio_future_value : Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
 	Parameters:
-	stock: The ticker symbol of the stock.
-	invested_amount: The invested amount in USD.
-	expected_annual_return: The expected annual return on investment as a decimal. E.g. 5% = 0.05
-	years: The number of years for which the investment is made.
+	stock (str): The ticker symbol of the stock.
+	invested_amount (int): The invested amount in USD.
+	expected_annual_return (float): The expected annual return on investment as a decimal. E.g. 5% = 0.05
+	years (int): The number of years for which the investment is made.
+
+	Required Parameter = [stock,invested_amount,expected_annual_return,years,]
 
 	"""
 	pass
 
-def get_stock_info(company_name, detail_level, market=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
-	Retrieves information about a specific stock based on company's name.    
+	get_stock_info : Retrieves information about a specific stock based on company's name.    
 	Parameters:
-	company_name: The name of the company.
-	detail_level: Level of detail for stock information. Can be 'summary' or 'detailed'.
-	market: The stock market of interest. Default is 'NASDAQ'
+	company_name (str): The name of the company.
+	detail_level (str): Level of detail for stock information. Can be 'summary' or 'detailed'.
+	market (str): The stock market of interest. Default is 'NASDAQ'
+
+	Required Parameter = [company_name,detail_level,]
 
 	"""
 	pass

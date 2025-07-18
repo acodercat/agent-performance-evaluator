@@ -1,10 +1,13 @@
-def calculate_cooking_time(weight_kg, cooking_method=None, temp_celsius=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_cooking_time(weight_kg:float, cooking_method:str=None, temp_celsius:int=None):
 	"""
-	Calculate the cooking time for a roast chicken.    
+	calculate_cooking_time : Calculate the cooking time for a roast chicken.    
 	Parameters:
-	weight_kg: The weight of the chicken in kilograms.
-	cooking_method: The method of cooking, defaults to 'roast'.
-	temp_celsius: The cooking temperature in degrees celsius, defaults to 180.
+	weight_kg (float): The weight of the chicken in kilograms.
+	cooking_method (str): The method of cooking, defaults to 'roast'.
+	temp_celsius (int): The cooking temperature in degrees celsius, defaults to 180.
+
+	Required Parameter = [weight_kg,]
 
 	"""
 	pass

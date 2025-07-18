@@ -1,31 +1,40 @@
-def currency_conversion_convert(from_currency, to_currency, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_conversion_convert(from_currency:str, to_currency:str, amount:float):
 	"""
-	Converts a specified amount of money from one currency to another at the latest rate.    
+	currency_conversion_convert : Converts a specified amount of money from one currency to another at the latest rate.    
 	Parameters:
-	from_currency: The currency that you want to convert from.
-	to_currency: The currency that you want to convert to.
-	amount: The amount of money that you want to convert.
+	from_currency (str): The currency that you want to convert from.
+	to_currency (str): The currency that you want to convert to.
+	amount (float): The amount of money that you want to convert.
+
+	Required Parameter = [from_currency,to_currency,amount,]
 
 	"""
 	pass
 
-def currency_conversion_get_latest_rate(from_currency, to_currency):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_conversion_get_latest_rate(from_currency:str, to_currency:str):
 	"""
-	Get the latest currency conversion rate from one currency to another.    
+	currency_conversion_get_latest_rate : Get the latest currency conversion rate from one currency to another.    
 	Parameters:
-	from_currency: The currency that you want to convert from.
-	to_currency: The currency that you want to convert to.
+	from_currency (str): The currency that you want to convert from.
+	to_currency (str): The currency that you want to convert to.
+
+	Required Parameter = [from_currency,to_currency,]
 
 	"""
 	pass
 
-def currency_conversion_get_rate(from_currency, to_currency, date='today'):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_conversion_get_rate(from_currency:str, to_currency:str, date:str='today'):
 	"""
-	Get the currency conversion rate from one currency to another at a specified date.    
+	currency_conversion_get_rate : Get the currency conversion rate from one currency to another at a specified date.    
 	Parameters:
-	from_currency: The currency that you want to convert from.
-	to_currency: The currency that you want to convert to.
-	date: The date at which the conversion rate applies. Default is the current date.
+	from_currency (str): The currency that you want to convert from.
+	to_currency (str): The currency that you want to convert to.
+	date (str): The date at which the conversion rate applies. Default is the current date.
+
+	Required Parameter = [from_currency,to_currency,]
 
 	"""
 	pass

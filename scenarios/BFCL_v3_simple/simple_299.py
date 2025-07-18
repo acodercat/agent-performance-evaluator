@@ -1,9 +1,12 @@
-def musical_scale(key, scale_type='major'):
+from typing import List, Dict, Any, Union, Tuple 
+def musical_scale(key:str, scale_type:str='major'):
 	"""
-	Get the musical scale of a specific key in music theory.    
+	musical_scale : Get the musical scale of a specific key in music theory.    
 	Parameters:
-	key: The musical key for which the scale will be found.
-	scale_type: The type of musical scale.
+	key (str): The musical key for which the scale will be found.
+	scale_type (str): The type of musical scale.
+
+	Required Parameter = [key,]
 
 	"""
 	pass

@@ -1,18 +1,24 @@
-def functions_intersect(function1, function2):
+from typing import List, Dict, Any, Union, Tuple 
+def functions_intersect(function1:str, function2:str):
 	"""
-	Locate the intersection points of two functions.    
+	functions_intersect : Locate the intersection points of two functions.    
 	Parameters:
-	function1: First function given as a string with x as the variable, e.g. 3x+2
-	function2: Second function given as a string with x as the variable, e.g. 2x+3
+	function1 (str): First function given as a string with x as the variable, e.g. 3x+2
+	function2 (str): Second function given as a string with x as the variable, e.g. 2x+3
+
+	Required Parameter = [function1,function2,]
 
 	"""
 	pass
 
-def functions_zero(function):
+from typing import List, Dict, Any, Union, Tuple 
+def functions_zero(function:str):
 	"""
-	Find the zero points of a function.    
+	functions_zero : Find the zero points of a function.    
 	Parameters:
-	function: Function given as a string with x as the variable, e.g. 3x+2
+	function (str): Function given as a string with x as the variable, e.g. 3x+2
+
+	Required Parameter = [function,]
 
 	"""
 	pass

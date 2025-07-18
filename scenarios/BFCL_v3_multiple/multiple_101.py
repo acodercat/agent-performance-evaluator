@@ -1,20 +1,26 @@
-def math_gcd(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_gcd(num1:int, num2:int):
 	"""
-	Calculate the greatest common divisor of two integers.    
+	math_gcd : Calculate the greatest common divisor of two integers.    
 	Parameters:
-	num1: First number.
-	num2: Second number.
+	num1 (int): First number.
+	num2 (int): Second number.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass
 
-def get_top_cases(field_of_law, top_number, country=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_top_cases(field_of_law:str, top_number:int, country:str=None):
 	"""
-	Retrieve a list of the most influential or landmark cases in a specific field of law.    
+	get_top_cases : Retrieve a list of the most influential or landmark cases in a specific field of law.    
 	Parameters:
-	field_of_law: The specific field of law e.g., constitutional law, criminal law, etc.
-	top_number: The number of top cases to retrieve.
-	country: The country where the law cases should be retrieved from. Default is US.
+	field_of_law (str): The specific field of law e.g., constitutional law, criminal law, etc.
+	top_number (int): The number of top cases to retrieve.
+	country (str): The country where the law cases should be retrieved from. Default is US.
+
+	Required Parameter = [field_of_law,top_number,]
 
 	"""
 	pass

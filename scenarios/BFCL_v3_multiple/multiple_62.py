@@ -1,19 +1,25 @@
-def nature_park_find_nearby(location, features):
+from typing import List, Dict, Any, Union, Tuple 
+def nature_park_find_nearby(location:str, features:List[str]):
 	"""
-	Locate nearby nature parks based on specific criteria like camping availability and scenic views.    
+	nature_park_find_nearby : Locate nearby nature parks based on specific criteria like camping availability and scenic views.    
 	Parameters:
-	location: The city and state, e.g. Boston, MA.
-	features: Preferred features in nature park.
+	location (str): The city and state, e.g. Boston, MA.
+	features (List[str]): Preferred features in nature park.
+
+	Required Parameter = [location,features,]
 
 	"""
 	pass
 
-def restaurant_find_nearby(location, amenities=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find_nearby(location:str, amenities:List[str]=None):
 	"""
-	Locate nearby restaurants based on specific criteria.    
+	restaurant_find_nearby : Locate nearby restaurants based on specific criteria.    
 	Parameters:
-	location: The city and state, e.g. Boston, MA.
-	amenities: Preferred amenities in restaurant. Default empty array []
+	location (str): The city and state, e.g. Boston, MA.
+	amenities (List[str]): Preferred amenities in restaurant. Default empty array []
+
+	Required Parameter = [location,]
 
 	"""
 	pass

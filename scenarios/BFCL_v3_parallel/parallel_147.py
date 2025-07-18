@@ -1,9 +1,12 @@
-def light_travel_time(distance_in_light_years, speed_of_light=None):
+from typing import List, Dict, Any, Union, Tuple 
+def light_travel_time(distance_in_light_years:float, speed_of_light:int=None):
 	"""
-	Calculate the time taken for light to travel from a celestial body to another.    
+	light_travel_time : Calculate the time taken for light to travel from a celestial body to another.    
 	Parameters:
-	distance_in_light_years: The distance between the two celestial bodies in light years.
-	speed_of_light: The speed of light in vacuum, in m/s. Default value is 299792458 m/s.
+	distance_in_light_years (float): The distance between the two celestial bodies in light years.
+	speed_of_light (int): The speed of light in vacuum, in m/s. Default value is 299792458 m/s.
+
+	Required Parameter = [distance_in_light_years,]
 
 	"""
 	pass

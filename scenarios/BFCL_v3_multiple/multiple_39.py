@@ -1,21 +1,27 @@
-def grocery_delivery_order(location, items, max_delivery_cost=None):
+from typing import List, Dict, Any, Union, Tuple 
+def grocery_delivery_order(location:str, items:List[str], max_delivery_cost:float=None):
 	"""
-	Order grocery items from a specific location with optional delivery price limit    
+	grocery_delivery_order : Order grocery items from a specific location with optional delivery price limit    
 	Parameters:
-	location: The location of the grocery store
-	items: List of items to order
-	max_delivery_cost: The maximum delivery cost. It is optional. Default 1000000
+	location (str): The location of the grocery store
+	items (List[str]): List of items to order
+	max_delivery_cost (float): The maximum delivery cost. It is optional. Default 1000000
+
+	Required Parameter = [location,items,]
 
 	"""
 	pass
 
-def ride_hailing_get_rides(source, destination, max_cost=None):
+from typing import List, Dict, Any, Union, Tuple 
+def ride_hailing_get_rides(source:str, destination:str, max_cost:int=None):
 	"""
-	Find ride from source to destination with an optional cost limit    
+	ride_hailing_get_rides : Find ride from source to destination with an optional cost limit    
 	Parameters:
-	source: The starting point of the journey
-	destination: The endpoint of the journey
-	max_cost: The maximum cost of the ride. It is optional. Default is 1000000
+	source (str): The starting point of the journey
+	destination (str): The endpoint of the journey
+	max_cost (int): The maximum cost of the ride. It is optional. Default is 1000000
+
+	Required Parameter = [source,destination,]
 
 	"""
 	pass

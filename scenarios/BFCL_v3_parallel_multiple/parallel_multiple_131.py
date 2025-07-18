@@ -1,22 +1,28 @@
-def plot_sine_wave(start_range, end_range, frequency, amplitude=None, phase_shift=None):
+from typing import List, Dict, Any, Union, Tuple 
+def plot_sine_wave(start_range:int, end_range:float, frequency:int, amplitude:float=None, phase_shift:float=None):
 	"""
-	Plot a sine wave for a given frequency in a given range.    
+	plot_sine_wave : Plot a sine wave for a given frequency in a given range.    
 	Parameters:
-	start_range: Start of the range in radians.
-	end_range: End of the range in radians.
-	frequency: Frequency of the sine wave in Hz.
-	amplitude: Amplitude of the sine wave. Default is 1.
-	phase_shift: Phase shift of the sine wave in radians. Default is 0.
+	start_range (int): Start of the range in radians.
+	end_range (float): End of the range in radians.
+	frequency (int): Frequency of the sine wave in Hz.
+	amplitude (float): Amplitude of the sine wave. Default is 1.
+	phase_shift (float): Phase shift of the sine wave in radians. Default is 0.
+
+	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
 	pass
 
-def geometry_area_circle(radius, units='meters'):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_circle(radius:float, units:str='meters'):
 	"""
-	Calculate the area of a circle given the radius.    
+	geometry_area_circle : Calculate the area of a circle given the radius.    
 	Parameters:
-	radius: The radius of the circle.
-	units: The units in which the radius is measured (defaults to meters).
+	radius (float): The radius of the circle.
+	units (str): The units in which the radius is measured (defaults to meters).
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

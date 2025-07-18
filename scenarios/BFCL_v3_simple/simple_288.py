@@ -1,10 +1,13 @@
-def concert_booking_book_ticket(artist, city, num_tickets=None):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	"""
-	Book concert tickets for a specific artist in a specified city.    
+	concert_booking_book_ticket : Book concert tickets for a specific artist in a specified city.    
 	Parameters:
-	artist: The artist you want to book tickets for.
-	city: The city where the concert is.
-	num_tickets: Number of tickets required. Default is 1.
+	artist (str): The artist you want to book tickets for.
+	city (str): The city where the concert is.
+	num_tickets (int): Number of tickets required. Default is 1.
+
+	Required Parameter = [artist,city,]
 
 	"""
 	pass

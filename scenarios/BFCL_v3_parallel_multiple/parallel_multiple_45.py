@@ -1,19 +1,25 @@
-def calcVolume_cuboid(height, width, depth):
+from typing import List, Dict, Any, Union, Tuple 
+def calcVolume_cuboid(height:float, width:float, depth:float):
 	"""
-	Calculates the volume of a cuboid.    
+	calcVolume_cuboid : Calculates the volume of a cuboid.    
 	Parameters:
-	height: The height of the cuboid.
-	width: The width of the cuboid.
-	depth: The depth of the cuboid.
+	height (float): The height of the cuboid.
+	width (float): The width of the cuboid.
+	depth (float): The depth of the cuboid.
+
+	Required Parameter = [height,width,depth,]
 
 	"""
 	pass
 
-def calcVolume_sphere(radius):
+from typing import List, Dict, Any, Union, Tuple 
+def calcVolume_sphere(radius:float):
 	"""
-	Calculates the volume of a sphere.    
+	calcVolume_sphere : Calculates the volume of a sphere.    
 	Parameters:
-	radius: The radius of the sphere.
+	radius (float): The radius of the sphere.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

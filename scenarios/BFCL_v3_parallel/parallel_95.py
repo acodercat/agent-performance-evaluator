@@ -1,10 +1,13 @@
-def calculate_magnetic_field(current, radius, permeability=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_magnetic_field(current:int, radius:float, permeability:int=None):
 	"""
-	Calculate the magnetic field produced at the center of a circular loop carrying current.    
+	calculate_magnetic_field : Calculate the magnetic field produced at the center of a circular loop carrying current.    
 	Parameters:
-	current: The current through the circular loop in Amperes.
-	radius: The radius of the circular loop in meters.
-	permeability: The magnetic permeability. Default is permeability in free space.
+	current (int): The current through the circular loop in Amperes.
+	radius (float): The radius of the circular loop in meters.
+	permeability (int): The magnetic permeability. Default is permeability in free space.
+
+	Required Parameter = [current,radius,]
 
 	"""
 	pass

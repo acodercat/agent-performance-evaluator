@@ -1,9 +1,12 @@
-def celebrity_net_worth_get(name, currency):
+from typing import List, Dict, Any, Union, Tuple 
+def celebrity_net_worth_get(name:str, currency:str):
 	"""
-	Get the total net worth of a sports celebrity based on most recent data.    
+	celebrity_net_worth_get : Get the total net worth of a sports celebrity based on most recent data.    
 	Parameters:
-	name: The full name of the sports celebrity.
-	currency: The currency in which the net worth will be returned. Default is 'USD'.
+	name (str): The full name of the sports celebrity.
+	currency (str): The currency in which the net worth will be returned. Default is 'USD'.
+
+	Required Parameter = [name,currency,]
 
 	"""
 	pass

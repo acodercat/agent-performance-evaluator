@@ -1,9 +1,12 @@
-def get_bigfive_scores(characteristics, scale=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_bigfive_scores(characteristics:List[str], scale:str=None):
 	"""
-	Retrieve Big Five Personality trait scores based on individual's behavioural characteristics.    
+	get_bigfive_scores : Retrieve Big Five Personality trait scores based on individual's behavioural characteristics.    
 	Parameters:
-	characteristics: List of user's behavioural characteristics.
-	scale: The scoring scale of traits (default is medium).
+	characteristics (List[str]): List of user's behavioural characteristics.
+	scale (str): The scoring scale of traits (default is medium).
+
+	Required Parameter = [characteristics,]
 
 	"""
 	pass

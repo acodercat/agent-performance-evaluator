@@ -1,10 +1,13 @@
-def generate_law_contract(parties, contract_type, location):
+from typing import List, Dict, Any, Union, Tuple 
+def generate_law_contract(parties:List[str], contract_type:str, location:str):
 	"""
-	Generates a customized law contract given involved parties, contract type and location.    
+	generate_law_contract : Generates a customized law contract given involved parties, contract type and location.    
 	Parameters:
-	parties: Parties involved in the contract.
-	contract_type: Type of the contract.
-	location: Location where the contract will be in effect.
+	parties (List[str]): Parties involved in the contract.
+	contract_type (str): Type of the contract.
+	location (str): Location where the contract will be in effect.
+
+	Required Parameter = [parties,contract_type,location,]
 
 	"""
 	pass

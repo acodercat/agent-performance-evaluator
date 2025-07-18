@@ -1,42 +1,54 @@
-def average_batting_score(player_name, matches, match_format=None):
+from typing import List, Dict, Any, Union, Tuple 
+def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	"""
-	Get the average batting score of a cricketer for specified past matches.    
+	average_batting_score : Get the average batting score of a cricketer for specified past matches.    
 	Parameters:
-	player_name: Name of the cricket player.
-	matches: Number of past matches to consider for average calculation.
-	match_format: Format of the cricket matches considered (e.g., 'T20', 'ODI', 'Test'). Default is 'T20'.
+	player_name (str): Name of the cricket player.
+	matches (int): Number of past matches to consider for average calculation.
+	match_format (str): Format of the cricket matches considered (e.g., 'T20', 'ODI', 'Test'). Default is 'T20'.
+
+	Required Parameter = [player_name,matches,]
 
 	"""
 	pass
 
-def calculate_return_on_investment(purchase_price, sale_price, dividend=0):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_return_on_investment(purchase_price:float, sale_price:float, dividend:float=0):
 	"""
-	Calculate the return on investment for a given stock based on its purchase price, sale price, and any dividends received.    
+	calculate_return_on_investment : Calculate the return on investment for a given stock based on its purchase price, sale price, and any dividends received.    
 	Parameters:
-	purchase_price: The price the stock was bought at.
-	sale_price: The price the stock was sold at.
-	dividend: Any dividends received from the stock.
+	purchase_price (float): The price the stock was bought at.
+	sale_price (float): The price the stock was sold at.
+	dividend (float): Any dividends received from the stock.
+
+	Required Parameter = [purchase_price,sale_price,]
 
 	"""
 	pass
 
-def database_query(table, conditions):
+from typing import List, Dict, Any, Union, Tuple 
+def database_query(table:str, conditions:List[Dict[str, str]]):
 	"""
-	Query the database based on certain conditions.    
+	database_query : Query the database based on certain conditions.    
 	Parameters:
-	table: Name of the table to query.
-	conditions: Conditions for the query.
+	table (str): Name of the table to query.
+	conditions (List[Dict[str, str]]): Conditions for the query.
+
+	Required Parameter = [table,conditions,]
 
 	"""
 	pass
 
-def probability_of_event(success_outcomes, total_outcomes, format_as_ratio=None):
+from typing import List, Dict, Any, Union, Tuple 
+def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_ratio:bool=None):
 	"""
-	Calculates the probability of an event.    
+	probability_of_event : Calculates the probability of an event.    
 	Parameters:
-	success_outcomes: The number of successful outcomes.
-	total_outcomes: The total number of possible outcomes.
-	format_as_ratio: When true, formats the output as a ratio instead of a decimal. Default is false.
+	success_outcomes (int): The number of successful outcomes.
+	total_outcomes (int): The total number of possible outcomes.
+	format_as_ratio (bool): When true, formats the output as a ratio instead of a decimal. Default is false.
+
+	Required Parameter = [success_outcomes,total_outcomes,]
 
 	"""
 	pass

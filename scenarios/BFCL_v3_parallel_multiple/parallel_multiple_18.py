@@ -1,20 +1,26 @@
-def banking_service(account_id, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def banking_service(account_id:str, amount:float):
 	"""
-	Make a deposit to a given bank account    
+	banking_service : Make a deposit to a given bank account    
 	Parameters:
-	account_id: Target account to make deposit to.
-	amount: Amount to deposit.
+	account_id (str): Target account to make deposit to.
+	amount (float): Amount to deposit.
+
+	Required Parameter = [account_id,amount,]
 
 	"""
 	pass
 
-def currency_conversion(amount, from_currency, to_currency):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_conversion(amount:float, from_currency:str, to_currency:str):
 	"""
-	Convert a specific amount from one currency to another    
+	currency_conversion : Convert a specific amount from one currency to another    
 	Parameters:
-	amount: Amount to convert.
-	from_currency: Source currency.
-	to_currency: Target currency.
+	amount (float): Amount to convert.
+	from_currency (str): Source currency.
+	to_currency (str): Target currency.
+
+	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
 	pass

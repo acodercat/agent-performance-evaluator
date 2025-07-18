@@ -1,10 +1,13 @@
-def geo_distance_calculate(start_location, end_location, units=None):
+from typing import List, Dict, Any, Union, Tuple 
+def geo_distance_calculate(start_location:str, end_location:str, units:str=None):
 	"""
-	Calculate the geographic distance between two given locations.    
+	geo_distance_calculate : Calculate the geographic distance between two given locations.    
 	Parameters:
-	start_location: The starting location for the distance calculation.
-	end_location: The destination location for the distance calculation.
-	units: Optional. The desired units for the resulting distance ('miles' or 'kilometers'). Defaults to 'miles'.
+	start_location (str): The starting location for the distance calculation.
+	end_location (str): The destination location for the distance calculation.
+	units (str): Optional. The desired units for the resulting distance ('miles' or 'kilometers'). Defaults to 'miles'.
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass

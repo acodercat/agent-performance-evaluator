@@ -1,10 +1,13 @@
-def history_fact_fetch(event, depth='detailed', year=None):
+from typing import List, Dict, Any, Union, Tuple 
+def history_fact_fetch(event:str, depth:str='detailed', year:int=None):
 	"""
-	Retrieve facts about historical events or documents    
+	history_fact_fetch : Retrieve facts about historical events or documents    
 	Parameters:
-	event: The historical event or document you want to know about.
-	depth: The depth of information required. Choices are 'brief' or 'detailed'.
-	year: The year of the event/document. default is 0
+	event (str): The historical event or document you want to know about.
+	depth (str): The depth of information required. Choices are 'brief' or 'detailed'.
+	year (int): The year of the event/document. default is 0
+
+	Required Parameter = [event,]
 
 	"""
 	pass

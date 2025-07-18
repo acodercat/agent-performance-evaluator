@@ -1,23 +1,29 @@
-def kinematics_calculate_final_speed(initial_speed, acceleration, time, rounding=2):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_calculate_final_speed(initial_speed:float, acceleration:float, time:float, rounding:int=2):
 	"""
-	Calculate the final speed of an object that starts from an initial speed and then accelerates for a certain duration.    
+	kinematics_calculate_final_speed : Calculate the final speed of an object that starts from an initial speed and then accelerates for a certain duration.    
 	Parameters:
-	initial_speed: The initial speed of the moving object in m/s.
-	acceleration: The rate of change of speed, m/s^2.
-	time: The time interval during which the acceleration is applied, in seconds.
-	rounding: The number of decimals to round off the result (optional).
+	initial_speed (float): The initial speed of the moving object in m/s.
+	acceleration (float): The rate of change of speed, m/s^2.
+	time (float): The time interval during which the acceleration is applied, in seconds.
+	rounding (int): The number of decimals to round off the result (optional).
+
+	Required Parameter = [initial_speed,acceleration,time,]
 
 	"""
 	pass
 
-def kinematics_calculate_displacement(initial_speed, acceleration, time, rounding=2):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_calculate_displacement(initial_speed:float, acceleration:float, time:float, rounding:int=2):
 	"""
-	Calculate displacement based on initial speed, acceleration, and time interval for a motion along a straight line.    
+	kinematics_calculate_displacement : Calculate displacement based on initial speed, acceleration, and time interval for a motion along a straight line.    
 	Parameters:
-	initial_speed: The initial speed of the moving object in m/s.
-	acceleration: The rate of change of speed, m/s^2.
-	time: The time interval during which the acceleration is applied, in seconds.
-	rounding: The number of decimals to round off the result (optional).
+	initial_speed (float): The initial speed of the moving object in m/s.
+	acceleration (float): The rate of change of speed, m/s^2.
+	time (float): The time interval during which the acceleration is applied, in seconds.
+	rounding (int): The number of decimals to round off the result (optional).
+
+	Required Parameter = [initial_speed,acceleration,time,]
 
 	"""
 	pass

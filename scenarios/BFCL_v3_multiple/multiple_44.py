@@ -1,31 +1,40 @@
-def unit_conversion_convert(value, from_unit, to_unit):
+from typing import List, Dict, Any, Union, Tuple 
+def unit_conversion_convert(value:float, from_unit:str, to_unit:str):
 	"""
-	Convert a value from one unit to another.    
+	unit_conversion_convert : Convert a value from one unit to another.    
 	Parameters:
-	value: The value to be converted.
-	from_unit: The unit to convert from.
-	to_unit: The unit to convert to.
+	value (float): The value to be converted.
+	from_unit (str): The unit to convert from.
+	to_unit (str): The unit to convert to.
+
+	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
 	pass
 
-def currency_conversion(amount, from_currency, to_currency):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_conversion(amount:float, from_currency:str, to_currency:str):
 	"""
-	Convert a value from one currency to another.    
+	currency_conversion : Convert a value from one currency to another.    
 	Parameters:
-	amount: The amount to be converted.
-	from_currency: The currency to convert from.
-	to_currency: The currency to convert to.
+	amount (float): The amount to be converted.
+	from_currency (str): The currency to convert from.
+	to_currency (str): The currency to convert to.
+
+	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
 	pass
 
-def calculate_weight_in_space(weight_earth_kg, planet):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_weight_in_space(weight_earth_kg:int, planet:str):
 	"""
-	Calculate your weight on different planets given your weight on earth    
+	calculate_weight_in_space : Calculate your weight on different planets given your weight on earth    
 	Parameters:
-	weight_earth_kg: Your weight on Earth in Kilograms.
-	planet: The planet you want to know your weight on.
+	weight_earth_kg (int): Your weight on Earth in Kilograms.
+	planet (str): The planet you want to know your weight on.
+
+	Required Parameter = [weight_earth_kg,planet,]
 
 	"""
 	pass

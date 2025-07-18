@@ -1,21 +1,27 @@
-def calculate_integral(func, a, b):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_integral(func:str, a:int, b:int):
 	"""
-	Calculate the definite integral of a single-variable function.    
+	calculate_integral : Calculate the definite integral of a single-variable function.    
 	Parameters:
-	func: The function to be integrated.
-	a: The lower bound of the integration.
-	b: The upper bound of the integration.
+	func (str): The function to be integrated.
+	a (int): The lower bound of the integration.
+	b (int): The upper bound of the integration.
+
+	Required Parameter = [func,a,b,]
 
 	"""
 	pass
 
-def calculate_derivative(func, x_value, order=1):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_derivative(func:str, x_value:int, order:int=1):
 	"""
-	Calculate the derivative of a single-variable function.    
+	calculate_derivative : Calculate the derivative of a single-variable function.    
 	Parameters:
-	func: The function to be differentiated.
-	x_value: The x-value at which the derivative should be calculated.
-	order: The order of the derivative (optional). Default is 1st order.
+	func (str): The function to be differentiated.
+	x_value (int): The x-value at which the derivative should be calculated.
+	order (int): The order of the derivative (optional). Default is 1st order.
+
+	Required Parameter = [func,x_value,]
 
 	"""
 	pass

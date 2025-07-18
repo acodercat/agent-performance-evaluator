@@ -1,10 +1,13 @@
-def calculate_speed(distance, time, to_unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_speed(distance:int, time:int, to_unit:str=None):
 	"""
-	Calculate the speed of an object based on the distance travelled and the time taken.    
+	calculate_speed : Calculate the speed of an object based on the distance travelled and the time taken.    
 	Parameters:
-	distance: The distance the object travelled in meters.
-	time: The time it took for the object to travel in seconds.
-	to_unit: The unit in which the speed should be calculated, default is m/s.
+	distance (int): The distance the object travelled in meters.
+	time (int): The time it took for the object to travel in seconds.
+	to_unit (str): The unit in which the speed should be calculated, default is m/s.
+
+	Required Parameter = [distance,time,]
 
 	"""
 	pass

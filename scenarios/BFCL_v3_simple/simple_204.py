@@ -1,10 +1,13 @@
-def restaurant_find_nearby(location, cuisine, max_distance=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find_nearby(location:str, cuisine:str, max_distance:int=None):
 	"""
-	Locate nearby restaurants based on specific criteria like cuisine type.    
+	restaurant_find_nearby : Locate nearby restaurants based on specific criteria like cuisine type.    
 	Parameters:
-	location: The city and state, e.g. Seattle, WA
-	cuisine: Preferred type of cuisine in restaurant.
-	max_distance: Maximum distance (in miles) within which to search for restaurants. Default is 5.
+	location (str): The city and state, e.g. Seattle, WA
+	cuisine (str): Preferred type of cuisine in restaurant.
+	max_distance (int): Maximum distance (in miles) within which to search for restaurants. Default is 5.
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass

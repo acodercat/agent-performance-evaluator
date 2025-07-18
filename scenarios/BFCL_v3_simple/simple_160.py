@@ -1,10 +1,13 @@
-def get_case_info(docket, court, info_type):
+from typing import List, Dict, Any, Union, Tuple 
+def get_case_info(docket:str, court:str, info_type:str):
 	"""
-	Retrieve case details using a specific case docket number and court location.    
+	get_case_info : Retrieve case details using a specific case docket number and court location.    
 	Parameters:
-	docket: Docket number for the specific court case.
-	court: Court in which the case was heard.
-	info_type: Specify the information type needed for the case. i.e., victim, accused, verdict etc.
+	docket (str): Docket number for the specific court case.
+	court (str): Court in which the case was heard.
+	info_type (str): Specify the information type needed for the case. i.e., victim, accused, verdict etc.
+
+	Required Parameter = [docket,court,info_type,]
 
 	"""
 	pass

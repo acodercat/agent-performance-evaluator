@@ -1,12 +1,15 @@
-def plot_sine_wave(start_range, end_range, frequency, amplitude=None, phase_shift=None):
+from typing import List, Dict, Any, Union, Tuple 
+def plot_sine_wave(start_range:float, end_range:float, frequency:int, amplitude:int=None, phase_shift:int=None):
 	"""
-	Plot a sine wave for a given frequency in a given range.    
+	plot_sine_wave : Plot a sine wave for a given frequency in a given range.    
 	Parameters:
-	start_range: Start of the range in radians. Four decimal places.
-	end_range: End of the range in radians. Four decimal places.
-	frequency: Frequency of the sine wave in Hz.
-	amplitude: Amplitude of the sine wave. Default is 1.
-	phase_shift: Phase shift of the sine wave in radians. Default is 0.
+	start_range (float): Start of the range in radians. Four decimal places.
+	end_range (float): End of the range in radians. Four decimal places.
+	frequency (int): Frequency of the sine wave in Hz.
+	amplitude (int): Amplitude of the sine wave. Default is 1.
+	phase_shift (int): Phase shift of the sine wave in radians. Default is 0.
+
+	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
 	pass

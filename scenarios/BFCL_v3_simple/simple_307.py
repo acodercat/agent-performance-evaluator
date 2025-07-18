@@ -1,10 +1,13 @@
-def game_result_get_winner(teams, date, venue=None):
+from typing import List, Dict, Any, Union, Tuple 
+def game_result_get_winner(teams:List[str], date:str, venue:str=None):
 	"""
-	Get the winner of a specific basketball game.    
+	game_result_get_winner : Get the winner of a specific basketball game.    
 	Parameters:
-	teams: List of two teams who played the game.
-	date: The date of the game, formatted as YYYY-MM-DD.
-	venue: Optional: The venue of the game. Default is 'home'.
+	teams (List[str]): List of two teams who played the game.
+	date (str): The date of the game, formatted as YYYY-MM-DD.
+	venue (str): Optional: The venue of the game. Default is 'home'.
+
+	Required Parameter = [teams,date,]
 
 	"""
 	pass

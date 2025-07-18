@@ -1,41 +1,53 @@
-def math_factorial(number):
+from typing import List, Dict, Any, Union, Tuple 
+def math_factorial(number:float):
 	"""
-	Calculate the factorial of a given number.    
+	math_factorial : Calculate the factorial of a given number.    
 	Parameters:
-	number: The number for which factorial needs to be calculated.
+	number (float): The number for which factorial needs to be calculated.
+
+	Required Parameter = [number,]
 
 	"""
 	pass
 
-def grocery_store_find_best(my_location, products, rating=None):
+from typing import List, Dict, Any, Union, Tuple 
+def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
 	"""
-	Find the closest high-rated grocery stores based on certain product availability.    
+	grocery_store_find_best : Find the closest high-rated grocery stores based on certain product availability.    
 	Parameters:
-	my_location: The current location of the user.
-	rating: The minimum required store rating. Default is 0.0.
-	products: Required products in a list.
+	my_location (str): The current location of the user.
+	rating (float): The minimum required store rating. Default is 0.0.
+	products (List[str]): Required products in a list.
+
+	Required Parameter = [my_location,products,]
 
 	"""
 	pass
 
-def restaurant_find_nearby(location, cuisine, max_distance=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find_nearby(location:str, cuisine:str, max_distance:float=None):
 	"""
-	Locate nearby restaurants based on specific criteria like cuisine type.    
+	restaurant_find_nearby : Locate nearby restaurants based on specific criteria like cuisine type.    
 	Parameters:
-	location: The city and state, e.g. Seattle, WA
-	cuisine: Preferred type of cuisine in restaurant.
-	max_distance: Maximum distance (in miles) within which to search for restaurants. Default is 5.
+	location (str): The city and state, e.g. Seattle, WA
+	cuisine (str): Preferred type of cuisine in restaurant.
+	max_distance (float): Maximum distance (in miles) within which to search for restaurants. Default is 5.
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass
 
-def maps_get_distance_duration(start_location, end_location, traffic=None):
+from typing import List, Dict, Any, Union, Tuple 
+def maps_get_distance_duration(start_location:str, end_location:str, traffic:bool=None):
 	"""
-	Retrieve the travel distance and estimated travel time from one location to another via car    
+	maps_get_distance_duration : Retrieve the travel distance and estimated travel time from one location to another via car    
 	Parameters:
-	start_location: Starting point of the journey
-	end_location: Ending point of the journey
-	traffic: If true, considers current traffic. Default is false.
+	start_location (str): Starting point of the journey
+	end_location (str): Ending point of the journey
+	traffic (bool): If true, considers current traffic. Default is false.
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass

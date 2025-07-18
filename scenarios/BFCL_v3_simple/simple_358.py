@@ -1,10 +1,13 @@
-def recipe_search(diet, dish, time_limit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_search(diet:List[str], dish:str, time_limit:int=None):
 	"""
-	Search for a cooking recipe based on specific dietary needs and time constraint.    
+	recipe_search : Search for a cooking recipe based on specific dietary needs and time constraint.    
 	Parameters:
-	diet: Specific dietary need.
-	time_limit: The maximum time to prepare the recipe in minutes. Default is 60 minutes.
-	dish: The name of the dish to search for. Default is not use if not specified.
+	diet (List[str]): Specific dietary need.
+	time_limit (int): The maximum time to prepare the recipe in minutes. Default is 60 minutes.
+	dish (str): The name of the dish to search for. Default is not use if not specified.
+
+	Required Parameter = [dish,diet,]
 
 	"""
 	pass

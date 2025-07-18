@@ -1,43 +1,55 @@
-def plot_sine_wave(start_range, end_range, frequency, amplitude=None, phase_shift=None):
+from typing import List, Dict, Any, Union, Tuple 
+def plot_sine_wave(start_range:int, end_range:int, frequency:int, amplitude:int=None, phase_shift:int=None):
 	"""
-	Plot a sine wave for a given frequency in a given range.    
+	plot_sine_wave : Plot a sine wave for a given frequency in a given range.    
 	Parameters:
-	start_range: Start of the range in radians.
-	end_range: End of the range in radians.
-	frequency: Frequency of the sine wave in Hz.
-	amplitude: Amplitude of the sine wave. Default is 1.
-	phase_shift: Phase shift of the sine wave in radians. Default is 0.
+	start_range (int): Start of the range in radians.
+	end_range (int): End of the range in radians.
+	frequency (int): Frequency of the sine wave in Hz.
+	amplitude (int): Amplitude of the sine wave. Default is 1.
+	phase_shift (int): Phase shift of the sine wave in radians. Default is 0.
+
+	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
 	pass
 
-def random_forest_train(n_estimators, max_depth, data):
+from typing import List, Dict, Any, Union, Tuple 
+def random_forest_train(n_estimators:int, max_depth:int, data:Any):
 	"""
-	Train a Random Forest Model on given data    
+	random_forest_train : Train a Random Forest Model on given data    
 	Parameters:
-	n_estimators: The number of trees in the forest.
-	max_depth: The maximum depth of the tree.
-	data: The training data for the model.
+	n_estimators (int): The number of trees in the forest.
+	max_depth (int): The maximum depth of the tree.
+	data (Any): The training data for the model.
+
+	Required Parameter = [n_estimators,max_depth,data,]
 
 	"""
 	pass
 
-def building_get_dimensions(building_name, unit):
+from typing import List, Dict, Any, Union, Tuple 
+def building_get_dimensions(building_name:str, unit:str):
 	"""
-	Retrieve the dimensions of a specific building based on its name.    
+	building_get_dimensions : Retrieve the dimensions of a specific building based on its name.    
 	Parameters:
-	building_name: The name of the building.
-	unit: The unit in which you want the dimensions.
+	building_name (str): The name of the building.
+	unit (str): The unit in which you want the dimensions.
+
+	Required Parameter = [building_name,unit,]
 
 	"""
 	pass
 
-def soccer_get_last_match(team_name, include_stats=None):
+from typing import List, Dict, Any, Union, Tuple 
+def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
-	Retrieve the details of the last match played by a specified soccer club.    
+	soccer_get_last_match : Retrieve the details of the last match played by a specified soccer club.    
 	Parameters:
-	team_name: The name of the soccer club.
-	include_stats: If true, include match statistics like possession, shots on target etc. Default is false.
+	team_name (str): The name of the soccer club.
+	include_stats (bool): If true, include match statistics like possession, shots on target etc. Default is false.
+
+	Required Parameter = [team_name,]
 
 	"""
 	pass

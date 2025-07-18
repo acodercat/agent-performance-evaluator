@@ -1,31 +1,40 @@
-def chess_rating(player_name, variant=None):
+from typing import List, Dict, Any, Union, Tuple 
+def chess_rating(player_name:str, variant:str=None):
 	"""
-	Fetches the current chess rating of a given player    
+	chess_rating : Fetches the current chess rating of a given player    
 	Parameters:
-	player_name: The full name of the chess player.
-	variant: The variant of chess for which rating is requested (e.g., 'classical', 'blitz', 'bullet'). Default is 'classical'.
+	player_name (str): The full name of the chess player.
+	variant (str): The variant of chess for which rating is requested (e.g., 'classical', 'blitz', 'bullet'). Default is 'classical'.
+
+	Required Parameter = [player_name,]
 
 	"""
 	pass
 
-def solve_quadratic(a, b, c):
+from typing import List, Dict, Any, Union, Tuple 
+def solve_quadratic(a:int, b:int, c:int):
 	"""
-	Find the roots of a quadratic equation. Returns both roots.    
+	solve_quadratic : Find the roots of a quadratic equation. Returns both roots.    
 	Parameters:
-	a: Coefficient of x².
-	b: Coefficient of x.
-	c: Constant term.
+	a (int): Coefficient of x².
+	b (int): Coefficient of x.
+	c (int): Constant term.
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass
 
-def calculate_cagr(initial_value, final_value, period_in_years):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_cagr(initial_value:int, final_value:int, period_in_years:int):
 	"""
-	Calculate the Compound Annual Growth Rate (CAGR) given an initial investment value, a final investment value, and the number of years.    
+	calculate_cagr : Calculate the Compound Annual Growth Rate (CAGR) given an initial investment value, a final investment value, and the number of years.    
 	Parameters:
-	initial_value: The initial investment value.
-	final_value: The final investment value.
-	period_in_years: The period of the investment in years.
+	initial_value (int): The initial investment value.
+	final_value (int): The final investment value.
+	period_in_years (int): The period of the investment in years.
+
+	Required Parameter = [initial_value,final_value,period_in_years,]
 
 	"""
 	pass

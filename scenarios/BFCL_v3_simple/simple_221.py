@@ -1,10 +1,13 @@
-def population_growth_estimate(location, years, rate=None):
+from typing import List, Dict, Any, Union, Tuple 
+def population_growth_estimate(location:str, years:int, rate:float=None):
 	"""
-	Estimate the future population growth of a specific location over a specified time period.    
+	population_growth_estimate : Estimate the future population growth of a specific location over a specified time period.    
 	Parameters:
-	location: The city that you want to estimate the population growth for.
-	years: Number of years into the future for the estimate.
-	rate: Expected annual growth rate in percentage. Default is 1.2.
+	location (str): The city that you want to estimate the population growth for.
+	years (int): Number of years into the future for the estimate.
+	rate (float): Expected annual growth rate in percentage. Default is 1.2.
+
+	Required Parameter = [location,years,]
 
 	"""
 	pass

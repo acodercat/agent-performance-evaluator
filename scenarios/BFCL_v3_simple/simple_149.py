@@ -1,8 +1,11 @@
-def get_stock_price(company_names):
+from typing import List, Dict, Any, Union, Tuple 
+def get_stock_price(company_names:List[str]):
 	"""
-	Retrieves the current stock price of the specified companies    
+	get_stock_price : Retrieves the current stock price of the specified companies    
 	Parameters:
-	company_names: The list of companies for which to retrieve the stock price.
+	company_names (List[str]): The list of companies for which to retrieve the stock price.
+
+	Required Parameter = [company_names,]
 
 	"""
 	pass

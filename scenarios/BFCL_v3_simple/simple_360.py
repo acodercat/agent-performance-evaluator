@@ -1,9 +1,12 @@
-def find_recipe(recipeName, maxCalories=1000):
+from typing import List, Dict, Any, Union, Tuple 
+def find_recipe(recipeName:str, maxCalories:int=1000):
 	"""
-	Locate a recipe based on name and its calorie content    
+	find_recipe : Locate a recipe based on name and its calorie content    
 	Parameters:
-	recipeName: The recipe's name.
-	maxCalories: The maximum calorie content of the recipe.
+	recipeName (str): The recipe's name.
+	maxCalories (int): The maximum calorie content of the recipe.
+
+	Required Parameter = [recipeName,]
 
 	"""
 	pass

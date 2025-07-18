@@ -1,41 +1,53 @@
-def locate_tallest_mountains(location, radius, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
-	Find the tallest mountains within a specified radius of a location.    
+	locate_tallest_mountains : Find the tallest mountains within a specified radius of a location.    
 	Parameters:
-	location: The city from which to calculate distance.
-	radius: The radius within which to find mountains, measured in kilometers.
-	amount: The number of mountains to find, listed from tallest to smallest.
+	location (str): The city from which to calculate distance.
+	radius (float): The radius within which to find mountains, measured in kilometers.
+	amount (int): The number of mountains to find, listed from tallest to smallest.
+
+	Required Parameter = [location,radius,amount,]
 
 	"""
 	pass
 
-def calculate_electric_field(charge, distance, permitivity=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_electric_field(charge:float, distance:float, permitivity:float=None):
 	"""
-	Calculate the electric field produced by a charge at a certain distance.    
+	calculate_electric_field : Calculate the electric field produced by a charge at a certain distance.    
 	Parameters:
-	charge: Charge in coulombs producing the electric field.
-	distance: Distance from the charge in meters where the field is being measured.
-	permitivity: Permitivity of the space where field is being calculated, default is for vacuum.
+	charge (float): Charge in coulombs producing the electric field.
+	distance (float): Distance from the charge in meters where the field is being measured.
+	permitivity (float): Permitivity of the space where field is being calculated, default is for vacuum.
+
+	Required Parameter = [charge,distance,]
 
 	"""
 	pass
 
-def calculate_genotype_frequency(allele_frequency, genotype):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
-	Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
+	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
 	Parameters:
-	allele_frequency: The frequency of the dominant allele in the population.
-	genotype: The genotype which frequency is needed, default is homozygous dominant. 
+	allele_frequency (float): The frequency of the dominant allele in the population.
+	genotype (str): The genotype which frequency is needed, default is homozygous dominant. 
+
+	Required Parameter = [allele_frequency,genotype,]
 
 	"""
 	pass
 
-def cellbio_get_proteins(cell_compartment, include_description='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
 	"""
-	Get the list of proteins in a specific cell compartment.    
+	cellbio_get_proteins : Get the list of proteins in a specific cell compartment.    
 	Parameters:
-	cell_compartment: The specific cell compartment.
-	include_description: Set true if you want a brief description of each protein.
+	cell_compartment (str): The specific cell compartment.
+	include_description (bool): Set true if you want a brief description of each protein.
+
+	Required Parameter = [cell_compartment,]
 
 	"""
 	pass

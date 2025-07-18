@@ -1,22 +1,28 @@
-def linear_regression(independent_var, dependent_var, forecast_period=None):
+from typing import List, Dict, Any, Union, Tuple 
+def linear_regression(independent_var:List[str], dependent_var:str, forecast_period:int=None):
 	"""
-	Applies linear regression to a given set of independent variables to make a prediction.    
+	linear_regression : Applies linear regression to a given set of independent variables to make a prediction.    
 	Parameters:
-	independent_var: The independent variables.
-	dependent_var: The dependent variable.
-	forecast_period: The number of years to forecast the prices. Default 1
+	independent_var (List[str]): The independent variables.
+	dependent_var (str): The dependent variable.
+	forecast_period (int): The number of years to forecast the prices. Default 1
+
+	Required Parameter = [independent_var,dependent_var,]
 
 	"""
 	pass
 
-def random_forest_regression(independent_var, dependent_var, n_estimators=None, forecast_period=None):
+from typing import List, Dict, Any, Union, Tuple 
+def random_forest_regression(independent_var:List[str], dependent_var:str, n_estimators:int=None, forecast_period:int=None):
 	"""
-	Applies Random Forest Regression to a given set of independent variables to make a prediction.    
+	random_forest_regression : Applies Random Forest Regression to a given set of independent variables to make a prediction.    
 	Parameters:
-	independent_var: The independent variables.
-	dependent_var: The dependent variable.
-	n_estimators: The number of trees in the forest. Default 1
-	forecast_period: The number of years to forecast the prices. Default 1
+	independent_var (List[str]): The independent variables.
+	dependent_var (str): The dependent variable.
+	n_estimators (int): The number of trees in the forest. Default 1
+	forecast_period (int): The number of years to forecast the prices. Default 1
+
+	Required Parameter = [independent_var,dependent_var,]
 
 	"""
 	pass

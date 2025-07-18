@@ -1,11 +1,14 @@
-def calculate_density(country, year, population, land_area):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_density(country:str, year:str, population:int, land_area:int):
 	"""
-	Calculate the population density of a specific country in a specific year.    
+	calculate_density : Calculate the population density of a specific country in a specific year.    
 	Parameters:
-	country: The country for which the density needs to be calculated.
-	year: The year in which the density is to be calculated.
-	population: The population of the country.
-	land_area: The land area of the country in square kilometers.
+	country (str): The country for which the density needs to be calculated.
+	year (str): The year in which the density is to be calculated.
+	population (int): The population of the country.
+	land_area (int): The land area of the country in square kilometers.
+
+	Required Parameter = [country,year,population,land_area,]
 
 	"""
 	pass

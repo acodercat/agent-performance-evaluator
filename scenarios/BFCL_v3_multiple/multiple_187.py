@@ -1,41 +1,53 @@
-def geometry_area_circle(radius, units='meters'):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_circle(radius:float, units:str='meters'):
 	"""
-	Calculate the area of a circle given the radius.    
+	geometry_area_circle : Calculate the area of a circle given the radius.    
 	Parameters:
-	radius: The radius of the circle.
-	units: The units in which the radius is measured (defaults to meters).
+	radius (float): The radius of the circle.
+	units (str): The units in which the radius is measured (defaults to meters).
+
+	Required Parameter = [radius,]
 
 	"""
 	pass
 
-def find_recipes(diet, meal_type, ingredients=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_recipes(diet:str, meal_type:str, ingredients:List[str]=None):
 	"""
-	Find recipes based on dietary restrictions, meal type, and preferred ingredients.    
+	find_recipes : Find recipes based on dietary restrictions, meal type, and preferred ingredients.    
 	Parameters:
-	diet: The dietary restrictions, e.g., 'vegan', 'gluten-free'.
-	meal_type: The type of meal, e.g., 'dinner', 'breakfast'.
-	ingredients: The preferred ingredients. If left blank, it will return general recipes. Default is empty array.
+	diet (str): The dietary restrictions, e.g., 'vegan', 'gluten-free'.
+	meal_type (str): The type of meal, e.g., 'dinner', 'breakfast'.
+	ingredients (List[str]): The preferred ingredients. If left blank, it will return general recipes. Default is empty array.
+
+	Required Parameter = [diet,meal_type,]
 
 	"""
 	pass
 
-def whole_foods_check_price(location, items):
+from typing import List, Dict, Any, Union, Tuple 
+def whole_foods_check_price(location:str, items:List[str]):
 	"""
-	Check the price of items at a specific Whole Foods location.    
+	whole_foods_check_price : Check the price of items at a specific Whole Foods location.    
 	Parameters:
-	location: Location of the Whole Foods store.
-	items: List of items for which the price needs to be checked.
+	location (str): Location of the Whole Foods store.
+	items (List[str]): List of items for which the price needs to be checked.
+
+	Required Parameter = [location,items,]
 
 	"""
 	pass
 
-def calculate_shortest_distance(start_location, end_location, route_preference):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_shortest_distance(start_location:str, end_location:str, route_preference:str):
 	"""
-	Calculate the shortest driving distance between two locations.    
+	calculate_shortest_distance : Calculate the shortest driving distance between two locations.    
 	Parameters:
-	start_location: The starting location for the drive.
-	end_location: The destination location for the drive.
-	route_preference: The preferred type of route.
+	start_location (str): The starting location for the drive.
+	end_location (str): The destination location for the drive.
+	route_preference (str): The preferred type of route.
+
+	Required Parameter = [start_location,end_location,route_preference,]
 
 	"""
 	pass

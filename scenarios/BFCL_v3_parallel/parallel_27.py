@@ -1,10 +1,13 @@
-def nature_reserve_find_nearby(location, amenities, proximity):
+from typing import List, Dict, Any, Union, Tuple 
+def nature_reserve_find_nearby(location:str, amenities:List[str], proximity:int):
 	"""
-	Locate nearby nature reserves based on specific criteria such as amenities and proximity.    
+	nature_reserve_find_nearby : Locate nearby nature reserves based on specific criteria such as amenities and proximity.    
 	Parameters:
-	location: The city where you want to locate a nature reserve.
-	amenities: Preferred amenities in the nature reserve.
-	proximity: The radius within which to look for nature reserves in kilometers.
+	location (str): The city where you want to locate a nature reserve.
+	amenities (List[str]): Preferred amenities in the nature reserve.
+	proximity (int): The radius within which to look for nature reserves in kilometers.
+
+	Required Parameter = [location,proximity,amenities,]
 
 	"""
 	pass

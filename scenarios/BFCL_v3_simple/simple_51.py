@@ -1,11 +1,14 @@
-def calculate_entropy_change(initial_temp, final_temp, heat_capacity, isothermal=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_entropy_change(initial_temp:int, final_temp:int, heat_capacity:int, isothermal:bool=None):
 	"""
-	Calculate the entropy change for an isothermal and reversible process.    
+	calculate_entropy_change : Calculate the entropy change for an isothermal and reversible process.    
 	Parameters:
-	initial_temp: The initial temperature in Kelvin.
-	final_temp: The final temperature in Kelvin.
-	heat_capacity: The heat capacity in J/K.
-	isothermal: Whether the process is isothermal. Default is True.
+	initial_temp (int): The initial temperature in Kelvin.
+	final_temp (int): The final temperature in Kelvin.
+	heat_capacity (int): The heat capacity in J/K.
+	isothermal (bool): Whether the process is isothermal. Default is True.
+
+	Required Parameter = [initial_temp,final_temp,heat_capacity,]
 
 	"""
 	pass

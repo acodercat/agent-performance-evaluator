@@ -1,9 +1,12 @@
-def get_prime_factors(number, formatted):
+from typing import List, Dict, Any, Union, Tuple 
+def get_prime_factors(number:int, formatted:bool):
 	"""
-	Function to retrieve prime factors of a number.    
+	get_prime_factors : Function to retrieve prime factors of a number.    
 	Parameters:
-	number: Number for which prime factors need to be calculated
-	formatted: Return formatted string if true, array if false
+	number (int): Number for which prime factors need to be calculated
+	formatted (bool): Return formatted string if true, array if false
+
+	Required Parameter = [number,formatted,]
 
 	"""
 	pass

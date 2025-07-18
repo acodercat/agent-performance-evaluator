@@ -1,31 +1,40 @@
-def get_discoverer(discovery, detail):
+from typing import List, Dict, Any, Union, Tuple 
+def get_discoverer(discovery:str, detail:bool):
 	"""
-	Get the person or team who made a particular scientific discovery    
+	get_discoverer : Get the person or team who made a particular scientific discovery    
 	Parameters:
-	discovery: The discovery for which the discoverer's information is needed.
-	detail: Optional flag to get additional details about the discoverer, such as birth date and nationality. Defaults to false.
+	discovery (str): The discovery for which the discoverer's information is needed.
+	detail (bool): Optional flag to get additional details about the discoverer, such as birth date and nationality. Defaults to false.
+
+	Required Parameter = [discovery,detail,]
 
 	"""
 	pass
 
-def museum_working_hours_get(museum, location, day=None):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_working_hours_get(museum:str, location:str, day:str=None):
 	"""
-	Get the working hours of a museum in a specific location.    
+	museum_working_hours_get : Get the working hours of a museum in a specific location.    
 	Parameters:
-	museum: The name of the museum.
-	location: The location of the museum.
-	day: Specific day of the week. Optional parameter. Default is 'Monday'.
+	museum (str): The name of the museum.
+	location (str): The location of the museum.
+	day (str): Specific day of the week. Optional parameter. Default is 'Monday'.
+
+	Required Parameter = [museum,location,]
 
 	"""
 	pass
 
-def diabetes_prediction(weight, height, activity_level):
+from typing import List, Dict, Any, Union, Tuple 
+def diabetes_prediction(weight:int, height:int, activity_level:str):
 	"""
-	Predict the likelihood of diabetes type 2 based on a person's weight and height.    
+	diabetes_prediction : Predict the likelihood of diabetes type 2 based on a person's weight and height.    
 	Parameters:
-	weight: Weight of the person in lbs.
-	height: Height of the person in inches.
-	activity_level: Physical activity level of the person.
+	weight (int): Weight of the person in lbs.
+	height (int): Height of the person in inches.
+	activity_level (str): Physical activity level of the person.
+
+	Required Parameter = [weight,height,activity_level,]
 
 	"""
 	pass

@@ -1,12 +1,15 @@
-def flight_book(departure_location, destination_location, date, time=None, direct_flight=None):
+from typing import List, Dict, Any, Union, Tuple 
+def flight_book(departure_location:str, destination_location:str, date:str, time:str=None, direct_flight:bool=None):
 	"""
-	Book a direct flight for a specific date and time from departure location to destination location.    
+	flight_book : Book a direct flight for a specific date and time from departure location to destination location.    
 	Parameters:
-	departure_location: The location you are departing from.
-	destination_location: The location you are flying to.
-	date: The date of the flight. Accepts standard date format e.g., 2022-04-28.
-	time: Preferred time of flight. Default is 'morning'.
-	direct_flight: If set to true, only direct flights will be searched. Default is false.
+	departure_location (str): The location you are departing from.
+	destination_location (str): The location you are flying to.
+	date (str): The date of the flight. Accepts standard date format e.g., 2022-04-28.
+	time (str): Preferred time of flight. Default is 'morning'.
+	direct_flight (bool): If set to true, only direct flights will be searched. Default is false.
+
+	Required Parameter = [departure_location,destination_location,date,]
 
 	"""
 	pass

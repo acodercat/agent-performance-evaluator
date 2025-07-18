@@ -1,17 +1,23 @@
-def frequency_to_wavelength(frequency):
+from typing import List, Dict, Any, Union, Tuple 
+def frequency_to_wavelength(frequency:float):
 	"""
-	Converts the frequency of a musical note to its wavelength.    
+	frequency_to_wavelength : Converts the frequency of a musical note to its wavelength.    
 	Parameters:
-	frequency: The frequency in hertz of the musical note.
+	frequency (float): The frequency in hertz of the musical note.
+
+	Required Parameter = [frequency,]
 
 	"""
 	pass
 
-def note_conversion_indian(note):
+from typing import List, Dict, Any, Union, Tuple 
+def note_conversion_indian(note:str):
 	"""
-	Converts a note in Western music to Indian classical music.    
+	note_conversion_indian : Converts a note in Western music to Indian classical music.    
 	Parameters:
-	note: The note in Western musical scale.
+	note (str): The note in Western musical scale.
+
+	Required Parameter = [note,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def court_case_find(location, case_number, case_type='Civil'):
+from typing import List, Dict, Any, Union, Tuple 
+def court_case_find(location:str, case_number:List[str], case_type:str='Civil'):
 	"""
-	Locate details of court cases based on specific parameters like case number and case type.    
+	court_case_find : Locate details of court cases based on specific parameters like case number and case type.    
 	Parameters:
-	location: The city and court where the lawsuit is filed.
-	case_number: The unique case numbers of the lawsuits.
-	case_type: Type of the court case.
+	location (str): The city and court where the lawsuit is filed.
+	case_number (List[str]): The unique case numbers of the lawsuits.
+	case_type (str): Type of the court case.
+
+	Required Parameter = [location,case_number,]
 
 	"""
 	pass

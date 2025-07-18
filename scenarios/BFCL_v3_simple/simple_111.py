@@ -1,9 +1,12 @@
-def random_normalvariate(mu, sigma):
+from typing import List, Dict, Any, Union, Tuple 
+def random_normalvariate(mu:int, sigma:int):
 	"""
-	Generates a random number from a normal distribution given the mean and standard deviation.    
+	random_normalvariate : Generates a random number from a normal distribution given the mean and standard deviation.    
 	Parameters:
-	mu: Mean of the normal distribution.
-	sigma: Standard deviation of the normal distribution.
+	mu (int): Mean of the normal distribution.
+	sigma (int): Standard deviation of the normal distribution.
+
+	Required Parameter = [mu,sigma,]
 
 	"""
 	pass

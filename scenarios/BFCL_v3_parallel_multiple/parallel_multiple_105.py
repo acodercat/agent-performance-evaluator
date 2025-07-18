@@ -1,31 +1,40 @@
-def flights_search(from_city, to_city, date=None):
+from typing import List, Dict, Any, Union, Tuple 
+def flights_search(from_city:str, to_city:str, date:str=None):
 	"""
-	Find flights between two cities.    
+	flights_search : Find flights between two cities.    
 	Parameters:
-	from_city: The city to depart from.
-	to_city: The city to arrive at.
-	date: The date to fly. Default is today if not specified.
+	from_city (str): The city to depart from.
+	to_city (str): The city to arrive at.
+	date (str): The date to fly. Default is today if not specified.
+
+	Required Parameter = [from_city,to_city,]
 
 	"""
 	pass
 
-def timezones_get_difference(city1, city2):
+from typing import List, Dict, Any, Union, Tuple 
+def timezones_get_difference(city1:str, city2:str):
 	"""
-	Find the time difference between two cities.    
+	timezones_get_difference : Find the time difference between two cities.    
 	Parameters:
-	city1: The first city.
-	city2: The second city.
+	city1 (str): The first city.
+	city2 (str): The second city.
+
+	Required Parameter = [city1,city2,]
 
 	"""
 	pass
 
-def geodistance_find(origin, destination, unit='miles'):
+from typing import List, Dict, Any, Union, Tuple 
+def geodistance_find(origin:str, destination:str, unit:str='miles'):
 	"""
-	Find the distance between two cities on the globe.    
+	geodistance_find : Find the distance between two cities on the globe.    
 	Parameters:
-	origin: The originating city for the distance calculation.
-	destination: The destination city for the distance calculation.
-	unit: The unit of measure for the distance calculation.
+	origin (str): The originating city for the distance calculation.
+	destination (str): The destination city for the distance calculation.
+	unit (str): The unit of measure for the distance calculation.
+
+	Required Parameter = [origin,destination,]
 
 	"""
 	pass

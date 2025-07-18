@@ -1,10 +1,13 @@
-def update_user_info(user_id, update_info, database='CustomerInfo'):
+from typing import List, Dict, Any, Union, Tuple 
+def update_user_info(user_id:int, update_info:Dict[str, str], database:str='CustomerInfo'):
 	"""
-	Update user information in the database.    
+	update_user_info : Update user information in the database.    
 	Parameters:
-	user_id: The user ID of the customer.
-	update_info: The new information to update.
-	database: The database where the user's information is stored.
+	user_id (int): The user ID of the customer.
+	update_info (Dict[str, str]): The new information to update.
+	database (str): The database where the user's information is stored.
+
+	Required Parameter = [user_id,update_info,]
 
 	"""
 	pass

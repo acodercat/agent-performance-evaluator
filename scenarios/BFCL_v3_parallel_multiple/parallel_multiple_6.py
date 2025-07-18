@@ -1,27 +1,36 @@
-def count_items(collection):
+from typing import List, Dict, Any, Union, Tuple 
+def count_items(collection:List[str]):
 	"""
-	Count the number of items in a collection.    
+	count_items : Count the number of items in a collection.    
 	Parameters:
-	collection: The collection of items to count
+	collection (List[str]): The collection of items to count
+
+	Required Parameter = [collection,]
 
 	"""
 	pass
 
-def find_prime_numbers(start, end):
+from typing import List, Dict, Any, Union, Tuple 
+def find_prime_numbers(start:int, end:int):
 	"""
-	Locate all prime numbers in a specific number range.    
+	find_prime_numbers : Locate all prime numbers in a specific number range.    
 	Parameters:
-	start: The start of the number range
-	end: The end of the number range
+	start (int): The start of the number range
+	end (int): The end of the number range
+
+	Required Parameter = [start,end,]
 
 	"""
 	pass
 
-def get_fibonacci_sequence(count):
+from typing import List, Dict, Any, Union, Tuple 
+def get_fibonacci_sequence(count:int):
 	"""
-	Generate a Fibonacci sequence up to a specific number of items.    
+	get_fibonacci_sequence : Generate a Fibonacci sequence up to a specific number of items.    
 	Parameters:
-	count: The number of items to generate
+	count (int): The number of items to generate
+
+	Required Parameter = [count,]
 
 	"""
 	pass

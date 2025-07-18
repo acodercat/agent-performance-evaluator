@@ -1,10 +1,13 @@
-def hospital_locate(location, radius, department=None):
+from typing import List, Dict, Any, Union, Tuple 
+def hospital_locate(location:str, radius:int, department:str=None):
 	"""
-	Locate nearby hospitals based on location and radius. Options to include specific departments are available.    
+	hospital_locate : Locate nearby hospitals based on location and radius. Options to include specific departments are available.    
 	Parameters:
-	location: The city and state, e.g. Denver, CO
-	radius: The radius within which you want to find the hospital in kms.
-	department: Specific department within the hospital. Default is 'General Medicine'.
+	location (str): The city and state, e.g. Denver, CO
+	radius (int): The radius within which you want to find the hospital in kms.
+	department (str): Specific department within the hospital. Default is 'General Medicine'.
+
+	Required Parameter = [location,radius,]
 
 	"""
 	pass

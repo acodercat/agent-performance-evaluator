@@ -1,10 +1,13 @@
-def crime_record_get_record(case_number, county, details=None):
+from typing import List, Dict, Any, Union, Tuple 
+def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	"""
-	Retrieve detailed felony crime records using a specific case number and location.    
+	crime_record_get_record : Retrieve detailed felony crime records using a specific case number and location.    
 	Parameters:
-	case_number: The case number related to the crime.
-	county: The county in which the crime occurred.
-	details: To get a detailed report, set as true. Defaults to false.
+	case_number (str): The case number related to the crime.
+	county (str): The county in which the crime occurred.
+	details (bool): To get a detailed report, set as true. Defaults to false.
+
+	Required Parameter = [case_number,county,]
 
 	"""
 	pass

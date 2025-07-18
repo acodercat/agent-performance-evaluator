@@ -1,29 +1,38 @@
-def news(topic, days):
+from typing import List, Dict, Any, Union, Tuple 
+def news(topic:str, days:int):
 	"""
-	Retrieve news articles for a specific topic.    
+	news : Retrieve news articles for a specific topic.    
 	Parameters:
-	topic: The topic that you want to get the news for.
-	days: Number of past days for which to retrieve the news.
+	topic (str): The topic that you want to get the news for.
+	days (int): Number of past days for which to retrieve the news.
+
+	Required Parameter = [topic,days,]
 
 	"""
 	pass
 
-def air_quality_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def air_quality_forecast(location:str, days:int):
 	"""
-	Retrieve an air quality forecast for a specific location and time frame.    
+	air_quality_forecast : Retrieve an air quality forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the air quality forecast for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the air quality forecast for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass
 
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

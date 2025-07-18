@@ -1,19 +1,25 @@
-def sport_analysis_last_game_performance(team, details):
+from typing import List, Dict, Any, Union, Tuple 
+def sport_analysis_last_game_performance(team:str, details:List[str]):
 	"""
-	Analyzes the team's performance in their most recent game.    
+	sport_analysis_last_game_performance : Analyzes the team's performance in their most recent game.    
 	Parameters:
-	team: The sports team that needs to be analyzed.
-	details: Key performance indicators that you want for the analysis
+	team (str): The sports team that needs to be analyzed.
+	details (List[str]): Key performance indicators that you want for the analysis
+
+	Required Parameter = [team,details,]
 
 	"""
 	pass
 
-def sport_analysis_compare_ppg(team, seasons):
+from typing import List, Dict, Any, Union, Tuple 
+def sport_analysis_compare_ppg(team:str, seasons:List[str]):
 	"""
-	Compares a team's average points per game in two different seasons.    
+	sport_analysis_compare_ppg : Compares a team's average points per game in two different seasons.    
 	Parameters:
-	team: The sports team that needs to be compared.
-	seasons: The seasons that you want to compare the ppg.
+	team (str): The sports team that needs to be compared.
+	seasons (List[str]): The seasons that you want to compare the ppg.
+
+	Required Parameter = [team,seasons,]
 
 	"""
 	pass

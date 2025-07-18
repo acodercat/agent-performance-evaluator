@@ -1,10 +1,13 @@
-def identify_bird(color, habitat, size='small'):
+from typing import List, Dict, Any, Union, Tuple 
+def identify_bird(color:str, habitat:str, size:str='small'):
 	"""
-	Identify a bird species based on certain characteristics.    
+	identify_bird : Identify a bird species based on certain characteristics.    
 	Parameters:
-	color: Color of the bird.
-	habitat: Habitat of the bird.
-	size: Size of the bird.
+	color (str): Color of the bird.
+	habitat (str): Habitat of the bird.
+	size (str): Size of the bird.
+
+	Required Parameter = [color,habitat,]
 
 	"""
 	pass

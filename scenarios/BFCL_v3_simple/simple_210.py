@@ -1,10 +1,13 @@
-def get_news(topic, quantity, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_news(topic:str, quantity:int, region:str=None):
 	"""
-	Fetches the latest news on a specific topic.    
+	get_news : Fetches the latest news on a specific topic.    
 	Parameters:
-	topic: The subject for the news topic.
-	quantity: Number of articles to fetch.
-	region: The geographical region for the news. Default is 'US'.
+	topic (str): The subject for the news topic.
+	quantity (int): Number of articles to fetch.
+	region (str): The geographical region for the news. Default is 'US'.
+
+	Required Parameter = [topic,quantity,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def detailed_weather_forecast(location, duration, include_precipitation=None):
+from typing import List, Dict, Any, Union, Tuple 
+def detailed_weather_forecast(location:str, duration:int, include_precipitation:bool=None):
 	"""
-	Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    
+	detailed_weather_forecast : Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    
 	Parameters:
-	location: The city name that you want to get the weather for.
-	duration: Duration in hours for the detailed forecast.
-	include_precipitation: Whether to include precipitation data in the forecast. Default is false.
+	location (str): The city name that you want to get the weather for.
+	duration (int): Duration in hours for the detailed forecast.
+	include_precipitation (bool): Whether to include precipitation data in the forecast. Default is false.
+
+	Required Parameter = [location,duration,]
 
 	"""
 	pass

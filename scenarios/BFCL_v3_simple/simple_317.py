@@ -1,11 +1,14 @@
-def get_team_rank(team_name, league, season, type):
+from typing import List, Dict, Any, Union, Tuple 
+def get_team_rank(team_name:str, league:str, season:str, type:str):
 	"""
-	Get the team ranking in a sports league based on season and type.    
+	get_team_rank : Get the team ranking in a sports league based on season and type.    
 	Parameters:
-	team_name: The name of the sports team.
-	league: The name of the league in which the team competes.
-	season: The season for which the team's ranking is sought.
-	type: Type of the season: regular or playoff.
+	team_name (str): The name of the sports team.
+	league (str): The name of the league in which the team competes.
+	season (str): The season for which the team's ranking is sought.
+	type (str): Type of the season: regular or playoff.
+
+	Required Parameter = [team_name,league,season,type,]
 
 	"""
 	pass

@@ -1,21 +1,27 @@
-def home_renovation_expert_find_specialty(location, specialization, years_experience=0):
+from typing import List, Dict, Any, Union, Tuple 
+def home_renovation_expert_find_specialty(location:str, specialization:str, years_experience:int=0):
 	"""
-	Search for a home renovation expert based on the location and specialization    
+	home_renovation_expert_find_specialty : Search for a home renovation expert based on the location and specialization    
 	Parameters:
-	location: City and state where the professional is based, e.g. Portland, OR.
-	specialization: A specific area of expertise, such as kitchen or bathroom renovation.
-	years_experience: Number of years the professional has been practicing in their field. (optional)
+	location (str): City and state where the professional is based, e.g. Portland, OR.
+	specialization (str): A specific area of expertise, such as kitchen or bathroom renovation.
+	years_experience (int): Number of years the professional has been practicing in their field. (optional)
+
+	Required Parameter = [location,specialization,]
 
 	"""
 	pass
 
-def landscape_architect_find_specialty(location, specialization, years_experience=0):
+from typing import List, Dict, Any, Union, Tuple 
+def landscape_architect_find_specialty(location:str, specialization:str, years_experience:int=0):
 	"""
-	Search for a landscape architect based on the location and specialization    
+	landscape_architect_find_specialty : Search for a landscape architect based on the location and specialization    
 	Parameters:
-	location: City and state where the professional is based, e.g. Portland, OR.
-	specialization: A specific area of expertise. Common areas include residential design, commercial design, urban design, and park design.
-	years_experience: Number of years the professional has been practicing in their field. (optional)
+	location (str): City and state where the professional is based, e.g. Portland, OR.
+	specialization (str): A specific area of expertise. Common areas include residential design, commercial design, urban design, and park design.
+	years_experience (int): Number of years the professional has been practicing in their field. (optional)
+
+	Required Parameter = [location,specialization,]
 
 	"""
 	pass

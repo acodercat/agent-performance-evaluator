@@ -1,11 +1,14 @@
-def get_religion_history(religion, century, sort_by='chronological', count=5):
+from typing import List, Dict, Any, Union, Tuple 
+def get_religion_history(religion:str, century:int, sort_by:str='chronological', count:int=5):
 	"""
-	Retrieves significant religious events, including the details of the event, its historical context, and its impacts.    
+	get_religion_history : Retrieves significant religious events, including the details of the event, its historical context, and its impacts.    
 	Parameters:
-	religion: Name of the religion to be queried.
-	century: The century in which the event(s) took place.
-	sort_by: Order of sorting the events. Default is chronological.
-	count: Number of events to return. Default is 5.
+	religion (str): Name of the religion to be queried.
+	century (int): The century in which the event(s) took place.
+	sort_by (str): Order of sorting the events. Default is chronological.
+	count (int): Number of events to return. Default is 5.
+
+	Required Parameter = [religion,century,]
 
 	"""
 	pass

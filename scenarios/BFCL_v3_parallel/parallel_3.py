@@ -1,9 +1,12 @@
-def protein_info_get_sequence_and_3D(protein_name, model_3d=True):
+from typing import List, Dict, Any, Union, Tuple 
+def protein_info_get_sequence_and_3D(protein_name:str, model_3d:bool=True):
 	"""
-	Retrive the sequence and 3D models of proteins.    
+	protein_info_get_sequence_and_3D : Retrive the sequence and 3D models of proteins.    
 	Parameters:
-	protein_name: The name of the protein.
-	model_3d: Set true to get 3D model of the protein.
+	protein_name (str): The name of the protein.
+	model_3d (bool): Set true to get 3D model of the protein.
+
+	Required Parameter = [protein_name,]
 
 	"""
 	pass

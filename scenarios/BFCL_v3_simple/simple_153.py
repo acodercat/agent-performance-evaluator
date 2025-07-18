@@ -1,11 +1,14 @@
-def calculate_compounded_interest(principal, rate, time, n):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_compounded_interest(principal:int, rate:float, time:int, n:int):
 	"""
-	Calculate the compounded interest for a given initial deposit, interest rate, time and number of times the interest is compounded per unit time.    
+	calculate_compounded_interest : Calculate the compounded interest for a given initial deposit, interest rate, time and number of times the interest is compounded per unit time.    
 	Parameters:
-	principal: The initial amount of money that is being invested or loaned.
-	rate: The annual interest rate.
-	time: The number of time periods the money is invested or loaned for.
-	n: The number of times that interest is compounded per unit time.
+	principal (int): The initial amount of money that is being invested or loaned.
+	rate (float): The annual interest rate.
+	time (int): The number of time periods the money is invested or loaned for.
+	n (int): The number of times that interest is compounded per unit time.
+
+	Required Parameter = [principal,rate,time,n,]
 
 	"""
 	pass

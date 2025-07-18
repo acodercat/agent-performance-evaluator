@@ -1,10 +1,13 @@
-def calculate_bmi(weight, height, system=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_bmi(weight:int, height:int, system:str=None):
 	"""
-	Calculate the Body Mass Index (BMI) for a person based on their weight and height.    
+	calculate_bmi : Calculate the Body Mass Index (BMI) for a person based on their weight and height.    
 	Parameters:
-	weight: The weight of the person in kilograms.
-	height: The height of the person in centimeters.
-	system: The system of units to be used, 'metric' or 'imperial'. Default is 'metric'.
+	weight (int): The weight of the person in kilograms.
+	height (int): The height of the person in centimeters.
+	system (str): The system of units to be used, 'metric' or 'imperial'. Default is 'metric'.
+
+	Required Parameter = [weight,height,]
 
 	"""
 	pass

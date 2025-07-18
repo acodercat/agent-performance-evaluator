@@ -1,9 +1,12 @@
-def science_history_get_discovery_details(discovery, method_used=None):
+from typing import List, Dict, Any, Union, Tuple 
+def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	"""
-	Retrieve the details of a scientific discovery based on the discovery name.    
+	science_history_get_discovery_details : Retrieve the details of a scientific discovery based on the discovery name.    
 	Parameters:
-	discovery: The name of the discovery, e.g. Gravity
-	method_used: The method used for the discovery, default value is 'default' which gives the most accepted method.
+	discovery (str): The name of the discovery, e.g. Gravity
+	method_used (str): The method used for the discovery, default value is 'default' which gives the most accepted method.
+
+	Required Parameter = [discovery,]
 
 	"""
 	pass

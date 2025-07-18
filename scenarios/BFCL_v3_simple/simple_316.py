@@ -1,10 +1,13 @@
-def get_sport_ranking(sport, player_name, gender='all'):
+from typing import List, Dict, Any, Union, Tuple 
+def get_sport_ranking(sport:str, player_name:str, gender:str='all'):
 	"""
-	Retrieve the current world ranking of a sportsperson based on the sport and player's name.    
+	get_sport_ranking : Retrieve the current world ranking of a sportsperson based on the sport and player's name.    
 	Parameters:
-	sport: Name of the sport.
-	player_name: Name of the player.
-	gender: Gender of the player. This is optional. The possible values are male or female.
+	sport (str): Name of the sport.
+	player_name (str): Name of the player.
+	gender (str): Gender of the player. This is optional. The possible values are male or female.
+
+	Required Parameter = [sport,player_name,]
 
 	"""
 	pass

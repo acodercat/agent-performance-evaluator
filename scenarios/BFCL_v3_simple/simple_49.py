@@ -1,9 +1,12 @@
-def calc_absolute_pressure(gauge_pressure, atm_pressure=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calc_absolute_pressure(gauge_pressure:int, atm_pressure:int=None):
 	"""
-	Calculates the absolute pressure from gauge and atmospheric pressures.    
+	calc_absolute_pressure : Calculates the absolute pressure from gauge and atmospheric pressures.    
 	Parameters:
-	atm_pressure: The atmospheric pressure in atmospheres (atm). Default is 1 atm if not provided.
-	gauge_pressure: The gauge pressure in atmospheres (atm). Must be provided.
+	atm_pressure (int): The atmospheric pressure in atmospheres (atm). Default is 1 atm if not provided.
+	gauge_pressure (int): The gauge pressure in atmospheres (atm). Must be provided.
+
+	Required Parameter = [gauge_pressure,]
 
 	"""
 	pass

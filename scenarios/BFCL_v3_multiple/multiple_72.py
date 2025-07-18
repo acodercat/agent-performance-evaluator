@@ -1,20 +1,26 @@
-def us_history_population_by_state_year(state, year):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_population_by_state_year(state:str, year:int):
 	"""
-	Retrieve historical population data for a specific U.S. state and year.    
+	us_history_population_by_state_year : Retrieve historical population data for a specific U.S. state and year.    
 	Parameters:
-	state: The U.S. state for which to retrieve the population.
-	year: The year for which to retrieve the population.
+	state (str): The U.S. state for which to retrieve the population.
+	year (int): The year for which to retrieve the population.
+
+	Required Parameter = [state,year,]
 
 	"""
 	pass
 
-def us_economy_gdp_by_state_year(state, year, adjustment=None):
+from typing import List, Dict, Any, Union, Tuple 
+def us_economy_gdp_by_state_year(state:str, year:int, adjustment:str=None):
 	"""
-	Retrieve historical GDP data for a specific U.S. state and year.    
+	us_economy_gdp_by_state_year : Retrieve historical GDP data for a specific U.S. state and year.    
 	Parameters:
-	state: The U.S. state for which to retrieve the GDP.
-	year: The year for which to retrieve the GDP.
-	adjustment: The type of adjustment for inflation, 'Real' or 'Nominal'. Optional, 'Nominal' by default.
+	state (str): The U.S. state for which to retrieve the GDP.
+	year (int): The year for which to retrieve the GDP.
+	adjustment (str): The type of adjustment for inflation, 'Real' or 'Nominal'. Optional, 'Nominal' by default.
+
+	Required Parameter = [state,year,]
 
 	"""
 	pass

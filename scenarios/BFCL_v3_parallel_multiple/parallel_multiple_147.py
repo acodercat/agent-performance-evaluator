@@ -1,44 +1,56 @@
-def find_restaurants(location, food_type, number, dietary_requirements=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_restaurants(location:str, food_type:str, number:int, dietary_requirements:List[str]=None):
 	"""
-	Locate nearby restaurants based on location and food preferences.    
+	find_restaurants : Locate nearby restaurants based on location and food preferences.    
 	Parameters:
-	location: The specific location or area.
-	food_type: The type of food preferred.
-	number: Number of results to return.
-	dietary_requirements: Special dietary requirements, e.g. vegan, gluten-free. Default is all if not specified.
+	location (str): The specific location or area.
+	food_type (str): The type of food preferred.
+	number (int): Number of results to return.
+	dietary_requirements (List[str]): Special dietary requirements, e.g. vegan, gluten-free. Default is all if not specified.
+
+	Required Parameter = [location,food_type,number,]
 
 	"""
 	pass
 
-def sports_match_schedule(team_name, num_matches, league=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
 	"""
-	Retrieve the match schedule for a specific sports team.    
+	sports_match_schedule : Retrieve the match schedule for a specific sports team.    
 	Parameters:
-	team_name: The name of the sports team.
-	num_matches: The number of upcoming matches you want to get.
-	league: The sports league of the team. This is an optional parameter. Default is 'NBA'
+	team_name (str): The name of the sports team.
+	num_matches (int): The number of upcoming matches you want to get.
+	league (str): The sports league of the team. This is an optional parameter. Default is 'NBA'
+
+	Required Parameter = [team_name,num_matches,]
 
 	"""
 	pass
 
-def find_instrument(budget, type, make=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_instrument(budget:int, type:str, make:str=None):
 	"""
-	Search for a musical instrument within specified budget and of specific type.    
+	find_instrument : Search for a musical instrument within specified budget and of specific type.    
 	Parameters:
-	budget: Your budget for the instrument.
-	type: Type of the instrument
-	make: Maker of the instrument, Optional parameter. Default is all if not specified.
+	budget (int): Your budget for the instrument.
+	type (str): Type of the instrument
+	make (str): Maker of the instrument, Optional parameter. Default is all if not specified.
+
+	Required Parameter = [budget,type,]
 
 	"""
 	pass
 
-def get_stock_info(company_name, detail_level, market=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
-	Retrieves information about a specific stock based on company's name.    
+	get_stock_info : Retrieves information about a specific stock based on company's name.    
 	Parameters:
-	company_name: The name of the company.
-	detail_level: Level of detail for stock information. Can be 'summary' or 'detailed'.
-	market: The stock market of interest. Default is 'NASDAQ'
+	company_name (str): The name of the company.
+	detail_level (str): Level of detail for stock information. Can be 'summary' or 'detailed'.
+	market (str): The stock market of interest. Default is 'NASDAQ'
+
+	Required Parameter = [company_name,detail_level,]
 
 	"""
 	pass

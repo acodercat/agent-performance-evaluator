@@ -1,8 +1,11 @@
-def calculate_average(numbers):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_average(numbers:List[int]):
 	"""
-	Calculates the average of a list of numbers.    
+	calculate_average : Calculates the average of a list of numbers.    
 	Parameters:
-	numbers: The list of numbers to calculate the average of.
+	numbers (List[int]): The list of numbers to calculate the average of.
+
+	Required Parameter = [numbers,]
 
 	"""
 	pass

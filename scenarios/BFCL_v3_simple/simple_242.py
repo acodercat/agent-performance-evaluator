@@ -1,8 +1,11 @@
-def get_scientist_for_discovery(discovery):
+from typing import List, Dict, Any, Union, Tuple 
+def get_scientist_for_discovery(discovery:str):
 	"""
-	Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    
+	get_scientist_for_discovery : Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    
 	Parameters:
-	discovery: The scientific discovery or theory.
+	discovery (str): The scientific discovery or theory.
+
+	Required Parameter = [discovery,]
 
 	"""
 	pass

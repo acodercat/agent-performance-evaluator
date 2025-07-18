@@ -1,10 +1,13 @@
-def lawsuit_info(case_number, year=2000, location='New York'):
+from typing import List, Dict, Any, Union, Tuple 
+def lawsuit_info(case_number:str, year:int=2000, location:str='New York'):
 	"""
-	Retrieves details of a lawsuit given a case number    
+	lawsuit_info : Retrieves details of a lawsuit given a case number    
 	Parameters:
-	case_number: The unique identifier of the lawsuit case
-	year: The year in which the lawsuit case was initiated
-	location: The location or court jurisdiction where the case was filed.
+	case_number (str): The unique identifier of the lawsuit case
+	year (int): The year in which the lawsuit case was initiated
+	location (str): The location or court jurisdiction where the case was filed.
+
+	Required Parameter = [case_number,]
 
 	"""
 	pass

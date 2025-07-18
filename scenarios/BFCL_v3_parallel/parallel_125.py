@@ -1,10 +1,13 @@
-def elephant_population_estimate(current_population, growth_rate, years):
+from typing import List, Dict, Any, Union, Tuple 
+def elephant_population_estimate(current_population:int, growth_rate:float, years:int):
 	"""
-	Estimate future population of elephants given current population and growth rate.    
+	elephant_population_estimate : Estimate future population of elephants given current population and growth rate.    
 	Parameters:
-	current_population: The current number of elephants.
-	growth_rate: The annual population growth rate of elephants.
-	years: The number of years to project the population.
+	current_population (int): The current number of elephants.
+	growth_rate (float): The annual population growth rate of elephants.
+	years (int): The number of years to project the population.
+
+	Required Parameter = [current_population,growth_rate,years,]
 
 	"""
 	pass

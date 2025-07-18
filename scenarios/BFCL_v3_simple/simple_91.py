@@ -1,10 +1,13 @@
-def get_restaurant(cuisine, location, condition):
+from typing import List, Dict, Any, Union, Tuple 
+def get_restaurant(cuisine:str, location:str, condition:str):
 	"""
-	Retrieve highest rated restaurant given cuisine, location, and a condition.    
+	get_restaurant : Retrieve highest rated restaurant given cuisine, location, and a condition.    
 	Parameters:
-	cuisine: Cuisine of the restaurant.
-	location: City where restaurant is located.
-	condition: Condition to be met by the restaurant (e.g., operating days, amenities, etc.)
+	cuisine (str): Cuisine of the restaurant.
+	location (str): City where restaurant is located.
+	condition (str): Condition to be met by the restaurant (e.g., operating days, amenities, etc.)
+
+	Required Parameter = [cuisine,location,condition,]
 
 	"""
 	pass

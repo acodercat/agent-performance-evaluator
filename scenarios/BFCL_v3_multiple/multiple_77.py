@@ -1,30 +1,39 @@
-def tourist_attraction_find(attractionType, location):
+from typing import List, Dict, Any, Union, Tuple 
+def tourist_attraction_find(attractionType:str, location:str):
 	"""
-	Search for tourist attractions based on type and location.    
+	tourist_attraction_find : Search for tourist attractions based on type and location.    
 	Parameters:
-	attractionType: Type of the attraction. E.g., monument, museum, park.
-	location: Location or city where the attraction is.
+	attractionType (str): Type of the attraction. E.g., monument, museum, park.
+	location (str): Location or city where the attraction is.
+
+	Required Parameter = [attractionType,location,]
 
 	"""
 	pass
 
-def artwork_search_find(type, location, era=None):
+from typing import List, Dict, Any, Union, Tuple 
+def artwork_search_find(type:str, location:str, era:str=None):
 	"""
-	Search for artworks based on type and location.    
+	artwork_search_find : Search for artworks based on type and location.    
 	Parameters:
-	type: Type of the artwork. E.g., painting, sculpture, installation.
-	location: Location or city where the artwork is.
-	era: Time period of the artwork, can be 'contemporary', 'modern', 'renaissance', etc. Default 'contemporary'
+	type (str): Type of the artwork. E.g., painting, sculpture, installation.
+	location (str): Location or city where the artwork is.
+	era (str): Time period of the artwork, can be 'contemporary', 'modern', 'renaissance', etc. Default 'contemporary'
+
+	Required Parameter = [type,location,]
 
 	"""
 	pass
 
-def park_search_find(facilities, location):
+from typing import List, Dict, Any, Union, Tuple 
+def park_search_find(facilities:List[str], location:str):
 	"""
-	Search for parks based on facilities and location.    
+	park_search_find : Search for parks based on facilities and location.    
 	Parameters:
-	facilities: List of facilities in the park.
-	location: Location or city where the park is.
+	facilities (List[str]): List of facilities in the park.
+	location (str): Location or city where the park is.
+
+	Required Parameter = [facilities,location,]
 
 	"""
 	pass

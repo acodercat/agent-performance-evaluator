@@ -1,10 +1,13 @@
-def prediction_evolution(species, years, model=None):
+from typing import List, Dict, Any, Union, Tuple 
+def prediction_evolution(species:str, years:int, model:str=None):
 	"""
-	Predict the evolutionary rate for a specific species for a given timeframe.    
+	prediction_evolution : Predict the evolutionary rate for a specific species for a given timeframe.    
 	Parameters:
-	species: The species that the evolution rate will be predicted for.
-	years: Number of years for the prediction.
-	model: The model used to make the prediction, options: 'Darwin', 'Lamarck', default is 'Darwin'.
+	species (str): The species that the evolution rate will be predicted for.
+	years (int): Number of years for the prediction.
+	model (str): The model used to make the prediction, options: 'Darwin', 'Lamarck', default is 'Darwin'.
+
+	Required Parameter = [species,years,]
 
 	"""
 	pass

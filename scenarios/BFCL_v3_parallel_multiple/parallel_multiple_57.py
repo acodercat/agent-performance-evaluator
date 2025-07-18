@@ -1,22 +1,28 @@
-def hotel_find(location, stars, amenities=None):
+from typing import List, Dict, Any, Union, Tuple 
+def hotel_find(location:str, stars:int, amenities:List[str]=None):
 	"""
-	Search for hotels given the location, minimum stars and specific amenities.    
+	hotel_find : Search for hotels given the location, minimum stars and specific amenities.    
 	Parameters:
-	location: The city where you want to find the hotel
-	stars: Minimum number of stars the hotel should have. Default 1
-	amenities: List of preferred amenities in hotel. Default to empty array
+	location (str): The city where you want to find the hotel
+	stars (int): Minimum number of stars the hotel should have. Default 1
+	amenities (List[str]): List of preferred amenities in hotel. Default to empty array
+
+	Required Parameter = [location,stars,]
 
 	"""
 	pass
 
-def flight_search(origin, destination, date=None, passengers=1):
+from typing import List, Dict, Any, Union, Tuple 
+def flight_search(origin:str, destination:str, date:Any=None, passengers:int=1):
 	"""
-	Search for flights given the origin, destination, date, and number of passengers.    
+	flight_search : Search for flights given the origin, destination, date, and number of passengers.    
 	Parameters:
-	origin: The origin of the flight
-	destination: The destination of the flight
-	date: The date of the flight. Default ''
-	passengers: The number of passengers
+	origin (str): The origin of the flight
+	destination (str): The destination of the flight
+	date (Any): The date of the flight. Default ''
+	passengers (int): The number of passengers
+
+	Required Parameter = [origin,destination,]
 
 	"""
 	pass

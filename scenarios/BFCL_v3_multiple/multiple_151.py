@@ -1,32 +1,41 @@
-def social_media_analytics_most_followed(topic, sub_topics=None, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, region:str=None):
 	"""
-	Find the most followed Twitter user related to certain topics.    
+	social_media_analytics_most_followed : Find the most followed Twitter user related to certain topics.    
 	Parameters:
-	topic: The main topic of interest.
-	sub_topics: Sub-topics related to main topic, Optional. Default is an empty list.
-	region: Region of interest for twitter search, Optional. Default is 'global'.
+	topic (str): The main topic of interest.
+	sub_topics (List[str]): Sub-topics related to main topic, Optional. Default is an empty list.
+	region (str): Region of interest for twitter search, Optional. Default is 'global'.
+
+	Required Parameter = [topic,]
 
 	"""
 	pass
 
-def calculate_probability(total_outcomes, favorable_outcomes, round_to=2):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
 	"""
-	Calculate the probability of an event.    
+	calculate_probability : Calculate the probability of an event.    
 	Parameters:
-	total_outcomes: Total number of possible outcomes.
-	favorable_outcomes: Number of outcomes considered as 'successful'.
-	round_to: Number of decimal places to round the result to.
+	total_outcomes (int): Total number of possible outcomes.
+	favorable_outcomes (int): Number of outcomes considered as 'successful'.
+	round_to (int): Number of decimal places to round the result to.
+
+	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
 	pass
 
-def concert_info_get(location, date, genre):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_info_get(location:str, date:str, genre:str):
 	"""
-	Retrieve information about concerts based on specific genre, location and date.    
+	concert_info_get : Retrieve information about concerts based on specific genre, location and date.    
 	Parameters:
-	location: The city where the concert will take place.
-	date: Time frame to get the concert for.
-	genre: Genre of the concert.
+	location (str): The city where the concert will take place.
+	date (str): Time frame to get the concert for.
+	genre (str): Genre of the concert.
+
+	Required Parameter = [location,date,genre,]
 
 	"""
 	pass

@@ -1,19 +1,25 @@
-def investment_withdraw(company, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def investment_withdraw(company:str, amount:float):
 	"""
-	Withdraw a specific amount from a company's stock.    
+	investment_withdraw : Withdraw a specific amount from a company's stock.    
 	Parameters:
-	company: The company you want to withdraw from.
-	amount: The amount you want to withdraw.
+	company (str): The company you want to withdraw from.
+	amount (float): The amount you want to withdraw.
+
+	Required Parameter = [company,amount,]
 
 	"""
 	pass
 
-def investment_invest(company, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def investment_invest(company:str, amount:float):
 	"""
-	Invest a specific amount in a company's stock.    
+	investment_invest : Invest a specific amount in a company's stock.    
 	Parameters:
-	company: The company you want to invest in.
-	amount: The amount you want to invest.
+	company (str): The company you want to invest in.
+	amount (float): The amount you want to invest.
+
+	Required Parameter = [company,amount,]
 
 	"""
 	pass

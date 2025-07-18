@@ -1,10 +1,13 @@
-def get_instrument_info(name, maker, year):
+from typing import List, Dict, Any, Union, Tuple 
+def get_instrument_info(name:str, maker:str, year:int):
 	"""
-	Retrieve the details about a specific musical instrument based on its name, maker, and manufacturing year.    
+	get_instrument_info : Retrieve the details about a specific musical instrument based on its name, maker, and manufacturing year.    
 	Parameters:
-	name: The name of the instrument.
-	maker: The name of the maker who created the instrument.
-	year: The year the instrument was made.
+	name (str): The name of the instrument.
+	maker (str): The name of the maker who created the instrument.
+	year (int): The year the instrument was made.
+
+	Required Parameter = [name,maker,year,]
 
 	"""
 	pass

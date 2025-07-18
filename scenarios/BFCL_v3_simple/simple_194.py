@@ -1,9 +1,12 @@
-def get_plants_for_slope(slope_type, num_results):
+from typing import List, Dict, Any, Union, Tuple 
+def get_plants_for_slope(slope_type:str, num_results:int):
 	"""
-	Retrieve the list of plants suitable for slope based on erosion control ability.    
+	get_plants_for_slope : Retrieve the list of plants suitable for slope based on erosion control ability.    
 	Parameters:
-	slope_type: The type of slope like steep, moderate etc.
-	num_results: The number of top results needed. Default is 5.
+	slope_type (str): The type of slope like steep, moderate etc.
+	num_results (int): The number of top results needed. Default is 5.
+
+	Required Parameter = [slope_type,num_results,]
 
 	"""
 	pass

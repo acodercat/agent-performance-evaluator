@@ -1,12 +1,15 @@
-def send_email(to, subject, body, cc=None, bcc=None):
+from typing import List, Dict, Any, Union, Tuple 
+def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	"""
-	Send an email to the specified email address.    
+	send_email : Send an email to the specified email address.    
 	Parameters:
-	to: The email address to send to.
-	subject: The subject of the email.
-	body: The body content of the email.
-	cc: The email address to carbon copy. default is ''.
-	bcc: The email address to blind carbon copy. the value is set to '' for default.
+	to (str): The email address to send to.
+	subject (str): The subject of the email.
+	body (str): The body content of the email.
+	cc (str): The email address to carbon copy. default is ''.
+	bcc (str): The email address to blind carbon copy. the value is set to '' for default.
+
+	Required Parameter = [to,subject,body,]
 
 	"""
 	pass

@@ -1,17 +1,23 @@
-def us_history_gdp(year):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_gdp(year:int):
 	"""
-	Retrieves the Gross Domestic Product of the USA for a specific year.    
+	us_history_gdp : Retrieves the Gross Domestic Product of the USA for a specific year.    
 	Parameters:
-	year: The year for which to retrieve GDP data.
+	year (int): The year for which to retrieve GDP data.
+
+	Required Parameter = [year,]
 
 	"""
 	pass
 
-def us_history_life_expectancy(year):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_life_expectancy(year:int):
 	"""
-	Retrieves the average life expectancy of the USA for a specific year.    
+	us_history_life_expectancy : Retrieves the average life expectancy of the USA for a specific year.    
 	Parameters:
-	year: The year for which to retrieve life expectancy.
+	year (int): The year for which to retrieve life expectancy.
+
+	Required Parameter = [year,]
 
 	"""
 	pass

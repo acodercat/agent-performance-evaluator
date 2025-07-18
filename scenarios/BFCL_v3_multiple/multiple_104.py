@@ -1,41 +1,53 @@
-def instrument_price_get(brand, model, finish):
+from typing import List, Dict, Any, Union, Tuple 
+def instrument_price_get(brand:str, model:str, finish:str):
 	"""
-	Retrieve the current retail price of a specific musical instrument.    
+	instrument_price_get : Retrieve the current retail price of a specific musical instrument.    
 	Parameters:
-	brand: The brand of the instrument.
-	model: The specific model of the instrument.
-	finish: The color or type of finish on the instrument.
+	brand (str): The brand of the instrument.
+	model (str): The specific model of the instrument.
+	finish (str): The color or type of finish on the instrument.
+
+	Required Parameter = [brand,model,finish,]
 
 	"""
 	pass
 
-def get_shortest_driving_distance(origin, destination, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
 	"""
-	Calculate the shortest driving distance between two locations.    
+	get_shortest_driving_distance : Calculate the shortest driving distance between two locations.    
 	Parameters:
-	origin: Starting point of the journey.
-	destination: End point of the journey.
-	unit: Preferred unit of distance (optional, default is kilometers).
+	origin (str): Starting point of the journey.
+	destination (str): End point of the journey.
+	unit (str): Preferred unit of distance (optional, default is kilometers).
+
+	Required Parameter = [origin,destination,]
 
 	"""
 	pass
 
-def cell_biology_function_lookup(molecule, organelle, specific_function):
+from typing import List, Dict, Any, Union, Tuple 
+def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:bool):
 	"""
-	Look up the function of a given molecule in a specified organelle.    
+	cell_biology_function_lookup : Look up the function of a given molecule in a specified organelle.    
 	Parameters:
-	molecule: The molecule of interest.
-	organelle: The organelle of interest.
-	specific_function: If set to true, a specific function of the molecule within the organelle will be provided, if such information exists.
+	molecule (str): The molecule of interest.
+	organelle (str): The organelle of interest.
+	specific_function (bool): If set to true, a specific function of the molecule within the organelle will be provided, if such information exists.
+
+	Required Parameter = [molecule,organelle,specific_function,]
 
 	"""
 	pass
 
-def get_scientist_for_discovery(discovery):
+from typing import List, Dict, Any, Union, Tuple 
+def get_scientist_for_discovery(discovery:str):
 	"""
-	Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    
+	get_scientist_for_discovery : Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    
 	Parameters:
-	discovery: The scientific discovery or theory.
+	discovery (str): The scientific discovery or theory.
+
+	Required Parameter = [discovery,]
 
 	"""
 	pass

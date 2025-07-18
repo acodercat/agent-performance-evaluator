@@ -1,21 +1,27 @@
-def angleToXAxis_calculate(pointA, pointB, rounding=2):
+from typing import List, Dict, Any, Union, Tuple 
+def angleToXAxis_calculate(pointA:List[int], pointB:List[int], rounding:int=2):
 	"""
-	Calculate the angle between two points with respect to x-axis.    
+	angleToXAxis_calculate : Calculate the angle between two points with respect to x-axis.    
 	Parameters:
-	pointA: Coordinates for Point A.
-	pointB: Coordinates for Point B.
-	rounding: Optional: The number of decimals to round off the result.
+	pointA (List[int]): Coordinates for Point A.
+	pointB (List[int]): Coordinates for Point B.
+	rounding (int): Optional: The number of decimals to round off the result.
+
+	Required Parameter = [pointA,pointB,]
 
 	"""
 	pass
 
-def EuclideanDistance_calculate(pointA, pointB, rounding=2):
+from typing import List, Dict, Any, Union, Tuple 
+def EuclideanDistance_calculate(pointA:List[int], pointB:List[int], rounding:int=2):
 	"""
-	Calculate the Euclidean distance between two points.    
+	EuclideanDistance_calculate : Calculate the Euclidean distance between two points.    
 	Parameters:
-	pointA: Coordinates for Point A.
-	pointB: Coordinates for Point B.
-	rounding: Optional: The number of decimals to round off the result.
+	pointA (List[int]): Coordinates for Point A.
+	pointB (List[int]): Coordinates for Point B.
+	rounding (int): Optional: The number of decimals to round off the result.
+
+	Required Parameter = [pointA,pointB,]
 
 	"""
 	pass

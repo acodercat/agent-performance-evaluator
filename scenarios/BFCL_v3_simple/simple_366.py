@@ -1,11 +1,14 @@
-def recipe_unit_conversion(value, from_unit, to_unit, precision=None):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_unit_conversion(value:int, from_unit:str, to_unit:str, precision:int=None):
 	"""
-	Convert a value from one kitchen unit to another for cooking purposes.    
+	recipe_unit_conversion : Convert a value from one kitchen unit to another for cooking purposes.    
 	Parameters:
-	value: The value to be converted.
-	from_unit: The unit to convert from. Supports 'teaspoon', 'tablespoon', 'cup', etc.
-	to_unit: The unit to convert to. Supports 'teaspoon', 'tablespoon', 'cup', etc.
-	precision: The precision to round the output to, in case of a non-integer result. Optional, default is 1.
+	value (int): The value to be converted.
+	from_unit (str): The unit to convert from. Supports 'teaspoon', 'tablespoon', 'cup', etc.
+	to_unit (str): The unit to convert to. Supports 'teaspoon', 'tablespoon', 'cup', etc.
+	precision (int): The precision to round the output to, in case of a non-integer result. Optional, default is 1.
+
+	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
 	pass

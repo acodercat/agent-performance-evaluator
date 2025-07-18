@@ -1,10 +1,13 @@
-def calculate_emission_savings(energy_type, usage_duration, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_emission_savings(energy_type:str, usage_duration:int, region:str=None):
 	"""
-	Calculate potential greenhouse gas emissions saved by switching to renewable energy sources.    
+	calculate_emission_savings : Calculate potential greenhouse gas emissions saved by switching to renewable energy sources.    
 	Parameters:
-	energy_type: Type of the renewable energy source.
-	usage_duration: Usage duration in months.
-	region: The region where you use energy. Default is 'Texas'.
+	energy_type (str): Type of the renewable energy source.
+	usage_duration (int): Usage duration in months.
+	region (str): The region where you use energy. Default is 'Texas'.
+
+	Required Parameter = [energy_type,usage_duration,]
 
 	"""
 	pass

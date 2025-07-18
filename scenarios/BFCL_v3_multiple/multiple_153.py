@@ -1,32 +1,41 @@
-def locate_tallest_mountains(location, radius, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
-	Find the tallest mountains within a specified radius of a location.    
+	locate_tallest_mountains : Find the tallest mountains within a specified radius of a location.    
 	Parameters:
-	location: The city from which to calculate distance.
-	radius: The radius within which to find mountains, measured in kilometers.
-	amount: The number of mountains to find, listed from tallest to smallest.
+	location (str): The city from which to calculate distance.
+	radius (float): The radius within which to find mountains, measured in kilometers.
+	amount (int): The number of mountains to find, listed from tallest to smallest.
+
+	Required Parameter = [location,radius,amount,]
 
 	"""
 	pass
 
-def calculate_entropy_change(initial_temp, final_temp, heat_capacity, isothermal=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_entropy_change(initial_temp:float, final_temp:float, heat_capacity:float, isothermal:bool=None):
 	"""
-	Calculate the entropy change for an isothermal and reversible process.    
+	calculate_entropy_change : Calculate the entropy change for an isothermal and reversible process.    
 	Parameters:
-	initial_temp: The initial temperature in Kelvin.
-	final_temp: The final temperature in Kelvin.
-	heat_capacity: The heat capacity in J/K.
-	isothermal: Whether the process is isothermal. Default is True.
+	initial_temp (float): The initial temperature in Kelvin.
+	final_temp (float): The final temperature in Kelvin.
+	heat_capacity (float): The heat capacity in J/K.
+	isothermal (bool): Whether the process is isothermal. Default is True.
+
+	Required Parameter = [initial_temp,final_temp,heat_capacity,]
 
 	"""
 	pass
 
-def get_event_date(event, location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_event_date(event:str, location:str=None):
 	"""
-	Retrieve the date of a historical event.    
+	get_event_date : Retrieve the date of a historical event.    
 	Parameters:
-	event: The name of the historical event.
-	location: Location where the event took place. Defaults to global if not specified
+	event (str): The name of the historical event.
+	location (str): Location where the event took place. Defaults to global if not specified
+
+	Required Parameter = [event,]
 
 	"""
 	pass

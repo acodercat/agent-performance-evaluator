@@ -1,28 +1,37 @@
-def museum_get_hours(museum_name):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_get_hours(museum_name:str):
 	"""
-	Retrieve the operational hours of a specified museum.    
+	museum_get_hours : Retrieve the operational hours of a specified museum.    
 	Parameters:
-	museum_name: The name of the museum.
+	museum_name (str): The name of the museum.
+
+	Required Parameter = [museum_name,]
 
 	"""
 	pass
 
-def location_get_travel_time(destination, mode='Driving'):
+from typing import List, Dict, Any, Union, Tuple 
+def location_get_travel_time(destination:str, mode:str='Driving'):
 	"""
-	Retrieve the estimated travel time from current location to a specific destination.    
+	location_get_travel_time : Retrieve the estimated travel time from current location to a specific destination.    
 	Parameters:
-	destination: The destination location.
-	mode: Mode of travel.
+	destination (str): The destination location.
+	mode (str): Mode of travel.
+
+	Required Parameter = [destination,]
 
 	"""
 	pass
 
-def museum_get_waiting_time(museum_name, day='Monday'):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_get_waiting_time(museum_name:str, day:str='Monday'):
 	"""
-	Retrieve the estimated waiting time at a specific museum.    
+	museum_get_waiting_time : Retrieve the estimated waiting time at a specific museum.    
 	Parameters:
-	museum_name: The name of the museum.
-	day: Day of the week.
+	museum_name (str): The name of the museum.
+	day (str): Day of the week.
+
+	Required Parameter = [museum_name,]
 
 	"""
 	pass

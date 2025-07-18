@@ -1,31 +1,40 @@
-def european_history_get_events(country, century, event_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_get_events(country:str, century:int, event_type:str=None):
 	"""
-	Provides a list of major historical events based on the specified country and century.    
+	european_history_get_events : Provides a list of major historical events based on the specified country and century.    
 	Parameters:
-	country: Country name.
-	century: Century as an integer. For example, for the 1700s, input '18'.
-	event_type: Type of the event such as 'war', 'invention', 'revolution' etc. This field is optional. Default to 'war'.
+	country (str): Country name.
+	century (int): Century as an integer. For example, for the 1700s, input '18'.
+	event_type (str): Type of the event such as 'war', 'invention', 'revolution' etc. This field is optional. Default to 'war'.
+
+	Required Parameter = [country,century,]
 
 	"""
 	pass
 
-def european_history_get_monarchs(country, century):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_get_monarchs(country:str, century:int):
 	"""
-	Provides a list of monarchs based on the specified country and century.    
+	european_history_get_monarchs : Provides a list of monarchs based on the specified country and century.    
 	Parameters:
-	country: Country name.
-	century: Century as an integer. For example, for the 1700s, input '18'.
+	country (str): Country name.
+	century (int): Century as an integer. For example, for the 1700s, input '18'.
+
+	Required Parameter = [country,century,]
 
 	"""
 	pass
 
-def european_history_get_culture(country, century, aspect=None):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_get_culture(country:str, century:int, aspect:str=None):
 	"""
-	Provides information on cultural trends, art movements, philosophical ideas based on the specified country and century.    
+	european_history_get_culture : Provides information on cultural trends, art movements, philosophical ideas based on the specified country and century.    
 	Parameters:
-	country: Country name.
-	century: Century as an integer. For example, for the 1700s, input '18'.
-	aspect: Aspect of culture such as 'literature', 'art', 'philosophy' etc. This field is optional. Default to 'art'.
+	country (str): Country name.
+	century (int): Century as an integer. For example, for the 1700s, input '18'.
+	aspect (str): Aspect of culture such as 'literature', 'art', 'philosophy' etc. This field is optional. Default to 'art'.
+
+	Required Parameter = [country,century,]
 
 	"""
 	pass

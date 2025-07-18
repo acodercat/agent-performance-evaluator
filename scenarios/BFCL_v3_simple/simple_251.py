@@ -1,9 +1,12 @@
-def get_earliest_reference(name, source=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_earliest_reference(name:str, source:str=None):
 	"""
-	Retrieve the earliest historical reference of a person.    
+	get_earliest_reference : Retrieve the earliest historical reference of a person.    
 	Parameters:
-	name: The name of the person.
-	source: Source to fetch the reference. Default is 'scriptures'
+	name (str): The name of the person.
+	source (str): Source to fetch the reference. Default is 'scriptures'
+
+	Required Parameter = [name,]
 
 	"""
 	pass

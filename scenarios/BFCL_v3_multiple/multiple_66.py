@@ -1,30 +1,39 @@
-def calculate_distance(start_point, end_point):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_distance(start_point:str, end_point:str):
 	"""
-	Calculate distance between two locations.    
+	calculate_distance : Calculate distance between two locations.    
 	Parameters:
-	start_point: Starting point of the journey.
-	end_point: Ending point of the journey.
+	start_point (str): Starting point of the journey.
+	end_point (str): Ending point of the journey.
+
+	Required Parameter = [start_point,end_point,]
 
 	"""
 	pass
 
-def traffic_estimate(start_location, end_location, time_period=None):
+from typing import List, Dict, Any, Union, Tuple 
+def traffic_estimate(start_location:str, end_location:str, time_period:str=None):
 	"""
-	Estimate traffic from one location to another for a specific time period.    
+	traffic_estimate : Estimate traffic from one location to another for a specific time period.    
 	Parameters:
-	start_location: Starting location for the journey.
-	end_location: Ending location for the journey.
-	time_period: Specify a time frame to estimate the traffic, 'now' for current, 'weekend' for the coming weekend. Default 'now'
+	start_location (str): Starting location for the journey.
+	end_location (str): Ending location for the journey.
+	time_period (str): Specify a time frame to estimate the traffic, 'now' for current, 'weekend' for the coming weekend. Default 'now'
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass
 
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

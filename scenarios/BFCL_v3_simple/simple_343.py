@@ -1,10 +1,13 @@
-def game_stats_fetch_player_statistics(game, username, platform='PC'):
+from typing import List, Dict, Any, Union, Tuple 
+def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'):
 	"""
-	Fetch player statistics for a specific video game for a given user.    
+	game_stats_fetch_player_statistics : Fetch player statistics for a specific video game for a given user.    
 	Parameters:
-	game: The name of the video game.
-	username: The username of the player.
-	platform: The platform user is playing on.
+	game (str): The name of the video game.
+	username (str): The username of the player.
+	platform (str): The platform user is playing on.
+
+	Required Parameter = [game,username,]
 
 	"""
 	pass

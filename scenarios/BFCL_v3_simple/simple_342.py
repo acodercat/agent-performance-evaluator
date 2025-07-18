@@ -1,10 +1,13 @@
-def game_list_get_games(release_year, multiplayer, ESRB_rating):
+from typing import List, Dict, Any, Union, Tuple 
+def game_list_get_games(release_year:int, multiplayer:bool, ESRB_rating:str):
 	"""
-	Get a list of video games based on release year, multiplayer functionality and ESRB rating    
+	game_list_get_games : Get a list of video games based on release year, multiplayer functionality and ESRB rating    
 	Parameters:
-	release_year: The year the game was released.
-	multiplayer: Whether the game has multiplayer functionality.
-	ESRB_rating: The ESRB rating of the game.
+	release_year (int): The year the game was released.
+	multiplayer (bool): Whether the game has multiplayer functionality.
+	ESRB_rating (str): The ESRB rating of the game.
+
+	Required Parameter = [release_year,multiplayer,ESRB_rating,]
 
 	"""
 	pass

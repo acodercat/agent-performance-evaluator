@@ -1,10 +1,13 @@
-def average_batting_score(player_name, matches, match_format=None):
+from typing import List, Dict, Any, Union, Tuple 
+def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	"""
-	Get the average batting score of a cricketer for specified past matches.    
+	average_batting_score : Get the average batting score of a cricketer for specified past matches.    
 	Parameters:
-	player_name: Name of the cricket player.
-	matches: Number of past matches to consider for average calculation.
-	match_format: Format of the cricket matches considered (e.g., 'T20', 'ODI', 'Test'). Default is 'T20'.
+	player_name (str): Name of the cricket player.
+	matches (int): Number of past matches to consider for average calculation.
+	match_format (str): Format of the cricket matches considered (e.g., 'T20', 'ODI', 'Test'). Default is 'T20'.
+
+	Required Parameter = [player_name,matches,]
 
 	"""
 	pass

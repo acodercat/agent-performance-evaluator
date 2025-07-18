@@ -1,9 +1,12 @@
-def create_histogram(data, bins):
+from typing import List, Dict, Any, Union, Tuple 
+def create_histogram(data:List[int], bins:int):
 	"""
-	Create a histogram based on provided data.    
+	create_histogram : Create a histogram based on provided data.    
 	Parameters:
-	data: The data for which histogram needs to be plotted.
-	bins: The number of equal-width bins in the range. Default is 10.
+	data (List[int]): The data for which histogram needs to be plotted.
+	bins (int): The number of equal-width bins in the range. Default is 10.
+
+	Required Parameter = [data,bins,]
 
 	"""
 	pass

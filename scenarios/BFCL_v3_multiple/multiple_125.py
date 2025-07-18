@@ -1,31 +1,40 @@
-def restaurant_search_find_closest(location, cuisine, amenities=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str]=None):
 	"""
-	Locate the closest sushi restaurant based on certain criteria, such as the presence of a patio.    
+	restaurant_search_find_closest : Locate the closest sushi restaurant based on certain criteria, such as the presence of a patio.    
 	Parameters:
-	location: The city, for instance Boston, MA
-	cuisine: Type of food like Sushi.
-	amenities: Preferred amenities in the restaurant. Default is empty array.
+	location (str): The city, for instance Boston, MA
+	cuisine (str): Type of food like Sushi.
+	amenities (List[str]): Preferred amenities in the restaurant. Default is empty array.
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass
 
-def run_two_sample_ttest(group1, group2, equal_variance=True):
+from typing import List, Dict, Any, Union, Tuple 
+def run_two_sample_ttest(group1:List[int], group2:List[int], equal_variance:bool=True):
 	"""
-	Runs a two sample t-test for two given data groups.    
+	run_two_sample_ttest : Runs a two sample t-test for two given data groups.    
 	Parameters:
-	group1: First group of data points.
-	group2: Second group of data points.
-	equal_variance: Assumption about whether the two samples have equal variance.
+	group1 (List[int]): First group of data points.
+	group2 (List[int]): Second group of data points.
+	equal_variance (bool): Assumption about whether the two samples have equal variance.
+
+	Required Parameter = [group1,group2,]
 
 	"""
 	pass
 
-def get_personality_traits(hobby, trait_count=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_personality_traits(hobby:str, trait_count:int=None):
 	"""
-	Retrieve the common personality traits of people based on their hobbies or activities.    
+	get_personality_traits : Retrieve the common personality traits of people based on their hobbies or activities.    
 	Parameters:
-	hobby: The hobby or activity of interest.
-	trait_count: The number of top traits to return, default is 5
+	hobby (str): The hobby or activity of interest.
+	trait_count (int): The number of top traits to return, default is 5
+
+	Required Parameter = [hobby,]
 
 	"""
 	pass

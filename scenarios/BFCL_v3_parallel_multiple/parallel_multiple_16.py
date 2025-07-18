@@ -1,27 +1,36 @@
-def calculate_fibonacci(position):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_fibonacci(position:int):
 	"""
-	Calculate the Fibonacci series up to a specific position.    
+	calculate_fibonacci : Calculate the Fibonacci series up to a specific position.    
 	Parameters:
-	position: The position up to which you want to calculate the Fibonacci series.
+	position (int): The position up to which you want to calculate the Fibonacci series.
+
+	Required Parameter = [position,]
 
 	"""
 	pass
 
-def calculate_factorial(number):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_factorial(number:int):
 	"""
-	Calculate the factorial of a given number.    
+	calculate_factorial : Calculate the factorial of a given number.    
 	Parameters:
-	number: The number of which you want to calculate the factorial.
+	number (int): The number of which you want to calculate the factorial.
+
+	Required Parameter = [number,]
 
 	"""
 	pass
 
-def generate_prime(start, end):
+from typing import List, Dict, Any, Union, Tuple 
+def generate_prime(start:int, end:int):
 	"""
-	Generate prime numbers within a given range.    
+	generate_prime : Generate prime numbers within a given range.    
 	Parameters:
-	start: The start of the range from which you want to find the prime numbers.
-	end: The end of the range from which you want to find the prime numbers.
+	start (int): The start of the range from which you want to find the prime numbers.
+	end (int): The end of the range from which you want to find the prime numbers.
+
+	Required Parameter = [start,end,]
 
 	"""
 	pass

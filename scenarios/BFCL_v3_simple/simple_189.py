@@ -1,10 +1,13 @@
-def weather_forecast_detailed(location, days, details=False):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast_detailed(location:str, days:int, details:bool=False):
 	"""
-	Retrieve a detailed weather forecast for a specific city like Boston and time frame.    
+	weather_forecast_detailed : Retrieve a detailed weather forecast for a specific city like Boston and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
-	details: Provide detailed weather information or not.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+	details (bool): Provide detailed weather information or not.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

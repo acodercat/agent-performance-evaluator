@@ -1,10 +1,13 @@
-def nfl_data_player_record(player_name, season_year, team=None):
+from typing import List, Dict, Any, Union, Tuple 
+def nfl_data_player_record(player_name:str, season_year:int, team:str=None):
 	"""
-	Retrieve the record of an NFL player in a specified season.    
+	nfl_data_player_record : Retrieve the record of an NFL player in a specified season.    
 	Parameters:
-	player_name: The name of the NFL player.
-	season_year: The year of the NFL season.
-	team: The NFL team that the player played for in that season. Default is all teams if not specified.
+	player_name (str): The name of the NFL player.
+	season_year (int): The year of the NFL season.
+	team (str): The NFL team that the player played for in that season. Default is all teams if not specified.
+
+	Required Parameter = [player_name,season_year,]
 
 	"""
 	pass

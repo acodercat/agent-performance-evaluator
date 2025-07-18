@@ -1,21 +1,27 @@
-def calculate_triangle_area(base, height, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_triangle_area(base:int, height:int, unit:str=None):
 	"""
-	Calculate the area of a triangle given its base and height.    
+	calculate_triangle_area : Calculate the area of a triangle given its base and height.    
 	Parameters:
-	base: The base of the triangle.
-	height: The height of the triangle.
-	unit: The unit of measure (defaults to 'units' if not specified)
+	base (int): The base of the triangle.
+	height (int): The height of the triangle.
+	unit (str): The unit of measure (defaults to 'units' if not specified)
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass
 
-def get_case_info(docket, court, info_type):
+from typing import List, Dict, Any, Union, Tuple 
+def get_case_info(docket:str, court:str, info_type:str):
 	"""
-	Retrieve case details using a specific case docket number and court location.    
+	get_case_info : Retrieve case details using a specific case docket number and court location.    
 	Parameters:
-	docket: Docket number for the specific court case.
-	court: Court in which the case was heard.
-	info_type: Specify the information type needed for the case. i.e., victim, accused, verdict etc.
+	docket (str): Docket number for the specific court case.
+	court (str): Court in which the case was heard.
+	info_type (str): Specify the information type needed for the case. i.e., victim, accused, verdict etc.
+
+	Required Parameter = [docket,court,info_type,]
 
 	"""
 	pass

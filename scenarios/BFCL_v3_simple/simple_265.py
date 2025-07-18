@@ -1,10 +1,13 @@
-def sculpture_search(location, time_frame, material=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sculpture_search(location:str, time_frame:str, material:str=None):
 	"""
-	Find sculptures based on location and a specific time frame.    
+	sculpture_search : Find sculptures based on location and a specific time frame.    
 	Parameters:
-	location: The city where the sculptures are located.
-	time_frame: The time frame during which the sculptures were made.
-	material: Optional material of the sculptures. Default is 'all'
+	location (str): The city where the sculptures are located.
+	time_frame (str): The time frame during which the sculptures were made.
+	material (str): Optional material of the sculptures. Default is 'all'
+
+	Required Parameter = [location,time_frame,]
 
 	"""
 	pass

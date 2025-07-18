@@ -1,41 +1,53 @@
-def create_player_profile(player_name, _class, starting_level=1):
+from typing import List, Dict, Any, Union, Tuple 
+def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	"""
-	Create a new player profile with character name, class and starting level.    
+	create_player_profile : Create a new player profile with character name, class and starting level.    
 	Parameters:
-	player_name: The desired name of the player.
-	_class: The character class for the player
-	starting_level: The starting level for the player
+	player_name (str): The desired name of the player.
+	_class (str): The character class for the player
+	starting_level (int): The starting level for the player
+
+	Required Parameter = [player_name,_class,]
 
 	"""
 	pass
 
-def poker_probability_full_house(deck_size, hand_size):
+from typing import List, Dict, Any, Union, Tuple 
+def poker_probability_full_house(deck_size:int, hand_size:int):
 	"""
-	Calculate the probability of getting a full house in a poker game.    
+	poker_probability_full_house : Calculate the probability of getting a full house in a poker game.    
 	Parameters:
-	deck_size: The size of the deck. Default is 52.
-	hand_size: The size of the hand. Default is 5.
+	deck_size (int): The size of the deck. Default is 52.
+	hand_size (int): The size of the hand. Default is 5.
+
+	Required Parameter = [deck_size,hand_size,]
 
 	"""
 	pass
 
-def concert_find_nearby(location, genre):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_find_nearby(location:str, genre:str):
 	"""
-	Locate nearby concerts based on specific criteria like genre.    
+	concert_find_nearby : Locate nearby concerts based on specific criteria like genre.    
 	Parameters:
-	location: The city and state, e.g. Seattle, WA
-	genre: Genre of music to be played at the concert.
+	location (str): The city and state, e.g. Seattle, WA
+	genre (str): Genre of music to be played at the concert.
+
+	Required Parameter = [location,genre,]
 
 	"""
 	pass
 
-def calculate_slope_gradient(point1, point2, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_slope_gradient(point1:List[float], point2:List[float], unit:str=None):
 	"""
-	Calculate the slope gradient between two geographical coordinates.    
+	calculate_slope_gradient : Calculate the slope gradient between two geographical coordinates.    
 	Parameters:
-	point1: The geographic coordinates for the first point [Latitude, Longitude].
-	point2: The geographic coordinates for the second point [Latitude, Longitude].
-	unit: The unit for the slope gradient. Default is 'degree'.
+	point1 (List[float]): The geographic coordinates for the first point [Latitude, Longitude].
+	point2 (List[float]): The geographic coordinates for the second point [Latitude, Longitude].
+	unit (str): The unit for the slope gradient. Default is 'degree'.
+
+	Required Parameter = [point1,point2,]
 
 	"""
 	pass

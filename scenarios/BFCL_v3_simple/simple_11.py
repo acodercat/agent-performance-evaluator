@@ -1,9 +1,12 @@
-def calculate_triangle_area(base, height):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_triangle_area(base:int, height:int):
 	"""
-	Calculate the area of a triangle using its base and height.    
+	calculate_triangle_area : Calculate the area of a triangle using its base and height.    
 	Parameters:
-	base: The length of the base of the triangle.
-	height: The height of the triangle from the base.
+	base (int): The length of the base of the triangle.
+	height (int): The height of the triangle from the base.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass

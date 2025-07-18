@@ -1,21 +1,27 @@
-def calculate_lcm(num1, num2, method='standard'):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_lcm(num1:int, num2:int, method:str='standard'):
 	"""
-	Calculate the least common multiple (lcm) between two integers.    
+	calculate_lcm : Calculate the least common multiple (lcm) between two integers.    
 	Parameters:
-	num1: First number to calculate lcm for.
-	num2: Second number to calculate lcm for.
-	method: The specific method to use in the calculation. Supported values: 'standard', 'reduced'
+	num1 (int): First number to calculate lcm for.
+	num2 (int): Second number to calculate lcm for.
+	method (str): The specific method to use in the calculation. Supported values: 'standard', 'reduced'
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass
 
-def calculate_gcd(num1, num2, algorithm='euclidean'):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_gcd(num1:int, num2:int, algorithm:str='euclidean'):
 	"""
-	Calculate the greatest common divisor (gcd) between two integers.    
+	calculate_gcd : Calculate the greatest common divisor (gcd) between two integers.    
 	Parameters:
-	num1: First number to calculate gcd for.
-	num2: Second number to calculate gcd for.
-	algorithm: The specific algorithm to use in the calculation. Supported values: 'euclidean', 'binary'
+	num1 (int): First number to calculate gcd for.
+	num2 (int): Second number to calculate gcd for.
+	algorithm (str): The specific algorithm to use in the calculation. Supported values: 'euclidean', 'binary'
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass

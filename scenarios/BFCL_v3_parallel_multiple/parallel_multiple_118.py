@@ -1,21 +1,27 @@
-def audio_generate(frequency, amplitude, duration=None):
+from typing import List, Dict, Any, Union, Tuple 
+def audio_generate(frequency:int, amplitude:float, duration:float=None):
 	"""
-	Generate an audio signal given a frequency, amplitude, and duration.    
+	audio_generate : Generate an audio signal given a frequency, amplitude, and duration.    
 	Parameters:
-	frequency: Frequency of the audio signal in Hz.
-	amplitude: Amplitude of the audio signal.
-	duration: Duration of the audio signal in seconds. Default is 1 second if not specified.
+	frequency (int): Frequency of the audio signal in Hz.
+	amplitude (float): Amplitude of the audio signal.
+	duration (float): Duration of the audio signal in seconds. Default is 1 second if not specified.
+
+	Required Parameter = [frequency,amplitude,]
 
 	"""
 	pass
 
-def music_generate(key, tempo, time_signature=None):
+from typing import List, Dict, Any, Union, Tuple 
+def music_generate(key:str, tempo:int, time_signature:str=None):
 	"""
-	Generate a piece of music given a key, tempo, and time signature.    
+	music_generate : Generate a piece of music given a key, tempo, and time signature.    
 	Parameters:
-	key: The key of the piece, e.g., C Major.
-	tempo: Tempo of the piece in beats per minute.
-	time_signature: Time signature of the piece, e.g., 4/4. Default is '4/4' if not specified.
+	key (str): The key of the piece, e.g., C Major.
+	tempo (int): Tempo of the piece in beats per minute.
+	time_signature (str): Time signature of the piece, e.g., 4/4. Default is '4/4' if not specified.
+
+	Required Parameter = [key,tempo,]
 
 	"""
 	pass

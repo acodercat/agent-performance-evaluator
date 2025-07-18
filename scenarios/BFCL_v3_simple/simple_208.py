@@ -1,10 +1,13 @@
-def map_service_get_directions(start, end, avoid=None):
+from typing import List, Dict, Any, Union, Tuple 
+def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
-	Retrieve directions from a starting location to an ending location, including options for route preferences.    
+	map_service_get_directions : Retrieve directions from a starting location to an ending location, including options for route preferences.    
 	Parameters:
-	start: Starting location for the route.
-	end: Ending location for the route.
-	avoid: Route features to avoid. Default is ['highways', 'ferries']
+	start (str): Starting location for the route.
+	end (str): Ending location for the route.
+	avoid (List[str]): Route features to avoid. Default is ['highways', 'ferries']
+
+	Required Parameter = [start,end,]
 
 	"""
 	pass

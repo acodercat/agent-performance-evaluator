@@ -1,10 +1,13 @@
-def court_case_search(docket_number, location, full_text='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	"""
-	Retrieves details about a court case using its docket number and location.    
+	court_case_search : Retrieves details about a court case using its docket number and location.    
 	Parameters:
-	docket_number: The docket number for the case.
-	location: The location where the case is registered, in the format: state, e.g., Texas
-	full_text: Option to return the full text of the case ruling.
+	docket_number (str): The docket number for the case.
+	location (str): The location where the case is registered, in the format: state, e.g., Texas
+	full_text (bool): Option to return the full text of the case ruling.
+
+	Required Parameter = [docket_number,location,]
 
 	"""
 	pass

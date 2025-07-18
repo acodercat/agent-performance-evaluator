@@ -1,21 +1,27 @@
-def solarFarm_potential(coordinates, panelArea, month=None):
+from typing import List, Dict, Any, Union, Tuple 
+def solarFarm_potential(coordinates:List[float], panelArea:int, month:str=None):
 	"""
-	Estimate the energy output of a solar farm given its location and panel area for a particular month.    
+	solarFarm_potential : Estimate the energy output of a solar farm given its location and panel area for a particular month.    
 	Parameters:
-	coordinates: The geographic coordinates of the location of the solar farm.
-	panelArea: The total solar panel area in square feet at the location.
-	month: The month for which to calculate the potential energy output. Default to January
+	coordinates (List[float]): The geographic coordinates of the location of the solar farm.
+	panelArea (int): The total solar panel area in square feet at the location.
+	month (str): The month for which to calculate the potential energy output. Default to January
+
+	Required Parameter = [coordinates,panelArea,]
 
 	"""
 	pass
 
-def windFarm_potential(coordinates, turbineCount, month=None):
+from typing import List, Dict, Any, Union, Tuple 
+def windFarm_potential(coordinates:List[float], turbineCount:int, month:str=None):
 	"""
-	Estimate the energy output of a wind farm given its location and turbine count for a particular month.    
+	windFarm_potential : Estimate the energy output of a wind farm given its location and turbine count for a particular month.    
 	Parameters:
-	coordinates: The geographic coordinates of the location of the wind farm.
-	turbineCount: The total number of wind turbines at the location.
-	month: The month for which to calculate the potential energy output. Default to January
+	coordinates (List[float]): The geographic coordinates of the location of the wind farm.
+	turbineCount (int): The total number of wind turbines at the location.
+	month (str): The month for which to calculate the potential energy output. Default to January
+
+	Required Parameter = [coordinates,turbineCount,]
 
 	"""
 	pass

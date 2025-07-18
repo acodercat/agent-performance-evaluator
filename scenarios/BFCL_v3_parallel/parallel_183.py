@@ -1,10 +1,13 @@
-def math_hypot(x, y, z=None):
+from typing import List, Dict, Any, Union, Tuple 
+def math_hypot(x:int, y:int, z:int=None):
 	"""
-	Calculate the Euclidean norm, sqrt(sum(squares)), the length of the vector from the origin to point (x, y) which is the hypotenuse of the right triangle.    
+	math_hypot : Calculate the Euclidean norm, sqrt(sum(squares)), the length of the vector from the origin to point (x, y) which is the hypotenuse of the right triangle.    
 	Parameters:
-	x: The x-coordinate value.
-	y: The y-coordinate value.
-	z: Optional. The z-coordinate value. Default is 0.
+	x (int): The x-coordinate value.
+	y (int): The y-coordinate value.
+	z (int): Optional. The z-coordinate value. Default is 0.
+
+	Required Parameter = [x,y,]
 
 	"""
 	pass

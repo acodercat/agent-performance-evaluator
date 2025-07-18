@@ -1,10 +1,13 @@
-def sports_celebrity_get_major_achievements(celebrity_name, sports=None, team=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_celebrity_get_major_achievements(celebrity_name:str, sports:str=None, team:str=None):
 	"""
-	Returns a list of major achievements of a particular sports celebrity.    
+	sports_celebrity_get_major_achievements : Returns a list of major achievements of a particular sports celebrity.    
 	Parameters:
-	celebrity_name: Name of the sports celebrity.
-	sports: Type of sports the celebrity involved in. Default is Football.
-	team: Optional. Team where celebrity currently plays. Default is 'all'
+	celebrity_name (str): Name of the sports celebrity.
+	sports (str): Type of sports the celebrity involved in. Default is Football.
+	team (str): Optional. Team where celebrity currently plays. Default is 'all'
+
+	Required Parameter = [celebrity_name,]
 
 	"""
 	pass

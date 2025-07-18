@@ -1,10 +1,13 @@
-def find_restaurant(location, type, diet_option):
+from typing import List, Dict, Any, Union, Tuple 
+def find_restaurant(location:str, type:str, diet_option:str):
 	"""
-	Locate nearby restaurants based on user defined criteria    
+	find_restaurant : Locate nearby restaurants based on user defined criteria    
 	Parameters:
-	location: The location where user wants to search for a restaurant.
-	type: The type of the cuisine/restaurant.
-	diet_option: Special dietary preferences.
+	location (str): The location where user wants to search for a restaurant.
+	type (str): The type of the cuisine/restaurant.
+	diet_option (str): Special dietary preferences.
+
+	Required Parameter = [location,type,diet_option,]
 
 	"""
 	pass

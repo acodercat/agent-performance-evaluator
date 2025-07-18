@@ -1,30 +1,39 @@
-def google_books_search(genre, title=None):
+from typing import List, Dict, Any, Union, Tuple 
+def google_books_search(genre:str, title:str=None):
 	"""
-	Search for a book in the Google Books library with optional parameters    
+	google_books_search : Search for a book in the Google Books library with optional parameters    
 	Parameters:
-	genre: Genre of the book
-	title: Title of the book. Default is not use it if not specified.
+	genre (str): Genre of the book
+	title (str): Title of the book. Default is not use it if not specified.
+
+	Required Parameter = [genre,]
 
 	"""
 	pass
 
-def library_search_books(location, genre, title=None):
+from typing import List, Dict, Any, Union, Tuple 
+def library_search_books(location:str, genre:str, title:str=None):
 	"""
-	Search for a book in a given library with optional parameters    
+	library_search_books : Search for a book in a given library with optional parameters    
 	Parameters:
-	location: Name or city of library
-	genre: Genre of the book
-	title: Title of the book. Default is not use it if not specified.
+	location (str): Name or city of library
+	genre (str): Genre of the book
+	title (str): Title of the book. Default is not use it if not specified.
+
+	Required Parameter = [location,genre,]
 
 	"""
 	pass
 
-def openlibrary_books_search(genre, title=None):
+from typing import List, Dict, Any, Union, Tuple 
+def openlibrary_books_search(genre:str, title:str=None):
 	"""
-	Search for a book in the Open Library with optional parameters    
+	openlibrary_books_search : Search for a book in the Open Library with optional parameters    
 	Parameters:
-	genre: Genre of the book
-	title: Title of the book. Default is not use it if not specified.
+	genre (str): Genre of the book
+	title (str): Title of the book. Default is not use it if not specified.
+
+	Required Parameter = [genre,]
 
 	"""
 	pass

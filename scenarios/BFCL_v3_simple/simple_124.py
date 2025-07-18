@@ -1,10 +1,13 @@
-def t_test(dataset_A, dataset_B, alpha=None):
+from typing import List, Dict, Any, Union, Tuple 
+def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	"""
-	Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
+	t_test : Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
 	Parameters:
-	dataset_A: Dataset A for comparison.
-	dataset_B: Dataset B for comparison.
-	alpha: Significance level for the test. Default is 0.05.
+	dataset_A (List[int]): Dataset A for comparison.
+	dataset_B (List[int]): Dataset B for comparison.
+	alpha (float): Significance level for the test. Default is 0.05.
+
+	Required Parameter = [dataset_A,dataset_B,]
 
 	"""
 	pass

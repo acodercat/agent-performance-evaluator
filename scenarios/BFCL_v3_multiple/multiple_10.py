@@ -1,22 +1,28 @@
-def database_modify_columns(db_name, table, operation, columns):
+from typing import List, Dict, Any, Union, Tuple 
+def database_modify_columns(db_name:str, table:str, operation:str, columns:List[str]):
 	"""
-	This function allows deletion or addition of columns in a database    
+	database_modify_columns : This function allows deletion or addition of columns in a database    
 	Parameters:
-	db_name: The name of the database to modify.
-	table: The name of the table to modify.
-	operation: The operation to carry out on the table. Can be 'delete' or 'add'.
-	columns: List of the columns to add or delete from the table.
+	db_name (str): The name of the database to modify.
+	table (str): The name of the table to modify.
+	operation (str): The operation to carry out on the table. Can be 'delete' or 'add'.
+	columns (List[str]): List of the columns to add or delete from the table.
+
+	Required Parameter = [db_name,table,operation,columns,]
 
 	"""
 	pass
 
-def database_create_backup(db_name, backup_location, timestamp='False'):
+from typing import List, Dict, Any, Union, Tuple 
+def database_create_backup(db_name:str, backup_location:str, timestamp:bool='False'):
 	"""
-	This function creates a backup of the database before modification    
+	database_create_backup : This function creates a backup of the database before modification    
 	Parameters:
-	db_name: The name of the database to create a backup of.
-	backup_location: The file path where the backup should be stored.
-	timestamp: Option to append a timestamp to the backup file name.
+	db_name (str): The name of the database to create a backup of.
+	backup_location (str): The file path where the backup should be stored.
+	timestamp (bool): Option to append a timestamp to the backup file name.
+
+	Required Parameter = [db_name,backup_location,]
 
 	"""
 	pass

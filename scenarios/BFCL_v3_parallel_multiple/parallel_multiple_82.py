@@ -1,21 +1,27 @@
-def geometry_calculate_cone_volume(radius, height, round_off=2):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_calculate_cone_volume(radius:float, height:float, round_off:int=2):
 	"""
-	Calculate the volume of a cone given the radius and height.    
+	geometry_calculate_cone_volume : Calculate the volume of a cone given the radius and height.    
 	Parameters:
-	radius: Radius of the cone base.
-	height: Height of the cone.
-	round_off: Number of decimal places to round off the answer.
+	radius (float): Radius of the cone base.
+	height (float): Height of the cone.
+	round_off (int): Number of decimal places to round off the answer.
+
+	Required Parameter = [radius,height,]
 
 	"""
 	pass
 
-def physics_calculate_cone_mass(radius, height, density):
+from typing import List, Dict, Any, Union, Tuple 
+def physics_calculate_cone_mass(radius:float, height:float, density:float):
 	"""
-	Calculate the mass of a cone given the radius, height, and density.    
+	physics_calculate_cone_mass : Calculate the mass of a cone given the radius, height, and density.    
 	Parameters:
-	radius: Radius of the cone base.
-	height: Height of the cone.
-	density: Density of the material the cone is made of.
+	radius (float): Radius of the cone base.
+	height (float): Height of the cone.
+	density (float): Density of the material the cone is made of.
+
+	Required Parameter = [radius,height,density,]
 
 	"""
 	pass

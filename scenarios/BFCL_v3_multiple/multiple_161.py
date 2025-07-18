@@ -1,33 +1,42 @@
-def card_game_probability_calculate(total_cards, desired_cards, cards_drawn=1):
+from typing import List, Dict, Any, Union, Tuple 
+def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_drawn:int=1):
 	"""
-	Calculate the probability of drawing a certain card or suit from a deck of cards.    
+	card_game_probability_calculate : Calculate the probability of drawing a certain card or suit from a deck of cards.    
 	Parameters:
-	total_cards: Total number of cards in the deck.
-	desired_cards: Number of cards in the deck that satisfy the conditions.
-	cards_drawn: Number of cards drawn from the deck.
+	total_cards (int): Total number of cards in the deck.
+	desired_cards (int): Number of cards in the deck that satisfy the conditions.
+	cards_drawn (int): Number of cards drawn from the deck.
+
+	Required Parameter = [total_cards,desired_cards,]
 
 	"""
 	pass
 
-def find_exhibition(location, art_form, month=None, user_ratings=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str=None):
 	"""
-	Locate the most popular exhibitions based on criteria like location, time, art form, and user ratings.    
+	find_exhibition : Locate the most popular exhibitions based on criteria like location, time, art form, and user ratings.    
 	Parameters:
-	location: The city where the exhibition is held, e.g., New York, NY.
-	art_form: The form of art the exhibition is displaying e.g., sculpture.
-	month: The month of exhibition. Default value will return upcoming events.
-	user_ratings: Select exhibitions with user rating threshold. Default is 'high'
+	location (str): The city where the exhibition is held, e.g., New York, NY.
+	art_form (str): The form of art the exhibition is displaying e.g., sculpture.
+	month (str): The month of exhibition. Default value will return upcoming events.
+	user_ratings (str): Select exhibitions with user rating threshold. Default is 'high'
+
+	Required Parameter = [location,art_form,]
 
 	"""
 	pass
 
-def get_sculpture_info(artist_name, year=None, detail=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_sculpture_info(artist_name:str, year:int=None, detail:bool=None):
 	"""
-	Retrieves the most recent artwork by a specified artist with its detailed description.    
+	get_sculpture_info : Retrieves the most recent artwork by a specified artist with its detailed description.    
 	Parameters:
-	artist_name: The name of the artist.
-	year: Year of the sculpture. This is optional. Default 2024
-	detail: If True, it provides detailed description of the sculpture. Defaults to False.
+	artist_name (str): The name of the artist.
+	year (int): Year of the sculpture. This is optional. Default 2024
+	detail (bool): If True, it provides detailed description of the sculpture. Defaults to False.
+
+	Required Parameter = [artist_name,]
 
 	"""
 	pass

@@ -1,21 +1,27 @@
-def route_planner_calculate_route(start, destination, method='fastest'):
+from typing import List, Dict, Any, Union, Tuple 
+def route_planner_calculate_route(start:str, destination:str, method:str='fastest'):
 	"""
-	Determines the best route between two points.    
+	route_planner_calculate_route : Determines the best route between two points.    
 	Parameters:
-	start: The starting point of the journey.
-	destination: The destination of the journey.
-	method: The method to use when calculating the route (default is 'fastest').
+	start (str): The starting point of the journey.
+	destination (str): The destination of the journey.
+	method (str): The method to use when calculating the route (default is 'fastest').
+
+	Required Parameter = [start,destination,]
 
 	"""
 	pass
 
-def chess_club_details_find(name, city, event='null'):
+from typing import List, Dict, Any, Union, Tuple 
+def chess_club_details_find(name:str, city:str, event:str='null'):
 	"""
-	Provides details about a chess club, including location.    
+	chess_club_details_find : Provides details about a chess club, including location.    
 	Parameters:
-	name: The name of the chess club.
-	city: The city in which the chess club is located.
-	event: The event hosted by the club.
+	name (str): The name of the chess club.
+	city (str): The city in which the chess club is located.
+	event (str): The event hosted by the club.
+
+	Required Parameter = [name,city,]
 
 	"""
 	pass

@@ -1,20 +1,26 @@
-def physics_magnetic_field(current, turnsPerMeter, length):
+from typing import List, Dict, Any, Union, Tuple 
+def physics_magnetic_field(current:float, turnsPerMeter:float, length:float):
 	"""
-	Calculate magnetic field for given current flowing through solenoid.    
+	physics_magnetic_field : Calculate magnetic field for given current flowing through solenoid.    
 	Parameters:
-	current: Electric current in Amperes.
-	turnsPerMeter: Number of turns of solenoid per meter.
-	length: Length of the solenoid in meters.
+	current (float): Electric current in Amperes.
+	turnsPerMeter (float): Number of turns of solenoid per meter.
+	length (float): Length of the solenoid in meters.
+
+	Required Parameter = [current,turnsPerMeter,length,]
 
 	"""
 	pass
 
-def physics_electric_field(charge, distance):
+from typing import List, Dict, Any, Union, Tuple 
+def physics_electric_field(charge:float, distance:float):
 	"""
-	Calculate electric field for a given point charge and distance.    
+	physics_electric_field : Calculate electric field for a given point charge and distance.    
 	Parameters:
-	charge: Value of point charge in Coulombs.
-	distance: Distance from the point charge in meters.
+	charge (float): Value of point charge in Coulombs.
+	distance (float): Distance from the point charge in meters.
+
+	Required Parameter = [charge,distance,]
 
 	"""
 	pass

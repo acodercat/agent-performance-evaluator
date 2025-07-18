@@ -1,9 +1,12 @@
-def get_team_ranking(team, league):
+from typing import List, Dict, Any, Union, Tuple 
+def get_team_ranking(team:str, league:str):
 	"""
-	Retrieve the current ranking of a football team in a specific league.    
+	get_team_ranking : Retrieve the current ranking of a football team in a specific league.    
 	Parameters:
-	team: The name of the football team.
-	league: The league the team is competing in. E.g. UEFA Champions League, La Liga.
+	team (str): The name of the football team.
+	league (str): The league the team is competing in. E.g. UEFA Champions League, La Liga.
+
+	Required Parameter = [team,league,]
 
 	"""
 	pass

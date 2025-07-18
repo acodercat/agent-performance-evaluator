@@ -1,9 +1,12 @@
-def get_boiling_melting_points(substance, sea_level):
+from typing import List, Dict, Any, Union, Tuple 
+def get_boiling_melting_points(substance:str, sea_level:int):
 	"""
-	Retrieve the boiling point and melting point of a substance based on its name and the sea level.    
+	get_boiling_melting_points : Retrieve the boiling point and melting point of a substance based on its name and the sea level.    
 	Parameters:
-	substance: The name of the substance.
-	sea_level: The sea level in meters.
+	substance (str): The name of the substance.
+	sea_level (int): The sea level in meters.
+
+	Required Parameter = [substance,sea_level,]
 
 	"""
 	pass

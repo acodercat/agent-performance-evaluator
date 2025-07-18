@@ -1,18 +1,24 @@
-def scientist_info_get_birthdate(name):
+from typing import List, Dict, Any, Union, Tuple 
+def scientist_info_get_birthdate(name:str):
 	"""
-	Retrieve the birthdate of a specific scientist.    
+	scientist_info_get_birthdate : Retrieve the birthdate of a specific scientist.    
 	Parameters:
-	name: The name of the scientist.
+	name (str): The name of the scientist.
+
+	Required Parameter = [name,]
 
 	"""
 	pass
 
-def scientist_info_get_famous_discovery(name, discovery_order=1):
+from typing import List, Dict, Any, Union, Tuple 
+def scientist_info_get_famous_discovery(name:str, discovery_order:int=1):
 	"""
-	Retrieve the most famous discovery made by a specific scientist.    
+	scientist_info_get_famous_discovery : Retrieve the most famous discovery made by a specific scientist.    
 	Parameters:
-	name: The name of the scientist.
-	discovery_order: The order of discoveries if the scientist made multiple discoveries. If not provided, the first (or most famous) discovery will be returned.
+	name (str): The name of the scientist.
+	discovery_order (int): The order of discoveries if the scientist made multiple discoveries. If not provided, the first (or most famous) discovery will be returned.
+
+	Required Parameter = [name,]
 
 	"""
 	pass

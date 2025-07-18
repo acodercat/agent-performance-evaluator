@@ -1,30 +1,39 @@
-def train_ticket_buy(origin, destination, date):
+from typing import List, Dict, Any, Union, Tuple 
+def train_ticket_buy(origin:str, destination:str, date:str):
 	"""
-	Buy a train ticket for a specific date and route.    
+	train_ticket_buy : Buy a train ticket for a specific date and route.    
 	Parameters:
-	origin: The departure full name of the city.
-	destination: The destination city.
-	date: The date when the journey should be, in the format of yyyy-mm-dd.
+	origin (str): The departure full name of the city.
+	destination (str): The destination city.
+	date (str): The date when the journey should be, in the format of yyyy-mm-dd.
+
+	Required Parameter = [origin,destination,date,]
 
 	"""
 	pass
 
-def musical_ticket_buy(show, date):
+from typing import List, Dict, Any, Union, Tuple 
+def musical_ticket_buy(show:str, date:str):
 	"""
-	Buy a ticket for a musical    
+	musical_ticket_buy : Buy a ticket for a musical    
 	Parameters:
-	show: Name of the show.
-	date: Date when the ticket should be bought for.
+	show (str): Name of the show.
+	date (str): Date when the ticket should be bought for.
+
+	Required Parameter = [show,date,]
 
 	"""
 	pass
 
-def concert_ticket_buy(artist, date):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_ticket_buy(artist:str, date:str):
 	"""
-	Buy a concert ticket    
+	concert_ticket_buy : Buy a concert ticket    
 	Parameters:
-	artist: Name of the artist.
-	date: Date of the concert.
+	artist (str): Name of the artist.
+	date (str): Date of the concert.
+
+	Required Parameter = [artist,date,]
 
 	"""
 	pass

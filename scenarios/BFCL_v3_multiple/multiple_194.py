@@ -1,41 +1,53 @@
-def discoverer_get(element_name, year=None, first=True):
+from typing import List, Dict, Any, Union, Tuple 
+def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	"""
-	Retrieve the name of the discoverer of an element based on its name.    
+	discoverer_get : Retrieve the name of the discoverer of an element based on its name.    
 	Parameters:
-	element_name: The name of the element.
-	year: Optional parameter that refers to the year of discovery. It could be helpful in case an element was discovered more than once. Default is 0.
-	first: Optional parameter indicating if the first discoverer's name should be retrieved.
+	element_name (str): The name of the element.
+	year (int): Optional parameter that refers to the year of discovery. It could be helpful in case an element was discovered more than once. Default is 0.
+	first (bool): Optional parameter indicating if the first discoverer's name should be retrieved.
+
+	Required Parameter = [element_name,]
 
 	"""
 	pass
 
-def lawsuit_check_case(case_id, closed_status):
+from typing import List, Dict, Any, Union, Tuple 
+def lawsuit_check_case(case_id:int, closed_status:bool):
 	"""
-	Verify the details of a lawsuit case and check its status using case ID.    
+	lawsuit_check_case : Verify the details of a lawsuit case and check its status using case ID.    
 	Parameters:
-	case_id: The identification number of the lawsuit case.
-	closed_status: The status of the lawsuit case to be verified.
+	case_id (int): The identification number of the lawsuit case.
+	closed_status (bool): The status of the lawsuit case to be verified.
+
+	Required Parameter = [case_id,closed_status,]
 
 	"""
 	pass
 
-def get_museum_hours(museum_name, day):
+from typing import List, Dict, Any, Union, Tuple 
+def get_museum_hours(museum_name:str, day:str):
 	"""
-	Retrieve opening hours of a specified museum for the specified day.    
+	get_museum_hours : Retrieve opening hours of a specified museum for the specified day.    
 	Parameters:
-	museum_name: The name of the museum.
-	day: Day of the week.
+	museum_name (str): The name of the museum.
+	day (str): Day of the week.
+
+	Required Parameter = [museum_name,day,]
 
 	"""
 	pass
 
-def monopoly_odds_calculator(number, dice_number, dice_faces=None):
+from typing import List, Dict, Any, Union, Tuple 
+def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
-	Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
+	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
 	Parameters:
-	number: The number for which the odds are calculated.
-	dice_number: The number of dice involved in the roll.
-	dice_faces: The number of faces on a single die. Default is 6 for standard six-faced die.
+	number (int): The number for which the odds are calculated.
+	dice_number (int): The number of dice involved in the roll.
+	dice_faces (int): The number of faces on a single die. Default is 6 for standard six-faced die.
+
+	Required Parameter = [number,dice_number,]
 
 	"""
 	pass

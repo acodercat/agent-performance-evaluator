@@ -1,27 +1,36 @@
-def statistics_variance(data, population=True):
+from typing import List, Dict, Any, Union, Tuple 
+def statistics_variance(data:List[int], population:bool=True):
 	"""
-	This function calculates the variance of a given set of numbers.    
+	statistics_variance : This function calculates the variance of a given set of numbers.    
 	Parameters:
-	data: The list of data points.
-	population: Determines whether to use population variance formula. Default to True
+	data (List[int]): The list of data points.
+	population (bool): Determines whether to use population variance formula. Default to True
+
+	Required Parameter = [data,]
 
 	"""
 	pass
 
-def statistics_median(data):
+from typing import List, Dict, Any, Union, Tuple 
+def statistics_median(data:List[int]):
 	"""
-	This function returns the median of the data set provided.    
+	statistics_median : This function returns the median of the data set provided.    
 	Parameters:
-	data: The list of data points.
+	data (List[int]): The list of data points.
+
+	Required Parameter = [data,]
 
 	"""
 	pass
 
-def statistics_mode(data):
+from typing import List, Dict, Any, Union, Tuple 
+def statistics_mode(data:List[int]):
 	"""
-	This function determines the mode of a list of numbers.    
+	statistics_mode : This function determines the mode of a list of numbers.    
 	Parameters:
-	data: The list of data points.
+	data (List[int]): The list of data points.
+
+	Required Parameter = [data,]
 
 	"""
 	pass

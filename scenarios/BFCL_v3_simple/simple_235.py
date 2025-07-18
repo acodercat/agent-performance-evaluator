@@ -1,9 +1,12 @@
-def get_event_date(event, location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_event_date(event:str, location:str=None):
 	"""
-	Retrieve the date of a historical event.    
+	get_event_date : Retrieve the date of a historical event.    
 	Parameters:
-	event: The name of the historical event.
-	location: Location where the event took place. Default to global if not specified.
+	event (str): The name of the historical event.
+	location (str): Location where the event took place. Default to global if not specified.
+
+	Required Parameter = [event,]
 
 	"""
 	pass

@@ -1,21 +1,27 @@
-def analyze_structure(building_id, floors, mode=None):
+from typing import List, Dict, Any, Union, Tuple 
+def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	"""
-	Analyze a structure of a building based on its Id and floor numbers.    
+	analyze_structure : Analyze a structure of a building based on its Id and floor numbers.    
 	Parameters:
-	building_id: The unique identification number of the building.
-	floors: Floor numbers to be analyzed.
-	mode: Mode of analysis, e.g. 'static' or 'dynamic'. Default is 'static'.
+	building_id (str): The unique identification number of the building.
+	floors (List[int]): Floor numbers to be analyzed.
+	mode (str): Mode of analysis, e.g. 'static' or 'dynamic'. Default is 'static'.
+
+	Required Parameter = [building_id,floors,]
 
 	"""
 	pass
 
-def player_statistic(player_name, year, team_name=None):
+from typing import List, Dict, Any, Union, Tuple 
+def player_statistic(player_name:str, year:int, team_name:str=None):
 	"""
-	Retrieves detailed player's statistics for a specific year.    
+	player_statistic : Retrieves detailed player's statistics for a specific year.    
 	Parameters:
-	player_name: The player's name.
-	year: Year for which the statistics will be displayed.
-	team_name: The name of the team(optional). Default is all if not specified.
+	player_name (str): The player's name.
+	year (int): Year for which the statistics will be displayed.
+	team_name (str): The name of the team(optional). Default is all if not specified.
+
+	Required Parameter = [player_name,year,]
 
 	"""
 	pass

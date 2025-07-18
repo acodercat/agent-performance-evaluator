@@ -1,21 +1,27 @@
-def math_gaussian_integral(function, lower_limit, upper_limit):
+from typing import List, Dict, Any, Union, Tuple 
+def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
 	"""
-	Perform Gaussian integration over the range of the function.    
+	math_gaussian_integral : Perform Gaussian integration over the range of the function.    
 	Parameters:
-	function: The function to integrate, given in terms of x.
-	lower_limit: The lower limit of the integral.
-	upper_limit: The upper limit of the integral.
+	function (str): The function to integrate, given in terms of x.
+	lower_limit (float): The lower limit of the integral.
+	upper_limit (float): The upper limit of the integral.
+
+	Required Parameter = [function,lower_limit,upper_limit,]
 
 	"""
 	pass
 
-def math_definite_integral(function, lower_limit, upper_limit):
+from typing import List, Dict, Any, Union, Tuple 
+def math_definite_integral(function:str, lower_limit:float, upper_limit:float):
 	"""
-	Calculate the definite integral of a function within specified bounds.    
+	math_definite_integral : Calculate the definite integral of a function within specified bounds.    
 	Parameters:
-	function: The function to integrate, given in terms of x.
-	lower_limit: The lower limit of the integral.
-	upper_limit: The upper limit of the integral.
+	function (str): The function to integrate, given in terms of x.
+	lower_limit (float): The lower limit of the integral.
+	upper_limit (float): The upper limit of the integral.
+
+	Required Parameter = [function,lower_limit,upper_limit,]
 
 	"""
 	pass

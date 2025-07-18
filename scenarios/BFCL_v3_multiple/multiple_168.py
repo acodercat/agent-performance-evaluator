@@ -1,29 +1,38 @@
-def get_stock_price(company_names):
+from typing import List, Dict, Any, Union, Tuple 
+def get_stock_price(company_names:List[str]):
 	"""
-	Retrieves the current stock price of the specified companies    
+	get_stock_price : Retrieves the current stock price of the specified companies    
 	Parameters:
-	company_names: The list of companies for which to retrieve the stock price.
+	company_names (List[str]): The list of companies for which to retrieve the stock price.
+
+	Required Parameter = [company_names,]
 
 	"""
 	pass
 
-def get_song_lyrics(song_title, artist_name, lang=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
-	Retrieve the lyrics of a song based on the artist's name and song title.    
+	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
 	Parameters:
-	song_title: The title of the song.
-	artist_name: The name of the artist who performed the song.
-	lang: The language of the lyrics. Default is English.
+	song_title (str): The title of the song.
+	artist_name (str): The name of the artist who performed the song.
+	lang (str): The language of the lyrics. Default is English.
+
+	Required Parameter = [song_title,artist_name,]
 
 	"""
 	pass
 
-def park_information(park_name, information):
+from typing import List, Dict, Any, Union, Tuple 
+def park_information(park_name:str, information:List[str]):
 	"""
-	Retrieve the basic information such as elevation and area of a national park.    
+	park_information : Retrieve the basic information such as elevation and area of a national park.    
 	Parameters:
-	park_name: The name of the national park.
-	information: The type of information you want about the park.
+	park_name (str): The name of the national park.
+	information (List[str]): The type of information you want about the park.
+
+	Required Parameter = [park_name,information,]
 
 	"""
 	pass

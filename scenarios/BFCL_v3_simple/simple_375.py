@@ -1,10 +1,13 @@
-def walmart_check_price(items, quantities, store_location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def walmart_check_price(items:List[str], quantities:List[int], store_location:str=None):
 	"""
-	Calculate total price for given items and their quantities at Walmart.    
+	walmart_check_price : Calculate total price for given items and their quantities at Walmart.    
 	Parameters:
-	items: List of items to be priced.
-	quantities: Quantity of each item corresponding to the items list.
-	store_location: The store location for specific pricing (optional). Default to all if not specified.
+	items (List[str]): List of items to be priced.
+	quantities (List[int]): Quantity of each item corresponding to the items list.
+	store_location (str): The store location for specific pricing (optional). Default to all if not specified.
+
+	Required Parameter = [items,quantities,]
 
 	"""
 	pass

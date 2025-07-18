@@ -1,10 +1,13 @@
-def game_score_highest(game, platform, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def game_score_highest(game:str, platform:str, region:str=None):
 	"""
-	Retrieve the highest score achieved by any player in a specific game.    
+	game_score_highest : Retrieve the highest score achieved by any player in a specific game.    
 	Parameters:
-	game: The name of the online game.
-	platform: The platform where the game is played, e.g. PC, Xbox, Playstation
-	region: The geographic region of the player. Defaults to 'Global'
+	game (str): The name of the online game.
+	platform (str): The platform where the game is played, e.g. PC, Xbox, Playstation
+	region (str): The geographic region of the player. Defaults to 'Global'
+
+	Required Parameter = [game,platform,]
 
 	"""
 	pass

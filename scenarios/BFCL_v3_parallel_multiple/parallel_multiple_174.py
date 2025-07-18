@@ -1,32 +1,41 @@
-def convert_currency(base_currency, target_currency, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def convert_currency(base_currency:str, target_currency:str, amount:int):
 	"""
-	Converts an amount from a particular currency to another currency.    
+	convert_currency : Converts an amount from a particular currency to another currency.    
 	Parameters:
-	base_currency: The base currency in which the original amount is present.
-	target_currency: The currency to which you want to convert.
-	amount: The amount you want to convert.
+	base_currency (str): The base currency in which the original amount is present.
+	target_currency (str): The currency to which you want to convert.
+	amount (int): The amount you want to convert.
+
+	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
 	pass
 
-def map_service_get_directions(start, end, avoid=None):
+from typing import List, Dict, Any, Union, Tuple 
+def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
-	Retrieve directions from a starting location to an ending location, including options for route preferences.    
+	map_service_get_directions : Retrieve directions from a starting location to an ending location, including options for route preferences.    
 	Parameters:
-	start: Starting location for the route.
-	end: Ending location for the route.
-	avoid: Route features to avoid. Default is none if not specified.
+	start (str): Starting location for the route.
+	end (str): Ending location for the route.
+	avoid (List[str]): Route features to avoid. Default is none if not specified.
+
+	Required Parameter = [start,end,]
 
 	"""
 	pass
 
-def ecology_get_turtle_population(location, year=None, species=None):
+from typing import List, Dict, Any, Union, Tuple 
+def ecology_get_turtle_population(location:str, year:int=None, species:bool=None):
 	"""
-	Get the population and species of turtles in a specific location.    
+	ecology_get_turtle_population : Get the population and species of turtles in a specific location.    
 	Parameters:
-	location: The name of the location.
-	year: The year of the data requested. Default is 2023 if not specified.
-	species: Whether to include species information. Default is false. (optional)
+	location (str): The name of the location.
+	year (int): The year of the data requested. Default is 2023 if not specified.
+	species (bool): Whether to include species information. Default is false. (optional)
+
+	Required Parameter = [location,]
 
 	"""
 	pass

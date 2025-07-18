@@ -1,9 +1,12 @@
-def public_library_find_nearby(location, facilities):
+from typing import List, Dict, Any, Union, Tuple 
+def public_library_find_nearby(location:str, facilities:List[str]):
 	"""
-	Locate nearby public libraries based on specific criteria like English fiction availability and Wi-Fi.    
+	public_library_find_nearby : Locate nearby public libraries based on specific criteria like English fiction availability and Wi-Fi.    
 	Parameters:
-	location: The city and state, e.g. Boston, MA
-	facilities: Facilities and sections in public library.
+	location (str): The city and state, e.g. Boston, MA
+	facilities (List[str]): Facilities and sections in public library.
+
+	Required Parameter = [location,facilities,]
 
 	"""
 	pass

@@ -1,29 +1,38 @@
-def rectangle_area(length, width):
+from typing import List, Dict, Any, Union, Tuple 
+def rectangle_area(length:int, width:int):
 	"""
-	Calculate the area of a rectangle with given length and width    
+	rectangle_area : Calculate the area of a rectangle with given length and width    
 	Parameters:
-	length: Length of the rectangle
-	width: Width of the rectangle
+	length (int): Length of the rectangle
+	width (int): Width of the rectangle
+
+	Required Parameter = [length,width,]
 
 	"""
 	pass
 
-def circle_area(radius, isDiameter=False):
+from typing import List, Dict, Any, Union, Tuple 
+def circle_area(radius:float, isDiameter:bool=False):
 	"""
-	Calculate the area of a circle with given radius    
+	circle_area : Calculate the area of a circle with given radius    
 	Parameters:
-	radius: Radius of the circle
-	isDiameter: Whether the given length is the diameter of the circle, default is false
+	radius (float): Radius of the circle
+	isDiameter (bool): Whether the given length is the diameter of the circle, default is false
+
+	Required Parameter = [radius,]
 
 	"""
 	pass
 
-def triangle_area(base, height):
+from typing import List, Dict, Any, Union, Tuple 
+def triangle_area(base:float, height:float):
 	"""
-	Calculate the area of a triangle with given base and height    
+	triangle_area : Calculate the area of a triangle with given base and height    
 	Parameters:
-	base: Base of the triangle
-	height: Height of the triangle
+	base (float): Base of the triangle
+	height (float): Height of the triangle
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass

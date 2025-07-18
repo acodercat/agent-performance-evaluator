@@ -1,10 +1,13 @@
-def find_instrument(budget, type, make=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_instrument(budget:int, type:str, make:str=None):
 	"""
-	Search for a musical instrument within specified budget and of specific type.    
+	find_instrument : Search for a musical instrument within specified budget and of specific type.    
 	Parameters:
-	budget: Your budget for the instrument.
-	type: Type of the instrument
-	make: Maker of the instrument. Default to not use if not specified.
+	budget (int): Your budget for the instrument.
+	type (str): Type of the instrument
+	make (str): Maker of the instrument. Default to not use if not specified.
+
+	Required Parameter = [budget,type,]
 
 	"""
 	pass

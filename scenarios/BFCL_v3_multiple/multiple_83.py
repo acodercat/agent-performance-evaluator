@@ -1,30 +1,39 @@
-def team_stats_get_top_scorer(team_name, competition=None):
+from typing import List, Dict, Any, Union, Tuple 
+def team_stats_get_top_scorer(team_name:str, competition:str=None):
 	"""
-	Fetch the top scorer of a specified football team.    
+	team_stats_get_top_scorer : Fetch the top scorer of a specified football team.    
 	Parameters:
-	team_name: The name of the football team.
-	competition: Competition for which to fetch stats (optional). Default ''
+	team_name (str): The name of the football team.
+	competition (str): Competition for which to fetch stats (optional). Default ''
+
+	Required Parameter = [team_name,]
 
 	"""
 	pass
 
-def league_stats_get_top_scorer(league_name, season=None):
+from typing import List, Dict, Any, Union, Tuple 
+def league_stats_get_top_scorer(league_name:str, season:str=None):
 	"""
-	Fetch the top scorer of a specified football league.    
+	league_stats_get_top_scorer : Fetch the top scorer of a specified football league.    
 	Parameters:
-	league_name: The name of the football league.
-	season: Season for which to fetch stats (optional). Default ''
+	league_name (str): The name of the football league.
+	season (str): Season for which to fetch stats (optional). Default ''
+
+	Required Parameter = [league_name,]
 
 	"""
 	pass
 
-def player_stats_get_all_time_goals(player_name, team_name, competition=None):
+from typing import List, Dict, Any, Union, Tuple 
+def player_stats_get_all_time_goals(player_name:str, team_name:str, competition:str=None):
 	"""
-	Fetch all-time goals scored by a particular football player for a specified team.    
+	player_stats_get_all_time_goals : Fetch all-time goals scored by a particular football player for a specified team.    
 	Parameters:
-	player_name: The name of the football player.
-	team_name: The name of the team for which player has played.
-	competition: Competition for which to fetch stats (optional). Default ''
+	player_name (str): The name of the football player.
+	team_name (str): The name of the team for which player has played.
+	competition (str): Competition for which to fetch stats (optional). Default ''
+
+	Required Parameter = [player_name,team_name,]
 
 	"""
 	pass

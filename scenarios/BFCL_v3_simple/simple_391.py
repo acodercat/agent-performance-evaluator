@@ -1,10 +1,13 @@
-def get_exchange_rate_with_fee(base_currency, target_currency, fee):
+from typing import List, Dict, Any, Union, Tuple 
+def get_exchange_rate_with_fee(base_currency:str, target_currency:str, fee:float):
 	"""
-	Retrieve the exchange rate between two currencies including transaction fee.    
+	get_exchange_rate_with_fee : Retrieve the exchange rate between two currencies including transaction fee.    
 	Parameters:
-	base_currency: The base currency.
-	target_currency: The target currency.
-	fee: The transaction fee in percentage. Default is 0%.
+	base_currency (str): The base currency.
+	target_currency (str): The target currency.
+	fee (float): The transaction fee in percentage. Default is 0%.
+
+	Required Parameter = [base_currency,target_currency,fee,]
 
 	"""
 	pass

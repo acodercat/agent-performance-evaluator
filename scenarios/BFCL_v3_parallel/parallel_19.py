@@ -1,10 +1,13 @@
-def calculate_mortgage_payment(loan_amount, interest_rate, loan_term):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_mortgage_payment(loan_amount:int, interest_rate:float, loan_term:int):
 	"""
-	Calculate the monthly mortgage payment for a given loan amount, interest rate, and loan term.    
+	calculate_mortgage_payment : Calculate the monthly mortgage payment for a given loan amount, interest rate, and loan term.    
 	Parameters:
-	loan_amount: The loan amount.
-	interest_rate: The annual interest rate.
-	loan_term: The loan term in years.
+	loan_amount (int): The loan amount.
+	interest_rate (float): The annual interest rate.
+	loan_term (int): The loan term in years.
+
+	Required Parameter = [loan_amount,interest_rate,loan_term,]
 
 	"""
 	pass

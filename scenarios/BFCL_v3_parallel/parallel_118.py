@@ -1,9 +1,12 @@
-def ecology_data_precipitation_stats(location, time_frame):
+from typing import List, Dict, Any, Union, Tuple 
+def ecology_data_precipitation_stats(location:str, time_frame:str):
 	"""
-	Retrieve precipitation data for a specified location and time period.    
+	ecology_data_precipitation_stats : Retrieve precipitation data for a specified location and time period.    
 	Parameters:
-	location: The name of the location, e.g., 'Amazon rainforest'.
-	time_frame: The time period for which data is required.
+	location (str): The name of the location, e.g., 'Amazon rainforest'.
+	time_frame (str): The time period for which data is required.
+
+	Required Parameter = [location,time_frame,]
 
 	"""
 	pass

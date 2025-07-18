@@ -1,29 +1,38 @@
-def religion_history_get_councils(religion, count):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_history_get_councils(religion:str, count:int):
 	"""
-	Retrieves a list of major councils in a specified religion.    
+	religion_history_get_councils : Retrieves a list of major councils in a specified religion.    
 	Parameters:
-	religion: Name of the religion for which to retrieve the councils.
-	count: Number of top councils to retrieve.
+	religion (str): Name of the religion for which to retrieve the councils.
+	count (int): Number of top councils to retrieve.
+
+	Required Parameter = [religion,count,]
 
 	"""
 	pass
 
-def religion_history_get_reformations(religion, count):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_history_get_reformations(religion:str, count:int):
 	"""
-	Retrieves a list of major reformations in a specified religion.    
+	religion_history_get_reformations : Retrieves a list of major reformations in a specified religion.    
 	Parameters:
-	religion: Name of the religion for which to retrieve the reformations.
-	count: Number of top reformations to retrieve.
+	religion (str): Name of the religion for which to retrieve the reformations.
+	count (int): Number of top reformations to retrieve.
+
+	Required Parameter = [religion,count,]
 
 	"""
 	pass
 
-def religion_history_get_schisms(religion, count):
+from typing import List, Dict, Any, Union, Tuple 
+def religion_history_get_schisms(religion:str, count:int):
 	"""
-	Retrieves a list of major schisms in a specified religion.    
+	religion_history_get_schisms : Retrieves a list of major schisms in a specified religion.    
 	Parameters:
-	religion: Name of the religion for which to retrieve the schisms.
-	count: Number of top schisms to retrieve.
+	religion (str): Name of the religion for which to retrieve the schisms.
+	count (int): Number of top schisms to retrieve.
+
+	Required Parameter = [religion,count,]
 
 	"""
 	pass

@@ -1,29 +1,38 @@
-def safeway_vegan_products(location, categories=None):
+from typing import List, Dict, Any, Union, Tuple 
+def safeway_vegan_products(location:str, categories:List[str]=None):
 	"""
-	Get available vegan products at specified Safeway store    
+	safeway_vegan_products : Get available vegan products at specified Safeway store    
 	Parameters:
-	location: City and state where the Safeway store is located, e.g. Denver, CO
-	categories: Product categories to search within. Default empty array
+	location (str): City and state where the Safeway store is located, e.g. Denver, CO
+	categories (List[str]): Product categories to search within. Default empty array
+
+	Required Parameter = [location,]
 
 	"""
 	pass
 
-def wholefoods_vegan_products(location, categories=None):
+from typing import List, Dict, Any, Union, Tuple 
+def wholefoods_vegan_products(location:str, categories:List[str]=None):
 	"""
-	Get available vegan products at specified Whole Foods store    
+	wholefoods_vegan_products : Get available vegan products at specified Whole Foods store    
 	Parameters:
-	location: City and state where the Whole Foods store is located, e.g. Denver, CO
-	categories: Product categories to search within. Default empty array
+	location (str): City and state where the Whole Foods store is located, e.g. Denver, CO
+	categories (List[str]): Product categories to search within. Default empty array
+
+	Required Parameter = [location,]
 
 	"""
 	pass
 
-def walmart_vegan_products(location, categories=None):
+from typing import List, Dict, Any, Union, Tuple 
+def walmart_vegan_products(location:str, categories:List[str]=None):
 	"""
-	Get available vegan products at specified Walmart store    
+	walmart_vegan_products : Get available vegan products at specified Walmart store    
 	Parameters:
-	location: City and state where the Walmart store is located, e.g. Denver, CO
-	categories: Product categories to search within. Default empty array
+	location (str): City and state where the Walmart store is located, e.g. Denver, CO
+	categories (List[str]): Product categories to search within. Default empty array
+
+	Required Parameter = [location,]
 
 	"""
 	pass

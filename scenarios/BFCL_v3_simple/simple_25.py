@@ -1,10 +1,13 @@
-def calculate_final_velocity(height, initial_velocity=None, gravity=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_final_velocity(height:int, initial_velocity:int=None, gravity:float=None):
 	"""
-	Calculate the final velocity of a free falling object given the height it's dropped from, the initial velocity and acceleration due to gravity. Ignore air resistance.    
+	calculate_final_velocity : Calculate the final velocity of a free falling object given the height it's dropped from, the initial velocity and acceleration due to gravity. Ignore air resistance.    
 	Parameters:
-	height: The height the object is dropped from, in meters.
-	initial_velocity: The initial velocity of the object in m/s. Default is zero.
-	gravity: Acceleration due to gravity. Default value is 9.81 m/s^2, earth's gravity.
+	height (int): The height the object is dropped from, in meters.
+	initial_velocity (int): The initial velocity of the object in m/s. Default is zero.
+	gravity (float): Acceleration due to gravity. Default value is 9.81 m/s^2, earth's gravity.
+
+	Required Parameter = [height,]
 
 	"""
 	pass

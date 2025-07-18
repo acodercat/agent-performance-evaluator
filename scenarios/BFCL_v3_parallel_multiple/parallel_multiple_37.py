@@ -1,19 +1,25 @@
-def history_get_timeline(event, region='Europe'):
+from typing import List, Dict, Any, Union, Tuple 
+def history_get_timeline(event:str, region:str='Europe'):
 	"""
-	Retrieve the timeline for a specific historical event    
+	history_get_timeline : Retrieve the timeline for a specific historical event    
 	Parameters:
-	event: The historical event you want the timeline for.
-	region: Region of the event.
+	event (str): The historical event you want the timeline for.
+	region (str): Region of the event.
+
+	Required Parameter = [event,]
 
 	"""
 	pass
 
-def history_get_important_figures(event, number=1):
+from typing import List, Dict, Any, Union, Tuple 
+def history_get_important_figures(event:str, number:int=1):
 	"""
-	Retrieve array of important figures involved during a specific historical event.    
+	history_get_important_figures : Retrieve array of important figures involved during a specific historical event.    
 	Parameters:
-	event: The historical event for which you want the array of important figures.
-	number: Number of top figures you want. Default to 1
+	event (str): The historical event for which you want the array of important figures.
+	number (int): Number of top figures you want. Default to 1
+
+	Required Parameter = [event,]
 
 	"""
 	pass

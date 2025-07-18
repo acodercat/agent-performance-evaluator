@@ -1,10 +1,13 @@
-def parking_lot_find_nearest(location, radius, type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def parking_lot_find_nearest(location:str, radius:int, type:str=None):
 	"""
-	Locate the nearest parking lot based on a specific location and radius.    
+	parking_lot_find_nearest : Locate the nearest parking lot based on a specific location and radius.    
 	Parameters:
-	location: The reference location e.g. Central Park, NY
-	radius: The maximum distance from the location in miles. Default is 5 miles
-	type: The type of parking lot. Default is 'public'.
+	location (str): The reference location e.g. Central Park, NY
+	radius (int): The maximum distance from the location in miles. Default is 5 miles
+	type (str): The type of parking lot. Default is 'public'.
+
+	Required Parameter = [location,radius,]
 
 	"""
 	pass

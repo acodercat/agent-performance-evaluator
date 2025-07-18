@@ -1,26 +1,35 @@
-def sports_data_basketball_most_points_single_game(league):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_data_basketball_most_points_single_game(league:str):
 	"""
-	Returns the record for the most points scored by a single player in one game of NBA, including the player name, points scored, and game date.    
+	sports_data_basketball_most_points_single_game : Returns the record for the most points scored by a single player in one game of NBA, including the player name, points scored, and game date.    
 	Parameters:
-	league: The specific basketball league for which to fetch the record. In this case, 'NBA'.
+	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
+
+	Required Parameter = [league,]
 
 	"""
 	pass
 
-def sports_data_basketball_most_points_career(league):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_data_basketball_most_points_career(league:str):
 	"""
-	Returns the record for the most points scored by a player in his career in NBA, including the player name, total points scored, and career span.    
+	sports_data_basketball_most_points_career : Returns the record for the most points scored by a player in his career in NBA, including the player name, total points scored, and career span.    
 	Parameters:
-	league: The specific basketball league for which to fetch the record. In this case, 'NBA'.
+	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
+
+	Required Parameter = [league,]
 
 	"""
 	pass
 
-def sports_data_basketball_most_points_single_season(league):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_data_basketball_most_points_single_season(league:str):
 	"""
-	Returns the record for the most points scored by a single player in one season of NBA, including the player name, points scored, and season.    
+	sports_data_basketball_most_points_single_season : Returns the record for the most points scored by a single player in one season of NBA, including the player name, points scored, and season.    
 	Parameters:
-	league: The specific basketball league for which to fetch the record. In this case, 'NBA'.
+	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
+
+	Required Parameter = [league,]
 
 	"""
 	pass

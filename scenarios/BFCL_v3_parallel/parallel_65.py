@@ -1,9 +1,12 @@
-def calculate_circumference(radius, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_circumference(radius:int, unit:str=None):
 	"""
-	Calculates the circumference of a circle with a given radius.    
+	calculate_circumference : Calculates the circumference of a circle with a given radius.    
 	Parameters:
-	radius: The radius of the circle in the unit given.
-	unit: The unit of measurement for the radius. Default is m.
+	radius (int): The radius of the circle in the unit given.
+	unit (str): The unit of measurement for the radius. Default is m.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

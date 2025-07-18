@@ -1,10 +1,13 @@
-def game_valuation(game_name, release_year, condition=None):
+from typing import List, Dict, Any, Union, Tuple 
+def game_valuation(game_name:str, release_year:int, condition:str=None):
 	"""
-	Get the current market value of a vintage video game.    
+	game_valuation : Get the current market value of a vintage video game.    
 	Parameters:
-	game_name: The name of the game.
-	release_year: The year the game was released.
-	condition: The condition of the game. Default is 'Used'.
+	game_name (str): The name of the game.
+	release_year (int): The year the game was released.
+	condition (str): The condition of the game. Default is 'Used'.
+
+	Required Parameter = [game_name,release_year,]
 
 	"""
 	pass

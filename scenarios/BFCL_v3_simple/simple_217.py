@@ -1,11 +1,14 @@
-def fMRI_analyze(data_source, sequence_type, smooth, voxel_size=3):
+from typing import List, Dict, Any, Union, Tuple 
+def fMRI_analyze(data_source:str, sequence_type:str, smooth:int, voxel_size:int=3):
 	"""
-	This function takes in fMRI data to output analyzed data.    
+	fMRI_analyze : This function takes in fMRI data to output analyzed data.    
 	Parameters:
-	data_source: The path where the data is stored.
-	sequence_type: Type of fMRI sequence
-	smooth: Spatial smoothing FWHM. In mm.
-	voxel_size: Size of isotropic voxels in mm.
+	data_source (str): The path where the data is stored.
+	sequence_type (str): Type of fMRI sequence
+	smooth (int): Spatial smoothing FWHM. In mm.
+	voxel_size (int): Size of isotropic voxels in mm.
+
+	Required Parameter = [data_source,sequence_type,smooth,]
 
 	"""
 	pass

@@ -1,39 +1,51 @@
-def lowest_price(city, product):
+from typing import List, Dict, Any, Union, Tuple 
+def lowest_price(city:str, product:str):
 	"""
-	Returns the lowest price for a particular product within a given city.    
+	lowest_price : Returns the lowest price for a particular product within a given city.    
 	Parameters:
-	city: The city where the product will be searched.
-	product: The product for which the lowest price will be searched.
+	city (str): The city where the product will be searched.
+	product (str): The product for which the lowest price will be searched.
+
+	Required Parameter = [city,product,]
 
 	"""
 	pass
 
-def average_price(city, product):
+from typing import List, Dict, Any, Union, Tuple 
+def average_price(city:str, product:str):
 	"""
-	Returns the average price for a particular product within a given city.    
+	average_price : Returns the average price for a particular product within a given city.    
 	Parameters:
-	city: The city where the product will be searched.
-	product: The product for which the average price will be searched.
+	city (str): The city where the product will be searched.
+	product (str): The product for which the average price will be searched.
+
+	Required Parameter = [city,product,]
 
 	"""
 	pass
 
-def store_count(city, product):
+from typing import List, Dict, Any, Union, Tuple 
+def store_count(city:str, product:str):
 	"""
-	Returns the number of stores that carry a particular product within a given city.    
+	store_count : Returns the number of stores that carry a particular product within a given city.    
 	Parameters:
-	city: The city where the product will be searched.
-	product: The product for which the number of stores will be searched.
+	city (str): The city where the product will be searched.
+	product (str): The product for which the number of stores will be searched.
+
+	Required Parameter = [city,product,]
 
 	"""
 	pass
 
-def product_search(city, product):
+from typing import List, Dict, Any, Union, Tuple 
+def product_search(city:str, product:str):
 	"""
-	Searches a particular product within a given city.    
+	product_search : Searches a particular product within a given city.    
 	Parameters:
-	city: The city where the product will be searched.
-	product: The product that will be searched.
+	city (str): The city where the product will be searched.
+	product (str): The product that will be searched.
+
+	Required Parameter = [city,product,]
 
 	"""
 	pass

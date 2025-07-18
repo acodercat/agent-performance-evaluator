@@ -1,10 +1,13 @@
-def instrument_price_get(brand, model, finish):
+from typing import List, Dict, Any, Union, Tuple 
+def instrument_price_get(brand:str, model:str, finish:str):
 	"""
-	Retrieve the current retail price of a specific musical instrument.    
+	instrument_price_get : Retrieve the current retail price of a specific musical instrument.    
 	Parameters:
-	brand: The brand of the instrument.
-	model: The specific model of the instrument.
-	finish: The color or type of finish on the instrument.
+	brand (str): The brand of the instrument.
+	model (str): The specific model of the instrument.
+	finish (str): The color or type of finish on the instrument.
+
+	Required Parameter = [brand,model,finish,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def generate_circle_image(radius, color, background=None):
+from typing import List, Dict, Any, Union, Tuple 
+def generate_circle_image(radius:int, color:str, background:str=None):
 	"""
-	Generates a circle image based on the given radius and color    
+	generate_circle_image : Generates a circle image based on the given radius and color    
 	Parameters:
-	radius: The radius of the circle in pixels.
-	color: The color of the circle.
-	background: Optional: The color of the background, default is white.
+	radius (int): The radius of the circle in pixels.
+	color (str): The color of the circle.
+	background (str): Optional: The color of the background, default is white.
+
+	Required Parameter = [radius,color,]
 
 	"""
 	pass

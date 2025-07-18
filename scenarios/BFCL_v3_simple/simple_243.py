@@ -1,9 +1,12 @@
-def get_discoverer(discovery, detail):
+from typing import List, Dict, Any, Union, Tuple 
+def get_discoverer(discovery:str, detail:bool):
 	"""
-	Get the person or team who made a particular scientific discovery    
+	get_discoverer : Get the person or team who made a particular scientific discovery    
 	Parameters:
-	discovery: The discovery for which the discoverer's information is needed.
-	detail: Optional flag to get additional details about the discoverer, such as birth date and nationality. Defaults to false.
+	discovery (str): The discovery for which the discoverer's information is needed.
+	detail (bool): Optional flag to get additional details about the discoverer, such as birth date and nationality. Defaults to false.
+
+	Required Parameter = [discovery,detail,]
 
 	"""
 	pass

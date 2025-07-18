@@ -1,29 +1,38 @@
-def financial_ratios_interest_coverage(company_name, years):
+from typing import List, Dict, Any, Union, Tuple 
+def financial_ratios_interest_coverage(company_name:str, years:int):
 	"""
-	Calculate a company's interest coverage ratio given the company name and duration    
+	financial_ratios_interest_coverage : Calculate a company's interest coverage ratio given the company name and duration    
 	Parameters:
-	company_name: The name of the company.
-	years: Number of past years to calculate the ratio.
+	company_name (str): The name of the company.
+	years (int): Number of past years to calculate the ratio.
+
+	Required Parameter = [company_name,years,]
 
 	"""
 	pass
 
-def sales_growth_calculate(company, years):
+from typing import List, Dict, Any, Union, Tuple 
+def sales_growth_calculate(company:str, years:int):
 	"""
-	Calculate a company's sales growth rate given the company name and duration    
+	sales_growth_calculate : Calculate a company's sales growth rate given the company name and duration    
 	Parameters:
-	company: The company that you want to get the sales growth rate for.
-	years: Number of past years for which to calculate the sales growth rate.
+	company (str): The company that you want to get the sales growth rate for.
+	years (int): Number of past years for which to calculate the sales growth rate.
+
+	Required Parameter = [company,years,]
 
 	"""
 	pass
 
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

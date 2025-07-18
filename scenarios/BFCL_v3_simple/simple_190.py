@@ -1,9 +1,12 @@
-def park_information(park_name, information):
+from typing import List, Dict, Any, Union, Tuple 
+def park_information(park_name:str, information:List[str]):
 	"""
-	Retrieve the basic information such as elevation and area of a national park.    
+	park_information : Retrieve the basic information such as elevation and area of a national park.    
 	Parameters:
-	park_name: The name of the national park.
-	information: The type of information you want about the park.
+	park_name (str): The name of the national park.
+	information (List[str]): The type of information you want about the park.
+
+	Required Parameter = [park_name,information,]
 
 	"""
 	pass

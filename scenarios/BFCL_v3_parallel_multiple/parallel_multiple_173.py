@@ -1,20 +1,26 @@
-def ecology_data_precipitation_stats(location, time_frame):
+from typing import List, Dict, Any, Union, Tuple 
+def ecology_data_precipitation_stats(location:str, time_frame:str):
 	"""
-	Retrieve precipitation data for a specified location and time period.    
+	ecology_data_precipitation_stats : Retrieve precipitation data for a specified location and time period.    
 	Parameters:
-	location: The name of the location, e.g., 'Amazon rainforest'.
-	time_frame: The time period for which data is required.
+	location (str): The name of the location, e.g., 'Amazon rainforest'.
+	time_frame (str): The time period for which data is required.
+
+	Required Parameter = [location,time_frame,]
 
 	"""
 	pass
 
-def restaurant_find_nearby(location, cuisine, max_distance=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_find_nearby(location:str, cuisine:str, max_distance:float=None):
 	"""
-	Locate nearby restaurants based on specific criteria like cuisine type.    
+	restaurant_find_nearby : Locate nearby restaurants based on specific criteria like cuisine type.    
 	Parameters:
-	location: The city and state, e.g. Seattle, WA
-	cuisine: Preferred type of cuisine in restaurant.
-	max_distance: Maximum distance (in miles) within which to search for restaurants. Default is 5.
+	location (str): The city and state, e.g. Seattle, WA
+	cuisine (str): Preferred type of cuisine in restaurant.
+	max_distance (float): Maximum distance (in miles) within which to search for restaurants. Default is 5.
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass

@@ -1,9 +1,12 @@
-def retrieve_religion_info(religion_name, detail_level):
+from typing import List, Dict, Any, Union, Tuple 
+def retrieve_religion_info(religion_name:str, detail_level:str):
 	"""
-	Retrieve the history and main beliefs of a religion.    
+	retrieve_religion_info : Retrieve the history and main beliefs of a religion.    
 	Parameters:
-	religion_name: The name of the religion.
-	detail_level: Level of detail for the returned information, either 'summary' or 'full'.
+	religion_name (str): The name of the religion.
+	detail_level (str): Level of detail for the returned information, either 'summary' or 'full'.
+
+	Required Parameter = [religion_name,detail_level,]
 
 	"""
 	pass

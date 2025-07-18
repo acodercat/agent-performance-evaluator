@@ -1,10 +1,13 @@
-def player_statistic(player_name, year, team_name=None):
+from typing import List, Dict, Any, Union, Tuple 
+def player_statistic(player_name:str, year:int, team_name:str=None):
 	"""
-	Retrieves detailed player's statistics for a specific year.    
+	player_statistic : Retrieves detailed player's statistics for a specific year.    
 	Parameters:
-	player_name: The player's name.
-	year: Year for which the statistics will be displayed.
-	team_name: The name of the team(optional). Default to not use it if not specified.
+	player_name (str): The player's name.
+	year (int): Year for which the statistics will be displayed.
+	team_name (str): The name of the team(optional). Default to not use it if not specified.
+
+	Required Parameter = [player_name,year,]
 
 	"""
 	pass

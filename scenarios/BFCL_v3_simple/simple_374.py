@@ -1,10 +1,13 @@
-def grocery_info_nutritional_info(store, food, information):
+from typing import List, Dict, Any, Union, Tuple 
+def grocery_info_nutritional_info(store:str, food:str, information:List[str]):
 	"""
-	Retrieve nutritional information for a given food item from a particular store    
+	grocery_info_nutritional_info : Retrieve nutritional information for a given food item from a particular store    
 	Parameters:
-	store: The store where the item is available
-	food: Food item for which information is needed.
-	information: Nutritional details required.
+	store (str): The store where the item is available
+	food (str): Food item for which information is needed.
+	information (List[str]): Nutritional details required.
+
+	Required Parameter = [store,food,information,]
 
 	"""
 	pass

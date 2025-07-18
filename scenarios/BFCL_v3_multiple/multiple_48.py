@@ -1,19 +1,25 @@
-def store_find_nearby(location, preferences):
+from typing import List, Dict, Any, Union, Tuple 
+def store_find_nearby(location:str, preferences:List[str]):
 	"""
-	Locate nearby stores based on specific preferences such as being pet-friendly and having disabled access facilities.    
+	store_find_nearby : Locate nearby stores based on specific preferences such as being pet-friendly and having disabled access facilities.    
 	Parameters:
-	location: The city, for example, New York City, NY
-	preferences: Your preferences for the store.
+	location (str): The city, for example, New York City, NY
+	preferences (List[str]): Your preferences for the store.
+
+	Required Parameter = [location,preferences,]
 
 	"""
 	pass
 
-def library_find_nearby(location, preferences):
+from typing import List, Dict, Any, Union, Tuple 
+def library_find_nearby(location:str, preferences:List[str]):
 	"""
-	Locate nearby libraries based on specific preferences such as being pet-friendly and having disabled access facilities.    
+	library_find_nearby : Locate nearby libraries based on specific preferences such as being pet-friendly and having disabled access facilities.    
 	Parameters:
-	location: The city, for example, New York City, NY
-	preferences: Your preferences for the library.
+	location (str): The city, for example, New York City, NY
+	preferences (List[str]): Your preferences for the library.
+
+	Required Parameter = [location,preferences,]
 
 	"""
 	pass

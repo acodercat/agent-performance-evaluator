@@ -1,41 +1,53 @@
-def get_song_lyrics(song_title, artist_name, lang=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
-	Retrieve the lyrics of a song based on the artist's name and song title.    
+	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
 	Parameters:
-	song_title: The title of the song.
-	artist_name: The name of the artist who performed the song.
-	lang: The language of the lyrics. Default is English.
+	song_title (str): The title of the song.
+	artist_name (str): The name of the artist who performed the song.
+	lang (str): The language of the lyrics. Default is English.
+
+	Required Parameter = [song_title,artist_name,]
 
 	"""
 	pass
 
-def mix_paint_color(color1, color2, lightness=None):
+from typing import List, Dict, Any, Union, Tuple 
+def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
-	Combine two primary paint colors and adjust the resulting color's lightness level.    
+	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
 	Parameters:
-	color1: The first primary color to be mixed.
-	color2: The second primary color to be mixed.
-	lightness: The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+	color1 (str): The first primary color to be mixed.
+	color2 (str): The second primary color to be mixed.
+	lightness (int): The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+
+	Required Parameter = [color1,color2,]
 
 	"""
 	pass
 
-def finance_calculate_quarterly_dividend_per_share(total_payout, outstanding_shares):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding_shares:int):
 	"""
-	Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    
+	finance_calculate_quarterly_dividend_per_share : Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    
 	Parameters:
-	total_payout: The total amount of dividends paid out in USD
-	outstanding_shares: Total number of outstanding shares
+	total_payout (int): The total amount of dividends paid out in USD
+	outstanding_shares (int): Total number of outstanding shares
+
+	Required Parameter = [total_payout,outstanding_shares,]
 
 	"""
 	pass
 
-def movie_details_brief(title, extra_info='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def movie_details_brief(title:str, extra_info:bool='false'):
 	"""
-	This function retrieves a brief about a specified movie.    
+	movie_details_brief : This function retrieves a brief about a specified movie.    
 	Parameters:
-	title: Title of the movie
-	extra_info: Option to get additional information like Director, Cast, Awards etc.
+	title (str): Title of the movie
+	extra_info (bool): Option to get additional information like Director, Cast, Awards etc.
+
+	Required Parameter = [title,]
 
 	"""
 	pass

@@ -1,31 +1,40 @@
-def map_service_get_directions(start, end, avoid=None):
+from typing import List, Dict, Any, Union, Tuple 
+def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
-	Retrieve directions from a starting location to an ending location, including options for route preferences.    
+	map_service_get_directions : Retrieve directions from a starting location to an ending location, including options for route preferences.    
 	Parameters:
-	start: Starting location for the route.
-	end: Ending location for the route.
-	avoid: Route features to avoid. Default is none if not specified.
+	start (str): Starting location for the route.
+	end (str): Ending location for the route.
+	avoid (List[str]): Route features to avoid. Default is none if not specified.
+
+	Required Parameter = [start,end,]
 
 	"""
 	pass
 
-def geometry_area_triangle(base, height, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_triangle(base:int, height:int, unit:str=None):
 	"""
-	Calculate the area of a triangle.    
+	geometry_area_triangle : Calculate the area of a triangle.    
 	Parameters:
-	base: The length of the base of the triangle.
-	height: The height of the triangle from the base.
-	unit: The measurement unit for the area. Defaults to square meters.
+	base (int): The length of the base of the triangle.
+	height (int): The height of the triangle from the base.
+	unit (str): The measurement unit for the area. Defaults to square meters.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass
 
-def science_history_get_invention(invention_name, want_year):
+from typing import List, Dict, Any, Union, Tuple 
+def science_history_get_invention(invention_name:str, want_year:bool):
 	"""
-	Retrieve the inventor and year of invention based on the invention's name.    
+	science_history_get_invention : Retrieve the inventor and year of invention based on the invention's name.    
 	Parameters:
-	invention_name: The name of the invention.
-	want_year: Return the year of invention if set to true.
+	invention_name (str): The name of the invention.
+	want_year (bool): Return the year of invention if set to true.
+
+	Required Parameter = [invention_name,want_year,]
 
 	"""
 	pass

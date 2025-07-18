@@ -1,9 +1,12 @@
-def get_current_and_future_temperature(location, hours):
+from typing import List, Dict, Any, Union, Tuple 
+def get_current_and_future_temperature(location:str, hours:int):
 	"""
-	Provides the current temperature and forecasts the temperature for the next few hours at a particular location.    
+	get_current_and_future_temperature : Provides the current temperature and forecasts the temperature for the next few hours at a particular location.    
 	Parameters:
-	location: The city that you want to get the temperature for.
-	hours: Number of hours for the temperature forecast.
+	location (str): The city that you want to get the temperature for.
+	hours (int): Number of hours for the temperature forecast.
+
+	Required Parameter = [location,hours,]
 
 	"""
 	pass

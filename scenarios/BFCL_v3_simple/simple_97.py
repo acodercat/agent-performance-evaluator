@@ -1,8 +1,11 @@
-def math_factorial(number):
+from typing import List, Dict, Any, Union, Tuple 
+def math_factorial(number:int):
 	"""
-	Calculate the factorial of a given number.    
+	math_factorial : Calculate the factorial of a given number.    
 	Parameters:
-	number: The number to compute factorial.
+	number (int): The number to compute factorial.
+
+	Required Parameter = [number,]
 
 	"""
 	pass

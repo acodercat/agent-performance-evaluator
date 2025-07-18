@@ -1,9 +1,12 @@
-def paint_color_mixture(paint_type, color):
+from typing import List, Dict, Any, Union, Tuple 
+def paint_color_mixture(paint_type:str, color:str):
 	"""
-	Gives a combination of primary colors to mix for creating a certain color. This function requires type of paint and color.    
+	paint_color_mixture : Gives a combination of primary colors to mix for creating a certain color. This function requires type of paint and color.    
 	Parameters:
-	paint_type: The type of paint (Watercolor, Oil, Acrylic).
-	color: The color to be produced from the mixture.
+	paint_type (str): The type of paint (Watercolor, Oil, Acrylic).
+	color (str): The color to be produced from the mixture.
+
+	Required Parameter = [paint_type,color,]
 
 	"""
 	pass

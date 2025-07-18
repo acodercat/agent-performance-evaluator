@@ -1,8 +1,11 @@
-def calculate_circle_dimensions(radius):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_circle_dimensions(radius:int):
 	"""
-	Calculate the area and circumference of a circle based on the radius.    
+	calculate_circle_dimensions : Calculate the area and circumference of a circle based on the radius.    
 	Parameters:
-	radius: The radius of the circle.
+	radius (int): The radius of the circle.
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

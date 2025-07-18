@@ -1,26 +1,35 @@
-def european_history_war_details(war):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_war_details(war:str):
 	"""
-	Get details of a specific historical European war.    
+	european_history_war_details : Get details of a specific historical European war.    
 	Parameters:
-	war: Name of the war
+	war (str): Name of the war
+
+	Required Parameter = [war,]
 
 	"""
 	pass
 
-def european_history_leader_info(leader):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_leader_info(leader:str):
 	"""
-	Get information about a specific historical leader in European history.    
+	european_history_leader_info : Get information about a specific historical leader in European history.    
 	Parameters:
-	leader: Name of the leader
+	leader (str): Name of the leader
+
+	Required Parameter = [leader,]
 
 	"""
 	pass
 
-def european_history_battle_details(battle):
+from typing import List, Dict, Any, Union, Tuple 
+def european_history_battle_details(battle:str):
 	"""
-	Get details of a specific historical European battle.    
+	european_history_battle_details : Get details of a specific historical European battle.    
 	Parameters:
-	battle: Name of the battle
+	battle (str): Name of the battle
+
+	Required Parameter = [battle,]
 
 	"""
 	pass

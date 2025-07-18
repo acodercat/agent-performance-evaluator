@@ -1,9 +1,12 @@
-def spotify_play(artist, duration):
+from typing import List, Dict, Any, Union, Tuple 
+def spotify_play(artist:str, duration:int):
 	"""
-	Play specific tracks from a given artist for a specific time duration.    
+	spotify_play : Play specific tracks from a given artist for a specific time duration.    
 	Parameters:
-	artist: The artist whose songs you want to play.
-	duration: The duration for which the songs should be played, in minutes.
+	artist (str): The artist whose songs you want to play.
+	duration (int): The duration for which the songs should be played, in minutes.
+
+	Required Parameter = [artist,duration,]
 
 	"""
 	pass

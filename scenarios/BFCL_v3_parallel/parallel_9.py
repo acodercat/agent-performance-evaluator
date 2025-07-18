@@ -1,10 +1,13 @@
-def find_movie_showing(location, movie, time):
+from typing import List, Dict, Any, Union, Tuple 
+def find_movie_showing(location:str, movie:List[str], time:List[str]):
 	"""
-	Find local movie theatres and their schedule for a specific movie    
+	find_movie_showing : Find local movie theatres and their schedule for a specific movie    
 	Parameters:
-	location: The city and state, e.g. San Diego, CA
-	movie: Preferred movie to watch.
-	time: 
+	location (str): The city and state, e.g. San Diego, CA
+	movie (List[str]): Preferred movie to watch.
+	time (List[str]): 
+
+	Required Parameter = [location,movie,time,]
 
 	"""
 	pass

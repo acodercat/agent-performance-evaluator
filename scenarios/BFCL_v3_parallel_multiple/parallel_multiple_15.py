@@ -1,21 +1,27 @@
-def restaurant_search(location, cuisine, rating=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_search(location:str, cuisine:str, rating:float=None):
 	"""
-	Find a restaurant in a specified location based on the cuisine and ratings.    
+	restaurant_search : Find a restaurant in a specified location based on the cuisine and ratings.    
 	Parameters:
-	location: The city and state, e.g. New York, NY
-	cuisine: The type of cuisine.
-	rating: The minimum rating. Default 1.0
+	location (str): The city and state, e.g. New York, NY
+	cuisine (str): The type of cuisine.
+	rating (float): The minimum rating. Default 1.0
+
+	Required Parameter = [location,cuisine,]
 
 	"""
 	pass
 
-def flight_search(_from, to, type):
+from typing import List, Dict, Any, Union, Tuple 
+def flight_search(_from:str, to:str, type:str):
 	"""
-	Find flights between two cities.    
+	flight_search : Find flights between two cities.    
 	Parameters:
-	_from: The departure city.
-	to: The destination city.
-	type: The type of flight e.g., one-way, round-trip
+	_from (str): The departure city.
+	to (str): The destination city.
+	type (str): The type of flight e.g., one-way, round-trip
+
+	Required Parameter = [_from,to,type,]
 
 	"""
 	pass

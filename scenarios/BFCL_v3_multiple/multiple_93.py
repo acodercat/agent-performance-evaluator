@@ -1,23 +1,29 @@
-def car_rental(location, days, car_type, pick_up=None):
+from typing import List, Dict, Any, Union, Tuple 
+def car_rental(location:str, days:int, car_type:str, pick_up:str=None):
 	"""
-	Rent a car at the specified location for a specific number of days    
+	car_rental : Rent a car at the specified location for a specific number of days    
 	Parameters:
-	location: Location of the car rental.
-	days: Number of days for which to rent the car.
-	car_type: Type of the car to rent.
-	pick_up: Location of where to pick up the car. Default ''
+	location (str): Location of the car rental.
+	days (int): Number of days for which to rent the car.
+	car_type (str): Type of the car to rent.
+	pick_up (str): Location of where to pick up the car. Default ''
+
+	Required Parameter = [location,days,car_type,]
 
 	"""
 	pass
 
-def hotel_book(location, roomType, nights, additional_services=None):
+from typing import List, Dict, Any, Union, Tuple 
+def hotel_book(location:str, roomType:str, nights:int, additional_services:List[str]=None):
 	"""
-	Book a hotel room given the location, room type, and number of nights and additional services    
+	hotel_book : Book a hotel room given the location, room type, and number of nights and additional services    
 	Parameters:
-	location: Location of the hotel.
-	roomType: Type of the room to be booked.
-	nights: Number of nights to book the room for.
-	additional_services: Additional services to be added. Default empty array
+	location (str): Location of the hotel.
+	roomType (str): Type of the room to be booked.
+	nights (int): Number of nights to book the room for.
+	additional_services (List[str]): Additional services to be added. Default empty array
+
+	Required Parameter = [location,roomType,nights,]
 
 	"""
 	pass

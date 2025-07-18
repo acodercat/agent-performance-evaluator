@@ -1,30 +1,39 @@
-def perform_string_reverse(input_string):
+from typing import List, Dict, Any, Union, Tuple 
+def perform_string_reverse(input_string:str):
 	"""
-	Reverses a given string.    
+	perform_string_reverse : Reverses a given string.    
 	Parameters:
-	input_string: The string to be reversed.
+	input_string (str): The string to be reversed.
+
+	Required Parameter = [input_string,]
 
 	"""
 	pass
 
-def convert_rgb_to_hex(r, g, b):
+from typing import List, Dict, Any, Union, Tuple 
+def convert_rgb_to_hex(r:int, g:int, b:int):
 	"""
-	Converts RGB values to Hexadecimal color code.    
+	convert_rgb_to_hex : Converts RGB values to Hexadecimal color code.    
 	Parameters:
-	r: The Red component.
-	g: The Green component.
-	b: The Blue component.
+	r (int): The Red component.
+	g (int): The Green component.
+	b (int): The Blue component.
+
+	Required Parameter = [r,g,b,]
 
 	"""
 	pass
 
-def solve_quadratic_equation(a, b, c):
+from typing import List, Dict, Any, Union, Tuple 
+def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
-	Solve a quadratic equation with given coefficients a, b, and c.    
+	solve_quadratic_equation : Solve a quadratic equation with given coefficients a, b, and c.    
 	Parameters:
-	a: Coefficient of x^2.
-	b: Coefficient of x.
-	c: Constant term.
+	a (int): Coefficient of x^2.
+	b (int): Coefficient of x.
+	c (int): Constant term.
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass

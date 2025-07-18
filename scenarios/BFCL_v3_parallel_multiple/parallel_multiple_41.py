@@ -1,29 +1,38 @@
-def painting_create(shape, background_color, dimensions):
+from typing import List, Dict, Any, Union, Tuple 
+def painting_create(shape:str, background_color:str, dimensions:List[int]):
 	"""
-	Creates a new painting with specified parameters    
+	painting_create : Creates a new painting with specified parameters    
 	Parameters:
-	shape: Shape of the painting to be created.
-	background_color: Background color of the painting.
-	dimensions: Dimensions of the painting in inches.
+	shape (str): Shape of the painting to be created.
+	background_color (str): Background color of the painting.
+	dimensions (List[int]): Dimensions of the painting in inches.
+
+	Required Parameter = [shape,background_color,dimensions,]
 
 	"""
 	pass
 
-def display_set_screen_brightness(percentage, duration):
+from typing import List, Dict, Any, Union, Tuple 
+def display_set_screen_brightness(percentage:int, duration:int):
 	"""
-	Sets the screen brightness for viewing the painting    
+	display_set_screen_brightness : Sets the screen brightness for viewing the painting    
 	Parameters:
-	percentage: Screen brightness level in percentage.
-	duration: Duration to maintain the brightness level in seconds.
+	percentage (int): Screen brightness level in percentage.
+	duration (int): Duration to maintain the brightness level in seconds.
+
+	Required Parameter = [percentage,duration,]
 
 	"""
 	pass
 
-def painting_display(time):
+from typing import List, Dict, Any, Union, Tuple 
+def painting_display(time:int):
 	"""
-	Displays a created painting for a specific amount of time    
+	painting_display : Displays a created painting for a specific amount of time    
 	Parameters:
-	time: Time in seconds the painting will be displayed for.
+	time (int): Time in seconds the painting will be displayed for.
+
+	Required Parameter = [time,]
 
 	"""
 	pass

@@ -1,20 +1,26 @@
-def stock_forecast(company, days, model=None):
+from typing import List, Dict, Any, Union, Tuple 
+def stock_forecast(company:str, days:int, model:str=None):
 	"""
-	Predict the future stock price for a specific company and time frame.    
+	stock_forecast : Predict the future stock price for a specific company and time frame.    
 	Parameters:
-	company: The company that you want to get the stock price prediction for.
-	days: Number of future days for which to predict the stock price.
-	model: The model to use for prediction. Default 'regression'
+	company (str): The company that you want to get the stock price prediction for.
+	days (int): Number of future days for which to predict the stock price.
+	model (str): The model to use for prediction. Default 'regression'
+
+	Required Parameter = [company,days,]
 
 	"""
 	pass
 
-def weather_forecast(location, days):
+from typing import List, Dict, Any, Union, Tuple 
+def weather_forecast(location:str, days:int):
 	"""
-	Retrieve a weather forecast for a specific location and time frame.    
+	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
-	location: The city that you want to get the weather for.
-	days: Number of days for the forecast.
+	location (str): The city that you want to get the weather for.
+	days (int): Number of days for the forecast.
+
+	Required Parameter = [location,days,]
 
 	"""
 	pass

@@ -1,22 +1,28 @@
-def calc_heat_capacity(temp, volume, gas=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	"""
-	Calculate the heat capacity at constant pressure of air using its temperature and volume.    
+	calc_heat_capacity : Calculate the heat capacity at constant pressure of air using its temperature and volume.    
 	Parameters:
-	temp: The temperature of the gas in Kelvin.
-	volume: The volume of the gas in m^3.
-	gas: Type of gas, with air as default.
+	temp (int): The temperature of the gas in Kelvin.
+	volume (int): The volume of the gas in m^3.
+	gas (str): Type of gas, with air as default.
+
+	Required Parameter = [temp,volume,]
 
 	"""
 	pass
 
-def calculate_discounted_cash_flow(coupon_payment, period, discount_rate, face_value=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_discounted_cash_flow(coupon_payment:float, period:int, discount_rate:float, face_value:int=None):
 	"""
-	Calculate the discounted cash flow of a bond for a given annual coupon payment, time frame and discount rate.    
+	calculate_discounted_cash_flow : Calculate the discounted cash flow of a bond for a given annual coupon payment, time frame and discount rate.    
 	Parameters:
-	coupon_payment: The annual coupon payment.
-	period: The time frame in years for which coupon payment is made.
-	discount_rate: The discount rate.
-	face_value: The face value of the bond, default is $1000.
+	coupon_payment (float): The annual coupon payment.
+	period (int): The time frame in years for which coupon payment is made.
+	discount_rate (float): The discount rate.
+	face_value (int): The face value of the bond, default is $1000.
+
+	Required Parameter = [coupon_payment,period,discount_rate,]
 
 	"""
 	pass

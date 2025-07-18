@@ -1,42 +1,54 @@
-def publication_year_find(author, work_title, location=None):
+from typing import List, Dict, Any, Union, Tuple 
+def publication_year_find(author:str, work_title:str, location:str=None):
 	"""
-	Fetches the year a particular scientific work was published.    
+	publication_year_find : Fetches the year a particular scientific work was published.    
 	Parameters:
-	author: Name of the author of the work.
-	work_title: Title of the scientific work.
-	location: Place of the publication, if known. Default is 'global'.
+	author (str): Name of the author of the work.
+	work_title (str): Title of the scientific work.
+	location (str): Place of the publication, if known. Default is 'global'.
+
+	Required Parameter = [author,work_title,]
 
 	"""
 	pass
 
-def portfolio_future_value(stock, invested_amount, expected_annual_return, years):
+from typing import List, Dict, Any, Union, Tuple 
+def portfolio_future_value(stock:str, invested_amount:float, expected_annual_return:float, years:int):
 	"""
-	Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
+	portfolio_future_value : Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
 	Parameters:
-	stock: The ticker symbol of the stock.
-	invested_amount: The invested amount in USD.
-	expected_annual_return: The expected annual return on investment as a decimal. E.g. 5% = 0.05
-	years: The number of years for which the investment is made.
+	stock (str): The ticker symbol of the stock.
+	invested_amount (float): The invested amount in USD.
+	expected_annual_return (float): The expected annual return on investment as a decimal. E.g. 5% = 0.05
+	years (int): The number of years for which the investment is made.
+
+	Required Parameter = [stock,invested_amount,expected_annual_return,years,]
 
 	"""
 	pass
 
-def religious_history_get_papal_biography(papal_name, include_contributions):
+from typing import List, Dict, Any, Union, Tuple 
+def religious_history_get_papal_biography(papal_name:str, include_contributions:bool):
 	"""
-	Retrieve the biography and main religious and historical contributions of a Pope based on his papal name.    
+	religious_history_get_papal_biography : Retrieve the biography and main religious and historical contributions of a Pope based on his papal name.    
 	Parameters:
-	papal_name: The papal name of the Pope.
-	include_contributions: Include main contributions of the Pope in the response if true.
+	papal_name (str): The papal name of the Pope.
+	include_contributions (bool): Include main contributions of the Pope in the response if true.
+
+	Required Parameter = [papal_name,include_contributions,]
 
 	"""
 	pass
 
-def board_game_info(game_name, info_required):
+from typing import List, Dict, Any, Union, Tuple 
+def board_game_info(game_name:str, info_required:List[str]):
 	"""
-	Get the information about a board game from a database.     
+	board_game_info : Get the information about a board game from a database.     
 	Parameters:
-	game_name: Name of the board game.
-	info_required: Array of information requested for the game.
+	game_name (str): Name of the board game.
+	info_required (List[str]): Array of information requested for the game.
+
+	Required Parameter = [game_name,info_required,]
 
 	"""
 	pass

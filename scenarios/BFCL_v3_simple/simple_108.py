@@ -1,10 +1,13 @@
-def run_linear_regression(predictors, target, standardize=None):
+from typing import List, Dict, Any, Union, Tuple 
+def run_linear_regression(predictors:List[str], target:str, standardize:bool=None):
 	"""
-	Build a linear regression model using given predictor variables and a target variable.    
+	run_linear_regression : Build a linear regression model using given predictor variables and a target variable.    
 	Parameters:
-	predictors: Array containing the names of predictor variables.
-	target: The name of target variable.
-	standardize: Option to apply standardization on the predictors. Defaults to False.
+	predictors (List[str]): Array containing the names of predictor variables.
+	target (str): The name of target variable.
+	standardize (bool): Option to apply standardization on the predictors. Defaults to False.
+
+	Required Parameter = [predictors,target,]
 
 	"""
 	pass

@@ -1,9 +1,12 @@
-def ancient_empires_get_religion_info(empire_name, include_influences=False):
+from typing import List, Dict, Any, Union, Tuple 
+def ancient_empires_get_religion_info(empire_name:str, include_influences:bool=False):
 	"""
-	Retrieve information about religious history and influences of an ancient empire.    
+	ancient_empires_get_religion_info : Retrieve information about religious history and influences of an ancient empire.    
 	Parameters:
-	empire_name: The name of the ancient empire.
-	include_influences: Specify whether to include details about the religious influences of the empire.
+	empire_name (str): The name of the ancient empire.
+	include_influences (bool): Specify whether to include details about the religious influences of the empire.
+
+	Required Parameter = [empire_name,]
 
 	"""
 	pass

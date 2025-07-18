@@ -1,9 +1,12 @@
-def recipe_search_find(dish, diet='Keto'):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_search_find(dish:str, diet:str='Keto'):
 	"""
-	Locate recipes based on the type of dish.    
+	recipe_search_find : Locate recipes based on the type of dish.    
 	Parameters:
-	dish: The name of the dish to search for.
-	diet: Dietary preference.
+	dish (str): The name of the dish to search for.
+	diet (str): Dietary preference.
+
+	Required Parameter = [dish,]
 
 	"""
 	pass

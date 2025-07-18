@@ -1,11 +1,14 @@
-def solve_quadratic(a, b, c, root_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def solve_quadratic(a:int, b:int, c:int, root_type:str=None):
 	"""
-	Solve a quadratic equation given coefficients a, b, and c. If optional 'root_type' is 'real', the function will only return real roots. If not specified, function may return complex roots.    
+	solve_quadratic : Solve a quadratic equation given coefficients a, b, and c. If optional 'root_type' is 'real', the function will only return real roots. If not specified, function may return complex roots.    
 	Parameters:
-	a: The coefficient of the squared term in the quadratic equation.
-	b: The coefficient of the linear term in the quadratic equation.
-	c: The constant term in the quadratic equation.
-	root_type: The type of roots to return: 'real' for real roots, 'all' for both real and complex roots. Default value is 'real'.
+	a (int): The coefficient of the squared term in the quadratic equation.
+	b (int): The coefficient of the linear term in the quadratic equation.
+	c (int): The constant term in the quadratic equation.
+	root_type (str): The type of roots to return: 'real' for real roots, 'all' for both real and complex roots. Default value is 'real'.
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass

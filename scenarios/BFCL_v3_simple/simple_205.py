@@ -1,10 +1,13 @@
-def get_traffic_info(start_location, end_location, mode=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_traffic_info(start_location:str, end_location:str, mode:str=None):
 	"""
-	Retrieve current traffic conditions for a specified route.    
+	get_traffic_info : Retrieve current traffic conditions for a specified route.    
 	Parameters:
-	start_location: The starting point of the route.
-	end_location: The destination of the route.
-	mode: Preferred method of transportation, default to 'driving'.
+	start_location (str): The starting point of the route.
+	end_location (str): The destination of the route.
+	mode (str): Preferred method of transportation, default to 'driving'.
+
+	Required Parameter = [start_location,end_location,]
 
 	"""
 	pass

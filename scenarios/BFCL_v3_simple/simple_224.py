@@ -1,10 +1,13 @@
-def social_media_analytics_most_followed(topic, sub_topics=None, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, region:str=None):
 	"""
-	Find the most followed Twitter user related to certain topics.    
+	social_media_analytics_most_followed : Find the most followed Twitter user related to certain topics.    
 	Parameters:
-	topic: The main topic of interest.
-	sub_topics: Sub-topics related to main topic. Default is empty.
-	region: Region of interest for twitter search. Default is 'all'.
+	topic (str): The main topic of interest.
+	sub_topics (List[str]): Sub-topics related to main topic. Default is empty.
+	region (str): Region of interest for twitter search. Default is 'all'.
+
+	Required Parameter = [topic,]
 
 	"""
 	pass

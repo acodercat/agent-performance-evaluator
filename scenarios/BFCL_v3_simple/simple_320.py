@@ -1,10 +1,13 @@
-def sports_ranking_get_team_position(team, season, detailed=False):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking_get_team_position(team:str, season:str, detailed:bool=False):
 	"""
-	Retrieve a team's position and stats in the basketball league for a given season.    
+	sports_ranking_get_team_position : Retrieve a team's position and stats in the basketball league for a given season.    
 	Parameters:
-	team: The name of the team.
-	season: The season for which data should be fetched.
-	detailed: Flag to retrieve detailed stats or just the position.
+	team (str): The name of the team.
+	season (str): The season for which data should be fetched.
+	detailed (bool): Flag to retrieve detailed stats or just the position.
+
+	Required Parameter = [team,season,]
 
 	"""
 	pass

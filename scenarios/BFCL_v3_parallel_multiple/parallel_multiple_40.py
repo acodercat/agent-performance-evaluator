@@ -1,29 +1,38 @@
-def scienceFacts_getCharge(particle, unit):
+from typing import List, Dict, Any, Union, Tuple 
+def scienceFacts_getCharge(particle:str, unit:str):
 	"""
-	Fetch the electric charge of an atomic particle    
+	scienceFacts_getCharge : Fetch the electric charge of an atomic particle    
 	Parameters:
-	particle: The atomic particle. e.g. Electron, Proton
-	unit: Unit to retrieve electric charge. For example, 'coulombs' etc.
+	particle (str): The atomic particle. e.g. Electron, Proton
+	unit (str): Unit to retrieve electric charge. For example, 'coulombs' etc.
+
+	Required Parameter = [particle,unit,]
 
 	"""
 	pass
 
-def scienceFacts_getWeight(particle, unit):
+from typing import List, Dict, Any, Union, Tuple 
+def scienceFacts_getWeight(particle:str, unit:str):
 	"""
-	Fetch the atomic weight of an atomic particle    
+	scienceFacts_getWeight : Fetch the atomic weight of an atomic particle    
 	Parameters:
-	particle: The atomic particle. e.g. Electron, Proton
-	unit: Unit to retrieve weight. For example, 'kg', 'pound', 'amu' etc.
+	particle (str): The atomic particle. e.g. Electron, Proton
+	unit (str): Unit to retrieve weight. For example, 'kg', 'pound', 'amu' etc.
+
+	Required Parameter = [particle,unit,]
 
 	"""
 	pass
 
-def scienceFacts_getDiameter(particle, unit):
+from typing import List, Dict, Any, Union, Tuple 
+def scienceFacts_getDiameter(particle:str, unit:str):
 	"""
-	Fetch the diameter of an atomic particle    
+	scienceFacts_getDiameter : Fetch the diameter of an atomic particle    
 	Parameters:
-	particle: The atomic particle. e.g. Electron, Proton
-	unit: Unit to retrieve diameter. For example, 'meter', 'cm', 'femtometers' etc.
+	particle (str): The atomic particle. e.g. Electron, Proton
+	unit (str): Unit to retrieve diameter. For example, 'meter', 'cm', 'femtometers' etc.
+
+	Required Parameter = [particle,unit,]
 
 	"""
 	pass

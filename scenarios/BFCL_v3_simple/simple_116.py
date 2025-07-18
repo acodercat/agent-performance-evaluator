@@ -1,10 +1,13 @@
-def probabilities_calculate_single(total_outcomes, event_outcomes, round=None):
+from typing import List, Dict, Any, Union, Tuple 
+def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round:int=None):
 	"""
-	Calculate the probability of an event.    
+	probabilities_calculate_single : Calculate the probability of an event.    
 	Parameters:
-	total_outcomes: The total number of outcomes.
-	event_outcomes: The number of outcomes where the event occurs.
-	round: Round the answer to a specified number of decimal places. Defaults to 2.
+	total_outcomes (int): The total number of outcomes.
+	event_outcomes (int): The number of outcomes where the event occurs.
+	round (int): Round the answer to a specified number of decimal places. Defaults to 2.
+
+	Required Parameter = [total_outcomes,event_outcomes,]
 
 	"""
 	pass

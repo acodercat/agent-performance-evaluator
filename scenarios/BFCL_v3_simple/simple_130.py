@@ -1,10 +1,13 @@
-def finance_calculator_npv(cash_flows, discount_rate, years=None):
+from typing import List, Dict, Any, Union, Tuple 
+def finance_calculator_npv(cash_flows:List[int], discount_rate:float, years:List[int]=None):
 	"""
-	Calculate the Net Present Value (NPV) for a series of cash flows discounted at a certain interest rate.    
+	finance_calculator_npv : Calculate the Net Present Value (NPV) for a series of cash flows discounted at a certain interest rate.    
 	Parameters:
-	cash_flows: A list of cash flows.
-	discount_rate: The annual interest rate used to discount the cash flows.
-	years: A list of years when the cash flow occurs. Default is empty array.
+	cash_flows (List[int]): A list of cash flows.
+	discount_rate (float): The annual interest rate used to discount the cash flows.
+	years (List[int]): A list of years when the cash flow occurs. Default is empty array.
+
+	Required Parameter = [cash_flows,discount_rate,]
 
 	"""
 	pass

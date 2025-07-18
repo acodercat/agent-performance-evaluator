@@ -1,26 +1,35 @@
-def country_info_largest_city(country):
+from typing import List, Dict, Any, Union, Tuple 
+def country_info_largest_city(country:str):
 	"""
-	Fetch the largest city of a specified country.    
+	country_info_largest_city : Fetch the largest city of a specified country.    
 	Parameters:
-	country: Name of the country.
+	country (str): Name of the country.
+
+	Required Parameter = [country,]
 
 	"""
 	pass
 
-def country_info_capital(country):
+from typing import List, Dict, Any, Union, Tuple 
+def country_info_capital(country:str):
 	"""
-	Fetch the capital city of a specified country.    
+	country_info_capital : Fetch the capital city of a specified country.    
 	Parameters:
-	country: Name of the country.
+	country (str): Name of the country.
+
+	Required Parameter = [country,]
 
 	"""
 	pass
 
-def country_info_population(country):
+from typing import List, Dict, Any, Union, Tuple 
+def country_info_population(country:str):
 	"""
-	Fetch the current population of a specified country.    
+	country_info_population : Fetch the current population of a specified country.    
 	Parameters:
-	country: Name of the country.
+	country (str): Name of the country.
+
+	Required Parameter = [country,]
 
 	"""
 	pass

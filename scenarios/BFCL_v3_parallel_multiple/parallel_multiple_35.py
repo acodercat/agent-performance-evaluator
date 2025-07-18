@@ -1,17 +1,23 @@
-def image_processing_object_identification(image_url):
+from typing import List, Dict, Any, Union, Tuple 
+def image_processing_object_identification(image_url:str):
 	"""
-	Identify objects in a given image.    
+	image_processing_object_identification : Identify objects in a given image.    
 	Parameters:
-	image_url: The URL of the image.
+	image_url (str): The URL of the image.
+
+	Required Parameter = [image_url,]
 
 	"""
 	pass
 
-def text_analysis_sentiment_analysis(text):
+from typing import List, Dict, Any, Union, Tuple 
+def text_analysis_sentiment_analysis(text:str):
 	"""
-	Analyze the sentiment of a given text.    
+	text_analysis_sentiment_analysis : Analyze the sentiment of a given text.    
 	Parameters:
-	text: The text to be analyzed.
+	text (str): The text to be analyzed.
+
+	Required Parameter = [text,]
 
 	"""
 	pass

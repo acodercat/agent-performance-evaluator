@@ -1,10 +1,13 @@
-def sports_db_find_athlete(name, sport, team=None):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_db_find_athlete(name:str, sport:str, team:str=None):
 	"""
-	Find the profile information of a sports athlete based on their full name.    
+	sports_db_find_athlete : Find the profile information of a sports athlete based on their full name.    
 	Parameters:
-	name: The full name of the athlete.
-	team: The team the athlete belongs to. Default to all teams if not specified.
-	sport: The sport that athlete plays.
+	name (str): The full name of the athlete.
+	team (str): The team the athlete belongs to. Default to all teams if not specified.
+	sport (str): The sport that athlete plays.
+
+	Required Parameter = [name,sport,]
 
 	"""
 	pass

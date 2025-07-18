@@ -1,26 +1,35 @@
-def calculate_standard_deviation(gradeDict):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_standard_deviation(gradeDict:Dict[str, Any]):
 	"""
-	This function calculates the standard deviation across different scores for a specific student.    
+	calculate_standard_deviation : This function calculates the standard deviation across different scores for a specific student.    
 	Parameters:
-	gradeDict: A dictionary where keys represent subjects and values represent scores
+	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
+
+	Required Parameter = [gradeDict,]
 
 	"""
 	pass
 
-def calculate_average(gradeDict):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_average(gradeDict:Dict[str, Any]):
 	"""
-	This function calculates the average grade across different subjects for a specific student.    
+	calculate_average : This function calculates the average grade across different subjects for a specific student.    
 	Parameters:
-	gradeDict: A dictionary where keys represent subjects and values represent scores
+	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
+
+	Required Parameter = [gradeDict,]
 
 	"""
 	pass
 
-def highest_grade(gradeDict):
+from typing import List, Dict, Any, Union, Tuple 
+def highest_grade(gradeDict:Dict[str, Any]):
 	"""
-	This function finds the subject where the student got the highest score.    
+	highest_grade : This function finds the subject where the student got the highest score.    
 	Parameters:
-	gradeDict: A dictionary where keys represent subjects and values represent scores
+	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
+
+	Required Parameter = [gradeDict,]
 
 	"""
 	pass

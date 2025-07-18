@@ -1,9 +1,12 @@
-def get_defense_ranking(season, top=1):
+from typing import List, Dict, Any, Union, Tuple 
+def get_defense_ranking(season:int, top:int=1):
 	"""
-	Retrieve the defence ranking of NBA teams in a specified season.    
+	get_defense_ranking : Retrieve the defence ranking of NBA teams in a specified season.    
 	Parameters:
-	season: The NBA season to get defence ranking from.
-	top: Number of top teams in defence ranking to fetch.
+	season (int): The NBA season to get defence ranking from.
+	top (int): Number of top teams in defence ranking to fetch.
+
+	Required Parameter = [season,]
 
 	"""
 	pass

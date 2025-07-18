@@ -1,29 +1,38 @@
-def math_sqrt(num, accuracy=2.0):
+from typing import List, Dict, Any, Union, Tuple 
+def math_sqrt(num:float, accuracy:float=2.0):
 	"""
-	Calculates the square root of a number.    
+	math_sqrt : Calculates the square root of a number.    
 	Parameters:
-	num: The number.
-	accuracy: The number of decimal places in the result.
+	num (float): The number.
+	accuracy (float): The number of decimal places in the result.
+
+	Required Parameter = [num,]
 
 	"""
 	pass
 
-def math_gcd(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_gcd(num1:int, num2:int):
 	"""
-	Calculates the greatest common divisor of two numbers.    
+	math_gcd : Calculates the greatest common divisor of two numbers.    
 	Parameters:
-	num1: The first number.
-	num2: The second number.
+	num1 (int): The first number.
+	num2 (int): The second number.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass
 
-def math_lcm(num1, num2):
+from typing import List, Dict, Any, Union, Tuple 
+def math_lcm(num1:int, num2:int):
 	"""
-	Calculates the least common multiple of two numbers.    
+	math_lcm : Calculates the least common multiple of two numbers.    
 	Parameters:
-	num1: The first number.
-	num2: The second number.
+	num1 (int): The first number.
+	num2 (int): The second number.
+
+	Required Parameter = [num1,num2,]
 
 	"""
 	pass

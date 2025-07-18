@@ -1,29 +1,38 @@
-def uv_index_get_future(location, date):
+from typing import List, Dict, Any, Union, Tuple 
+def uv_index_get_future(location:str, date:str):
 	"""
-	Retrieve UV index data for a specified location and date.    
+	uv_index_get_future : Retrieve UV index data for a specified location and date.    
 	Parameters:
-	location: The location to retrieve the UV index for.
-	date: The date for the UV index, in the format mm-dd-yyyy.
+	location (str): The location to retrieve the UV index for.
+	date (str): The date for the UV index, in the format mm-dd-yyyy.
+
+	Required Parameter = [location,date,]
 
 	"""
 	pass
 
-def rainfall_prediction(location, date):
+from typing import List, Dict, Any, Union, Tuple 
+def rainfall_prediction(location:str, date:str):
 	"""
-	Retrieve rainfall data for a specified location and date.    
+	rainfall_prediction : Retrieve rainfall data for a specified location and date.    
 	Parameters:
-	location: The location to retrieve the rainfall prediction for.
-	date: The date for the rainfall prediction, in the format mm/dd/yyyy.'
+	location (str): The location to retrieve the rainfall prediction for.
+	date (str): The date for the rainfall prediction, in the format mm/dd/yyyy.'
+
+	Required Parameter = [location,date,]
 
 	"""
 	pass
 
-def snowfall_prediction(location, date):
+from typing import List, Dict, Any, Union, Tuple 
+def snowfall_prediction(location:str, date:str):
 	"""
-	Retrieve snowfall data for a specified location and date.    
+	snowfall_prediction : Retrieve snowfall data for a specified location and date.    
 	Parameters:
-	location: The location to retrieve the snowfall prediction for.
-	date: The date for the snowfall prediction, in the format mm-dd-yyyy.
+	location (str): The location to retrieve the snowfall prediction for.
+	date (str): The date for the snowfall prediction, in the format mm-dd-yyyy.
+
+	Required Parameter = [location,date,]
 
 	"""
 	pass

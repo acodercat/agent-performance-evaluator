@@ -1,41 +1,53 @@
-def find_card_in_deck(rank, suit, deck=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
-	Locate a particular card in a deck based on rank and suit.    
+	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
 	Parameters:
-	rank: Rank of the card (e.g. Ace, Two, King).
-	suit: Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
-	deck: Deck of cards. If not provided, the deck will be default to an empty array
+	rank (str): Rank of the card (e.g. Ace, Two, King).
+	suit (str): Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
+	deck (List[Dict[str, str]]): Deck of cards. If not provided, the deck will be default to an empty array
+
+	Required Parameter = [rank,suit,]
 
 	"""
 	pass
 
-def soccer_get_last_match(team_name, include_stats=None):
+from typing import List, Dict, Any, Union, Tuple 
+def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
-	Retrieve the details of the last match played by a specified soccer club.    
+	soccer_get_last_match : Retrieve the details of the last match played by a specified soccer club.    
 	Parameters:
-	team_name: The name of the soccer club.
-	include_stats: If true, include match statistics like possession, shots on target etc. Default is false.
+	team_name (str): The name of the soccer club.
+	include_stats (bool): If true, include match statistics like possession, shots on target etc. Default is false.
+
+	Required Parameter = [team_name,]
 
 	"""
 	pass
 
-def US_president_in_year(year, full_name=True):
+from typing import List, Dict, Any, Union, Tuple 
+def US_president_in_year(year:int, full_name:bool=True):
 	"""
-	Retrieve the name of the U.S. president in a given year.    
+	US_president_in_year : Retrieve the name of the U.S. president in a given year.    
 	Parameters:
-	year: The year in question.
-	full_name: Option to return full name with middle initial, if applicable.
+	year (int): The year in question.
+	full_name (bool): Option to return full name with middle initial, if applicable.
+
+	Required Parameter = [year,]
 
 	"""
 	pass
 
-def update_user_info(user_id, update_info, database='CustomerInfo'):
+from typing import List, Dict, Any, Union, Tuple 
+def update_user_info(user_id:int, update_info:Dict[str, str], database:str='CustomerInfo'):
 	"""
-	Update user information in the database.    
+	update_user_info : Update user information in the database.    
 	Parameters:
-	user_id: The user ID of the customer.
-	update_info: The new information to update.
-	database: The database where the user's information is stored.
+	user_id (int): The user ID of the customer.
+	update_info (Dict[str, str]): The new information to update.
+	database (str): The database where the user's information is stored.
+
+	Required Parameter = [user_id,update_info,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def calculate_resonant_frequency(inductance, capacitance, round_off=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_resonant_frequency(inductance:float, capacitance:float, round_off:int=None):
 	"""
-	Calculate the resonant frequency of an LC (inductor-capacitor) circuit.    
+	calculate_resonant_frequency : Calculate the resonant frequency of an LC (inductor-capacitor) circuit.    
 	Parameters:
-	inductance: The inductance (L) in henries (H).
-	capacitance: The capacitance (C) in farads (F).
-	round_off: Rounding off the result to a certain decimal places, default is 2.
+	inductance (float): The inductance (L) in henries (H).
+	capacitance (float): The capacitance (C) in farads (F).
+	round_off (int): Rounding off the result to a certain decimal places, default is 2.
+
+	Required Parameter = [inductance,capacitance,]
 
 	"""
 	pass

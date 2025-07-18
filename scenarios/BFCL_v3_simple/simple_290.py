@@ -1,10 +1,13 @@
-def concert_find_details(artist, month, year=2022):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_find_details(artist:str, month:str, year:int=2022):
 	"""
-	Finds details of a concert event.    
+	concert_find_details : Finds details of a concert event.    
 	Parameters:
-	artist: Name of the artist performing.
-	month: Month in which the concert is happening.
-	year: Year of the concert.
+	artist (str): Name of the artist performing.
+	month (str): Month in which the concert is happening.
+	year (int): Year of the concert.
+
+	Required Parameter = [artist,month,]
 
 	"""
 	pass

@@ -1,8 +1,11 @@
-def number_analysis_prime_factors(number):
+from typing import List, Dict, Any, Union, Tuple 
+def number_analysis_prime_factors(number:int):
 	"""
-	Compute the prime factors of a number.    
+	number_analysis_prime_factors : Compute the prime factors of a number.    
 	Parameters:
-	number: The number to be factored.
+	number (int): The number to be factored.
+
+	Required Parameter = [number,]
 
 	"""
 	pass

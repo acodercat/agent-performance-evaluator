@@ -1,20 +1,26 @@
-def poker_probability_full_house(deck_size, hand_size):
+from typing import List, Dict, Any, Union, Tuple 
+def poker_probability_full_house(deck_size:int, hand_size:int):
 	"""
-	Calculate the probability of getting a full house in a poker game.    
+	poker_probability_full_house : Calculate the probability of getting a full house in a poker game.    
 	Parameters:
-	deck_size: The size of the deck. Default is 52.
-	hand_size: The size of the hand. Default is 5.
+	deck_size (int): The size of the deck. Default is 52.
+	hand_size (int): The size of the hand. Default is 5.
+
+	Required Parameter = [deck_size,hand_size,]
 
 	"""
 	pass
 
-def game_result_get_winner(teams, date, venue=None):
+from typing import List, Dict, Any, Union, Tuple 
+def game_result_get_winner(teams:List[str], date:str, venue:str=None):
 	"""
-	Get the winner of a specific basketball game.    
+	game_result_get_winner : Get the winner of a specific basketball game.    
 	Parameters:
-	teams: List of two teams who played the game.
-	date: The date of the game, formatted as YYYY-MM-DD.
-	venue: Optional: The venue of the game. Default is ''
+	teams (List[str]): List of two teams who played the game.
+	date (str): The date of the game, formatted as YYYY-MM-DD.
+	venue (str): Optional: The venue of the game. Default is ''
+
+	Required Parameter = [teams,date,]
 
 	"""
 	pass

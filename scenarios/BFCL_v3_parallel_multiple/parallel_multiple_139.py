@@ -1,44 +1,56 @@
-def calculate_electric_field_strength(charge, distance, medium=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_electric_field_strength(charge:float, distance:float, medium:str=None):
 	"""
-	Calculate the electric field strength at a certain distance from a point charge.    
+	calculate_electric_field_strength : Calculate the electric field strength at a certain distance from a point charge.    
 	Parameters:
-	charge: The charge in Coulombs.
-	distance: The distance from the charge in meters.
-	medium: The medium in which the charge and the point of calculation is located. Default is 'vacuum'.
+	charge (float): The charge in Coulombs.
+	distance (float): The distance from the charge in meters.
+	medium (str): The medium in which the charge and the point of calculation is located. Default is 'vacuum'.
+
+	Required Parameter = [charge,distance,]
 
 	"""
 	pass
 
-def mix_paint_color(color1, color2, lightness=None):
+from typing import List, Dict, Any, Union, Tuple 
+def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
-	Combine two primary paint colors and adjust the resulting color's lightness level.    
+	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
 	Parameters:
-	color1: The first primary color to be mixed.
-	color2: The second primary color to be mixed.
-	lightness: The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+	color1 (str): The first primary color to be mixed.
+	color2 (str): The second primary color to be mixed.
+	lightness (int): The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+
+	Required Parameter = [color1,color2,]
 
 	"""
 	pass
 
-def cooking_conversion_convert(quantity, from_unit, to_unit, item):
+from typing import List, Dict, Any, Union, Tuple 
+def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
 	"""
-	Convert cooking measurements from one unit to another.    
+	cooking_conversion_convert : Convert cooking measurements from one unit to another.    
 	Parameters:
-	quantity: The quantity to be converted.
-	from_unit: The unit to convert from.
-	to_unit: The unit to convert to.
-	item: The item to be converted.
+	quantity (int): The quantity to be converted.
+	from_unit (str): The unit to convert from.
+	to_unit (str): The unit to convert to.
+	item (str): The item to be converted.
+
+	Required Parameter = [quantity,from_unit,to_unit,item,]
 
 	"""
 	pass
 
-def group_dynamics_pattern(total, extroverts, introverts):
+from typing import List, Dict, Any, Union, Tuple 
+def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	"""
-	Examine the social dynamics and interactions within a group based on the personality traits and group size.    
+	group_dynamics_pattern : Examine the social dynamics and interactions within a group based on the personality traits and group size.    
 	Parameters:
-	total: The total group size.
-	extroverts: The number of extroverted members in the group.
-	introverts: The number of introverted members in the group.
+	total (int): The total group size.
+	extroverts (int): The number of extroverted members in the group.
+	introverts (int): The number of introverted members in the group.
+
+	Required Parameter = [total,extroverts,introverts,]
 
 	"""
 	pass

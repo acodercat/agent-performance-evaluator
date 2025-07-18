@@ -1,10 +1,13 @@
-def solve_quadratic_equation(a, b, c):
+from typing import List, Dict, Any, Union, Tuple 
+def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
-	Function solves the quadratic equation and returns its roots.    
+	solve_quadratic_equation : Function solves the quadratic equation and returns its roots.    
 	Parameters:
-	a: Coefficient of x squared
-	b: Coefficient of x
-	c: Constant term in the quadratic equation
+	a (int): Coefficient of x squared
+	b (int): Coefficient of x
+	c (int): Constant term in the quadratic equation
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass

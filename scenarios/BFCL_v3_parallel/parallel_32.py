@@ -1,10 +1,13 @@
-def us_history_events_by_presidency(president_name, start_year=0, end_year=2000):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_events_by_presidency(president_name:str, start_year:int=0, end_year:int=2000):
 	"""
-	Retrieve the major events during the presidency of a specified US president.    
+	us_history_events_by_presidency : Retrieve the major events during the presidency of a specified US president.    
 	Parameters:
-	president_name: The name of the US president.
-	start_year: The start year of their presidency (optional).
-	end_year: The end year of their presidency (optional).
+	president_name (str): The name of the US president.
+	start_year (int): The start year of their presidency (optional).
+	end_year (int): The end year of their presidency (optional).
+
+	Required Parameter = [president_name,]
 
 	"""
 	pass

@@ -1,22 +1,28 @@
-def integral(function, a, b):
+from typing import List, Dict, Any, Union, Tuple 
+def integral(function:str, a:float, b:float):
 	"""
-	Calculate the definite integral of a function over an interval [a, b].    
+	integral : Calculate the definite integral of a function over an interval [a, b].    
 	Parameters:
-	function: The function to integrate.
-	a: The lower bound of the interval.
-	b: The upper bound of the interval.
+	function (str): The function to integrate.
+	a (float): The lower bound of the interval.
+	b (float): The upper bound of the interval.
+
+	Required Parameter = [function,a,b,]
 
 	"""
 	pass
 
-def get_rectangle_property(perimeter, area, property, tolerance=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_rectangle_property(perimeter:int, area:int, property:str, tolerance:float=None):
 	"""
-	Get specific property of the rectangle (like length, width) based on perimeter and area.    
+	get_rectangle_property : Get specific property of the rectangle (like length, width) based on perimeter and area.    
 	Parameters:
-	perimeter: Perimeter of the rectangle.
-	area: Area of the rectangle.
-	property: Specific property required. It can be length, width or diagonal.
-	tolerance: Allowed error for calculations. (optional) Default 0.1
+	perimeter (int): Perimeter of the rectangle.
+	area (int): Area of the rectangle.
+	property (str): Specific property required. It can be length, width or diagonal.
+	tolerance (float): Allowed error for calculations. (optional) Default 0.1
+
+	Required Parameter = [perimeter,area,property,]
 
 	"""
 	pass

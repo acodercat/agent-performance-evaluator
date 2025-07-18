@@ -1,10 +1,13 @@
-def concert_finder(location, music_genre, time_period=30):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_finder(location:str, music_genre:str, time_period:int=30):
 	"""
-	Locate upcoming concerts based on music genre in specified city and state.    
+	concert_finder : Locate upcoming concerts based on music genre in specified city and state.    
 	Parameters:
-	location: The city and state to find concerts.
-	music_genre: Music genre of the concerts.
-	time_period: Number of days to search upcoming concerts.
+	location (str): The city and state to find concerts.
+	music_genre (str): Music genre of the concerts.
+	time_period (int): Number of days to search upcoming concerts.
+
+	Required Parameter = [location,music_genre,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def kinematics_final_velocity_from_distance(acceleration, distance, initial_velocity=None):
+from typing import List, Dict, Any, Union, Tuple 
+def kinematics_final_velocity_from_distance(acceleration:int, distance:int, initial_velocity:float=None):
 	"""
-	Calculate the final velocity of an object given the acceleration and distance travelled, assuming initial velocity is 0.    
+	kinematics_final_velocity_from_distance : Calculate the final velocity of an object given the acceleration and distance travelled, assuming initial velocity is 0.    
 	Parameters:
-	acceleration: Acceleration of the object, m/s^2.
-	distance: Distance traveled by the object, m.
-	initial_velocity: Initial velocity of the object. Default is 0, m/s
+	acceleration (int): Acceleration of the object, m/s^2.
+	distance (int): Distance traveled by the object, m.
+	initial_velocity (float): Initial velocity of the object. Default is 0, m/s
+
+	Required Parameter = [acceleration,distance,]
 
 	"""
 	pass

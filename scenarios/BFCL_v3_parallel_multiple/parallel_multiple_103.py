@@ -1,19 +1,25 @@
-def lawyer_search(location, expertise):
+from typing import List, Dict, Any, Union, Tuple 
+def lawyer_search(location:str, expertise:str):
 	"""
-	Search for a lawyer based on area of expertise and location    
+	lawyer_search : Search for a lawyer based on area of expertise and location    
 	Parameters:
-	location: The city and state, e.g. Los Angeles, CA
-	expertise: Area of legal expertise. For example, 'Divorce', 'Criminal', 'Business'.
+	location (str): The city and state, e.g. Los Angeles, CA
+	expertise (str): Area of legal expertise. For example, 'Divorce', 'Criminal', 'Business'.
+
+	Required Parameter = [location,expertise,]
 
 	"""
 	pass
 
-def doctor_search(location, specialization):
+from typing import List, Dict, Any, Union, Tuple 
+def doctor_search(location:str, specialization:str):
 	"""
-	Search for a doctor based on area of expertise and location    
+	doctor_search : Search for a doctor based on area of expertise and location    
 	Parameters:
-	location: The city and state, e.g. Los Angeles, CA
-	specialization: Medical specialization. For example, 'Cardiology', 'Orthopedics', 'Gynecology'.
+	location (str): The city and state, e.g. Los Angeles, CA
+	specialization (str): Medical specialization. For example, 'Cardiology', 'Orthopedics', 'Gynecology'.
+
+	Required Parameter = [location,specialization,]
 
 	"""
 	pass

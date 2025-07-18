@@ -1,10 +1,13 @@
-def get_game_item_stats(game, item, stat):
+from typing import List, Dict, Any, Union, Tuple 
+def get_game_item_stats(game:str, item:str, stat:str):
 	"""
-	Retrieve the statistics of a specific item in a specific video game.    
+	get_game_item_stats : Retrieve the statistics of a specific item in a specific video game.    
 	Parameters:
-	game: The game to retrieve information from.
-	item: The name of the item in the game.
-	stat: Specific statistic required.
+	game (str): The game to retrieve information from.
+	item (str): The name of the item in the game.
+	stat (str): Specific statistic required.
+
+	Required Parameter = [game,item,stat,]
 
 	"""
 	pass

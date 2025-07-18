@@ -1,43 +1,55 @@
-def sports_ranking_get_top_player(sport, gender='men'):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking_get_top_player(sport:str, gender:str='men'):
 	"""
-	Get the top player in a specific sport.    
+	sports_ranking_get_top_player : Get the top player in a specific sport.    
 	Parameters:
-	sport: The type of sport.
-	gender: The gender of the sport category. Optional.
+	sport (str): The type of sport.
+	gender (str): The gender of the sport category. Optional.
+
+	Required Parameter = [sport,]
 
 	"""
 	pass
 
-def electromagnetic_force(charge1, charge2, distance, medium_permittivity=None):
+from typing import List, Dict, Any, Union, Tuple 
+def electromagnetic_force(charge1:int, charge2:int, distance:float, medium_permittivity:float=None):
 	"""
-	Calculate the electromagnetic force between two charges placed at a certain distance.    
+	electromagnetic_force : Calculate the electromagnetic force between two charges placed at a certain distance.    
 	Parameters:
-	charge1: The magnitude of the first charge in coulombs.
-	charge2: The magnitude of the second charge in coulombs.
-	distance: The distance between the two charges in meters.
-	medium_permittivity: The relative permittivity of the medium in which the charges are present, in F/m. Default is 8.854e-12 (vacuum permittivity).
+	charge1 (int): The magnitude of the first charge in coulombs.
+	charge2 (int): The magnitude of the second charge in coulombs.
+	distance (float): The distance between the two charges in meters.
+	medium_permittivity (float): The relative permittivity of the medium in which the charges are present, in F/m. Default is 8.854e-12 (vacuum permittivity).
+
+	Required Parameter = [charge1,charge2,distance,]
 
 	"""
 	pass
 
-def calculate_binomial_probability(number_of_trials, number_of_successes, probability_of_success=0.5):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_binomial_probability(number_of_trials:int, number_of_successes:int, probability_of_success:float=0.5):
 	"""
-	Calculates the binomial probability given the number of trials, successes and the probability of success on an individual trial.    
+	calculate_binomial_probability : Calculates the binomial probability given the number of trials, successes and the probability of success on an individual trial.    
 	Parameters:
-	number_of_trials: The total number of trials.
-	number_of_successes: The desired number of successful outcomes.
-	probability_of_success: The probability of a successful outcome on any given trial.
+	number_of_trials (int): The total number of trials.
+	number_of_successes (int): The desired number of successful outcomes.
+	probability_of_success (float): The probability of a successful outcome on any given trial.
+
+	Required Parameter = [number_of_trials,number_of_successes,]
 
 	"""
 	pass
 
-def find_instrument(budget, type, make=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_instrument(budget:int, type:str, make:str=None):
 	"""
-	Search for a musical instrument within specified budget and of specific type.    
+	find_instrument : Search for a musical instrument within specified budget and of specific type.    
 	Parameters:
-	budget: Your budget for the instrument.
-	type: Type of the instrument
-	make: Maker of the instrument, Optional parameter. Default to not use it if not provided.
+	budget (int): Your budget for the instrument.
+	type (str): Type of the instrument
+	make (str): Maker of the instrument, Optional parameter. Default to not use it if not provided.
+
+	Required Parameter = [budget,type,]
 
 	"""
 	pass

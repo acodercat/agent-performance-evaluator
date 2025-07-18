@@ -1,19 +1,25 @@
-def get_team_info(team, info):
+from typing import List, Dict, Any, Union, Tuple 
+def get_team_info(team:str, info:str):
 	"""
-	Retrieve information for a specific team, such as championships won.    
+	get_team_info : Retrieve information for a specific team, such as championships won.    
 	Parameters:
-	team: The name of the team.
-	info: The information sought. E.g., 'championships_won'.
+	team (str): The name of the team.
+	info (str): The information sought. E.g., 'championships_won'.
+
+	Required Parameter = [team,info,]
 
 	"""
 	pass
 
-def get_player_record(player, stat):
+from typing import List, Dict, Any, Union, Tuple 
+def get_player_record(player:str, stat:str):
 	"""
-	Retrieve record stats for a specific player and stat type.    
+	get_player_record : Retrieve record stats for a specific player and stat type.    
 	Parameters:
-	player: The name of the player.
-	stat: The type of statistic. E.g., 'highest_scoring_game', 'total_championships'.
+	player (str): The name of the player.
+	stat (str): The type of statistic. E.g., 'highest_scoring_game', 'total_championships'.
+
+	Required Parameter = [player,stat,]
 
 	"""
 	pass

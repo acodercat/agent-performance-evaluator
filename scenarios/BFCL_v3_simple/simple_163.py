@@ -1,11 +1,14 @@
-def property_records_get(address, parcel_number, county, include_owner=False):
+from typing import List, Dict, Any, Union, Tuple 
+def property_records_get(address:str, parcel_number:str, county:str, include_owner:bool=False):
 	"""
-	Fetch property records based on location, parcel number and county.    
+	property_records_get : Fetch property records based on location, parcel number and county.    
 	Parameters:
-	address: Address of the property.
-	parcel_number: Parcel number of the property.
-	county: County where the property is located.
-	include_owner: Include owner's name in the property record. Default is false.
+	address (str): Address of the property.
+	parcel_number (str): Parcel number of the property.
+	county (str): County where the property is located.
+	include_owner (bool): Include owner's name in the property record. Default is false.
+
+	Required Parameter = [address,parcel_number,county,]
 
 	"""
 	pass

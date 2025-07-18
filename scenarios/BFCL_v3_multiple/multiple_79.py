@@ -1,19 +1,25 @@
-def restaurant_info(location, food_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def restaurant_info(location:str, food_type:str=None):
 	"""
-	Get restaurant information for a specific area.    
+	restaurant_info : Get restaurant information for a specific area.    
 	Parameters:
-	location: Location for which to find restaurants.
-	food_type: Type of cuisine for which to find restaurants. Default 'any'
+	location (str): Location for which to find restaurants.
+	food_type (str): Type of cuisine for which to find restaurants. Default 'any'
+
+	Required Parameter = [location,]
 
 	"""
 	pass
 
-def exhibition_info(museum_name, month=None):
+from typing import List, Dict, Any, Union, Tuple 
+def exhibition_info(museum_name:str, month:int=None):
 	"""
-	Get exhibition information for a specific museum.    
+	exhibition_info : Get exhibition information for a specific museum.    
 	Parameters:
-	museum_name: Name of the museum for which to find exhibitions.
-	month: Number of upcoming months for which to retrieve exhibition details. Default 1
+	museum_name (str): Name of the museum for which to find exhibitions.
+	month (int): Number of upcoming months for which to retrieve exhibition details. Default 1
+
+	Required Parameter = [museum_name,]
 
 	"""
 	pass

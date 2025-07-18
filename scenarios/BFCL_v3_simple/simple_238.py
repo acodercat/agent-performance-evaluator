@@ -1,9 +1,12 @@
-def us_history_get_president(event, year):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_get_president(event:str, year:int):
 	"""
-	Retrieve the U.S. president during a specific event in American history.    
+	us_history_get_president : Retrieve the U.S. president during a specific event in American history.    
 	Parameters:
-	event: The event in U.S. history.
-	year: The specific year of the event.
+	event (str): The event in U.S. history.
+	year (int): The specific year of the event.
+
+	Required Parameter = [event,year,]
 
 	"""
 	pass

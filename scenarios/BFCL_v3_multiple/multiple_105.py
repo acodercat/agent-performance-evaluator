@@ -1,32 +1,41 @@
-def concert_booking_book_ticket(artist, city, num_tickets=None):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	"""
-	Book concert tickets for a specific artist in a specified city.    
+	concert_booking_book_ticket : Book concert tickets for a specific artist in a specified city.    
 	Parameters:
-	artist: The artist you want to book tickets for.
-	city: The city where the concert is.
-	num_tickets: Number of tickets required. Default is 1.
+	artist (str): The artist you want to book tickets for.
+	city (str): The city where the concert is.
+	num_tickets (int): Number of tickets required. Default is 1.
+
+	Required Parameter = [artist,city,]
 
 	"""
 	pass
 
-def calculate_magnetic_field(current, radius, permeability=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_magnetic_field(current:int, radius:int, permeability:float=None):
 	"""
-	Calculate the magnetic field produced at the center of a circular loop carrying current.    
+	calculate_magnetic_field : Calculate the magnetic field produced at the center of a circular loop carrying current.    
 	Parameters:
-	current: The current through the circular loop in Amperes.
-	radius: The radius of the circular loop in meters.
-	permeability: The magnetic permeability. Default is permeability in free space, 0.01
+	current (int): The current through the circular loop in Amperes.
+	radius (int): The radius of the circular loop in meters.
+	permeability (float): The magnetic permeability. Default is permeability in free space, 0.01
+
+	Required Parameter = [current,radius,]
 
 	"""
 	pass
 
-def lawsuit_details_find(company_name, year, case_type=None):
+from typing import List, Dict, Any, Union, Tuple 
+def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	"""
-	Find details of lawsuits involving a specific company from a given year.    
+	lawsuit_details_find : Find details of lawsuits involving a specific company from a given year.    
 	Parameters:
-	company_name: Name of the company.
-	year: Year of the lawsuit.
-	case_type: Type of the lawsuit, e.g., 'IPR', 'Patent', 'Commercial', etc. This is an optional parameter. Default is 'all'
+	company_name (str): Name of the company.
+	year (int): Year of the lawsuit.
+	case_type (str): Type of the lawsuit, e.g., 'IPR', 'Patent', 'Commercial', etc. This is an optional parameter. Default is 'all'
+
+	Required Parameter = [company_name,year,]
 
 	"""
 	pass

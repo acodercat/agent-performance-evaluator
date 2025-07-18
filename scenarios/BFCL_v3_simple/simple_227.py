@@ -1,9 +1,12 @@
-def get_personality_traits(type, traits=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_personality_traits(type:str, traits:List[str]=None):
 	"""
-	Retrieve the personality traits for a specific personality type, including their strengths and weaknesses.    
+	get_personality_traits : Retrieve the personality traits for a specific personality type, including their strengths and weaknesses.    
 	Parameters:
-	type: The personality type.
-	traits: List of traits to be retrieved, default is ['strengths'].
+	type (str): The personality type.
+	traits (List[str]): List of traits to be retrieved, default is ['strengths'].
+
+	Required Parameter = [type,]
 
 	"""
 	pass

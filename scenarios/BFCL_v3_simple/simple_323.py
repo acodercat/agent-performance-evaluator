@@ -1,9 +1,12 @@
-def sports_ranking_get_top_player(sport, gender='men'):
+from typing import List, Dict, Any, Union, Tuple 
+def sports_ranking_get_top_player(sport:str, gender:str='men'):
 	"""
-	Get the top player in a specific sport.    
+	sports_ranking_get_top_player : Get the top player in a specific sport.    
 	Parameters:
-	sport: The type of sport.
-	gender: The gender of the sport category. Optional.
+	sport (str): The type of sport.
+	gender (str): The gender of the sport category. Optional.
+
+	Required Parameter = [sport,]
 
 	"""
 	pass

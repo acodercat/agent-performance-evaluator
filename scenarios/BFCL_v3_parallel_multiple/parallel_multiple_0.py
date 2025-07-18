@@ -1,19 +1,25 @@
-def math_toolkit_sum_of_multiples(lower_limit, upper_limit, multiples):
+from typing import List, Dict, Any, Union, Tuple 
+def math_toolkit_sum_of_multiples(lower_limit:int, upper_limit:int, multiples:List[int]):
 	"""
-	Find the sum of all multiples of specified numbers within a specified range.    
+	math_toolkit_sum_of_multiples : Find the sum of all multiples of specified numbers within a specified range.    
 	Parameters:
-	lower_limit: The start of the range (inclusive).
-	upper_limit: The end of the range (inclusive).
-	multiples: The numbers to find multiples of.
+	lower_limit (int): The start of the range (inclusive).
+	upper_limit (int): The end of the range (inclusive).
+	multiples (List[int]): The numbers to find multiples of.
+
+	Required Parameter = [lower_limit,upper_limit,multiples,]
 
 	"""
 	pass
 
-def math_toolkit_product_of_primes(count):
+from typing import List, Dict, Any, Union, Tuple 
+def math_toolkit_product_of_primes(count:int):
 	"""
-	Find the product of the first n prime numbers.    
+	math_toolkit_product_of_primes : Find the product of the first n prime numbers.    
 	Parameters:
-	count: The number of prime numbers to multiply together.
+	count (int): The number of prime numbers to multiply together.
+
+	Required Parameter = [count,]
 
 	"""
 	pass

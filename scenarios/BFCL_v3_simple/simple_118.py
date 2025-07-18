@@ -1,10 +1,13 @@
-def stats_t_test(array_1, array_2, alpha):
+from typing import List, Dict, Any, Union, Tuple 
+def stats_t_test(array_1:List[int], array_2:List[int], alpha:float):
 	"""
-	Perform a two-sample t-test for two given arrays.    
+	stats_t_test : Perform a two-sample t-test for two given arrays.    
 	Parameters:
-	array_1: First array of data.
-	array_2: Second array of data.
-	alpha: Significance level for hypothesis testing.
+	array_1 (List[int]): First array of data.
+	array_2 (List[int]): Second array of data.
+	alpha (float): Significance level for hypothesis testing.
+
+	Required Parameter = [array_1,array_2,alpha,]
 
 	"""
 	pass

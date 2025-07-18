@@ -1,11 +1,14 @@
-def concert_search(genre, location, date, price_range=None):
+from typing import List, Dict, Any, Union, Tuple 
+def concert_search(genre:str, location:str, date:str, price_range:str=None):
 	"""
-	Locate a concert based on specific criteria like genre, location, and date.    
+	concert_search : Locate a concert based on specific criteria like genre, location, and date.    
 	Parameters:
-	genre: Genre of the concert.
-	location: City of the concert.
-	date: Date of the concert, e.g. this weekend, today, tomorrow.
-	price_range: Expected price range of the concert tickets. Default is 'free'.
+	genre (str): Genre of the concert.
+	location (str): City of the concert.
+	date (str): Date of the concert, e.g. this weekend, today, tomorrow.
+	price_range (str): Expected price range of the concert tickets. Default is 'free'.
+
+	Required Parameter = [genre,location,date,]
 
 	"""
 	pass

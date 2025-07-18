@@ -1,9 +1,12 @@
-def geometry_area_circle(radius, units='meters'):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_circle(radius:int, units:str='meters'):
 	"""
-	Calculate the area of a circle given the radius.    
+	geometry_area_circle : Calculate the area of a circle given the radius.    
 	Parameters:
-	radius: The radius of the circle.
-	units: The units in which the radius is measured (defaults to meters).
+	radius (int): The radius of the circle.
+	units (str): The units in which the radius is measured (defaults to meters).
+
+	Required Parameter = [radius,]
 
 	"""
 	pass

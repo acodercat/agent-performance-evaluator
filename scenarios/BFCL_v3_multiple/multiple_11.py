@@ -1,32 +1,41 @@
-def math_roots_quadratic(a, b, c):
+from typing import List, Dict, Any, Union, Tuple 
+def math_roots_quadratic(a:int, b:int, c:int):
 	"""
-	Calculate the roots of a quadratic equation.    
+	math_roots_quadratic : Calculate the roots of a quadratic equation.    
 	Parameters:
-	a: Coefficient of the second-degree term.
-	b: Coefficient of the first-degree term.
-	c: Constant term.
+	a (int): Coefficient of the second-degree term.
+	b (int): Coefficient of the first-degree term.
+	c (int): Constant term.
+
+	Required Parameter = [a,b,c,]
 
 	"""
 	pass
 
-def math_roots_cubic(a, b, c, d):
+from typing import List, Dict, Any, Union, Tuple 
+def math_roots_cubic(a:float, b:float, c:float, d:float):
 	"""
-	Calculate the roots of a cubic equation.    
+	math_roots_cubic : Calculate the roots of a cubic equation.    
 	Parameters:
-	a: Coefficient of the third-degree term.
-	b: Coefficient of the second-degree term.
-	c: Coefficient of the first-degree term.
-	d: Constant term.
+	a (float): Coefficient of the third-degree term.
+	b (float): Coefficient of the second-degree term.
+	c (float): Coefficient of the first-degree term.
+	d (float): Constant term.
+
+	Required Parameter = [a,b,c,d,]
 
 	"""
 	pass
 
-def math_roots_polynomial(coefficients, degree=None):
+from typing import List, Dict, Any, Union, Tuple 
+def math_roots_polynomial(coefficients:List[float], degree:int=None):
 	"""
-	Calculate the roots of a polynomial equation.    
+	math_roots_polynomial : Calculate the roots of a polynomial equation.    
 	Parameters:
-	coefficients: Array of coefficients of the polynomial equation starting from highest degree term.
-	degree: Degree of the polynomial equation. Default 0
+	coefficients (List[float]): Array of coefficients of the polynomial equation starting from highest degree term.
+	degree (int): Degree of the polynomial equation. Default 0
+
+	Required Parameter = [coefficients,]
 
 	"""
 	pass

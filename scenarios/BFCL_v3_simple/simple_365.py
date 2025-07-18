@@ -1,11 +1,14 @@
-def cooking_conversion_convert(quantity, from_unit, to_unit, item):
+from typing import List, Dict, Any, Union, Tuple 
+def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
 	"""
-	Convert cooking measurements from one unit to another.    
+	cooking_conversion_convert : Convert cooking measurements from one unit to another.    
 	Parameters:
-	quantity: The quantity to be converted.
-	from_unit: The unit to convert from.
-	to_unit: The unit to convert to.
-	item: The item to be converted.
+	quantity (int): The quantity to be converted.
+	from_unit (str): The unit to convert from.
+	to_unit (str): The unit to convert to.
+	item (str): The item to be converted.
+
+	Required Parameter = [quantity,from_unit,to_unit,item,]
 
 	"""
 	pass

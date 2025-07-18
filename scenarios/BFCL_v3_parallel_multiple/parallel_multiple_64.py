@@ -1,22 +1,28 @@
-def wildlife_population_assess_growth(species, location, duration):
+from typing import List, Dict, Any, Union, Tuple 
+def wildlife_population_assess_growth(species:str, location:str, duration:int):
 	"""
-	Assesses the population growth of a specific species in a specified location over a period.    
+	wildlife_population_assess_growth : Assesses the population growth of a specific species in a specified location over a period.    
 	Parameters:
-	species: The species for which the growth is to be calculated.
-	location: The area where the species is present.
-	duration: The time period for which the population growth should be calculated in years.
+	species (str): The species for which the growth is to be calculated.
+	location (str): The area where the species is present.
+	duration (int): The time period for which the population growth should be calculated in years.
+
+	Required Parameter = [species,location,duration,]
 
 	"""
 	pass
 
-def ecological_impact_analyze(species, ecosystem, location, timeframe=5):
+from typing import List, Dict, Any, Union, Tuple 
+def ecological_impact_analyze(species:str, ecosystem:str, location:str, timeframe:int=5):
 	"""
-	Analyzes the impact of a species on a particular ecosystem.    
+	ecological_impact_analyze : Analyzes the impact of a species on a particular ecosystem.    
 	Parameters:
-	species: The species whose impact is to be calculated.
-	ecosystem: The ecosystem being affected.
-	location: The area where the impact is analyzed.
-	timeframe: The time period for which the impact analysis should be carried out in years.
+	species (str): The species whose impact is to be calculated.
+	ecosystem (str): The ecosystem being affected.
+	location (str): The area where the impact is analyzed.
+	timeframe (int): The time period for which the impact analysis should be carried out in years.
+
+	Required Parameter = [species,ecosystem,location,]
 
 	"""
 	pass

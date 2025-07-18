@@ -1,10 +1,13 @@
-def multiplayer_game_finder(platform, rating, genre=None):
+from typing import List, Dict, Any, Union, Tuple 
+def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
 	"""
-	Locate multiplayer games that match specific criteria such as rating, platform compatibility, genre, etc.    
+	multiplayer_game_finder : Locate multiplayer games that match specific criteria such as rating, platform compatibility, genre, etc.    
 	Parameters:
-	platform: The platform you want the game to be compatible with, e.g. Windows 10, PS5.
-	rating: Desired minimum game rating on a 5.0 scale.
-	genre: Desired game genre, e.g. Action, Adventure, Racing. Default is 'Action'.
+	platform (str): The platform you want the game to be compatible with, e.g. Windows 10, PS5.
+	rating (float): Desired minimum game rating on a 5.0 scale.
+	genre (str): Desired game genre, e.g. Action, Adventure, Racing. Default is 'Action'.
+
+	Required Parameter = [platform,rating,]
 
 	"""
 	pass

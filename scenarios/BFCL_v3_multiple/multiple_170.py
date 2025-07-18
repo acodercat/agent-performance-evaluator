@@ -1,41 +1,53 @@
-def park_information(park_name, information):
+from typing import List, Dict, Any, Union, Tuple 
+def park_information(park_name:str, information:List[str]):
 	"""
-	Retrieve the basic information such as elevation and area of a national park.    
+	park_information : Retrieve the basic information such as elevation and area of a national park.    
 	Parameters:
-	park_name: The name of the national park.
-	information: The type of information you want about the park.
+	park_name (str): The name of the national park.
+	information (List[str]): The type of information you want about the park.
+
+	Required Parameter = [park_name,information,]
 
 	"""
 	pass
 
-def us_history_get_president(event, year):
+from typing import List, Dict, Any, Union, Tuple 
+def us_history_get_president(event:str, year:int):
 	"""
-	Retrieve the U.S. president during a specific event in American history.    
+	us_history_get_president : Retrieve the U.S. president during a specific event in American history.    
 	Parameters:
-	event: The event in U.S. history.
-	year: The specific year of the event.
+	event (str): The event in U.S. history.
+	year (int): The specific year of the event.
+
+	Required Parameter = [event,year,]
 
 	"""
 	pass
 
-def monopoly_odds_calculator(number, dice_number, dice_faces=None):
+from typing import List, Dict, Any, Union, Tuple 
+def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
-	Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
+	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
 	Parameters:
-	number: The number for which the odds are calculated.
-	dice_number: The number of dice involved in the roll.
-	dice_faces: The number of faces on a single die. Default is 6 for standard six-faced die.
+	number (int): The number for which the odds are calculated.
+	dice_number (int): The number of dice involved in the roll.
+	dice_faces (int): The number of faces on a single die. Default is 6 for standard six-faced die.
+
+	Required Parameter = [number,dice_number,]
 
 	"""
 	pass
 
-def soccer_stat_get_player_stats(player_name, season, league=None):
+from typing import List, Dict, Any, Union, Tuple 
+def soccer_stat_get_player_stats(player_name:str, season:str, league:str=None):
 	"""
-	Retrieve soccer player statistics for a given season.    
+	soccer_stat_get_player_stats : Retrieve soccer player statistics for a given season.    
 	Parameters:
-	player_name: Name of the player.
-	season: Soccer season, usually specified by two years.
-	league: Optional - the soccer league, defaults to all leagues. Default 'all'
+	player_name (str): Name of the player.
+	season (str): Soccer season, usually specified by two years.
+	league (str): Optional - the soccer league, defaults to all leagues. Default 'all'
+
+	Required Parameter = [player_name,season,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def museum_info(museum, date, information='all'):
+from typing import List, Dict, Any, Union, Tuple 
+def museum_info(museum:str, date:str, information:List[str]='all'):
 	"""
-	Get information about a museum including its opening hours and ticket prices for a specific date range.    
+	museum_info : Get information about a museum including its opening hours and ticket prices for a specific date range.    
 	Parameters:
-	museum: The name of the museum.
-	date: The specific date for which information is needed, in the format of YYYY-MM-DD such as '2022-12-01'.
-	information: The type of information needed from the museum. This is optional and defaults to 'all' if not specified.
+	museum (str): The name of the museum.
+	date (str): The specific date for which information is needed, in the format of YYYY-MM-DD such as '2022-12-01'.
+	information (List[str]): The type of information needed from the museum. This is optional and defaults to 'all' if not specified.
+
+	Required Parameter = [museum,date,]
 
 	"""
 	pass

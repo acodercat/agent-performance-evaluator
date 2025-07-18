@@ -1,20 +1,26 @@
-def calculate_bmi(weight, height, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_bmi(weight:int, height:int, unit:str=None):
 	"""
-	Calculate the Body Mass Index (BMI) of a person.    
+	calculate_bmi : Calculate the Body Mass Index (BMI) of a person.    
 	Parameters:
-	weight: Weight of the person in kilograms.
-	height: Height of the person in centimeters.
-	unit: Optional parameter to choose between 'imperial' and 'metric' systems. Default is 'metric'.
+	weight (int): Weight of the person in kilograms.
+	height (int): Height of the person in centimeters.
+	unit (str): Optional parameter to choose between 'imperial' and 'metric' systems. Default is 'metric'.
+
+	Required Parameter = [weight,height,]
 
 	"""
 	pass
 
-def celebrity_net_worth_get(name, currency):
+from typing import List, Dict, Any, Union, Tuple 
+def celebrity_net_worth_get(name:str, currency:str):
 	"""
-	Get the total net worth of a sports celebrity based on most recent data.    
+	celebrity_net_worth_get : Get the total net worth of a sports celebrity based on most recent data.    
 	Parameters:
-	name: The full name of the sports celebrity.
-	currency: The currency in which the net worth will be returned. Default is 'USD'.
+	name (str): The full name of the sports celebrity.
+	currency (str): The currency in which the net worth will be returned. Default is 'USD'.
+
+	Required Parameter = [name,currency,]
 
 	"""
 	pass

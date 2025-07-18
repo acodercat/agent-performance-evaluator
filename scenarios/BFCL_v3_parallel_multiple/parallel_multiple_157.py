@@ -1,32 +1,41 @@
-def t_test(dataset_A, dataset_B, alpha=None):
+from typing import List, Dict, Any, Union, Tuple 
+def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	"""
-	Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
+	t_test : Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
 	Parameters:
-	dataset_A: Dataset A for comparison.
-	dataset_B: Dataset B for comparison.
-	alpha: Significance level for the test. Default is 0.05.
+	dataset_A (List[int]): Dataset A for comparison.
+	dataset_B (List[int]): Dataset B for comparison.
+	alpha (float): Significance level for the test. Default is 0.05.
+
+	Required Parameter = [dataset_A,dataset_B,]
 
 	"""
 	pass
 
-def geometry_area_triangle(base, height, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def geometry_area_triangle(base:int, height:int, unit:str=None):
 	"""
-	Calculate the area of a triangle.    
+	geometry_area_triangle : Calculate the area of a triangle.    
 	Parameters:
-	base: The length of the base of the triangle.
-	height: The height of the triangle from the base.
-	unit: The measurement unit for the area. Defaults to square meters.
+	base (int): The length of the base of the triangle.
+	height (int): The height of the triangle from the base.
+	unit (str): The measurement unit for the area. Defaults to square meters.
+
+	Required Parameter = [base,height,]
 
 	"""
 	pass
 
-def event_finder_find_upcoming(location, genre, days_ahead=7):
+from typing import List, Dict, Any, Union, Tuple 
+def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
-	Find upcoming events of a specific genre in a given location.    
+	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    
 	Parameters:
-	location: The city and state where the search will take place, e.g. New York, NY.
-	genre: The genre of events.
-	days_ahead: The number of days from now to include in the search.
+	location (str): The city and state where the search will take place, e.g. New York, NY.
+	genre (str): The genre of events.
+	days_ahead (int): The number of days from now to include in the search.
+
+	Required Parameter = [location,genre,]
 
 	"""
 	pass

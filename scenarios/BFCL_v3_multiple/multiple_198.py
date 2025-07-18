@@ -1,43 +1,55 @@
-def calculate_genotype_frequency(allele_frequency, genotype):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
-	Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
+	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
 	Parameters:
-	allele_frequency: The frequency of the dominant allele in the population.
-	genotype: The genotype which frequency is needed, default is homozygous dominant. 
+	allele_frequency (float): The frequency of the dominant allele in the population.
+	genotype (str): The genotype which frequency is needed, default is homozygous dominant. 
+
+	Required Parameter = [allele_frequency,genotype,]
 
 	"""
 	pass
 
-def hotel_booking(hotel_name, location, start_date, end_date, rooms=1):
+from typing import List, Dict, Any, Union, Tuple 
+def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, rooms:int=1):
 	"""
-	Books a hotel room for a specific date range.    
+	hotel_booking : Books a hotel room for a specific date range.    
 	Parameters:
-	hotel_name: The name of the hotel.
-	location: The city and state, e.g. New York, NY.
-	start_date: The start date of the reservation. Use format 'YYYY-MM-DD'.
-	end_date: The end date of the reservation. Use format 'YYYY-MM-DD'.
-	rooms: The number of rooms to reserve.
+	hotel_name (str): The name of the hotel.
+	location (str): The city and state, e.g. New York, NY.
+	start_date (str): The start date of the reservation. Use format 'YYYY-MM-DD'.
+	end_date (str): The end date of the reservation. Use format 'YYYY-MM-DD'.
+	rooms (int): The number of rooms to reserve.
+
+	Required Parameter = [hotel_name,location,start_date,end_date,]
 
 	"""
 	pass
 
-def get_highest_scoring_player(game, season, region=None):
+from typing import List, Dict, Any, Union, Tuple 
+def get_highest_scoring_player(game:str, season:str, region:str=None):
 	"""
-	Retrieve the highest scoring player in a specific game and season.    
+	get_highest_scoring_player : Retrieve the highest scoring player in a specific game and season.    
 	Parameters:
-	game: The game in which you want to find the highest scoring player.
-	season: The season during which the high score was achieved.
-	region: The geographical region in which the game is being played (Optional). Default is 'all'
+	game (str): The game in which you want to find the highest scoring player.
+	season (str): The season during which the high score was achieved.
+	region (str): The geographical region in which the game is being played (Optional). Default is 'all'
+
+	Required Parameter = [game,season,]
 
 	"""
 	pass
 
-def science_history_get_invention(invention_name, want_year):
+from typing import List, Dict, Any, Union, Tuple 
+def science_history_get_invention(invention_name:str, want_year:bool):
 	"""
-	Retrieve the inventor and year of invention based on the invention's name.    
+	science_history_get_invention : Retrieve the inventor and year of invention based on the invention's name.    
 	Parameters:
-	invention_name: The name of the invention.
-	want_year: Return the year of invention if set to true.
+	invention_name (str): The name of the invention.
+	want_year (bool): Return the year of invention if set to true.
+
+	Required Parameter = [invention_name,want_year,]
 
 	"""
 	pass

@@ -1,32 +1,41 @@
-def species_distribution_modeling_project_range_shift(species, climate_scenario, future_time=100):
+from typing import List, Dict, Any, Union, Tuple 
+def species_distribution_modeling_project_range_shift(species:str, climate_scenario:str, future_time:int=100):
 	"""
-	Predict the potential future geographic distribution of a species under a specified climate change scenario.    
+	species_distribution_modeling_project_range_shift : Predict the potential future geographic distribution of a species under a specified climate change scenario.    
 	Parameters:
-	species: The species of animal.
-	climate_scenario: The name of the climate change scenario.
-	future_time: The future time in years for the prediction.
+	species (str): The species of animal.
+	climate_scenario (str): The name of the climate change scenario.
+	future_time (int): The future time in years for the prediction.
+
+	Required Parameter = [species,climate_scenario,]
 
 	"""
 	pass
 
-def population_genetics_calculate_ne(species, generations, probability):
+from typing import List, Dict, Any, Union, Tuple 
+def population_genetics_calculate_ne(species:str, generations:int, probability:float):
 	"""
-	Calculate the effective population size necessary to maintain genetic diversity in a wild animal population for a specified number of generations with a given probability.    
+	population_genetics_calculate_ne : Calculate the effective population size necessary to maintain genetic diversity in a wild animal population for a specified number of generations with a given probability.    
 	Parameters:
-	species: The species of wild animal.
-	generations: The number of generations for which to maintain the genetic diversity.
-	probability: The probability of maintaining genetic diversity.
+	species (str): The species of wild animal.
+	generations (int): The number of generations for which to maintain the genetic diversity.
+	probability (float): The probability of maintaining genetic diversity.
+
+	Required Parameter = [species,generations,probability,]
 
 	"""
 	pass
 
-def ecology_calculate_carrying_capacity(habitat_area, species, productivity):
+from typing import List, Dict, Any, Union, Tuple 
+def ecology_calculate_carrying_capacity(habitat_area:float, species:str, productivity:float):
 	"""
-	Calculate the maximum population size of the species that the environment can sustain indefinitely.    
+	ecology_calculate_carrying_capacity : Calculate the maximum population size of the species that the environment can sustain indefinitely.    
 	Parameters:
-	habitat_area: The area of the habitat in square kilometers.
-	species: The species of animal.
-	productivity: The biological productivity of the habitat in animals per square kilometer per year.
+	habitat_area (float): The area of the habitat in square kilometers.
+	species (str): The species of animal.
+	productivity (float): The biological productivity of the habitat in animals per square kilometer per year.
+
+	Required Parameter = [habitat_area,species,productivity,]
 
 	"""
 	pass

@@ -1,9 +1,12 @@
-def cellbio_get_proteins(cell_compartment, include_description='false'):
+from typing import List, Dict, Any, Union, Tuple 
+def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
 	"""
-	Get the list of proteins in a specific cell compartment.    
+	cellbio_get_proteins : Get the list of proteins in a specific cell compartment.    
 	Parameters:
-	cell_compartment: The specific cell compartment.
-	include_description: Set true if you want a brief description of each protein.
+	cell_compartment (str): The specific cell compartment.
+	include_description (bool): Set true if you want a brief description of each protein.
+
+	Required Parameter = [cell_compartment,]
 
 	"""
 	pass

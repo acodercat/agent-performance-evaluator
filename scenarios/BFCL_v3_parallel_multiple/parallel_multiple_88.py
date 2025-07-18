@@ -1,22 +1,28 @@
-def library_search_book(book_name, city, availability=None, genre=''):
+from typing import List, Dict, Any, Union, Tuple 
+def library_search_book(book_name:str, city:str, availability:bool=None, genre:str=''):
 	"""
-	Searches for a book in the library within the specified city.    
+	library_search_book : Searches for a book in the library within the specified city.    
 	Parameters:
-	book_name: The name of the book to search for.
-	city: The city to search within.
-	availability: If true, search for available copies. If false or omitted, search for any copy regardless of availability. Default false
-	genre: The genre of the book to filter search (optional).
+	book_name (str): The name of the book to search for.
+	city (str): The city to search within.
+	availability (bool): If true, search for available copies. If false or omitted, search for any copy regardless of availability. Default false
+	genre (str): The genre of the book to filter search (optional).
+
+	Required Parameter = [book_name,city,]
 
 	"""
 	pass
 
-def library_reserve_book(book_id, branch_id, return_date=''):
+from typing import List, Dict, Any, Union, Tuple 
+def library_reserve_book(book_id:str, branch_id:str, return_date:str=''):
 	"""
-	Reserves a book in the library if available.    
+	library_reserve_book : Reserves a book in the library if available.    
 	Parameters:
-	book_id: The id of the book to reserve.
-	branch_id: The id of the library branch to reserve from.
-	return_date: The date the book is to be returned (optional).
+	book_id (str): The id of the book to reserve.
+	branch_id (str): The id of the library branch to reserve from.
+	return_date (str): The date the book is to be returned (optional).
+
+	Required Parameter = [book_id,branch_id,]
 
 	"""
 	pass

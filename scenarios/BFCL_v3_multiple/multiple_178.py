@@ -1,43 +1,55 @@
-def currency_exchange_convert(base_currency, target_currency, amount):
+from typing import List, Dict, Any, Union, Tuple 
+def currency_exchange_convert(base_currency:str, target_currency:str, amount:float):
 	"""
-	Convert an amount from a base currency to a target currency based on the current exchange rate.    
+	currency_exchange_convert : Convert an amount from a base currency to a target currency based on the current exchange rate.    
 	Parameters:
-	base_currency: The currency to convert from.
-	target_currency: The currency to convert to.
-	amount: The amount in base currency to convert
+	base_currency (str): The currency to convert from.
+	target_currency (str): The currency to convert to.
+	amount (float): The amount in base currency to convert
+
+	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
 	pass
 
-def local_nursery_find(location, plant_types):
+from typing import List, Dict, Any, Union, Tuple 
+def local_nursery_find(location:str, plant_types:List[str]):
 	"""
-	Locate local nurseries based on location and plant types availability.    
+	local_nursery_find : Locate local nurseries based on location and plant types availability.    
 	Parameters:
-	location: The city or locality where the nursery needs to be located.
-	plant_types: Type of plants the nursery should provide.
+	location (str): The city or locality where the nursery needs to be located.
+	plant_types (List[str]): Type of plants the nursery should provide.
+
+	Required Parameter = [location,plant_types,]
 
 	"""
 	pass
 
-def find_card_in_deck(rank, suit, deck=None):
+from typing import List, Dict, Any, Union, Tuple 
+def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
-	Locate a particular card in a deck based on rank and suit.    
+	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
 	Parameters:
-	rank: Rank of the card (e.g. Ace, Two, King).
-	suit: Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
-	deck: Deck of cards. If not provided, the deck will be a standard 52 card deck by default
+	rank (str): Rank of the card (e.g. Ace, Two, King).
+	suit (str): Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
+	deck (List[Dict[str, str]]): Deck of cards. If not provided, the deck will be a standard 52 card deck by default
+
+	Required Parameter = [rank,suit,]
 
 	"""
 	pass
 
-def recipe_unit_conversion(value, from_unit, to_unit, precision=None):
+from typing import List, Dict, Any, Union, Tuple 
+def recipe_unit_conversion(value:float, from_unit:str, to_unit:str, precision:int=None):
 	"""
-	Convert a value from one kitchen unit to another for cooking purposes.    
+	recipe_unit_conversion : Convert a value from one kitchen unit to another for cooking purposes.    
 	Parameters:
-	value: The value to be converted.
-	from_unit: The unit to convert from. Supports 'teaspoon', 'tablespoon', 'cup', etc.
-	to_unit: The unit to convert to. Supports 'teaspoon', 'tablespoon', 'cup', etc.
-	precision: The precision to round the output to, in case of a non-integer result. Optional, default is 0.
+	value (float): The value to be converted.
+	from_unit (str): The unit to convert from. Supports 'teaspoon', 'tablespoon', 'cup', etc.
+	to_unit (str): The unit to convert to. Supports 'teaspoon', 'tablespoon', 'cup', etc.
+	precision (int): The precision to round the output to, in case of a non-integer result. Optional, default is 0.
+
+	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
 	pass

@@ -1,10 +1,13 @@
-def law_crimes_search(crime, location, year):
+from typing import List, Dict, Any, Union, Tuple 
+def law_crimes_search(crime:str, location:str, year:int):
 	"""
-	Locate individuals based on their crime conviction and location.    
+	law_crimes_search : Locate individuals based on their crime conviction and location.    
 	Parameters:
-	crime: Type of crime to search.
-	location: City or state where the crime was committed.
-	year: The year when the crime was committed.
+	crime (str): Type of crime to search.
+	location (str): City or state where the crime was committed.
+	year (int): The year when the crime was committed.
+
+	Required Parameter = [crime,location,year,]
 
 	"""
 	pass

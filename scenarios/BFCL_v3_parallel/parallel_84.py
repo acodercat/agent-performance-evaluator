@@ -1,10 +1,13 @@
-def calculate_displacement(initial_velocity, time, acceleration=0):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_displacement(initial_velocity:int, time:int, acceleration:float=0):
 	"""
-	Calculates the displacement of an object in motion given initial velocity, time, and acceleration.    
+	calculate_displacement : Calculates the displacement of an object in motion given initial velocity, time, and acceleration.    
 	Parameters:
-	initial_velocity: The initial velocity of the object in m/s.
-	time: The time in seconds that the object has been in motion.
-	acceleration: The acceleration of the object in m/s^2.
+	initial_velocity (int): The initial velocity of the object in m/s.
+	time (int): The time in seconds that the object has been in motion.
+	acceleration (float): The acceleration of the object in m/s^2.
+
+	Required Parameter = [initial_velocity,time,]
 
 	"""
 	pass

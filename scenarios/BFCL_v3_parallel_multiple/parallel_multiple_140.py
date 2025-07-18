@@ -1,21 +1,27 @@
-def calculate_density(mass, volume, unit=None):
+from typing import List, Dict, Any, Union, Tuple 
+def calculate_density(mass:int, volume:int, unit:str=None):
 	"""
-	Calculate the density of a substance based on its mass and volume.    
+	calculate_density : Calculate the density of a substance based on its mass and volume.    
 	Parameters:
-	mass: The mass of the substance in kilograms.
-	volume: The volume of the substance in cubic meters.
-	unit: The unit of density. Default is kg/m³
+	mass (int): The mass of the substance in kilograms.
+	volume (int): The volume of the substance in cubic meters.
+	unit (str): The unit of density. Default is kg/m³
+
+	Required Parameter = [mass,volume,]
 
 	"""
 	pass
 
-def mix_paint_color(color1, color2, lightness=None):
+from typing import List, Dict, Any, Union, Tuple 
+def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
-	Combine two primary paint colors and adjust the resulting color's lightness level.    
+	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
 	Parameters:
-	color1: The first primary color to be mixed.
-	color2: The second primary color to be mixed.
-	lightness: The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+	color1 (str): The first primary color to be mixed.
+	color2 (str): The second primary color to be mixed.
+	lightness (int): The desired lightness level of the resulting color in percentage. The default level is set to 50%.
+
+	Required Parameter = [color1,color2,]
 
 	"""
 	pass
