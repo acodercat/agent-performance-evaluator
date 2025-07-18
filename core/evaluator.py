@@ -155,7 +155,13 @@ class AgentEvaluator:
             }
         }
 
-        self.metrics["total_expected_calls"] += len(expected_calls)
+
+        required_count = 0
+        for call in expected_calls:
+            if call.get('required') is True:
+                required_count += 1
+
+        self.metrics["total_expected_calls"] += required_count
         self.metrics["total_turns"] += 1
         
         # Run the agent with tracking
