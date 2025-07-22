@@ -1,7 +1,6 @@
 from typing import List, Callable
 import logging
 from core.agent import Agent, AgentFactory, AgentResponse, AgentToolCall
-from openai.types.responses import ResponseOutputItemAddedEvent, ResponseFunctionToolCall
 import json
 from agents import Runner
 from agents import Agent as OpenAIAgent, function_tool, set_tracing_disabled
@@ -48,31 +47,22 @@ class OpenAIAgentWrapper(Agent):
         result = Runner.run_streamed(self._agent, input=self.messages)
         tool_calls = []
         async for event in result.stream_events():
-            if event.type == "raw_response_event" and isinstance(event.data, ResponseOutputItemAddedEvent):
-                if isinstance(event.data.item, ResponseFunctionToolCall) and event.data.item.type == "function_call":
-                    func_name = event.data.item.name
-                    
-
-                    # Parse arguments from JSON string
-                    try:
-                        arguments = json.loads(event.data.item.arguments)
-                    except json.JSONDecodeError:
-                        # Handle potential invalid JSON
-                        arguments = {"_error": "Failed to parse arguments"}
+            if event.type == "run_item_stream_event":
+                if event.item.type == "tool_call_item":
+                    func_name = event.item.raw_item.name
+                    arguments = json.loads(event.item.raw_item.arguments)
                     
                     tool_call = AgentToolCall(
-                        call_id=event.data.item.call_id,
+                        call_id=event.item.raw_item.call_id,
                         function=func_name,
                         arguments=arguments
                     )
-                    
-                    # Add to call history
                     tool_calls.append(tool_call)
 
         self.total_steps += result.current_turn
         self.messages += result.to_input_list()
 
-        return AgentResponse(result.final_output, tool_calls)
+        return AgentResponse(result.final_output, tool_calls, result.current_turn)
     
     async def run(self, query: str) -> AgentResponse:
         """
@@ -123,10 +113,10 @@ class OpenAIAgentFactory(AgentFactory):
 # async def main():
 #     # Create a specific agent factory
 
-#     model = OpenAIChatCompletionsModel(
-#         model=model_id, 
-#         openai_client=AsyncOpenAI(base_url=base_url, api_key=api_key)
-#     )
+    # model = OpenAIChatCompletionsModel(
+    #     model=model_id, 
+    #     openai_client=AsyncOpenAI(base_url=base_url, api_key=api_key)
+    # )
 #     agent_factory = OpenAIAgentFactory(
 #         model=model
 #     )
