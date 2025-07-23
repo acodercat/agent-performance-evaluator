@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_news(topic:str, quantity:int, region:str=None):
 	"""
 	get_news : Fetches the latest news on a specific topic.    

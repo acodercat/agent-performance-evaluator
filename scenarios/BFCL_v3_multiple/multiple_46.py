@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def filter_list(elements:List[str], condition:str):
 	"""
 	filter_list : Filters elements of a list based on a given condition    
@@ -11,7 +11,7 @@ def filter_list(elements:List[str], condition:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sum_elements(elements:List[int]):
 	"""
 	sum_elements : Add all elements of a numeric list    
@@ -23,7 +23,7 @@ def sum_elements(elements:List[int]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sort_list(elements:List[str], order:str='asc'):
 	"""
 	sort_list : Sort the elements of a list in ascending or descending order    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def fetch_law_case_details(case_number:int, court:str, year:int):
 	"""
 	fetch_law_case_details : Fetch details of a specific law case based on case number, year and court.    

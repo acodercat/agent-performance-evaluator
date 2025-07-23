@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_drawn:int=1):
 	"""
 	card_game_probability_calculate : Calculate the probability of drawing a certain card or suit from a deck of cards.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	"""
 	get_protein_sequence : Retrieve the protein sequence encoded by a human gene.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find(cuisine:str, price:List[str]=None):
 	"""
 	restaurant_find : Locate restaurants based on specific criteria such as cuisine and price range    
@@ -11,7 +11,7 @@ def restaurant_find(cuisine:str, price:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_find(mainIngredient:str, ingredientLimit:int):
 	"""
 	recipe_find : Locate cooking recipes based on specific criteria such as main ingredient and number of ingredients    

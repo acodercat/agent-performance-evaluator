@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	"""
 	discoverer_get : Retrieve the name of the discoverer of an element based on its name.    

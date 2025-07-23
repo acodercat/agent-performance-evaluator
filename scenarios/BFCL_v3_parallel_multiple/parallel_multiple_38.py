@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_gdp(year:int):
 	"""
 	us_history_gdp : Retrieves the Gross Domestic Product of the USA for a specific year.    
@@ -10,7 +10,7 @@ def us_history_gdp(year:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_life_expectancy(year:int):
 	"""
 	us_history_life_expectancy : Retrieves the average life expectancy of the USA for a specific year.    

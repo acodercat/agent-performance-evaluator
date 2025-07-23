@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_voltage_difference(electric_field:float, distance:float, charge:float=0):
 	"""
 	calculate_voltage_difference : Calculate the voltage difference between two points in an electric field.    
@@ -12,7 +12,7 @@ def calculate_voltage_difference(electric_field:float, distance:float, charge:fl
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field(current:float, distance:float, permeability:float=None):
 	"""
 	calculate_magnetic_field : Calculate the magnetic field produced by a current-carrying wire.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	"""
 	analyze_structure : Analyze a structure of a building based on its Id and floor numbers.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_get_core_beliefs(religion:str):
 	"""
 	religion_get_core_beliefs : Retrieves the core beliefs and practices of a specified religion.    
@@ -10,7 +10,7 @@ def religion_get_core_beliefs(religion:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_get_origin(religion:str):
 	"""
 	religion_get_origin : Retrieves the origin and founder information of a specified religion.    

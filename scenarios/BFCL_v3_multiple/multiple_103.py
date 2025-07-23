@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_rating(player_name:str, variant:str=None):
 	"""
 	chess_rating : Fetches the current chess rating of a given player    
@@ -11,7 +11,7 @@ def chess_rating(player_name:str, variant:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	"""
 	court_case_search : Retrieves details about a court case using its docket number and location.    
@@ -25,7 +25,7 @@ def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_speed(initial_velocity:int, height:int, gravity:float=None):
 	"""
 	calculate_final_speed : Calculate the final speed of an object dropped from a certain height without air resistance.    
@@ -39,7 +39,7 @@ def calculate_final_speed(initial_velocity:int, height:int, gravity:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_event_date(event:str, location:str=None):
 	"""
 	get_event_date : Retrieve the date of a historical event.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends_paid:int=None):
 	"""
 	calculate_return_on_equity : Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    

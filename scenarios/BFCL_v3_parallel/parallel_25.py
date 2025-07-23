@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_lookup(company_name:str, year:int):
 	"""
 	lawsuit_lookup : Look up lawsuit cases against a company by year.    

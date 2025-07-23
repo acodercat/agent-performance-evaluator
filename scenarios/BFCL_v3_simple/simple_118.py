@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stats_t_test(array_1:List[int], array_2:List[int], alpha:float):
 	"""
 	stats_t_test : Perform a two-sample t-test for two given arrays.    

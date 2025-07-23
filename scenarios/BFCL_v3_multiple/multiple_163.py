@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def metropolitan_museum_get_top_artworks(number:int, sort_by:str=None):
 	"""
 	metropolitan_museum_get_top_artworks : Fetches the list of popular artworks at the Metropolitan Museum of Art. Results can be sorted based on popularity.    
@@ -11,7 +11,7 @@ def metropolitan_museum_get_top_artworks(number:int, sort_by:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	"""
 	lawsuit_search : Search for lawsuits related to a specific company within a specific date range and location.    

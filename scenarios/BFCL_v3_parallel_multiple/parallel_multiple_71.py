@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_availability_check(sculpture_name:str, material:str):
 	"""
 	sculpture_availability_check : Check the availability of a specific sculpture in the inventory.    
@@ -11,7 +11,7 @@ def sculpture_availability_check(sculpture_name:str, material:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculptor_info_get(name:str):
 	"""
 	sculptor_info_get : Get information about a specific sculptor.    
@@ -23,7 +23,7 @@ def sculptor_info_get(name:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_price_calculate(material:str, size:int, complexity:str='medium'):
 	"""
 	sculpture_price_calculate : Calculate the estimated price to commission a sculpture based on the material and size.    

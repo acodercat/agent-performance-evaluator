@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cosine_similarity_calculate(vector1:List[int], vector2:List[int], rounding:int=None):
 	"""
 	cosine_similarity_calculate : Calculate the cosine similarity between two vectors.    
@@ -12,7 +12,7 @@ def cosine_similarity_calculate(vector1:List[int], vector2:List[int], rounding:i
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def correlation_calculate(array1:List[int], array2:List[int], type:str=None):
 	"""
 	correlation_calculate : Calculate the correlation coefficient between two arrays of numbers.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_temperature(quantity1:float, temperature1:float, quantity2:float, temperature2:float):
 	"""
 	calculate_final_temperature : Calculate the final temperature when different quantities of the same gas at different temperatures are mixed.    
@@ -13,7 +13,7 @@ def calculate_final_temperature(quantity1:float, temperature1:float, quantity2:f
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_mass(quantity:float, molar_mass:float):
 	"""
 	calculate_mass : Calculate the mass of a gas given its quantity and molar mass.    

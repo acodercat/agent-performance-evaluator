@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def route_planner_calculate_route(start:str, destination:str, method:str='fastest'):
 	"""
 	route_planner_calculate_route : Determines the best route between two points.    
@@ -12,7 +12,7 @@ def route_planner_calculate_route(start:str, destination:str, method:str='fastes
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_club_details_find(name:str, city:str, event:str='null'):
 	"""
 	chess_club_details_find : Provides details about a chess club, including location.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_composer_create_mix(scale:str, note_duration:str, track_length:int):
 	"""
 	music_composer_create_mix : Create a mix of a song based on a particular music scale and duration    

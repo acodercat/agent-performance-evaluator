@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_emission_savings(energy_type:str, usage_duration:int, region:str='West'):
 	"""
 	calculate_emission_savings : Calculate potential greenhouse gas emissions saved by switching to renewable energy sources.    

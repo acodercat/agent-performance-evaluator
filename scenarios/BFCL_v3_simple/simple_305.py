@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_stats_get_performance(player_name:str, tournament:str, season:str, performance_indicator:List[str]=None):
 	"""
 	sports_stats_get_performance : Compute the performance score of a soccer player given his game stats for a specific tournament in a season.    

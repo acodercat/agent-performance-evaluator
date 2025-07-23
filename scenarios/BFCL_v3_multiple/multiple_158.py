@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def publication_year_find(author:str, work_title:str, location:str=None):
 	"""
 	publication_year_find : Fetches the year a particular scientific work was published.    
@@ -12,7 +12,7 @@ def publication_year_find(author:str, work_title:str, location:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def portfolio_future_value(stock:str, invested_amount:float, expected_annual_return:float, years:int):
 	"""
 	portfolio_future_value : Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
@@ -27,7 +27,7 @@ def portfolio_future_value(stock:str, invested_amount:float, expected_annual_ret
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religious_history_get_papal_biography(papal_name:str, include_contributions:bool):
 	"""
 	religious_history_get_papal_biography : Retrieve the biography and main religious and historical contributions of a Pope based on his papal name.    
@@ -40,7 +40,7 @@ def religious_history_get_papal_biography(papal_name:str, include_contributions:
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_info(game_name:str, info_required:List[str]):
 	"""
 	board_game_info : Get the information about a board game from a database.     

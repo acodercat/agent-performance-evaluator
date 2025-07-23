@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
 	map_service_get_directions : Retrieve directions from a starting location to an ending location, including options for route preferences.    
@@ -12,7 +12,7 @@ def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_triangle(base:int, height:int, unit:str=None):
 	"""
 	geometry_area_triangle : Calculate the area of a triangle.    
@@ -26,7 +26,7 @@ def geometry_area_triangle(base:int, height:int, unit:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_invention(invention_name:str, want_year:bool):
 	"""
 	science_history_get_invention : Retrieve the inventor and year of invention based on the invention's name.    

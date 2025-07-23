@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_case_search(topic:str, year_range:List[int], location:str, judicial_system:str='all'):
 	"""
 	law_case_search : Search and retrieve law cases based on the topic, timeline, and location.    

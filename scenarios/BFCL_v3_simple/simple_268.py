@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_locator_find_by_artist(artist:str, material:str, location:str=None):
 	"""
 	sculpture_locator_find_by_artist : Locate the sculptures of specific artist by material and location    

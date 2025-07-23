@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def detailed_weather_forecast(location:str, duration:int, include_precipitation:bool=None):
 	"""
 	detailed_weather_forecast : Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    

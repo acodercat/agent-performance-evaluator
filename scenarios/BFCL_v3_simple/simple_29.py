@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_speed(time:int, initial_speed:int=None, gravity:float=None):
 	"""
 	calculate_final_speed : Calculate the final speed of an object in free fall after a certain time, neglecting air resistance. The acceleration due to gravity is considered as -9.81 m/s^2    

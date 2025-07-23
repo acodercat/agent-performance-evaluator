@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	"""
 	walmart_purchase : Retrieve information of items from Walmart including stock availability.    
@@ -12,7 +12,7 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
 	"""
 	musical_scale : Get the musical scale of a specific key in music theory.    

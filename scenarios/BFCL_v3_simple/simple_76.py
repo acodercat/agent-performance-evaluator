@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def prediction_evolution(species:str, years:int, model:str=None):
 	"""
 	prediction_evolution : Predict the evolutionary rate for a specific species for a given timeframe.    

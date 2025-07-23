@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_density(country:str, year:str, population:int, land_area:float):
 	"""
 	calculate_density : Calculate the population density of a specific country in a specific year.    
@@ -13,7 +13,7 @@ def calculate_density(country:str, year:str, population:int, land_area:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	"""
 	crime_record_get_record : Retrieve detailed felony crime records using a specific case number and location.    
@@ -27,7 +27,7 @@ def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_highest_scoring_player(game:str, season:str, region:str=None):
 	"""
 	get_highest_scoring_player : Retrieve the highest scoring player in a specific game and season.    
@@ -41,7 +41,7 @@ def get_highest_scoring_player(game:str, season:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_compound_interest(principle:float, interest_rate:float, time:int, compounds_per_year:int=None):
 	"""
 	calculate_compound_interest : Calculates the compound interest of an investment over a given time period.    

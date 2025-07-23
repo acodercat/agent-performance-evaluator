@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chi_squared_test(table:List[List[int]], alpha:float=None):
 	"""
 	chi_squared_test : Performs a Chi-Squared test for independence on a 2x2 contingency table.    

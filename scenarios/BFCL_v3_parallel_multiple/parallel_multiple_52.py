@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_play(moves:List[str]):
 	"""
 	chess_play : Makes moves in a chess game.    
@@ -10,7 +10,7 @@ def chess_play(moves:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_of_life_play(rounds:int, start_board:List[int]):
 	"""
 	game_of_life_play : Runs a round of game of life based on provided board.    

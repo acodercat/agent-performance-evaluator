@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def database_query(table:str, conditions:List[Dict[str, str]]):
 	"""
 	database_query : Query the database based on certain conditions.    

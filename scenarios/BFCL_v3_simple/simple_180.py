@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None):
 	"""
 	lawsuits_search : Search for lawsuits against a specific company within a specific time and location.    

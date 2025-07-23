@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def generate_sound_wave(frequency:float, duration:int, wave_type:str='sine'):
 	"""
 	generate_sound_wave : This function is for generating a sinusoidal sound wave file of a certain frequency for a specific duration and save it to a WAV file.    
@@ -12,7 +12,7 @@ def generate_sound_wave(frequency:float, duration:int, wave_type:str='sine'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def play_sound_wave(wave_file:str, volume:float=1):
 	"""
 	play_sound_wave : This function is for playing a sound wave file.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_info(location:str, food_type:str=None):
 	"""
 	restaurant_info : Get restaurant information for a specific area.    
@@ -11,7 +11,7 @@ def restaurant_info(location:str, food_type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def exhibition_info(museum_name:str, month:int=None):
 	"""
 	exhibition_info : Get exhibition information for a specific museum.    

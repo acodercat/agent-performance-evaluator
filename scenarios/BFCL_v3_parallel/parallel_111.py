@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_molecular_weight(compound:str, to_unit:str):
 	"""
 	calculate_molecular_weight : Calculate the molecular weight of a compound given the compound formula.    

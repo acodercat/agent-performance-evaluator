@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def doctor_search(location:str, specialization:str):
 	"""
 	doctor_search : Search for a doctor based on area of expertise and location    
@@ -11,7 +11,7 @@ def doctor_search(location:str, specialization:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawyer_search(location:str, expertise:str):
 	"""
 	lawyer_search : Search for a lawyer based on area of expertise and location    

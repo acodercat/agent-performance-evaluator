@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def distance_calculator_calculate(origin:str, destination:str, consider_terrain:bool=None):
 	"""
 	distance_calculator_calculate : Calculate the distance between two locations, considering terrain.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def briefs_display_cases(case_id:List[str]):
 	"""
 	briefs_display_cases : Display briefs of the cases    
@@ -10,7 +10,7 @@ def briefs_display_cases(case_id:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def court_records_search_cases(location:str, query:str, year:int, limit:int=5):
 	"""
 	court_records_search_cases : Search for court cases based on specific criteria.    

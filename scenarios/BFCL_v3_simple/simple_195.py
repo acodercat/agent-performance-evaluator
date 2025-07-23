@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_carbon_footprint(daily_miles:int, meat_meals_per_week:int, annual_trash_weight:int, flights_per_year:int=None):
 	"""
 	calculate_carbon_footprint : Calculate the estimated carbon footprint of a lifestyle based on factors such as daily driving distance, weekly meat consumption, and yearly trash production.    

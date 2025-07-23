@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_square_calculate(side:int):
 	"""
 	geometry_square_calculate : Calculates the area and perimeter of a square given the side length.    
@@ -10,7 +10,7 @@ def geometry_square_calculate(side:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_circle_calculate(radius:int):
 	"""
 	geometry_circle_calculate : Calculates the area and circumference of a circle given the radius.    
@@ -22,7 +22,7 @@ def geometry_circle_calculate(radius:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_rectangle_calculate(width:int, length:int):
 	"""
 	geometry_rectangle_calculate : Calculates the area and perimeter of a rectangle given the width and length.    

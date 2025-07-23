@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_flute(brand:str, specs:List[str]):
 	"""
 	find_flute : Locate a flute for sale based on specific requirements.    

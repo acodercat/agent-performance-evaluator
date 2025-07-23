@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def genetics_calculate_similarity(species1:str, species2:str, format:str=None):
 	"""
 	genetics_calculate_similarity : Calculates the genetic similarity between two species based on their DNA sequences.    

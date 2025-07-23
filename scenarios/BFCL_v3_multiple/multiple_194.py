@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	"""
 	discoverer_get : Retrieve the name of the discoverer of an element based on its name.    
@@ -12,7 +12,7 @@ def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_check_case(case_id:int, closed_status:bool):
 	"""
 	lawsuit_check_case : Verify the details of a lawsuit case and check its status using case ID.    
@@ -25,7 +25,7 @@ def lawsuit_check_case(case_id:int, closed_status:bool):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_museum_hours(museum_name:str, day:str):
 	"""
 	get_museum_hours : Retrieve opening hours of a specified museum for the specified day.    
@@ -38,7 +38,7 @@ def get_museum_hours(museum_name:str, day:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
 	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    

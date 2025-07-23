@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def news(topic:str, days:int):
 	"""
 	news : Retrieve news articles for a specific topic.    
@@ -11,7 +11,7 @@ def news(topic:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def air_quality_forecast(location:str, days:int):
 	"""
 	air_quality_forecast : Retrieve an air quality forecast for a specific location and time frame.    
@@ -24,7 +24,7 @@ def air_quality_forecast(location:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    

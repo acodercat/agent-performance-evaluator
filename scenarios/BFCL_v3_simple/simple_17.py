@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_prime_factors(number:int, formatted:bool):
 	"""
 	get_prime_factors : Function to retrieve prime factors of a number.    

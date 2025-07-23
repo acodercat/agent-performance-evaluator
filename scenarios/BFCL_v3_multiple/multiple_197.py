@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	"""
 	create_player_profile : Create a new player profile with character name, class and starting level.    
@@ -12,7 +12,7 @@ def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	"""
 	walmart_purchase : Retrieve information of items from Walmart including stock availability.    
@@ -26,7 +26,7 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
 	"""
 	mutation_type_find : Finds the type of a genetic mutation based on its SNP (Single Nucleotide Polymorphism) ID.    
@@ -39,7 +39,7 @@ def mutation_type_find(snp_id:str, species:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_restaurants(location:str, food_type:str, number:int, dietary_requirements:List[str]='None'):
 	"""
 	find_restaurants : Locate nearby restaurants based on location and food preferences.    

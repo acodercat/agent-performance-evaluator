@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def scientist_info_get_birthdate(name:str):
 	"""
 	scientist_info_get_birthdate : Retrieve the birthdate of a specific scientist.    
@@ -10,7 +10,7 @@ def scientist_info_get_birthdate(name:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def scientist_info_get_famous_discovery(name:str, discovery_order:int=1):
 	"""
 	scientist_info_get_famous_discovery : Retrieve the most famous discovery made by a specific scientist.    

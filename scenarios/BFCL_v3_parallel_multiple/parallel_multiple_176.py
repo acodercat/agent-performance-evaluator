@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_bmi(weight:int, height:int, system:str=None):
 	"""
 	calculate_bmi : Calculate the Body Mass Index (BMI) for a person based on their weight and height.    
@@ -12,7 +12,7 @@ def calculate_bmi(weight:int, height:int, system:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, rooms:int=1):
 	"""
 	hotel_booking : Books a hotel room for a specific date range.    
@@ -28,7 +28,7 @@ def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, ro
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sentiment_analysis(text:str, language:str):
 	"""
 	sentiment_analysis : Perform sentiment analysis on a given piece of text.    
@@ -41,7 +41,7 @@ def sentiment_analysis(text:str, language:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_time_difference(place1:str, place2:str):
 	"""
 	get_time_difference : Get the time difference between two places.    

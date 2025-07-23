@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	"""
 	crime_record_get_record : Retrieve detailed felony crime records using a specific case number and location.    

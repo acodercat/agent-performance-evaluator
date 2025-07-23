@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_act_details(act_name:str, amendment_year:int):
 	"""
 	get_act_details : Retrieve the details of a particular legal act based on its name and year of amendment if any.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def card_game_search(theme:str):
 	"""
 	card_game_search : Locate a card game based on a specific theme.    
@@ -10,7 +10,7 @@ def card_game_search(theme:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_search(complexity:float, player_count:int):
 	"""
 	board_game_search : Locate a board game based on specific criteria.    
@@ -23,7 +23,7 @@ def board_game_search(complexity:float, player_count:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def trivia_game_search(duration:float):
 	"""
 	trivia_game_search : Locate a trivia game based on play duration.    

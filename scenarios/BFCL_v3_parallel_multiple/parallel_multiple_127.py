@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def car_rental(location:str, days:int, car_type:str, pick_up:str=None):
 	"""
 	car_rental : Rent a car at the specified location for a specific number of days    
@@ -13,7 +13,7 @@ def car_rental(location:str, days:int, car_type:str, pick_up:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_book(location:str, roomType:str, nights:int, additional_services:List[str]=None):
 	"""
 	hotel_book : Book a hotel room given the location, room type, and number of nights and additional services    

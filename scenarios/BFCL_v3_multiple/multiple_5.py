@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_get_by_city_date(city:str, date:str):
 	"""
 	weather_get_by_city_date : Retrieves the historical weather data based on city and date.    
@@ -11,7 +11,7 @@ def weather_get_by_city_date(city:str, date:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int=None):
 	"""
 	weather_get_forecast_by_coordinates : Get the weather forecast for a specific geographical coordinates.    
@@ -24,7 +24,7 @@ def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str):
 	"""
 	weather_get_by_coordinates_date : Retrieves the historical weather data based on coordinates and date.    

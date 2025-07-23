@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	"""
 	create_player_profile : Create a new player profile with character name, class and starting level.    

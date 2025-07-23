@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def probability_dice_roll(desired_number:int, number_of_rolls:int, die_sides:int=None):
 	"""
 	probability_dice_roll : Calculate the probability of rolling a certain number on a six-sided die a certain number of times in a row.    

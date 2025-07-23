@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def prob_dist_binomial(trials:int, successes:int, p:float=None):
 	"""
 	prob_dist_binomial : Compute the probability of having 'success' outcome from binomial distribution.    

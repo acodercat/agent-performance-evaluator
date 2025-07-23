@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    

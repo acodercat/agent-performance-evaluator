@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, region:str=None):
 	"""
 	social_media_analytics_most_followed : Find the most followed Twitter user related to certain topics.    

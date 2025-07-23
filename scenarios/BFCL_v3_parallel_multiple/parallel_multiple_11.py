@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_magnetic_field(current:float, turnsPerMeter:float, length:float):
 	"""
 	physics_magnetic_field : Calculate magnetic field for given current flowing through solenoid.    
@@ -12,7 +12,7 @@ def physics_magnetic_field(current:float, turnsPerMeter:float, length:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_electric_field(charge:float, distance:float):
 	"""
 	physics_electric_field : Calculate electric field for a given point charge and distance.    

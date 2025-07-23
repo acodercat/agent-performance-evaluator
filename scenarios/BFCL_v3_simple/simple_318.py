@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_ranking(team_name:str, year:int, gender:str=None):
 	"""
 	get_team_ranking : Retrieve the FIFA ranking of a specific soccer team for a certain year.    

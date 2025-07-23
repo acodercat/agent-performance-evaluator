@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
 	"""
 	cellbio_get_proteins : Get the list of proteins in a specific cell compartment.    

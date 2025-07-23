@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_civil_get_case_details(case_title:str, include_dissent:bool):
 	"""
 	law_civil_get_case_details : Retrieve the details of a Supreme Court case given its title.    

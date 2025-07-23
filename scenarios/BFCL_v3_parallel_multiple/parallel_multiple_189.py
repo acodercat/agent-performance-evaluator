@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
 	"""
 	hotel_booking : Books a hotel room given the location, room type, stay duration and any additional preferences.    
@@ -14,7 +14,7 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, location:str=None):
 	"""
 	sports_team_get_schedule : Fetches the schedule of the specified sports team for the specified number of games in the given league.    
@@ -29,7 +29,7 @@ def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, locati
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
 	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
@@ -43,7 +43,7 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
 	"""
 	vegan_restaurant_find_nearby : Locate nearby vegan restaurants based on specific criteria like operating hours.    

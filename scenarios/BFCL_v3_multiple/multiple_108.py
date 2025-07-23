@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	"""
 	calc_heat_capacity : Calculate the heat capacity at constant pressure of air using its temperature and volume.    
@@ -12,7 +12,7 @@ def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_discounted_cash_flow(coupon_payment:float, period:int, discount_rate:float, face_value:int=None):
 	"""
 	calculate_discounted_cash_flow : Calculate the discounted cash flow of a bond for a given annual coupon payment, time frame and discount rate.    

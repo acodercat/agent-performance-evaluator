@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mathematics_calculate_area_under_curve(polynomial:List[int], limits:List[int]):
 	"""
 	mathematics_calculate_area_under_curve : Calculate the area under the curve for a given polynomial function within a specified interval.    

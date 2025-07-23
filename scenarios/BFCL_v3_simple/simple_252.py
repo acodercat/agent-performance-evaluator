@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_religion_history(religion:str, century:int, sort_by:str='chronological', count:int=5):
 	"""
 	get_religion_history : Retrieves significant religious events, including the details of the event, its historical context, and its impacts.    

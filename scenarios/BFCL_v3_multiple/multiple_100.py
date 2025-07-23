@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_scale_progression(key:str, tempo:int, duration:int, scale_type:str='major'):
 	"""
 	music_generator_generate_scale_progression : Generate a music scale progression in a specific key with a given tempo and duration.    
@@ -13,7 +13,7 @@ def music_generator_generate_scale_progression(key:str, tempo:int, duration:int,
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_hcf(number1:int, number2:int):
 	"""
 	math_hcf : Calculate the highest common factor of two numbers.    

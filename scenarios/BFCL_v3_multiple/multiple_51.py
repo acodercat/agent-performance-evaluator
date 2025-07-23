@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def dice_roll_probability(desired_sum:int, sides_per_die:int, n_rolls:int=None):
 	"""
 	dice_roll_probability : Calculate the probability of a specific sum appearing from rolling two dice.    
@@ -12,7 +12,7 @@ def dice_roll_probability(desired_sum:int, sides_per_die:int, n_rolls:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flip_coin_probability(desired_outcome:str, n_flips:int=None):
 	"""
 	flip_coin_probability : Calculate the probability of a specific outcome appearing from flipping a coin.    
@@ -25,7 +25,7 @@ def flip_coin_probability(desired_outcome:str, n_flips:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def shuffle_card_probability(desired_card:str, n_decks:int=None):
 	"""
 	shuffle_card_probability : Calculate the probability of a specific card appearing from a shuffled deck.    

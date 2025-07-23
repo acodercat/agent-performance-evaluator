@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
 	"""
 	get_shortest_driving_distance : Calculate the shortest driving distance between two locations.    
@@ -12,7 +12,7 @@ def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:bool):
 	"""
 	cell_biology_function_lookup : Look up the function of a given molecule in a specified organelle.    
@@ -26,7 +26,7 @@ def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def instrument_price_get(brand:str, model:str, finish:str):
 	"""
 	instrument_price_get : Retrieve the current retail price of a specific musical instrument.    
@@ -40,7 +40,7 @@ def instrument_price_get(brand:str, model:str, finish:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_scientist_for_discovery(discovery:str):
 	"""
 	get_scientist_for_discovery : Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_instrument(budget:float, type:str, make:str=None):
 	"""
 	find_instrument : Search for a musical instrument within specified budget and of specific type.    
@@ -12,7 +12,7 @@ def find_instrument(budget:float, type:str, make:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_binomial_probability(number_of_trials:int, number_of_successes:int, probability_of_success:float=0.5):
 	"""
 	calculate_binomial_probability : Calculates the binomial probability given the number of trials, successes and the probability of success on an individual trial.    
@@ -26,7 +26,7 @@ def calculate_binomial_probability(number_of_trials:int, number_of_successes:int
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetic_force(charge1:float, charge2:float, distance:float, medium_permittivity:float=None):
 	"""
 	electromagnetic_force : Calculate the electromagnetic force between two charges placed at a certain distance.    
@@ -41,7 +41,7 @@ def electromagnetic_force(charge1:float, charge2:float, distance:float, medium_p
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_ranking_get_top_player(sport:str, gender:str='men'):
 	"""
 	sports_ranking_get_top_player : Get the top player in a specific sport.    

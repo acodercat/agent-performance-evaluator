@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_calculate_force(mass:int, acceleration:int):
 	"""
 	physics_calculate_force : Calculate the force required to move an object of a particular mass at a particular acceleration.    
@@ -11,7 +11,7 @@ def physics_calculate_force(mass:int, acceleration:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_time(velocity:int, distance:int):
 	"""
 	kinematics_calculate_time : Calculate time required for an object to travel a particular distance at a particular velocity.    

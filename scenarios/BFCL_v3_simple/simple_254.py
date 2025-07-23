@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_religion_history(religion:str, start_year:int, end_year:int, event_type:str=None):
 	"""
 	get_religion_history : Retrieves historic events and facts related to a specified religion for a given period.    

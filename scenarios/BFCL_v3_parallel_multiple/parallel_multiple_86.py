@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_acceleration(initial_speed:float, final_speed:float, time:float, distance:float=0):
 	"""
 	kinematics_calculate_acceleration : Calculates the acceleration of an object under given conditions.    
@@ -13,7 +13,7 @@ def kinematics_calculate_acceleration(initial_speed:float, final_speed:float, ti
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_speed_from_rest(distance:float, time:float, initial_speed:float=0):
 	"""
 	kinematics_calculate_speed_from_rest : Calculates the speed of an object that starts from rest under a constant acceleration over a specified distance.    

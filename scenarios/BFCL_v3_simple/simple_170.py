@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	"""
 	law_case_search_find_historical : Search for a historical law case based on specific criteria like the subject and year.    

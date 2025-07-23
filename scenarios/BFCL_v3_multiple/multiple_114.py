@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def modify_painting(size:str, medium:str, dominant_color:str=None):
 	"""
 	modify_painting : Modify an existing painting's attributes such as size, medium, and color.    
@@ -12,7 +12,7 @@ def modify_painting(size:str, medium:str, dominant_color:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def prediction_evolution(species:str, years:int, model:str=None):
 	"""
 	prediction_evolution : Predict the evolutionary rate for a specific species for a given timeframe.    
@@ -26,7 +26,7 @@ def prediction_evolution(species:str, years:int, model:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
 	"""
 	calculate_probability : Calculate the probability of an event.    

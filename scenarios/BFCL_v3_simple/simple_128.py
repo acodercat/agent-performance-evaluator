@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding_shares:int):
 	"""
 	finance_calculate_quarterly_dividend_per_share : Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    

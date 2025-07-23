@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_invest_calculate_investment_cost(company:str, shares:int):
 	"""
 	stock_invest_calculate_investment_cost : Calculate the cost of investing in a specific number of shares from a given company.    
@@ -11,7 +11,7 @@ def stock_invest_calculate_investment_cost(company:str, shares:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_invest_calculate_dividend_payout(shares:int, dividend_per_share:float):
 	"""
 	stock_invest_calculate_dividend_payout : Calculate the total dividend payout for a specific number of shares with known dividend per share.    

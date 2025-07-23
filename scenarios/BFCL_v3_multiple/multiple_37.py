@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_wave_velocity(frequency:float, wavelength:float):
 	"""
 	physics_wave_velocity : Calculate the velocity of a wave based on its frequency and wavelength.    
@@ -11,7 +11,7 @@ def physics_wave_velocity(frequency:float, wavelength:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_final_velocity(initial_velocity:int, time:int, acceleration:float=None):
 	"""
 	kinematics_final_velocity : Find the final velocity of an object moving under constant acceleration.    
@@ -25,7 +25,7 @@ def kinematics_final_velocity(initial_velocity:int, time:int, acceleration:float
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_distance(initial_velocity:float, time:int, acceleration:float=None):
 	"""
 	kinematics_distance : Find the distance traveled by an object moving under constant acceleration.    

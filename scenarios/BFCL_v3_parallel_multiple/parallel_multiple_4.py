@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def integral(function:str, a:float, b:float):
 	"""
 	integral : Calculate the definite integral of a function over an interval [a, b].    
@@ -12,7 +12,7 @@ def integral(function:str, a:float, b:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def derivative(function:str, x:float):
 	"""
 	derivative : Find the derivative of a function at a certain point.    

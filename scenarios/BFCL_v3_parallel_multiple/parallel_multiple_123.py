@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_get_player_count(game_title:str, year:int, platform:str=None):
 	"""
 	video_games_get_player_count : Retrieves the number of active players for a specified video game and year.    
@@ -12,7 +12,7 @@ def video_games_get_player_count(game_title:str, year:int, platform:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_get_sales(game_title:str, year:int, platform:str=None):
 	"""
 	video_games_get_sales : Retrieves the sales figures for a specified video game and year.    

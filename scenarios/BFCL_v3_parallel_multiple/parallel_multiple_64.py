@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def wildlife_population_assess_growth(species:str, location:str, duration:int):
 	"""
 	wildlife_population_assess_growth : Assesses the population growth of a specific species in a specified location over a period.    
@@ -12,7 +12,7 @@ def wildlife_population_assess_growth(species:str, location:str, duration:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def ecological_impact_analyze(species:str, ecosystem:str, location:str, timeframe:int=5):
 	"""
 	ecological_impact_analyze : Analyzes the impact of a species on a particular ecosystem.    

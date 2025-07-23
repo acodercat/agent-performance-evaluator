@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def artwork_search_find(type:str, location:str, era:str=None):
 	"""
 	artwork_search_find : Search for artworks based on type and location.    
@@ -12,7 +12,7 @@ def artwork_search_find(type:str, location:str, era:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def park_search_find(facilities:List[str], location:str):
 	"""
 	park_search_find : Search for parks based on facilities and location.    
@@ -25,7 +25,7 @@ def park_search_find(facilities:List[str], location:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def tourist_attraction_find(attractionType:str, location:str):
 	"""
 	tourist_attraction_find : Search for tourist attractions based on type and location.    

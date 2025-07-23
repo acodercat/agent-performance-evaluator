@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sentiment_analysis(text:str, language:str):
 	"""
 	sentiment_analysis : Perform sentiment analysis on a given piece of text.    
@@ -11,7 +11,7 @@ def sentiment_analysis(text:str, language:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def psych_research_get_preference(category:str, option_one:str, option_two:str, demographic:str='all'):
 	"""
 	psych_research_get_preference : Gathers research data on public preference between two options, based on societal category.    
@@ -26,7 +26,7 @@ def psych_research_get_preference(category:str, option_one:str, option_two:str, 
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
 	"""
 	grocery_store_find_best : Find the closest high-rated grocery stores based on certain product availability.    
@@ -40,7 +40,7 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def train_random_forest_classifier(dataset:str, max_depth:int, n_estimators:int):
 	"""
 	train_random_forest_classifier : Train a Random Forest classifier with the specified parameters.    

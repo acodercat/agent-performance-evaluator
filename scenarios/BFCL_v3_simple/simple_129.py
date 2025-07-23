@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_discounted_cash_flow(coupon_payment:int, period:int, discount_rate:float, face_value:int=None):
 	"""
 	calculate_discounted_cash_flow : Calculate the discounted cash flow of a bond for a given annual coupon payment, time frame and discount rate.    

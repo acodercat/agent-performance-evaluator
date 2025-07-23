@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def frequency_to_wavelength(frequency:float):
 	"""
 	frequency_to_wavelength : Converts the frequency of a musical note to its wavelength.    
@@ -10,7 +10,7 @@ def frequency_to_wavelength(frequency:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def note_conversion_indian(note:str):
 	"""
 	note_conversion_indian : Converts a note in Western music to Indian classical music.    

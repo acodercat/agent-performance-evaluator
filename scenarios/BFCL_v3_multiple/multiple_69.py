@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def MBTI_analyse(thinking_vs_feeling:str, introverted_vs_extroverted:str, judging_vs_perceiving:str, sensing_vs_intuition:str):
 	"""
 	MBTI_analyse : Analyse personality based on the Myers-Briggs Type Indicator (MBTI) which sorts for preferences and generates a 4-letter personality type.    
@@ -13,7 +13,7 @@ def MBTI_analyse(thinking_vs_feeling:str, introverted_vs_extroverted:str, judgin
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def five_factor_model_analyse(talkative:bool, nervous:bool, artistic_interests:bool, lazy:bool, forgiving:bool):
 	"""
 	five_factor_model_analyse : Analyse personality based on the five-factor model, also known as the Big Five, which measures openness, conscientiousness, extraversion, agreeableness, and neuroticism.    

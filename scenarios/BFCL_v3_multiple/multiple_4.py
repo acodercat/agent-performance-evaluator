@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_displacement(initial_speed:int, acceleration:int, time:int, rounding:int=2):
 	"""
 	kinematics_calculate_displacement : Calculate displacement based on initial speed, acceleration, and time interval for a motion along a straight line.    
@@ -13,7 +13,7 @@ def kinematics_calculate_displacement(initial_speed:int, acceleration:int, time:
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_final_speed(initial_speed:float, acceleration:float, time:float, rounding:int=2):
 	"""
 	kinematics_calculate_final_speed : Calculate the final speed of an object that starts from an initial speed and then accelerates for a certain duration.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_invention(invention_name:str, want_year:bool):
 	"""
 	science_history_get_invention : Retrieve the inventor and year of invention based on the invention's name.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_case_get_details(case_number:str, include_history:bool=None, include_litigants:bool=None):
 	"""
 	law_case_get_details : Fetches detailed information on a specific case including its history and the litigants involved.    

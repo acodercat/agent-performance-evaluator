@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def travel_itinerary_generator(destination:str, days:int, daily_budget:int, exploration_type:str='urban'):
 	"""
 	travel_itinerary_generator : Generate a travel itinerary based on specific destination, duration and daily budget, with preferred exploration type.    

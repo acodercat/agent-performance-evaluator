@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def art_auction_fetch_artwork_price(artwork_name:str, artist:str, platform:str='all'):
 	"""
 	art_auction_fetch_artwork_price : Fetch the price of a specific artwork on the auction platform.    
@@ -12,7 +12,7 @@ def art_auction_fetch_artwork_price(artwork_name:str, artist:str, platform:str='
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def library_search_book(title:str, author:str, platform:str='all'):
 	"""
 	library_search_book : Search for a specific book in the library.    

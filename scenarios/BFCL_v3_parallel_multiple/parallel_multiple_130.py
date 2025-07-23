@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
 	solve_quadratic_equation : Function solves the quadratic equation and returns its roots.    
@@ -12,7 +12,7 @@ def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def portfolio_future_value(stock:str, invested_amount:int, expected_annual_return:float, years:int):
 	"""
 	portfolio_future_value : Calculate the future value of an investment in a specific stock based on the invested amount, expected annual return and number of years.    
@@ -27,7 +27,7 @@ def portfolio_future_value(stock:str, invested_amount:int, expected_annual_retur
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
 	get_stock_info : Retrieves information about a specific stock based on company's name.    

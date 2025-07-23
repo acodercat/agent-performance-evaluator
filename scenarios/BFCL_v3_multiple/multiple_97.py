@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_circle(radius:int, units:str='meters'):
 	"""
 	geometry_area_circle : Calculate the area of a circle given the radius.    
@@ -11,7 +11,7 @@ def geometry_area_circle(radius:int, units:str='meters'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def plot_sine_wave(start_range:float, end_range:float, frequency:float, amplitude:float=None, phase_shift:float=None):
 	"""
 	plot_sine_wave : Plot a sine wave for a given frequency in a given range.    

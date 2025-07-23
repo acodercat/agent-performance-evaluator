@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_info(religion:str, till_century:int, include_people:bool=None):
 	"""
 	religion_history_info : Provides comprehensive historical details about a specified religion till a specified century.    
@@ -12,7 +12,7 @@ def religion_history_info(religion:str, till_century:int, include_people:bool=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def team_score_get_latest(team:str, include_opponent:bool='false'):
 	"""
 	team_score_get_latest : Retrieve the score of the most recent game for a specified sports team.    
@@ -25,7 +25,7 @@ def team_score_get_latest(team:str, include_opponent:bool='false'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_search(genre:str, location:str, date:str, price_range:str=None):
 	"""
 	concert_search : Locate a concert based on specific criteria like genre, location, and date.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_sqrt(num:float, accuracy:float=2.0):
 	"""
 	math_sqrt : Calculates the square root of a number.    
@@ -11,7 +11,7 @@ def math_sqrt(num:float, accuracy:float=2.0):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_gcd(num1:int, num2:int):
 	"""
 	math_gcd : Calculates the greatest common divisor of two numbers.    
@@ -24,7 +24,7 @@ def math_gcd(num1:int, num2:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_lcm(num1:int, num2:int):
 	"""
 	math_lcm : Calculates the least common multiple of two numbers.    

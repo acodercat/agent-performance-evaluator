@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_velocity(distance:int, duration:int, unit:str=None):
 	"""
 	calculate_velocity : Calculate the velocity for a certain distance travelled within a specific duration.    

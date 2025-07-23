@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def biological_calc_biomass(energy:float, efficiency:float=0.1):
 	"""
 	biological_calc_biomass : Calculate the biomass from the energy given the energy conversion efficiency.    
@@ -11,7 +11,7 @@ def biological_calc_biomass(energy:float, efficiency:float=0.1):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def biological_calc_energy(mols:float, substance:str, joules_per_mol:float=2800.0):
 	"""
 	biological_calc_energy : Calculate energy from amount of substance based on its molecular composition.    
@@ -25,7 +25,7 @@ def biological_calc_energy(mols:float, substance:str, joules_per_mol:float=2800.
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def physical_calc_work(energy:float, distance:float):
 	"""
 	physical_calc_work : Calculate the work from energy.    

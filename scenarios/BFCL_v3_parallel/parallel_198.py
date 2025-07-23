@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_search(entity:str, county:str, state:str=None):
 	"""
 	lawsuit_search : Retrieve all lawsuits involving a particular entity from specified jurisdiction.    

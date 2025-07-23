@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_restaurants(location:str, food_type:str, number:int, dietary_requirements:List[str]=None):
 	"""
 	find_restaurants : Locate nearby restaurants based on location and food preferences.    
@@ -13,7 +13,7 @@ def find_restaurants(location:str, food_type:str, number:int, dietary_requiremen
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
 	"""
 	sports_match_schedule : Retrieve the match schedule for a specific sports team.    
@@ -27,7 +27,7 @@ def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_instrument(budget:int, type:str, make:str=None):
 	"""
 	find_instrument : Search for a musical instrument within specified budget and of specific type.    
@@ -41,7 +41,7 @@ def find_instrument(budget:int, type:str, make:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
 	get_stock_info : Retrieves information about a specific stock based on company's name.    

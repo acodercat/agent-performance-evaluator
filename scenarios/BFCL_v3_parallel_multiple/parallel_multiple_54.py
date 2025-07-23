@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def BattleReignGameAPI_update_player_equipment(attribute:str, level:int, playerID:int=123):
 	"""
 	BattleReignGameAPI_update_player_equipment : Modify the player's equipment level for specified attributes    
@@ -12,7 +12,7 @@ def BattleReignGameAPI_update_player_equipment(attribute:str, level:int, playerI
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def GameGuideAPI_search_guide(game:str, condition:str='', type:str=''):
 	"""
 	GameGuideAPI_search_guide : Search for game guides given specific conditions and preferences    

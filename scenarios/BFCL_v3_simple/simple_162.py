@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def generate_law_contract(parties:List[str], contract_type:str, location:str):
 	"""
 	generate_law_contract : Generates a customized law contract given involved parties, contract type and location.    

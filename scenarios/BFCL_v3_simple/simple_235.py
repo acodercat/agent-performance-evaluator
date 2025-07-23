@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_event_date(event:str, location:str=None):
 	"""
 	get_event_date : Retrieve the date of a historical event.    

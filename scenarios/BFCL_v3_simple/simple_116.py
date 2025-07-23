@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round:int=None):
 	"""
 	probabilities_calculate_single : Calculate the probability of an event.    

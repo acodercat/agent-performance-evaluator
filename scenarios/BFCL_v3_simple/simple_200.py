@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:float, efficiency_reduction:int=None):
 	"""
 	calculate_emissions : Calculates the annual carbon dioxide emissions produced by a vehicle based on the distance traveled, the fuel type and the fuel efficiency of the vehicle.    

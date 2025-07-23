@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company_names:List[str]):
 	"""
 	get_stock_price : Retrieves the current stock price of the specified companies    
@@ -10,7 +10,7 @@ def get_stock_price(company_names:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
@@ -24,7 +24,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def park_information(park_name:str, information:List[str]):
 	"""
 	park_information : Retrieve the basic information such as elevation and area of a national park.    

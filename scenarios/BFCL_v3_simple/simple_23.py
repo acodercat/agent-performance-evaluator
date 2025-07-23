@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def prime_factorize(number:int, return_type:str=None):
 	"""
 	prime_factorize : Calculate the prime factorization of a given integer.    

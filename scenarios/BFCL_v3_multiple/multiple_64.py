@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def uv_index_get_future(location:str, date:str):
 	"""
 	uv_index_get_future : Retrieve UV index data for a specified location and date.    
@@ -11,7 +11,7 @@ def uv_index_get_future(location:str, date:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def rainfall_prediction(location:str, date:str):
 	"""
 	rainfall_prediction : Retrieve rainfall data for a specified location and date.    
@@ -24,7 +24,7 @@ def rainfall_prediction(location:str, date:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def snowfall_prediction(location:str, date:str):
 	"""
 	snowfall_prediction : Retrieve snowfall data for a specified location and date.    

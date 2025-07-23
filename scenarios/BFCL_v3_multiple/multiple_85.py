@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def basketball_scores_get_scores(team:str, league:str, rounds:int):
 	"""
 	basketball_scores_get_scores : Retrieve basketball scores for a specific team and league within a certain range of rounds.    
@@ -12,7 +12,7 @@ def basketball_scores_get_scores(team:str, league:str, rounds:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_scores_get_scores(team:str, league:str, rounds:int):
 	"""
 	soccer_scores_get_scores : Retrieve soccer scores for a specific team and league within a certain range of rounds.    

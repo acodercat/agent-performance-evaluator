@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def light_travel_time(distance_in_light_years:int, speed_of_light:int=None):
 	"""
 	light_travel_time : Calculate the time taken for light to travel from a celestial body to another.    
@@ -11,7 +11,7 @@ def light_travel_time(distance_in_light_years:int, speed_of_light:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def safeway_order(location:str, items:List[str], quantity:List[int]):
 	"""
 	safeway_order : Order specified items from a Safeway location.    
@@ -25,7 +25,7 @@ def safeway_order(location:str, items:List[str], quantity:List[int]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay_duration:int, view:str='No preference'):
 	"""
 	book_hotel : Book a room in a specific hotel with particular preferences    
@@ -42,7 +42,7 @@ def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def latest_exchange_rate(source_currency:str, target_currency:str, amount:float=None):
 	"""
 	latest_exchange_rate : Retrieve the latest exchange rate between two specified currencies.    

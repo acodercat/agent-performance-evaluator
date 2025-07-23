@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_final_velocity_from_distance(acceleration:int, distance:int, initial_velocity:int=None):
 	"""
 	kinematics_final_velocity_from_distance : Calculate the final velocity of an object given the acceleration and distance travelled, assuming initial velocity is 0.    

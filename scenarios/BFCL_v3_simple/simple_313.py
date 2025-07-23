@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def celebrity_net_worth_get(name:str, currency:str):
 	"""
 	celebrity_net_worth_get : Get the total net worth of a sports celebrity based on most recent data.    

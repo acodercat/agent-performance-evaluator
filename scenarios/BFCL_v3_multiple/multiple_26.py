@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_scores_get(game:str, platform:str, level:int, player:str=None):
 	"""
 	game_scores_get : Retrieve scores and rankings based on player’s performance in a certain game.    
@@ -13,7 +13,7 @@ def game_scores_get(game:str, platform:str, level:int, player:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_rewards_get(game:str, platform:str, mission:str=None, trophy:str=None):
 	"""
 	game_rewards_get : Retrieve information about different types of rewards that you can receive when playing a certain game.    
@@ -28,7 +28,7 @@ def game_rewards_get(game:str, platform:str, mission:str=None, trophy:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_missions_list(game:str):
 	"""
 	game_missions_list : List all missions for a certain game.    

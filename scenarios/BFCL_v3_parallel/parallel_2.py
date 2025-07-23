@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_resistance(length:int, area:float, resistivity:str=None):
 	"""
 	calculate_resistance : Calculate the resistance of a wire using resistivity, length, and cross-sectional area.    

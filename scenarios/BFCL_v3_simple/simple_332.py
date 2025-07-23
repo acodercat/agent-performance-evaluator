@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_rating(player_name:str, variant:str=None):
 	"""
 	chess_rating : Fetches the current chess rating of a given player    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetism_ampere_law(enclosed_current:float, radius:float, mu0:float=None):
 	"""
 	electromagnetism_ampere_law : Calculate magnetic field strength using Ampere's Circuital Law. Input the current enclosed by a circular path and the distance from the center of the circle. Can be applied to a cylindrical or spherical symmetry of consistent magnetic field.     
@@ -12,7 +12,7 @@ def electromagnetism_ampere_law(enclosed_current:float, radius:float, mu0:float=
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetism_biot_savart_law(current:int, distance:int, mu0:float=None):
 	"""
 	electromagnetism_biot_savart_law : Calculate magnetic field strength using Biot-Savart law. Input the current in Ampere and the distance in meters.    

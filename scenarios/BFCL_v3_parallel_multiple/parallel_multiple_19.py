@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
 	"""
 	math_gaussian_integral : Perform Gaussian integration over the range of the function.    
@@ -12,7 +12,7 @@ def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_definite_integral(function:str, lower_limit:float, upper_limit:float):
 	"""
 	math_definite_integral : Calculate the definite integral of a function within specified bounds.    

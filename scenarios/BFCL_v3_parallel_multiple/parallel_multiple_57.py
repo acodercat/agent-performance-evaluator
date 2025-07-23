@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_find(location:str, stars:int, amenities:List[str]=None):
 	"""
 	hotel_find : Search for hotels given the location, minimum stars and specific amenities.    
@@ -12,7 +12,7 @@ def hotel_find(location:str, stars:int, amenities:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_search(origin:str, destination:str, date:Any=None, passengers:int=1):
 	"""
 	flight_search : Search for flights given the origin, destination, date, and number of passengers.    

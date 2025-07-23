@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int):
 	"""
 	property_valuation_get : Get estimated value of a property based on location, specifications and age    
@@ -13,7 +13,7 @@ def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def realestate_find_properties(location:str, propertyType:str, bedrooms:int, budget:Dict[str, float]):
 	"""
 	realestate_find_properties : Find properties based on location, budget, and specifications    

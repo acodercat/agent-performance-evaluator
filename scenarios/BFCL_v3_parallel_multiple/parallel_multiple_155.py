@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
 	"""
 	fetch_DNA_sequence : Retrieve the sequence of a DNA molecule with the given id from a public database.    
@@ -12,7 +12,7 @@ def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round:int=None):
 	"""
 	probabilities_calculate_single : Calculate the probability of an event.    
@@ -26,7 +26,7 @@ def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_power(base:int, exponent:int, mod:int=None):
 	"""
 	math_power : Calculate the power of one number raised to another.    

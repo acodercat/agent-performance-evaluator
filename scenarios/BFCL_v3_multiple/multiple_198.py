@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
@@ -11,7 +11,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, rooms:int=1):
 	"""
 	hotel_booking : Books a hotel room for a specific date range.    
@@ -27,7 +27,7 @@ def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, ro
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_highest_scoring_player(game:str, season:str, region:str=None):
 	"""
 	get_highest_scoring_player : Retrieve the highest scoring player in a specific game and season.    
@@ -41,7 +41,7 @@ def get_highest_scoring_player(game:str, season:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_invention(invention_name:str, want_year:bool):
 	"""
 	science_history_get_invention : Retrieve the inventor and year of invention based on the invention's name.    

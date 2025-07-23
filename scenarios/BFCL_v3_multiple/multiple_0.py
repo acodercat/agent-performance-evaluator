@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def triangle_properties_get(side1:int, side2:int, side3:int, get_area:bool=True, get_perimeter:bool=True, get_angles:bool=True):
 	"""
 	triangle_properties_get : Retrieve the dimensions, such as area and perimeter, of a triangle if lengths of three sides are given.    
@@ -15,7 +15,7 @@ def triangle_properties_get(side1:int, side2:int, side3:int, get_area:bool=True,
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def circle_properties_get(radius:float, get_area:bool=True, get_circumference:bool=True):
 	"""
 	circle_properties_get : Retrieve the dimensions, such as area and circumference, of a circle if radius is given.    

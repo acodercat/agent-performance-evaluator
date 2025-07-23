@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculus_derivative(function:str, value:int, function_variable:str=None):
 	"""
 	calculus_derivative : Compute the derivative of a function at a specific value.    
@@ -12,7 +12,7 @@ def calculus_derivative(function:str, value:int, function_variable:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(type:str, traits:List[str]=None):
 	"""
 	get_personality_traits : Retrieve the personality traits for a specific personality type, including their strengths and weaknesses.    

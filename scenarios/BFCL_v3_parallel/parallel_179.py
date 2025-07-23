@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company:str, days:int, exchange:str=None):
 	"""
 	get_stock_price : Retrieve the stock price for a specific company and time frame.    

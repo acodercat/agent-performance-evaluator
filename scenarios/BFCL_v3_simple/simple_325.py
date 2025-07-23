@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_match_results(team1:str, team2:str, season:str=None):
 	"""
 	sports_match_results : Returns the results of a given match between two teams.    

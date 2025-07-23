@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def player_stats_getLastGame(player_name:str, team:str, metrics:List[str]=None):
 	"""
 	player_stats_getLastGame : Get last game statistics for a specific player in basketball    

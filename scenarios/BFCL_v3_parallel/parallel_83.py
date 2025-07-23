@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def final_velocity(initial_velocity:int, acceleration:int, time:int):
 	"""
 	final_velocity : Calculate the final velocity of an object given its initial velocity, acceleration, and time.    

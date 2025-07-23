@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_fibonacci(position:int):
 	"""
 	calculate_fibonacci : Calculate the Fibonacci series up to a specific position.    
@@ -10,7 +10,7 @@ def calculate_fibonacci(position:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_factorial(number:int):
 	"""
 	calculate_factorial : Calculate the factorial of a given number.    
@@ -22,7 +22,7 @@ def calculate_factorial(number:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def generate_prime(start:int, end:int):
 	"""
 	generate_prime : Generate prime numbers within a given range.    

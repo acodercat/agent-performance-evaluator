@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	"""
 	get_collectables_in_season : Retrieve a list of collectable items in a specific game during a specified season.    
@@ -12,7 +12,7 @@ def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
 	"""
 	mutation_type_find : Finds the type of a genetic mutation based on its SNP (Single Nucleotide Polymorphism) ID.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_fetch(case_id:str, details:bool):
 	"""
 	legal_case_fetch : Fetch detailed legal case information from database.    

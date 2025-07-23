@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def safeway_vegan_products(location:str, categories:List[str]=None):
 	"""
 	safeway_vegan_products : Get available vegan products at specified Safeway store    
@@ -11,7 +11,7 @@ def safeway_vegan_products(location:str, categories:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def wholefoods_vegan_products(location:str, categories:List[str]=None):
 	"""
 	wholefoods_vegan_products : Get available vegan products at specified Whole Foods store    
@@ -24,7 +24,7 @@ def wholefoods_vegan_products(location:str, categories:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_vegan_products(location:str, categories:List[str]=None):
 	"""
 	walmart_vegan_products : Get available vegan products at specified Walmart store    

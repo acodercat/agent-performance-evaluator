@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def windFarm_potential(coordinates:List[float], turbineCount:float, month:str=''):
 	"""
 	windFarm_potential : Estimate the energy output of a wind farm given its location and turbine count for a particular month.    
@@ -12,7 +12,7 @@ def windFarm_potential(coordinates:List[float], turbineCount:float, month:str=''
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def solarFarm_potential(coordinates:List[float], panelArea:float, month:str=''):
 	"""
 	solarFarm_potential : Estimate the energy output of a solar farm given its location and panel area for a particular month.    

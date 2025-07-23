@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
 	get_stock_info : Retrieves information about a specific stock based on company's name.    
@@ -12,7 +12,7 @@ def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_current_time(location:str, country:str, timezone:str=None):
 	"""
 	get_current_time : Retrieve the current time in a specific time zone.    

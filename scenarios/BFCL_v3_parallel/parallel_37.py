@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def color_converter_get_color_info(color_name:str, conversion_type:List[str]):
 	"""
 	color_converter_get_color_info : Retrieve RGB values and hexadecimal codes of a specific color.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_vehicle_emission(vehicle_type:str, miles_driven:int, emission_factor:float=None):
 	"""
 	calculate_vehicle_emission : Calculate the annual carbon emissions produced by a specific type of vehicle based on mileage.    

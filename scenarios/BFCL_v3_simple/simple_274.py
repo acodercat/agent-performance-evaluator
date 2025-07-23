@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_info(museum_name:str, info_type:str='opening_hours'):
 	"""
 	museum_info : Retrieve information about the opening hours of a museum based on its name.    

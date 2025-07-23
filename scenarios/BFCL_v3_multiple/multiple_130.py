@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_rating(player_name:str, variant:str=None):
 	"""
 	chess_rating : Fetches the current chess rating of a given player    
@@ -11,7 +11,7 @@ def chess_rating(player_name:str, variant:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def solve_quadratic(a:int, b:int, c:int):
 	"""
 	solve_quadratic : Find the roots of a quadratic equation. Returns both roots.    
@@ -25,7 +25,7 @@ def solve_quadratic(a:int, b:int, c:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_cagr(initial_value:int, final_value:int, period_in_years:int):
 	"""
 	calculate_cagr : Calculate the Compound Annual Growth Rate (CAGR) given an initial investment value, a final investment value, and the number of years.    

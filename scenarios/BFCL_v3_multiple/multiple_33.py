@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_derivative(func:str, x_value:int, order:int=1):
 	"""
 	calculate_derivative : Calculate the derivative of a single-variable function.    
@@ -12,7 +12,7 @@ def calculate_derivative(func:str, x_value:int, order:int=1):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_integral(func:str, a:int, b:int):
 	"""
 	calculate_integral : Calculate the definite integral of a single-variable function.    

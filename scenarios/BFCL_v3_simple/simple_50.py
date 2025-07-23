@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def entropy_change_calculate(substance:str, mass:int, initial_temperature:int, final_temperature:int, pressure:int=1):
 	"""
 	entropy_change_calculate : Calculate the change in entropy for a mass of a specific substance under set initial and final conditions.    

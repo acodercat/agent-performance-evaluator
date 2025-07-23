@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_check_case(case_id:int, closed_status:bool):
 	"""
 	lawsuit_check_case : Verify the details of a lawsuit case and check its status using case ID.    

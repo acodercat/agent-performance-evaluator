@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def forest_growth_forecast(location:str, years:int, include_human_impact:bool=None):
 	"""
 	forest_growth_forecast : Predicts the forest growth over the next N years based on current trends.    
@@ -12,7 +12,7 @@ def forest_growth_forecast(location:str, years:int, include_human_impact:bool=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def db_fetch_records(database_name:str, table_name:str, conditions:Dict[str, str], fetch_limit:int=None):
 	"""
 	db_fetch_records : Fetch records from a specified database table based on certain conditions.    

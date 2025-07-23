@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_third_chord(key:str, type:str=None):
 	"""
 	get_third_chord : Calculate the third major chord in a given key.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_metal_price(metal:str, measure:str):
 	"""
 	get_metal_price : Retrieve the current price for a specified metal and measure.    

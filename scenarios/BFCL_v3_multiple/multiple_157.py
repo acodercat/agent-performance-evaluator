@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_ranking_get_current(team:str, league:str, season:str=None):
 	"""
 	sports_ranking_get_current : Retrieve the current ranking of a specific team in a particular league.    
@@ -12,7 +12,7 @@ def sports_ranking_get_current(team:str, league:str, season:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_earliest_reference(name:str, source:str=None):
 	"""
 	get_earliest_reference : Retrieve the earliest historical reference of a person.    

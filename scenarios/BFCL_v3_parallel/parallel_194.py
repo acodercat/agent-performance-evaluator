@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    

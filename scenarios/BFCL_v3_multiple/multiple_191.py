@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def random_normalvariate(mu:float, sigma:float):
 	"""
 	random_normalvariate : Generates a random number from a normal distribution given the mean and standard deviation.    
@@ -11,7 +11,7 @@ def random_normalvariate(mu:float, sigma:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(type:str, traits:List[str]=None):
 	"""
 	get_personality_traits : Retrieve the personality traits for a specific personality type, including their strengths and weaknesses.    
@@ -24,7 +24,7 @@ def get_personality_traits(type:str, traits:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def elephant_population_estimate(current_population:int, growth_rate:float, years:int):
 	"""
 	elephant_population_estimate : Estimate future population of elephants given current population and growth rate.    
@@ -38,7 +38,7 @@ def elephant_population_estimate(current_population:int, growth_rate:float, year
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay_duration:int, view:str='No preference'):
 	"""
 	book_hotel : Book a room in a specific hotel with particular preferences    

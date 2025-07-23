@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company_names:List[str]):
 	"""
 	get_stock_price : Retrieves the current stock price of the specified companies    
@@ -10,7 +10,7 @@ def get_stock_price(company_names:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_converter(base_currency:str, target_currency:str, amount:float):
 	"""
 	currency_converter : Calculates the cost in target currency given the amount in base currency and exchange rate    
@@ -24,7 +24,7 @@ def currency_converter(base_currency:str, target_currency:str, amount:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, nights:int):
 	"""
 	book_hotel : Book a room of specified type for a particular number of nights at a specific hotel, starting from a specified date.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
 	"""
 	grocery_store_find_best : Find the closest high-rated grocery stores based on certain product availability.    
@@ -12,7 +12,7 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:int, efficiency_reduction:float=None):
 	"""
 	calculate_emissions : Calculates the annual carbon dioxide emissions produced by a vehicle based on the distance traveled, the fuel type and the fuel efficiency of the vehicle.    
@@ -27,7 +27,7 @@ def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:int, effici
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_get_details(artist:str, title:str, detail:str=None):
 	"""
 	sculpture_get_details : Retrieve details of a sculpture based on the artist and the title of the sculpture.    

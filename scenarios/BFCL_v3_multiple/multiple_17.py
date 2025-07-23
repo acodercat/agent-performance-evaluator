@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_convert(from_currency:str, to_currency:str, amount:float):
 	"""
 	currency_conversion_convert : Converts a specified amount of money from one currency to another at the latest rate.    
@@ -12,7 +12,7 @@ def currency_conversion_convert(from_currency:str, to_currency:str, amount:float
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_get_latest_rate(from_currency:str, to_currency:str):
 	"""
 	currency_conversion_get_latest_rate : Get the latest currency conversion rate from one currency to another.    
@@ -25,7 +25,7 @@ def currency_conversion_get_latest_rate(from_currency:str, to_currency:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_get_rate(from_currency:str, to_currency:str, date:str='today'):
 	"""
 	currency_conversion_get_rate : Get the currency conversion rate from one currency to another at a specified date.    

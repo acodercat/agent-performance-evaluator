@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_speed(distance:int, time:int, to_unit:str=None):
 	"""
 	calculate_speed : Calculate the speed of an object based on the distance travelled and the time taken.    

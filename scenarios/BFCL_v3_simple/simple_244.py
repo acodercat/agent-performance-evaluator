@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def publication_year_find(author:str, work_title:str, location:str=None):
 	"""
 	publication_year_find : Fetches the year a particular scientific work was published.    

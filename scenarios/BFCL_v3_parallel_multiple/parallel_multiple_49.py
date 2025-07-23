@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def melody_generator(note_sequence:List[str], instrument:str='Bass'):
 	"""
 	melody_generator : Create a melody based on specified notes.    
@@ -11,7 +11,7 @@ def melody_generator(note_sequence:List[str], instrument:str='Bass'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def beat_generator(genre:str, bpm:int, scale:str='Major'):
 	"""
 	beat_generator : Generate a beat based on specified genre and beats per minute.    

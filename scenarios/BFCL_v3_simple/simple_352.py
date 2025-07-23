@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def gamespot_getAverageUserScore(game_name:str, platform:str):
 	"""
 	gamespot_getAverageUserScore : Retrieve the average user score of a game from GameSpot.    

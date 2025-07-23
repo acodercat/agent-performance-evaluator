@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def guitar_price_find(model:str, condition:str, location:str):
 	"""
 	guitar_price_find : Retrieve the price of a specific used guitar model based on its condition and location.    
@@ -12,7 +12,7 @@ def guitar_price_find(model:str, condition:str, location:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of_players:int=10):
 	"""
 	board_game_chess_get_top_players : Find top chess players in a location based on rating.    
@@ -26,7 +26,7 @@ def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def identify_color_rgb(color_name:str, standard:str=None):
 	"""
 	identify_color_rgb : This function identifies the RGB values of a named color.    

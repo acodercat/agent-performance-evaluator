@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def criminal_history_check_felonies(full_name:str, birth_date:str, state:str=None):
 	"""
 	criminal_history_check_felonies : This function checks if an individual has any prior felony convictions based on their full name and birth date.    

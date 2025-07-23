@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def payment_calculation(items:List[str], quantities:List[int]):
 	"""
 	payment_calculation : Calculate how much a person should pay given the items purchased and their quantities    
@@ -11,7 +11,7 @@ def payment_calculation(items:List[str], quantities:List[int]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def steps_calorie_calculation(calorie:float):
 	"""
 	steps_calorie_calculation : Calculate how many steps you need to walk to burn a specified amount of calories.    
@@ -23,7 +23,7 @@ def steps_calorie_calculation(calorie:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hydration_calculator(exercise_time:float):
 	"""
 	hydration_calculator : Calculate the amount of water to drink in a day given the hours of exercise.    

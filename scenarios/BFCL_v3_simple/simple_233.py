@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_get_event_date(event_name:str, format:str=None):
 	"""
 	european_history_get_event_date : Retrieve the date of a specific event in European history.    

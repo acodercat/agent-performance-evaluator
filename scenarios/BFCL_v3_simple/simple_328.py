@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def boardgame_get_info(name:str, parameters:List[str], language:str=None):
 	"""
 	boardgame_get_info : Retrieve detailed information of a board game.    

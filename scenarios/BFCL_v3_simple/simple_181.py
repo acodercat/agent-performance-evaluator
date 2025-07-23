@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_lawsuit_details(case_number:str, court_location:str, with_verdict:bool=None):
 	"""
 	get_lawsuit_details : Retrieve details of a lawsuit based on its case number and court location.    

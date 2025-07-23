@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
 	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    

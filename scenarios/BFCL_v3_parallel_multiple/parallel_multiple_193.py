@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_scientist_for_discovery(discovery:str):
 	"""
 	get_scientist_for_discovery : Retrieve the scientist's name who is credited for a specific scientific discovery or theory.    
@@ -10,7 +10,7 @@ def get_scientist_for_discovery(discovery:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'):
 	"""
 	game_stats_fetch_player_statistics : Fetch player statistics for a specific video game for a given user.    
@@ -24,7 +24,7 @@ def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_book(departure_location:str, destination_location:str, date:str, time:str=None, direct_flight:bool=None):
 	"""
 	flight_book : Book a direct flight for a specific date and time from departure location to destination location.    
@@ -40,7 +40,7 @@ def flight_book(departure_location:str, destination_location:str, date:str, time
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    

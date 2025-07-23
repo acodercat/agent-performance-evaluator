@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_score(team_name:str, league:str, include_player_stats:bool=False):
 	"""
 	get_team_score : Retrieves the latest game score, individual player stats, and team stats for a specified sports team.    

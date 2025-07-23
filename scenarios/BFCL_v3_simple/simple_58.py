@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:bool):
 	"""
 	cell_biology_function_lookup : Look up the function of a given molecule in a specified organelle.    

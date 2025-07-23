@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_capital_gains_tax(short_term_gain:int, long_term_gain:int, state:str='federal'):
 	"""
 	calculate_capital_gains_tax : Calculate the capital gains tax for a given gains type and amount    

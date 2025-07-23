@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
 	map_service_get_directions : Retrieve directions from a starting location to an ending location, including options for route preferences.    
@@ -12,7 +12,7 @@ def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def convert_currency(base_currency:str, target_currency:str, amount:int):
 	"""
 	convert_currency : Converts an amount from a particular currency to another currency.    
@@ -26,7 +26,7 @@ def convert_currency(base_currency:str, target_currency:str, amount:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def ecology_get_turtle_population(location:str, year:int=None, species:bool=None):
 	"""
 	ecology_get_turtle_population : Get the population and species of turtles in a specific location.    

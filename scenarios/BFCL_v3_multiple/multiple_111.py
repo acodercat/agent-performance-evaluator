@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
@@ -11,7 +11,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_factorial(number:int):
 	"""
 	math_factorial : Calculate the factorial of a given number.    
@@ -23,7 +23,7 @@ def math_factorial(number:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_flute(brand:str, specs:List[str]):
 	"""
 	find_flute : Locate a flute for sale based on specific requirements.    

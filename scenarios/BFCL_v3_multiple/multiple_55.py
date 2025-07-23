@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_forecast(company:str, days:int, model:str=None):
 	"""
 	stock_forecast : Predict the future stock price for a specific company and time frame.    
@@ -12,7 +12,7 @@ def stock_forecast(company:str, days:int, model:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    

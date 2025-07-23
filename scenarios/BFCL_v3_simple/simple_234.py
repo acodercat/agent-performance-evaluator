@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_eu_fetch_events(century:int, region:str, category:str=None):
 	"""
 	history_eu_fetch_events : Fetches significant historical events within a specific time period in European history.    

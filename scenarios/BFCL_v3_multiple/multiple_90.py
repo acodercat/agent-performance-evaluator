@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def events_find_event(location:str, group_size:int, event_type:List[str]=None):
 	"""
 	events_find_event : Find events suitable for groups based on specified criteria such as location and event type.    
@@ -12,7 +12,7 @@ def events_find_event(location:str, group_size:int, event_type:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find_group(location:str, group_size:int, cuisine:List[str]=None):
 	"""
 	restaurant_find_group : Find restaurants suitable for groups based on specified criteria such as location and cuisine.    

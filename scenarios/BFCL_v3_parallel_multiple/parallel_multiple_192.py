@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
 	find_recipe : Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
@@ -12,7 +12,7 @@ def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def poker_probability_full_house(deck_size:int, hand_size:int):
 	"""
 	poker_probability_full_house : Calculate the probability of getting a full house in a poker game.    
@@ -25,7 +25,7 @@ def poker_probability_full_house(deck_size:int, hand_size:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hospital_locate(location:str, radius:int, department:str=None):
 	"""
 	hospital_locate : Locate nearby hospitals based on location and radius. Options to include specific departments are available.    

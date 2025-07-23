@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def thermo_calculate_energy(mass:int, phase_transition:str, substance:str=None):
 	"""
 	thermo_calculate_energy : Calculate the energy required or released during a phase change using mass, the phase transition temperature and the specific latent heat.    

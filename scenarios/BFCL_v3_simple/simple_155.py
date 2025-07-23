@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_future_value(initial_investment:int, interest_rate:float, duration:int, compounded:int=None):
 	"""
 	calculate_future_value : Calculate the future value of an investment given the initial amount, interest rate, and investment duration.    

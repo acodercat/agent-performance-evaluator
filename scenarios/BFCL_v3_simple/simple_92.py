@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def imdb_find_movies_by_actor(actor_name:str, year:int, category:str=None):
 	"""
 	imdb_find_movies_by_actor : Searches the database to find all movies by a specific actor within a certain year.    

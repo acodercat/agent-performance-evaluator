@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_exchange_rate_with_fee(base_currency:str, target_currency:str, fee:float):
 	"""
 	get_exchange_rate_with_fee : Retrieve the exchange rate between two currencies including transaction fee.    

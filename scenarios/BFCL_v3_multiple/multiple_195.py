@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_lawsuit_details(case_number:str, court_location:str, additional_details:List[str]=None):
 	"""
 	get_lawsuit_details : Retrieve the detailed information about a lawsuit based on its case number and the court location.    
@@ -12,7 +12,7 @@ def get_lawsuit_details(case_number:str, court_location:str, additional_details:
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_rank(team_name:str, league:str, season:str, type:str):
 	"""
 	get_team_rank : Get the team ranking in a sports league based on season and type.    
@@ -27,7 +27,7 @@ def get_team_rank(team_name:str, league:str, season:str, type:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	"""
 	calc_heat_capacity : Calculate the heat capacity at constant pressure of air using its temperature and volume.    

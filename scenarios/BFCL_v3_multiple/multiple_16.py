@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def species_distribution_modeling_project_range_shift(species:str, climate_scenario:str, future_time:int=100):
 	"""
 	species_distribution_modeling_project_range_shift : Predict the potential future geographic distribution of a species under a specified climate change scenario.    
@@ -12,7 +12,7 @@ def species_distribution_modeling_project_range_shift(species:str, climate_scena
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def population_genetics_calculate_ne(species:str, generations:int, probability:float):
 	"""
 	population_genetics_calculate_ne : Calculate the effective population size necessary to maintain genetic diversity in a wild animal population for a specified number of generations with a given probability.    
@@ -26,7 +26,7 @@ def population_genetics_calculate_ne(species:str, generations:int, probability:f
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def ecology_calculate_carrying_capacity(habitat_area:float, species:str, productivity:float):
 	"""
 	ecology_calculate_carrying_capacity : Calculate the maximum population size of the species that the environment can sustain indefinitely.    

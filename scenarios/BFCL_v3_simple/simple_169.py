@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	"""
 	court_case_search : Retrieves details about a court case using its docket number and location.    

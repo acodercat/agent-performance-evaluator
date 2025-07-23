@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	"""
 	group_dynamics_pattern : Examine the social dynamics and interactions within a group based on the personality traits and group size.    

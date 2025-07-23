@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_info(artist_name:str, detail:bool=None):
 	"""
 	get_sculpture_info : Retrieves the most recent artwork by a specified artist with its detailed description.    

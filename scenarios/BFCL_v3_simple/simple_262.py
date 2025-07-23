@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def modify_painting(size:str, medium:str, dominant_color:str=None):
 	"""
 	modify_painting : Modify an existing painting's attributes such as size, medium, and color.    

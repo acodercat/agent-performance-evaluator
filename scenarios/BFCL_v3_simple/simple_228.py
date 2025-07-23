@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(hobby:str, trait_count:int=None):
 	"""
 	get_personality_traits : Retrieve the common personality traits of people based on their hobbies or activities.    

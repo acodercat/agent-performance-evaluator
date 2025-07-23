@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_value(sculpture:str, artist:str):
 	"""
 	get_sculpture_value : Retrieve the current market value of a particular sculpture by a specific artist.    
@@ -11,7 +11,7 @@ def get_sculpture_value(sculpture:str, artist:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_key_events(country:str, start_year:int, end_year:int, event_type:List[str]=None):
 	"""
 	history_get_key_events : Retrieve key historical events within a specific period for a certain country.    

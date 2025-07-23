@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def biology_get_cell_info(cell_type:str, detailed:bool='false'):
 	"""
 	biology_get_cell_info : Retrieve information about the structure and functioning of a specified type of cell    

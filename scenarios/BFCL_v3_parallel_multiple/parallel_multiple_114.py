@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_create_custom(item:str, material:str, size:int=None):
 	"""
 	sculpture_create_custom : Order a custom sculpture with your preferred material.    
@@ -12,7 +12,7 @@ def sculpture_create_custom(item:str, material:str, size:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def painting_create_custom(subject:str, color:str, size:int=None):
 	"""
 	painting_create_custom : Order a custom painting with your preferred color.    

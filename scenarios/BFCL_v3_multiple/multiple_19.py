@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_get_councils(religion:str, count:int):
 	"""
 	religion_history_get_councils : Retrieves a list of major councils in a specified religion.    
@@ -11,7 +11,7 @@ def religion_history_get_councils(religion:str, count:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_get_reformations(religion:str, count:int):
 	"""
 	religion_history_get_reformations : Retrieves a list of major reformations in a specified religion.    
@@ -24,7 +24,7 @@ def religion_history_get_reformations(religion:str, count:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_get_schisms(religion:str, count:int):
 	"""
 	religion_history_get_schisms : Retrieves a list of major schisms in a specified religion.    

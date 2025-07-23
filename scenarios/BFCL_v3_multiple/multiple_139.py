@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	"""
 	get_collectables_in_season : Retrieve a list of collectable items in a specific game during a specified season.    
@@ -12,7 +12,7 @@ def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_score_highest(game:str, platform:str, region:str=None):
 	"""
 	game_score_highest : Retrieve the highest score achieved by any player in a specific game.    
@@ -26,7 +26,7 @@ def game_score_highest(game:str, platform:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	"""
 	lawsuit_details_find : Find details of lawsuits involving a specific company from a given year.    
@@ -40,7 +40,7 @@ def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_binomial_probability(number_of_trials:int, number_of_successes:int, probability_of_success:float=0.5):
 	"""
 	calculate_binomial_probability : Calculates the binomial probability given the number of trials, successes and the probability of success on an individual trial.    

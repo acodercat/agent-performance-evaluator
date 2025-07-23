@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_get_president(event:str, year:int):
 	"""
 	us_history_get_president : Retrieve the U.S. president during a specific event in American history.    

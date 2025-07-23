@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def historic_leader_search(location:str, date:int, title:str=None):
 	"""
 	historic_leader_search : Retrieve information about a historical leader given a location and date.    

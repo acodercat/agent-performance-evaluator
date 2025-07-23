@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_fitness(trait_values:List[float], trait_contributions:List[float]):
 	"""
 	calculate_fitness : Calculate the expected evolutionary fitness of a creature based on the individual values and contributions of its traits.    

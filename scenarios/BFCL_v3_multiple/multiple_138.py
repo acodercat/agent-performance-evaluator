@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def park_information(park_name:str, information:List[str]):
 	"""
 	park_information : Retrieve the basic information such as elevation and area of a national park.    
@@ -11,7 +11,7 @@ def park_information(park_name:str, information:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_fetch(case_id:str, details:bool):
 	"""
 	legal_case_fetch : Fetch detailed legal case information from database.    
@@ -24,7 +24,7 @@ def legal_case_fetch(case_id:str, details:bool):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_stock_return(investment_amount:float, annual_growth_rate:float, holding_period:int, include_dividends:bool=None):
 	"""
 	calculate_stock_return : Calculate the projected return of a stock investment given the investment amount, the annual growth rate and holding period in years.    

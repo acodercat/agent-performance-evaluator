@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
 	"""
 	musical_scale : Get the musical scale of a specific key in music theory.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_shop_find_nearby(location:str, services:List[str]=None, instruments:List[str]=None):
 	"""
 	music_shop_find_nearby : Locate nearby music shops based on specific criteria like instrument lessons availability.    
@@ -12,7 +12,7 @@ def music_shop_find_nearby(location:str, services:List[str]=None, instruments:Li
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def gym_find_nearby(location:str, classes:List[str]=None, equipment:List[str]=None):
 	"""
 	gym_find_nearby : Locate nearby gyms based on specific criteria like types of fitness classes availability.    

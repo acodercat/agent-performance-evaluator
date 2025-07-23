@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
 	"""
 	calculate_probability : Calculate the probability of an event.    
@@ -12,7 +12,7 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_search(entity:str, county:str, state:str=None):
 	"""
 	lawsuit_search : Retrieve all lawsuits involving a particular entity from specified jurisdiction.    
@@ -26,7 +26,7 @@ def lawsuit_search(entity:str, county:str, state:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def predict_house_price(area:int, rooms:int, year:int, location:str):
 	"""
 	predict_house_price : Predict house price based on area, number of rooms and year of construction.    

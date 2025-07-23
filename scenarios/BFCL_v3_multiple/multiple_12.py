@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_calculate_YOY_growth_rate(company_name:str, year1:int, year1_revenue:int, year2:int, year2_revenue:int):
 	"""
 	corporate_finance_calculate_YOY_growth_rate : Calculate the year over year (YOY) growth rate for a company.    
@@ -14,7 +14,7 @@ def corporate_finance_calculate_YOY_growth_rate(company_name:str, year1:int, yea
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratios_calculate_ROE(net_income:float, shareholder_equity:float):
 	"""
 	financial_ratios_calculate_ROE : Calculate the return on equity (ROE) for a company.    
@@ -27,7 +27,7 @@ def financial_ratios_calculate_ROE(net_income:float, shareholder_equity:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratios_calculate_ROA(net_income:float, total_assets:float):
 	"""
 	financial_ratios_calculate_ROA : Calculate the return on assets (ROA) for a company.    

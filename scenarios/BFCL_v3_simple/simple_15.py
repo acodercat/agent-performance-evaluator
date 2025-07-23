@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def integrate(function:str, start_x:int, end_x:int, method:str=None):
 	"""
 	integrate : Calculate the area under a curve for a specified function between two x values.    

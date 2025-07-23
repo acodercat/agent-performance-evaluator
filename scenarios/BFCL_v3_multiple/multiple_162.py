@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def player_statistic(player_name:str, year:int, team_name:str=None):
 	"""
 	player_statistic : Retrieves detailed player's statistics for a specific year.    
@@ -12,7 +12,7 @@ def player_statistic(player_name:str, year:int, team_name:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	"""
 	analyze_structure : Analyze a structure of a building based on its Id and floor numbers.    

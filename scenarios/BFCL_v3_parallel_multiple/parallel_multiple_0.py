@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_toolkit_sum_of_multiples(lower_limit:int, upper_limit:int, multiples:List[int]):
 	"""
 	math_toolkit_sum_of_multiples : Find the sum of all multiples of specified numbers within a specified range.    
@@ -12,7 +12,7 @@ def math_toolkit_sum_of_multiples(lower_limit:int, upper_limit:int, multiples:Li
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_toolkit_product_of_primes(count:int):
 	"""
 	math_toolkit_product_of_primes : Find the product of the first n prime numbers.    

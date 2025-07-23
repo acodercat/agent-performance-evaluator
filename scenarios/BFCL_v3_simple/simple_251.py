@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_earliest_reference(name:str, source:str=None):
 	"""
 	get_earliest_reference : Retrieve the earliest historical reference of a person.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def average_temperature(location:str, days:int, temp_unit:str=None):
 	"""
 	average_temperature : Retrieves the average temperature for a specific location over the defined timeframe.    

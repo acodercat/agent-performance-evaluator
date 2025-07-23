@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_area_under_curve(function:str, interval:List[float], method:str=None):
 	"""
 	calculate_area_under_curve : Calculate the area under a mathematical function within a given interval.    

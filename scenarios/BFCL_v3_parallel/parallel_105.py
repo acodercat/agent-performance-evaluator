@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_heat_capacity(temp:int, volume:float, gas:str=None):
 	"""
 	calc_heat_capacity : Calculate the heat capacity at constant pressure of air using its temperature and volume.    

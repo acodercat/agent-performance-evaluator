@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_triangle_area_heron(side1:float, side2:float, side3:float):
 	"""
 	math_triangle_area_heron : Calculates the area of a triangle using Heron's formula, given the lengths of its three sides.    
@@ -12,7 +12,7 @@ def math_triangle_area_heron(side1:float, side2:float, side3:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_triangle_area_base_height(base:float, height:float):
 	"""
 	math_triangle_area_base_height : Calculates the area of a triangle using the formula (1/2)base*height.    
@@ -25,7 +25,7 @@ def math_triangle_area_base_height(base:float, height:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_circle_area(radius:float):
 	"""
 	math_circle_area : Calculates the area of a circle given its radius.    

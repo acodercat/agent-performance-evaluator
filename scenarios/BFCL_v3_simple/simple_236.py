@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_get_event_info(event_name:str, specific_info:str):
 	"""
 	us_history_get_event_info : Retrieve detailed information about a significant event in U.S. history.    

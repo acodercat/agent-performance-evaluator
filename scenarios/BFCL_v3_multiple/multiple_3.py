@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def EuclideanDistance_calculate(pointA:List[int], pointB:List[int], rounding:int=None):
 	"""
 	EuclideanDistance_calculate : Calculate the Euclidean distance between two points.    
@@ -12,7 +12,7 @@ def EuclideanDistance_calculate(pointA:List[int], pointB:List[int], rounding:int
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def angleToXAxis_calculate(pointA:List[int], pointB:List[int], rounding:int=None):
 	"""
 	angleToXAxis_calculate : Calculate the angle between two points with respect to x-axis.    

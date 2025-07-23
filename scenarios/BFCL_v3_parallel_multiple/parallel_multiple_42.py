@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def book_find(library:str, author:str, genre:str='Sci-Fi', year:int=2000):
 	"""
 	book_find : Find a book in a library based on specific criteria like author, genre or publication year.    
@@ -13,7 +13,7 @@ def book_find(library:str, author:str, genre:str='Sci-Fi', year:int=2000):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def historical_landmark_find(location:str, era:str='Renaissance'):
 	"""
 	historical_landmark_find : Find historical landmarks based on specific criteria like location or era.    
@@ -26,7 +26,7 @@ def historical_landmark_find(location:str, era:str='Renaissance'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def artwork_find(museum:str, type:str, material:str='', artist:str=''):
 	"""
 	artwork_find : Locate artwork in museums based on specific criteria like type of material, artist, or era.    

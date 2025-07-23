@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def compose_melody(progression:List[str], measures:int, instrument:str=None):
 	"""
 	compose_melody : Compose a melody using the specified chord progression for a certain number of measures on specified instrument.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def fMRI_analyze(data_source:str, sequence_type:str, smooth:int, voxel_size:int=3):
 	"""
 	fMRI_analyze : This function takes in fMRI data to output analyzed data.    

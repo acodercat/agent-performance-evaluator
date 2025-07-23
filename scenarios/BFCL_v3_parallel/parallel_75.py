@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def number_analysis_prime_factors(number:int):
 	"""
 	number_analysis_prime_factors : Compute the prime factors of a number.    

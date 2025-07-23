@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_score_highest(game:str, platform:str, region:str=None):
 	"""
 	game_score_highest : Retrieve the highest score achieved by any player in a specific game.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def primeFactors(num:int, withMultiplicity:bool='false'):
 	"""
 	primeFactors : Find all prime factors of an integer.    
@@ -11,7 +11,7 @@ def primeFactors(num:int, withMultiplicity:bool='false'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lcm(num1:int, num2:int):
 	"""
 	lcm : Calculate the least common multiple of two integers.    
@@ -24,7 +24,7 @@ def lcm(num1:int, num2:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def gcd(num1:int, num2:int):
 	"""
 	gcd : Calculate the greatest common divisor of two integers.    

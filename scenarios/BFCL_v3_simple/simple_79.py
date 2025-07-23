@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def create_histogram(data:List[int], bins:int):
 	"""
 	create_histogram : Create a histogram based on provided data.    

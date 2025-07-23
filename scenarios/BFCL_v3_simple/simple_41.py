@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetic_force(charge1:int, charge2:int, distance:int, medium_permittivity:float=None):
 	"""
 	electromagnetic_force : Calculate the electromagnetic force between two charges placed at a certain distance.    

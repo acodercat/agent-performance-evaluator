@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def US_President_During_Event(event:str, country:str=None):
 	"""
 	US_President_During_Event : Returns the U.S. president during a specified historical event.    

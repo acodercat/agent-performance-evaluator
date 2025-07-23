@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company_names:List[str]):
 	"""
 	get_stock_price : Retrieves the current stock price of the specified companies    
@@ -10,7 +10,7 @@ def get_stock_price(company_names:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_ranking(team_name:str, year:int, gender:str=None):
 	"""
 	get_team_ranking : Retrieve the FIFA ranking of a specific soccer team for a certain year.    
@@ -24,7 +24,7 @@ def get_team_ranking(team_name:str, year:int, gender:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_info_get_calories(website:str, recipe:str, optional_meal_time:str=None):
 	"""
 	recipe_info_get_calories : Retrieve the amount of calories from a specific recipe in a food website.    

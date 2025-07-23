@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def whole_foods_find_top_brands(product:str, number:int=None, organic:bool=None):
 	"""
 	whole_foods_find_top_brands : Get top brands based on a specific product from Whole Foods    

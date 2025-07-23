@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def database_modify_columns(db_name:str, table:str, operation:str, columns:List[str]):
 	"""
 	database_modify_columns : This function allows deletion or addition of columns in a database    
@@ -13,7 +13,7 @@ def database_modify_columns(db_name:str, table:str, operation:str, columns:List[
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def database_create_backup(db_name:str, backup_location:str, timestamp:bool='False'):
 	"""
 	database_create_backup : This function creates a backup of the database before modification    

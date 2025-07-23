@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_precipitation(location:str, days:int):
 	"""
 	weather_forecast_precipitation : Retrieve a precipitation forecast for a specific location for a certain number of days.    
@@ -11,7 +11,7 @@ def weather_forecast_precipitation(location:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_humidity(location:str, days:int):
 	"""
 	weather_forecast_humidity : Retrieve a humidity forecast for a specific location for a certain number of days.    
@@ -24,7 +24,7 @@ def weather_forecast_humidity(location:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_temperature(location:str, days:int):
 	"""
 	weather_forecast_temperature : Retrieve a temperature forecast for a specific location for a certain number of days.    

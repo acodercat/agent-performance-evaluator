@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	"""
 	get_protein_sequence : Retrieve the protein sequence encoded by a human gene.    
@@ -11,7 +11,7 @@ def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def route_estimate_time(start_location:str, end_location:str, stops:List[str]=None):
 	"""
 	route_estimate_time : Estimate the travel time for a specific route with optional stops.    
@@ -25,7 +25,7 @@ def route_estimate_time(start_location:str, end_location:str, stops:List[str]=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_check_case(case_id:int, closed_status:bool):
 	"""
 	lawsuit_check_case : Verify the details of a lawsuit case and check its status using case ID.    

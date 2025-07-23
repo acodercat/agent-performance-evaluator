@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_prep_time(recipe:str):
 	"""
 	recipe_prep_time : Calculate the estimated preparation and cooking time for a specified recipe.    
@@ -10,7 +10,7 @@ def recipe_prep_time(recipe:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_nutrition_info(recipe:str):
 	"""
 	recipe_nutrition_info : Provide detailed nutritional information for a specified recipe.    
@@ -22,7 +22,7 @@ def recipe_nutrition_info(recipe:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_search(ingredient:str, dietary_requirements:List[str], isHomemade:bool):
 	"""
 	recipe_search : Search for a recipe based on a particular ingredient or dietary requirement.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def public_library_find_nearby(location:str, facilities:List[str]):
 	"""
 	public_library_find_nearby : Locate nearby public libraries based on specific criteria like English fiction availability and Wi-Fi.    
@@ -11,7 +11,7 @@ def public_library_find_nearby(location:str, facilities:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
@@ -25,7 +25,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	"""
 	law_case_search_find_historical : Search for a historical law case based on specific criteria like the subject and year.    
@@ -39,7 +39,7 @@ def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends_paid:int=None):
 	"""
 	calculate_return_on_equity : Calculate a company's return on equity based on its net income, shareholder's equity, and dividends paid.    

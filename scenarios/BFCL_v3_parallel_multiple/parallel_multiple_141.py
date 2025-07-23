@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cellbio_get_proteins(cell_compartment:str, include_description:bool=False):
 	"""
 	cellbio_get_proteins : Get the list of proteins in a specific cell compartment.    
@@ -11,7 +11,7 @@ def cellbio_get_proteins(cell_compartment:str, include_description:bool=False):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
 	"""
 	mutation_type_find : Finds the type of a genetic mutation based on its SNP (Single Nucleotide Polymorphism) ID.    
@@ -24,7 +24,7 @@ def mutation_type_find(snp_id:str, species:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_exhibition(location:str, art_form:str, month:str, user_ratings:str=None):
 	"""
 	find_exhibition : Locate the most popular exhibitions based on criteria like location, time, art form, and user ratings.    

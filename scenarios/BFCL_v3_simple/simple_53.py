@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
 	"""
 	fetch_DNA_sequence : Retrieve the sequence of a DNA molecule with the given id from a public database.    

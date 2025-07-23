@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_search(location:str, cuisine:str, rating:float=None):
 	"""
 	restaurant_search : Find a restaurant in a specified location based on the cuisine and ratings.    
@@ -12,7 +12,7 @@ def restaurant_search(location:str, cuisine:str, rating:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_search(_from:str, to:str, type:str):
 	"""
 	flight_search : Find flights between two cities.    

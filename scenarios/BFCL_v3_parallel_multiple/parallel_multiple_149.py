@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
 	"""
 	hotel_booking : Books a hotel room given the location, room type, stay duration and any additional preferences.    
@@ -14,7 +14,7 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
 	soccer_get_last_match : Retrieve the details of the last match played by a specified soccer club.    
@@ -27,7 +27,7 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_BMI(weight_kg:int, height_m:float):
 	"""
 	calculate_BMI : Calculate the Body Mass Index (BMI) given a person's weight and height.    

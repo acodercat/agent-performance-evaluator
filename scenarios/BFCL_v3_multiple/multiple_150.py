@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electrostatic_potential(charge1:float, charge2:float, distance:float, constant:float=None):
 	"""
 	calculate_electrostatic_potential : Calculate the electrostatic potential between two charged bodies using the principle of Coulomb's Law.    
@@ -13,7 +13,7 @@ def calculate_electrostatic_potential(charge1:float, charge2:float, distance:flo
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_neuronal_activity(input_synaptic_rate:int, decay_rate:float, weight:float=None):
 	"""
 	calculate_neuronal_activity : Calculate the neuronal activity (rate of firing) based on a given input synaptic rate, weight of inputs, and decay rate. Higher input or weight increases firing rate and higher decay rate decreases it.    
@@ -27,7 +27,7 @@ def calculate_neuronal_activity(input_synaptic_rate:int, decay_rate:float, weigh
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:float, time:int, acceleration:float=0):
 	"""
 	calculate_displacement : Calculates the displacement of an object in motion given initial velocity, time, and acceleration.    
@@ -41,7 +41,7 @@ def calculate_displacement(initial_velocity:float, time:int, acceleration:float=
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
 	"""
 	grocery_store_find_best : Find the closest high-rated grocery stores based on certain product availability.    

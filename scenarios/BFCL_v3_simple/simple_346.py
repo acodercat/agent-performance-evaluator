@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	"""
 	get_collectables_in_season : Retrieve a list of collectable items in a specific game during a specified season.    

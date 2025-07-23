@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generate(key:str, tempo:int, time_signature:str=None):
 	"""
 	music_generate : Generate a piece of music given a key, tempo, and time signature.    
@@ -12,7 +12,7 @@ def music_generate(key:str, tempo:int, time_signature:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def audio_generate(frequency:float, amplitude:float, duration:int=None):
 	"""
 	audio_generate : Generate an audio signal given a frequency, amplitude, and duration.    

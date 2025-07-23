@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_latest_court_case(company1:str, company2:str, country:str='USA'):
 	"""
 	find_latest_court_case : Find the latest court case between two companies.    

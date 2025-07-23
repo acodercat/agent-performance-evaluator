@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_search(ingredients:List[str], calories:int, meal:str=None):
 	"""
 	restaurant_search : Searches for restaurants based on a list of preferred ingredients and maximum calorie count.    
@@ -12,7 +12,7 @@ def restaurant_search(ingredients:List[str], calories:int, meal:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def ingredient_replace(original_ingredient:str, replacement_ingredient:str, calories:int):
 	"""
 	ingredient_replace : Replaces an ingredient in a recipe with a substitute, keeping the calories below a certain number.    
@@ -26,7 +26,7 @@ def ingredient_replace(original_ingredient:str, replacement_ingredient:str, calo
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_search(ingredients:List[str], calories:int, meal:str=None):
 	"""
 	recipe_search : Searches for recipes based on a list of ingredients and a maximum caloric value.    

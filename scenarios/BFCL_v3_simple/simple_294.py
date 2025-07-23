@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generation_create_chord_progression(key:str, chords:int, progression_type:str=None):
 	"""
 	music_generation_create_chord_progression : Create a chord progression in a specific key and number of chords.    

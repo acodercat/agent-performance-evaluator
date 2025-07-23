@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def streaming_services_shows_list_and_ratings(streaming_service:str, show_list:List[str], sort_by_rating:bool=None):
 	"""
 	streaming_services_shows_list_and_ratings : Get a list of shows and their ratings on specific streaming services.    

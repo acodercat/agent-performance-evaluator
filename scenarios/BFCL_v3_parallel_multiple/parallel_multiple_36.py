@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def euro_history_treaty_info(treaty_name:str, info_requested:List[str]):
 	"""
 	euro_history_treaty_info : Retrieve specific information about a signed European treaty.    
@@ -11,7 +11,7 @@ def euro_history_treaty_info(treaty_name:str, info_requested:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def euro_history_battle_details(battle_name:str, specific_info:List[str]):
 	"""
 	euro_history_battle_details : Retrieve detailed information about a specific European historical battle.    

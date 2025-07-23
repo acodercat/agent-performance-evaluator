@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def scienceFacts_getCharge(particle:str, unit:str):
 	"""
 	scienceFacts_getCharge : Fetch the electric charge of an atomic particle    
@@ -11,7 +11,7 @@ def scienceFacts_getCharge(particle:str, unit:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def scienceFacts_getWeight(particle:str, unit:str):
 	"""
 	scienceFacts_getWeight : Fetch the atomic weight of an atomic particle    
@@ -24,7 +24,7 @@ def scienceFacts_getWeight(particle:str, unit:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def scienceFacts_getDiameter(particle:str, unit:str):
 	"""
 	scienceFacts_getDiameter : Fetch the diameter of an atomic particle    

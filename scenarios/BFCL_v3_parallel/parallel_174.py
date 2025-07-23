@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_investment(purchase_price:int, sale_price:int, dividend:int=0):
 	"""
 	calculate_return_on_investment : Calculate the return on investment for a given stock based on its purchase price, sale price, and any dividends received.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_ratio:bool=None):
 	"""
 	probability_of_event : Calculates the probability of an event.    

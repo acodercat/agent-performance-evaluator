@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find_nearby(location:str, dietary_preference:List[str]=None):
 	"""
 	restaurant_find_nearby : Locate nearby restaurants based on specific dietary preferences.    
@@ -11,7 +11,7 @@ def restaurant_find_nearby(location:str, dietary_preference:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None):
 	"""
 	market_performance_get_data : Retrieve the market performance data for specified indexes over a specified time period.    
@@ -25,7 +25,7 @@ def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None)
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_match_results(team1:str, team2:str, season:str=None):
 	"""
 	sports_match_results : Returns the results of a given match between two teams.    

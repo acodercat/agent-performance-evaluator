@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_temperature(mass1:int, temperature1:int, mass2:int, temperature2:int, specific_heat_capacity:float=None):
 	"""
 	calculate_final_temperature : Calculates the final equilibrium temperature after mixing two bodies with different masses and temperatures    

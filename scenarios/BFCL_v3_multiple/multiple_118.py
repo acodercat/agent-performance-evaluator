@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_book(departure_location:str, destination_location:str, date:str, time:str=None, direct_flight:bool=None):
 	"""
 	flight_book : Book a direct flight for a specific date and time from departure location to destination location.    
@@ -14,7 +14,7 @@ def flight_book(departure_location:str, destination_location:str, date:str, time
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None):
 	"""
 	lawsuits_search : Search for lawsuits against a specific company within a specific time and location.    
@@ -29,7 +29,7 @@ def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def imdb_find_movies_by_actor(actor_name:str, year:int, category:str=None):
 	"""
 	imdb_find_movies_by_actor : Searches the database to find all movies by a specific actor within a certain year.    

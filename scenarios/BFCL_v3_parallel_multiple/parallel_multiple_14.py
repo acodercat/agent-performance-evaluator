@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def crop_yield_get_history(country:str, crop:str, years:int):
 	"""
 	crop_yield_get_history : Retrieve historical crop yield data of a specific crop in a given country.    
@@ -12,7 +12,7 @@ def crop_yield_get_history(country:str, crop:str, years:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def animal_population_get_history(country:str, species:str, years:int):
 	"""
 	animal_population_get_history : Retrieve historical population size of a specific species in a given country.    
@@ -26,7 +26,7 @@ def animal_population_get_history(country:str, species:str, years:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def animal_population_get_projection(country:str, species:str, years:int):
 	"""
 	animal_population_get_projection : Predict the future population size of a specific species in a given country.    

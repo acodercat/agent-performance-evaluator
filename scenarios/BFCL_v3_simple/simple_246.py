@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	"""
 	science_history_get_discovery_details : Retrieve the details of a scientific discovery based on the discovery name.    

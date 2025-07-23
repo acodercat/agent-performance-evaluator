@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def linear_regression_fit(x:List[float], y:List[float], return_residuals:bool='false'):
 	"""
 	linear_regression_fit : Fit a linear regression model to data.    
@@ -12,7 +12,7 @@ def linear_regression_fit(x:List[float], y:List[float], return_residuals:bool='f
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def data_loading(file_path:str, delimiter:str=','):
 	"""
 	data_loading : Load data from a csv file into a data structure.    

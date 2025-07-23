@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_room_pricing_get(hotelName:str, roomType:str, nights:int):
 	"""
 	hotel_room_pricing_get : Get pricing for a specific type of hotel room for specified number of nights.    
@@ -12,7 +12,7 @@ def hotel_room_pricing_get(hotelName:str, roomType:str, nights:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def car_rental_pricing_get(rentalCompany:str, carType:str, days:int):
 	"""
 	car_rental_pricing_get : Get pricing for a specific type of rental car for a specified number of days.    
@@ -26,7 +26,7 @@ def car_rental_pricing_get(rentalCompany:str, carType:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_ticket_pricing_get(airline:str, flightClass:str, passengers:int):
 	"""
 	flight_ticket_pricing_get : Get pricing for a specific type of flight ticket for specified number of passengers.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def protein_info_get_sequence_and_3D(protein_name:str, model_3d:bool=True):
 	"""
 	protein_info_get_sequence_and_3D : Retrive the sequence and 3D models of proteins.    

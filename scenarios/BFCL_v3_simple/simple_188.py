@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_humidity_forecast(location:str, days:int, min_humidity:int=None):
 	"""
 	weather_humidity_forecast : Retrieve a humidity forecast for a specific location and time frame.    

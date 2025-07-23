@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def paint_color_trends(room:str, period:str=None):
 	"""
 	paint_color_trends : Find the most popular paint color for a specific area in the home.    
@@ -11,7 +11,7 @@ def paint_color_trends(room:str, period:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
@@ -24,7 +24,7 @@ def weather_forecast(location:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def house_price_trends(location:str, period:str=None):
 	"""
 	house_price_trends : Find the average house price in a specific area.    

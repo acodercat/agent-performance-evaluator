@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def games_update_find(game:str, platform:str, region:str=None):
 	"""
 	games_update_find : Find the latest updates or patches for a specific game on a specified gaming platform.    
@@ -12,7 +12,7 @@ def games_update_find(game:str, platform:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def games_reviews_find(game:str, region:str=None):
 	"""
 	games_reviews_find : Find reviews for a specific game.    
@@ -25,7 +25,7 @@ def games_reviews_find(game:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def games_price_find(game:str, platform:str):
 	"""
 	games_price_find : Find the current price for a specific game on a specified gaming platform.    

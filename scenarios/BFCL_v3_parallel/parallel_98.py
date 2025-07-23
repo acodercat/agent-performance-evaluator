@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electric_field_strength(charge:int, distance:float, medium:str=None):
 	"""
 	calculate_electric_field_strength : Calculate the electric field strength at a certain distance from a point charge.    

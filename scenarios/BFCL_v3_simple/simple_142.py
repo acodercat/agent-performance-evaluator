@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company_name:str, date:str, exchange:str=None):
 	"""
 	get_stock_price : Get the closing stock price for a specific company on a specified date.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def criminal_record_get_offense_nature(criminal_name:str, optional_param:bool=None):
 	"""
 	criminal_record_get_offense_nature : Get details about the nature of offenses committed by a criminal.    
@@ -11,7 +11,7 @@ def criminal_record_get_offense_nature(criminal_name:str, optional_param:bool=No
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def criminal_record_get_status(criminal_name:str, region:str):
 	"""
 	criminal_record_get_status : Find the conviction status of a criminal in a specified region.    

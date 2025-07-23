@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    
@@ -12,7 +12,7 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	"""
 	t_test : Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
@@ -26,7 +26,7 @@ def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_triangle(base:float, height:float, unit:str=None):
 	"""
 	geometry_area_triangle : Calculate the area of a triangle.    

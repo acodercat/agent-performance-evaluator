@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def environmental_data_air_quality_index(location:str, days:int=None):
 	"""
 	environmental_data_air_quality_index : Retrieves Air Quality Index (AQI) for specified location over a number of days.    

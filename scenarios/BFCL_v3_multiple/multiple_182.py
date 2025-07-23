@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geo_distance_calculate(start_location:str, end_location:str, units:str=None):
 	"""
 	geo_distance_calculate : Calculate the geographic distance between two given locations.    
@@ -12,7 +12,7 @@ def geo_distance_calculate(start_location:str, end_location:str, units:str=None)
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
 	"""
 	multiplayer_game_finder : Locate multiplayer games that match specific criteria such as rating, platform compatibility, genre, etc.    
@@ -26,7 +26,7 @@ def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	"""
 	send_email : Send an email to the specified email address.    
@@ -42,7 +42,7 @@ def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_area_under_curve(function:str, interval:List[float], method:str=None):
 	"""
 	calculate_area_under_curve : Calculate the area under a mathematical function within a given interval.    

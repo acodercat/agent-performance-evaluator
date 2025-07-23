@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def law_crimes_search(crime:str, location:str, year:int):
 	"""
 	law_crimes_search : Locate individuals based on their crime conviction and location.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_drawn:int=1):
 	"""
 	card_game_probability_calculate : Calculate the probability of drawing a certain card or suit from a deck of cards.    
@@ -12,7 +12,7 @@ def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_dr
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str=None):
 	"""
 	find_exhibition : Locate the most popular exhibitions based on criteria like location, time, art form, and user ratings.    
@@ -27,7 +27,7 @@ def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_info(artist_name:str, year:int=None, detail:bool=None):
 	"""
 	get_sculpture_info : Retrieves the most recent artwork by a specified artist with its detailed description.    

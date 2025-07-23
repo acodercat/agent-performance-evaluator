@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	"""
 	average_batting_score : Get the average batting score of a cricketer for specified past matches.    
@@ -12,7 +12,7 @@ def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_investment(purchase_price:float, sale_price:float, dividend:float=0):
 	"""
 	calculate_return_on_investment : Calculate the return on investment for a given stock based on its purchase price, sale price, and any dividends received.    
@@ -26,7 +26,7 @@ def calculate_return_on_investment(purchase_price:float, sale_price:float, divid
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def database_query(table:str, conditions:List[Dict[str, str]]):
 	"""
 	database_query : Query the database based on certain conditions.    
@@ -39,7 +39,7 @@ def database_query(table:str, conditions:List[Dict[str, str]]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_ratio:bool=None):
 	"""
 	probability_of_event : Calculates the probability of an event.    

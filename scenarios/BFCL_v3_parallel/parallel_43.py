@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_finder(location:str, music_genre:str, time_period:int=30):
 	"""
 	concert_finder : Locate upcoming concerts based on music genre in specified city and state.    

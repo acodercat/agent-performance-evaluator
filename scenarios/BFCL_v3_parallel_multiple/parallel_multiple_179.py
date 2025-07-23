@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
 	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
@@ -12,7 +12,7 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
 	soccer_get_last_match : Retrieve the details of the last match played by a specified soccer club.    
@@ -25,7 +25,7 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def US_president_in_year(year:int, full_name:bool=True):
 	"""
 	US_president_in_year : Retrieve the name of the U.S. president in a given year.    
@@ -38,7 +38,7 @@ def US_president_in_year(year:int, full_name:bool=True):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def update_user_info(user_id:int, update_info:Dict[str, str], database:str='CustomerInfo'):
 	"""
 	update_user_info : Update user information in the database.    

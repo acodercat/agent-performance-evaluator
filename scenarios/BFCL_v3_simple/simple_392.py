@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def latest_exchange_rate(source_currency:str, target_currency:str, amount:float=None):
 	"""
 	latest_exchange_rate : Retrieve the latest exchange rate between two specified currencies.    

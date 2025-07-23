@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def temperature_converter_convert(temperature:float, from_unit:str, to_unit:str, round_to:int=None):
 	"""
 	temperature_converter_convert : Convert a temperature from one unit to another.    
@@ -13,7 +13,7 @@ def temperature_converter_convert(temperature:float, from_unit:str, to_unit:str,
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def energy_calculator_calculate(substance:str, mass:float, initial_temperature:float, final_temperature:float, unit:str=None):
 	"""
 	energy_calculator_calculate : Calculate the energy needed to heat a substance from an initial to a final temperature.    

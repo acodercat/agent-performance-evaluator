@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, region:str=None):
 	"""
 	social_media_analytics_most_followed : Find the most followed Twitter user related to certain topics.    
@@ -12,7 +12,7 @@ def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, r
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
 	"""
 	calculate_probability : Calculate the probability of an event.    
@@ -26,7 +26,7 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_info_get(location:str, date:str, genre:str):
 	"""
 	concert_info_get : Retrieve information about concerts based on specific genre, location and date.    

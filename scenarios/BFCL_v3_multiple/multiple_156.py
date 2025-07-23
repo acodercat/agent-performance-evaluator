@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	"""
 	historical_contrib_get_contrib : Retrieve historical contribution made by a scientist on a specific date.    
@@ -12,7 +12,7 @@ def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_calculate_note_duration(first_note_frequency:float, second_note_frequency:float, tempo:int=None):
 	"""
 	music_calculate_note_duration : Calculate the duration between two notes based on their frequencies and harmonic rhythm.    
@@ -26,7 +26,7 @@ def music_calculate_note_duration(first_note_frequency:float, second_note_freque
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_gcd(num1:int, num2:int):
 	"""
 	math_gcd : Calculate the greatest common divisor of two integers.    

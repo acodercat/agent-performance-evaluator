@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def map_routing_fastest_route(start_location:str, end_location:str, avoid_tolls:bool=None):
 	"""
 	map_routing_fastest_route : Finds the fastest route from one location to another, with an option to avoid toll roads.    

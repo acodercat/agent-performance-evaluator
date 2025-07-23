@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def prob_dist_binomial(trials:int, successes:int, p:float=None):
 	"""
 	prob_dist_binomial : Compute the probability of having 'success' outcome from binomial distribution.    
@@ -12,7 +12,7 @@ def prob_dist_binomial(trials:int, successes:int, p:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
 	"""
 	musical_scale : Get the musical scale of a specific key in music theory.    
@@ -25,7 +25,7 @@ def musical_scale(key:str, scale_type:str='major'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_paint_needed(coverage_rate:int, length:int, height:int):
 	"""
 	calculate_paint_needed : Calculate the amount of paint needed to cover a surface area based on the coverage rate of a specific paint brand.    

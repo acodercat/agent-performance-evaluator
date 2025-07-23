@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_finder(city:str, cuisine:str, diet:str=None):
 	"""
 	restaurant_finder : Locate restaurants based on certain criteria such as cuisine, city, and dietary preferences.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_speed(initial_velocity:int, height:int, gravity:float=None):
 	"""
 	calculate_final_speed : Calculate the final speed of an object dropped from a certain height without air resistance.    

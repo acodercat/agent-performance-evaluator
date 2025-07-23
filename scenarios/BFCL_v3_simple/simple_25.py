@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_velocity(height:int, initial_velocity:int=None, gravity:float=None):
 	"""
 	calculate_final_velocity : Calculate the final velocity of a free falling object given the height it's dropped from, the initial velocity and acceleration due to gravity. Ignore air resistance.    

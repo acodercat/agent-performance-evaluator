@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def air_quality(location:str, date:str):
 	"""
 	air_quality : Retrieve the air quality index for a specific location.    
@@ -11,7 +11,7 @@ def air_quality(location:str, date:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_ranking(team:str, league:str, season:int=None):
 	"""
 	sports_ranking : Fetch the ranking of a specific sports team in a specific league    

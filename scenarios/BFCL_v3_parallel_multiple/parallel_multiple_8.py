@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_distance_traveled(initial_velocity:float, acceleration:float, time:float):
 	"""
 	kinematics_distance_traveled : Computes the total distance covered by a moving object given initial velocity, acceleration and time.    
@@ -12,7 +12,7 @@ def kinematics_distance_traveled(initial_velocity:float, acceleration:float, tim
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_final_velocity(initial_velocity:float, acceleration:float, time:float):
 	"""
 	kinematics_final_velocity : Calculates the final velocity of a moving object given initial velocity, acceleration and time.    

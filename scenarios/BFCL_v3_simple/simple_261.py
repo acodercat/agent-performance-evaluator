@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def draw_rectangle(width:int, height:int, color:str=None):
 	"""
 	draw_rectangle : Draw a rectangle given its width and height.    

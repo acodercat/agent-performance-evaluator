@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_density(country:str, year:str, population:int, land_area:float):
 	"""
 	calculate_density : Calculate the population density of a specific country in a specific year.    
@@ -13,7 +13,7 @@ def calculate_density(country:str, year:str, population:int, land_area:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_directions(start_location:str, end_location:str, route_type:str=None):
 	"""
 	get_directions : Retrieve directions from one location to another.    
@@ -27,7 +27,7 @@ def get_directions(start_location:str, end_location:str, route_type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:int=None):
 	"""
 	music_generator_generate_melody : Generate a melody based on certain musical parameters.    

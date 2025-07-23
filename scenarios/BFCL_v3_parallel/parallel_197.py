@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_info(case_number:str, year:int=2000, location:str='New York'):
 	"""
 	lawsuit_info : Retrieves details of a lawsuit given a case number    

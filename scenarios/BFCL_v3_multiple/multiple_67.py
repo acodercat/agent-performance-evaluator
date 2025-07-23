@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def translate(text:str, source_language:str, target_language:str):
 	"""
 	translate : Translate text from a specified source language to a specified target language.    
@@ -12,7 +12,7 @@ def translate(text:str, source_language:str, target_language:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sentiment_analysis(text:str):
 	"""
 	sentiment_analysis : Analyze the sentiment of a specified text.    
@@ -24,7 +24,7 @@ def sentiment_analysis(text:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def word_count(text:str):
 	"""
 	word_count : Count the number of words in the given text.    

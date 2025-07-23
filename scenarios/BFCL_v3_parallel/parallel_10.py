@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_pythagoras(a:int, b:int):
 	"""
 	math_pythagoras : Calculates the hypotenuse of a right triangle based on the lengths of the other two sides.    

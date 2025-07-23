@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def religious_history_get_papal_biography(papal_name:str, include_contributions:bool):
 	"""
 	religious_history_get_papal_biography : Retrieve the biography and main religious and historical contributions of a Pope based on his papal name.    

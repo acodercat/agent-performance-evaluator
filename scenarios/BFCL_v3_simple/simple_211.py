@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	"""
 	send_email : Send an email to the specified email address.    

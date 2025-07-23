@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_lcm(num1:int, num2:int, method:str='standard'):
 	"""
 	calculate_lcm : Calculate the least common multiple (lcm) between two integers.    
@@ -12,7 +12,7 @@ def calculate_lcm(num1:int, num2:int, method:str='standard'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_gcd(num1:int, num2:int, algorithm:str='euclidean'):
 	"""
 	calculate_gcd : Calculate the greatest common divisor (gcd) between two integers.    

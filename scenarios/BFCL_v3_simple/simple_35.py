@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
 	"""
 	vegan_restaurant_find_nearby : Locate nearby vegan restaurants based on specific criteria like operating hours.    

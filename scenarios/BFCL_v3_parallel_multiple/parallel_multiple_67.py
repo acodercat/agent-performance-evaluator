@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_roots_polynomial(coefficients:List[float], degree:float=4):
 	"""
 	math_roots_polynomial : Calculate the roots of a polynomial equation.    
@@ -11,7 +11,7 @@ def math_roots_polynomial(coefficients:List[float], degree:float=4):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_roots_cubic(a:float, b:float, c:float, d:float):
 	"""
 	math_roots_cubic : Calculate the roots of a cubic equation.    
@@ -26,7 +26,7 @@ def math_roots_cubic(a:float, b:float, c:float, d:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_roots_quadratic(a:float, b:float, c:float):
 	"""
 	math_roots_quadratic : Calculate the roots of a quadratic equation.    

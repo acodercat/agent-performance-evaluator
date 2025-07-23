@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def BoardGameGeek_recommend(numPlayers:int, category:str, difficulty:str=None):
 	"""
 	BoardGameGeek_recommend : Generate game recommendation from BoardGameGeek store based on number of players and category.    
@@ -12,7 +12,7 @@ def BoardGameGeek_recommend(numPlayers:int, category:str, difficulty:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def AmazonGameStore_recommend(numOfPlayers:int, category:str, priceRange:str=None):
 	"""
 	AmazonGameStore_recommend : Generate game recommendation from Amazon Game Store based on number of players and category.    

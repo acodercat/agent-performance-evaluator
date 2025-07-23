@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def park_information(park_name:str, information:List[str]):
 	"""
 	park_information : Retrieve the basic information such as elevation and area of a national park.    
@@ -11,7 +11,7 @@ def park_information(park_name:str, information:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_get_president(event:str, year:int):
 	"""
 	us_history_get_president : Retrieve the U.S. president during a specific event in American history.    
@@ -24,7 +24,7 @@ def us_history_get_president(event:str, year:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
 	monopoly_odds_calculator : Calculates the probability of rolling a certain sum with two dice, commonly used in board game like Monopoly.    
@@ -38,7 +38,7 @@ def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_stat_get_player_stats(player_name:str, season:str, league:str=None):
 	"""
 	soccer_stat_get_player_stats : Retrieve soccer player statistics for a given season.    

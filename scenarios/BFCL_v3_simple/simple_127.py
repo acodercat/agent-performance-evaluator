@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_NPV(cash_flows:List[int], discount_rate:float, initial_investment:int=None):
 	"""
 	calculate_NPV : Calculate the NPV (Net Present Value) of an investment, considering a series of future cash flows, discount rate, and an initial investment.    

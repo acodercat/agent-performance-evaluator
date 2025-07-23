@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
 	locate_tallest_mountains : Find the tallest mountains within a specified radius of a location.    
@@ -12,7 +12,7 @@ def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electric_field(charge:float, distance:float, permitivity:float=None):
 	"""
 	calculate_electric_field : Calculate the electric field produced by a charge at a certain distance.    
@@ -26,7 +26,7 @@ def calculate_electric_field(charge:float, distance:float, permitivity:float=Non
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	calculate_genotype_frequency : Calculate the frequency of homozygous dominant genotype based on the allele frequency using Hardy Weinberg Principle.    
@@ -39,7 +39,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
 	"""
 	cellbio_get_proteins : Get the list of proteins in a specific cell compartment.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_timeline(event:str, region:str='Europe'):
 	"""
 	history_get_timeline : Retrieve the timeline for a specific historical event    
@@ -11,7 +11,7 @@ def history_get_timeline(event:str, region:str='Europe'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_important_figures(event:str, number:int=1):
 	"""
 	history_get_important_figures : Retrieve array of important figures involved during a specific historical event.    

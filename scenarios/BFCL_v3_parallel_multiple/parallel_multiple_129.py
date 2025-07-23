@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def unit_conversion_convert(value:int, from_unit:str, to_unit:str):
 	"""
 	unit_conversion_convert : Converts a value from one unit to another.    
@@ -12,7 +12,7 @@ def unit_conversion_convert(value:int, from_unit:str, to_unit:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_exchange_convert(amount:int, from_currency:str, to_currency:str, live_conversion:bool=None):
 	"""
 	currency_exchange_convert : Converts a value from one currency to another using the latest exchange rate.    

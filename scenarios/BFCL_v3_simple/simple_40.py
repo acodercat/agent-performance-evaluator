@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field(current:int, radius:int, permeability:float=None):
 	"""
 	calculate_magnetic_field : Calculate the magnetic field produced at the center of a circular loop carrying current.    

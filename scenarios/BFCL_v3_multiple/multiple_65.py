@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def timezones_get_difference(city1:str, city2:str):
 	"""
 	timezones_get_difference : Find the time difference between two cities.    
@@ -11,7 +11,7 @@ def timezones_get_difference(city1:str, city2:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geodistance_find(origin:str, destination:str, unit:str='miles'):
 	"""
 	geodistance_find : Find the distance between two cities on the globe.    
@@ -25,7 +25,7 @@ def geodistance_find(origin:str, destination:str, unit:str='miles'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flights_search(from_city:str, to_city:str, date:str='next monday'):
 	"""
 	flights_search : Find flights between two cities.    

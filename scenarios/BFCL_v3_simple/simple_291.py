@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:int=None):
 	"""
 	music_generator_generate_melody : Generate a melody based on certain musical parameters.    

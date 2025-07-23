@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_top_cases(field_of_law:str, top_number:int, country:str=None):
 	"""
 	get_top_cases : Retrieve a list of the most influential or landmark cases in a specific field of law.    
@@ -12,7 +12,7 @@ def get_top_cases(field_of_law:str, top_number:int, country:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def math_gcd(num1:int, num2:int):
 	"""
 	math_gcd : Calculate the greatest common divisor of two integers.    

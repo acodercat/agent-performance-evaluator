@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def statistics_variance(data:List[int], population:bool=True):
 	"""
 	statistics_variance : This function calculates the variance of a given set of numbers.    
@@ -11,7 +11,7 @@ def statistics_variance(data:List[int], population:bool=True):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def statistics_median(data:List[int]):
 	"""
 	statistics_median : This function returns the median of the data set provided.    
@@ -23,7 +23,7 @@ def statistics_median(data:List[int]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def statistics_mode(data:List[int]):
 	"""
 	statistics_mode : This function determines the mode of a list of numbers.    

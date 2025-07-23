@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def getTopGoalScorers(competition:str, team:str, number:int):
 	"""
 	getTopGoalScorers : Returns the top goal scorers for a specific competition and team    
@@ -12,7 +12,7 @@ def getTopGoalScorers(competition:str, team:str, number:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def getTopAssists(competition:str, team:str, number:int):
 	"""
 	getTopAssists : Returns the top assist makers for a specific competition and team    

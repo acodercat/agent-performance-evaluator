@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:int, time:int, acceleration:float=0):
 	"""
 	calculate_displacement : Calculates the displacement of an object in motion given initial velocity, time, and acceleration.    
@@ -12,7 +12,7 @@ def calculate_displacement(initial_velocity:int, time:int, acceleration:float=0)
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
 	"""
 	poker_game_winner : Identify the winner in a poker game based on the cards.    
@@ -26,7 +26,7 @@ def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
 	"""
 	musical_scale : Get the musical scale of a specific key in music theory.    

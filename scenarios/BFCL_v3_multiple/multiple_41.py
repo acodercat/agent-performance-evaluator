@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electric_field_calculate(Q:float, r:float):
 	"""
 	electric_field_calculate : Calculate the electric field based on the amount of charge and distance from the charge    
@@ -11,7 +11,7 @@ def electric_field_calculate(Q:float, r:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def magnetic_field_calculate(I:int, r:float):
 	"""
 	magnetic_field_calculate : Calculate the magnetic field based on the current flowing and the radial distance using Ampere’s law    
@@ -24,7 +24,7 @@ def magnetic_field_calculate(I:int, r:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def electric_force_calculate(Q1:float, Q2:float, r:float):
 	"""
 	electric_force_calculate : Calculate the electric force between two charges at a distance    

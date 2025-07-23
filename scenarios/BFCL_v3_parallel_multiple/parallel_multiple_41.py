@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def painting_create(shape:str, background_color:str, dimensions:List[int]):
 	"""
 	painting_create : Creates a new painting with specified parameters    
@@ -12,7 +12,7 @@ def painting_create(shape:str, background_color:str, dimensions:List[int]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def display_set_screen_brightness(percentage:int, duration:int):
 	"""
 	display_set_screen_brightness : Sets the screen brightness for viewing the painting    
@@ -25,7 +25,7 @@ def display_set_screen_brightness(percentage:int, duration:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def painting_display(time:int):
 	"""
 	painting_display : Displays a created painting for a specific amount of time    

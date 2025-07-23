@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_vegan_recipe(dish_type:str, cooking_time:int, ingredient_preference:List[str]=None):
 	"""
 	get_vegan_recipe : Retrieve a vegan soup recipe based on the provided cooking time.    

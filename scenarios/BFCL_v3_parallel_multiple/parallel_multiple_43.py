@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_details(museum_location:str, sculpture_id:int):
 	"""
 	get_sculpture_details : Retrieves details of a sculpture, such as its material and size, from a museum database.    
@@ -11,7 +11,7 @@ def get_sculpture_details(museum_location:str, sculpture_id:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_artwork_price(museum_location:str, sculpture_material:str, sculpture_size:List[int]):
 	"""
 	get_artwork_price : Retrieves the price of a sculpture based on size and material.    

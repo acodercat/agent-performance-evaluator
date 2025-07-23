@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
 	find_recipe : Find a recipe based on the dietary restrictions, recipe type, and time constraints.    
@@ -12,7 +12,7 @@ def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	"""
 	science_history_get_discovery_details : Retrieve the details of a scientific discovery based on the discovery name.    

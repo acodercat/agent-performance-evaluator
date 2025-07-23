@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
 	locate_tallest_mountains : Find the tallest mountains within a specified radius of a location.    
@@ -12,7 +12,7 @@ def locate_tallest_mountains(location:str, radius:float, amount:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_entropy_change(initial_temp:float, final_temp:float, heat_capacity:float, isothermal:bool=None):
 	"""
 	calculate_entropy_change : Calculate the entropy change for an isothermal and reversible process.    
@@ -27,7 +27,7 @@ def calculate_entropy_change(initial_temp:float, final_temp:float, heat_capacity
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_event_date(event:str, location:str=None):
 	"""
 	get_event_date : Retrieve the date of a historical event.    

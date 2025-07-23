@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_search(location:str, time_frame:str, material:str=None):
 	"""
 	sculpture_search : Find sculptures based on location and a specific time frame.    

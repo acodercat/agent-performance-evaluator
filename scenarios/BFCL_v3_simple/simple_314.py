@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_celebrity_get_major_achievements(celebrity_name:str, sports:str=None, team:str=None):
 	"""
 	sports_celebrity_get_major_achievements : Returns a list of major achievements of a particular sports celebrity.    

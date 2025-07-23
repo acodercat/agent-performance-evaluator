@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_current_and_future_temperature(location:str, hours:int):
 	"""
 	get_current_and_future_temperature : Provides the current temperature and forecasts the temperature for the next few hours at a particular location.    

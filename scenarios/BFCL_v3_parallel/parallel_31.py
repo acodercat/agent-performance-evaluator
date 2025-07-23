@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_fact_fetch(event:str, depth:str='detailed', year:int=None):
 	"""
 	history_fact_fetch : Retrieve facts about historical events or documents    

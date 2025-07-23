@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def house_price_forecast(location:str, months:int, features:List[str]=None):
 	"""
 	house_price_forecast : Predict the house prices for a specific location and time frame.    
@@ -12,7 +12,7 @@ def house_price_forecast(location:str, months:int, features:List[str]=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
@@ -25,7 +25,7 @@ def weather_forecast(location:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_market_forecast(company:str, days:int):
 	"""
 	stock_market_forecast : Predict the stock prices for a specific company and time frame.    

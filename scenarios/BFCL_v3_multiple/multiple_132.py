@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
@@ -12,7 +12,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_calculate_future_value(initial_investment:int, rate_of_return:float, years:int, contribution:int=None):
 	"""
 	finance_calculate_future_value : Calculate the future value of an investment given an initial investment, annual rate of return, and a time frame.    
@@ -27,7 +27,7 @@ def finance_calculate_future_value(initial_investment:int, rate_of_return:float,
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def create_histogram(data:List[float], bins:int):
 	"""
 	create_histogram : Create a histogram based on provided data.    

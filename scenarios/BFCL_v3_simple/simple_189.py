@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_detailed(location:str, days:int, details:bool=False):
 	"""
 	weather_forecast_detailed : Retrieve a detailed weather forecast for a specific city like Boston and time frame.    

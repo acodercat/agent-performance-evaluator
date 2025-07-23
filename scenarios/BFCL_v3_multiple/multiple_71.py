@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_bureau_statistics(year:int, category:str):
 	"""
 	get_bureau_statistics : Retrieve statistical data for a specific year and statistical category    
@@ -11,7 +11,7 @@ def get_bureau_statistics(year:int, category:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_population(year:int, category:str):
 	"""
 	get_population : Retrieve population data for a specific year and population category    
@@ -24,7 +24,7 @@ def get_population(year:int, category:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_demographics(year:int, category:str):
 	"""
 	get_demographics : Retrieve demographic data for a specific year and demographic category    

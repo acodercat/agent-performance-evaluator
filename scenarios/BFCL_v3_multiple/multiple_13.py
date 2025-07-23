@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_product_price(company:str, product:str):
 	"""
 	corporate_finance_product_price : Fetch the current selling price of the product.    
@@ -11,7 +11,7 @@ def corporate_finance_product_price(company:str, product:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_revenue_forecast(company:str, product:str, sales_units_increase_percentage:int=None):
 	"""
 	corporate_finance_revenue_forecast : Estimate the revenue of a company by multiplying the sales units of the product with its selling price.    

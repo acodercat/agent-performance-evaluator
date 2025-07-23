@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_discoverer(discovery:str, detail:bool):
 	"""
 	get_discoverer : Get the person or team who made a particular scientific discovery    

@@ -194,6 +194,9 @@ def convert_schema_to_invocation(querry, answer, dataset):
             parameter_map = get_parameter_type_map(func_schema.get("parameters", {}))
 
             for param_name, param_details in func_schema.get("parameters", {}).get("properties", {}).items():
+                param_required = False
+                if param_name in func_schema["parameters"]["required"]:
+                    param_required = True
                 # 这里是关键点：输入格式没有提供参数的值
                 # 我们用一个占位符来表示这个值需要从 query 中提取
                 # if param_name=='func' or param_name=='function':
@@ -203,6 +206,7 @@ def convert_schema_to_invocation(querry, answer, dataset):
                     "name": param_name,
                     "value": answer_item["ground_truth"][0][function_name_answer][param_name], 
                     "type": format_type(parameter_map[param_name]),
+                    "required": param_required
                 })
         except Exception as e:
             print(f"{e}")
@@ -292,7 +296,7 @@ def generate_functions_from_json(data, output_filename):
             all_params = ", ".join(args + kwargs)
             func_description += "\n\t\"\"\"\n"
             # 写入函数定义
-            f.write("from typing import List, Dict, Any, Union, Tuple \n")
+            f.write("from typing import List, Dict, Any, Union, Tuple, Set \n")
             f.write(f"def {func_name}({all_params}):\n")
             f.write(f"{func_description}")
             f.write("\t" + "pass\n\n")

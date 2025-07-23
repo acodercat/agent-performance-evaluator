@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def linear_regression(independent_var:List[str], dependent_var:str, forecast_period:int=None):
 	"""
 	linear_regression : Applies linear regression to a given set of independent variables to make a prediction.    
@@ -12,7 +12,7 @@ def linear_regression(independent_var:List[str], dependent_var:str, forecast_per
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def random_forest_regression(independent_var:List[str], dependent_var:str, n_estimators:int=None, forecast_period:int=None):
 	"""
 	random_forest_regression : Applies Random Forest Regression to a given set of independent variables to make a prediction.    

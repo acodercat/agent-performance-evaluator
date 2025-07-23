@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None):
 	"""
 	market_performance_get_data : Retrieve the market performance data for specified indexes over a specified time period.    

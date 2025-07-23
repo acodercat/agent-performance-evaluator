@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def unit_conversion_convert(value:float, from_unit:str, to_unit:str):
 	"""
 	unit_conversion_convert : Convert a value from one unit to another.    
@@ -12,7 +12,7 @@ def unit_conversion_convert(value:float, from_unit:str, to_unit:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion(amount:float, from_currency:str, to_currency:str):
 	"""
 	currency_conversion : Convert a value from one currency to another.    
@@ -26,7 +26,7 @@ def currency_conversion(amount:float, from_currency:str, to_currency:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_weight_in_space(weight_earth_kg:int, planet:str):
 	"""
 	calculate_weight_in_space : Calculate your weight on different planets given your weight on earth    

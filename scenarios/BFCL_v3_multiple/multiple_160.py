@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_zodiac_compatibility(sign1:str, sign2:str, scale:str=None):
 	"""
 	get_zodiac_compatibility : Retrieve the compatibility score between two Zodiac signs.    
@@ -12,7 +12,7 @@ def get_zodiac_compatibility(sign1:str, sign2:str, scale:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def local_nursery_find(location:str, plant_types:List[str]):
 	"""
 	local_nursery_find : Locate local nurseries based on location and plant types availability.    
@@ -25,7 +25,7 @@ def local_nursery_find(location:str, plant_types:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_info(artist_name:str, detail:bool=None):
 	"""
 	get_sculpture_info : Retrieves the most recent artwork by a specified artist with its detailed description.    
@@ -38,7 +38,7 @@ def get_sculpture_info(artist_name:str, detail:bool=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def monarch_getMonarchOfYear(location:str, year:int, fullName:bool='false'):
 	"""
 	monarch_getMonarchOfYear : Retrieve the monarch of a specific location during a specified year.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_ranking(team:str, league:str, season:int=None):
 	"""
 	sports_ranking : Fetch the ranking of a specific sports team in a specific league    
@@ -12,7 +12,7 @@ def sports_ranking(team:str, league:str, season:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_compound_interest(principle:float, interest_rate:float, time:int, compounds_per_year:int=None):
 	"""
 	calculate_compound_interest : Calculates the compound interest of an investment over a given time period.    

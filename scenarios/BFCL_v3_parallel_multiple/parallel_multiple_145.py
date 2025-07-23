@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_rating(player_name:str, variant:str=None):
 	"""
 	chess_rating : Fetches the current chess rating of a given player    
@@ -11,7 +11,7 @@ def chess_rating(player_name:str, variant:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_fitness(trait_values:List[float], trait_contributions:List[float]):
 	"""
 	calculate_fitness : Calculate the expected evolutionary fitness of a creature based on the individual values and contributions of its traits.    
@@ -24,7 +24,7 @@ def calculate_fitness(trait_values:List[float], trait_contributions:List[float])
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
 	"""
 	lawyer_find_nearby : Locate nearby lawyers based on specific criteria like specialty, fee per hour and city.    
@@ -38,7 +38,7 @@ def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	"""
 	walmart_purchase : Retrieve information of items from Walmart including stock availability.    

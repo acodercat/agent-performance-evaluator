@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def team_score_get_latest(team:str, include_opponent:bool=False):
 	"""
 	team_score_get_latest : Retrieve the score of the most recent game for a specified sports team.    

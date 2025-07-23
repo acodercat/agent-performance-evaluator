@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def forest_growth_forecast(location:str, years:int, include_human_impact:bool=None):
 	"""
 	forest_growth_forecast : Predicts the forest growth over the next N years based on current trends.    

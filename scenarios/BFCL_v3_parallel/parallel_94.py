@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electric_field(charge:int, distance:int, permitivity:int=None):
 	"""
 	calculate_electric_field : Calculate the electric field produced by a charge at a certain distance.    

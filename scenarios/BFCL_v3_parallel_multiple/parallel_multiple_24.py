@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def investment_withdraw(company:str, amount:float):
 	"""
 	investment_withdraw : Withdraw a specific amount from a company's stock.    
@@ -11,7 +11,7 @@ def investment_withdraw(company:str, amount:float):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def investment_invest(company:str, amount:float):
 	"""
 	investment_invest : Invest a specific amount in a company's stock.    

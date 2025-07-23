@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	get_song_lyrics : Retrieve the lyrics of a song based on the artist's name and song title.    
@@ -12,7 +12,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
@@ -26,7 +26,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding_shares:int):
 	"""
 	finance_calculate_quarterly_dividend_per_share : Calculate quarterly dividend per share for a company given total dividend payout and outstanding shares    
@@ -39,7 +39,7 @@ def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def movie_details_brief(title:str, extra_info:bool='false'):
 	"""
 	movie_details_brief : This function retrieves a brief about a specified movie.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def psych_research_get_preference(category:str, option_one:str, option_two:str, demographic:str='all'):
 	"""
 	psych_research_get_preference : Gathers research data on public preference between two options, based on societal category.    

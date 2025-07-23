@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_war_details(war:str):
 	"""
 	european_history_war_details : Get details of a specific historical European war.    
@@ -10,7 +10,7 @@ def european_history_war_details(war:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_leader_info(leader:str):
 	"""
 	european_history_leader_info : Get information about a specific historical leader in European history.    
@@ -22,7 +22,7 @@ def european_history_leader_info(leader:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_battle_details(battle:str):
 	"""
 	european_history_battle_details : Get details of a specific historical European battle.    

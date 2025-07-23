@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    
@@ -12,7 +12,7 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	"""
 	lawsuit_search : Search for lawsuits related to a specific company within a specific date range and location.    
@@ -27,7 +27,7 @@ def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_check_price(items:List[str], quantities:List[int], store_location:str=None):
 	"""
 	walmart_check_price : Calculate total price for given items and their quantities at Walmart.    

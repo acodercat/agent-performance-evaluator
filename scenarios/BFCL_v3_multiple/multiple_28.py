@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
 	solve_quadratic_equation : Solve a quadratic equation with given coefficients a, b, and c.    
@@ -12,7 +12,7 @@ def solve_quadratic_equation(a:int, b:int, c:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def convert_rgb_to_hex(r:int, g:int, b:int):
 	"""
 	convert_rgb_to_hex : Converts RGB values to Hexadecimal color code.    
@@ -26,7 +26,7 @@ def convert_rgb_to_hex(r:int, g:int, b:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def perform_string_reverse(input_string:str):
 	"""
 	perform_string_reverse : Reverses a given string.    

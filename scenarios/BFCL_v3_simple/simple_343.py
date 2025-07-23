@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'):
 	"""
 	game_stats_fetch_player_statistics : Fetch player statistics for a specific video game for a given user.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def court_info_get_case_status(case_number:str, court:str, details:str=None):
 	"""
 	court_info_get_case_status : Retrieves the status and trial dates for court cases from specified county courts.    

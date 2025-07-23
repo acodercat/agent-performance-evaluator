@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_store_currency(platform:str, region:str='True'):
 	"""
 	video_games_store_currency : Fetches the currency used in a specific region in a gaming platform store.    
@@ -11,7 +11,7 @@ def video_games_store_currency(platform:str, region:str='True'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_on_sale(game_title:str, platform:str, region:str=None):
 	"""
 	video_games_on_sale : Checks if a particular game is currently on sale in a specific gaming platform store and in a specific region.    
@@ -25,7 +25,7 @@ def video_games_on_sale(game_title:str, platform:str, region:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_store_price(game_title:str, platform:str, region:str=None):
 	"""
 	video_games_store_price : Fetches the selling price of a specified game in a particular gaming platform store and in a specific region.    

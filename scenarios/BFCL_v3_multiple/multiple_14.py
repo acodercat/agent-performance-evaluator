@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_property_depreciation(initial_cost:int, depreciation_rate:int, years:int, monthly:bool=False):
 	"""
 	finance_property_depreciation : Calculates the depreciated value of a property given its initial cost, depreciation rate, and the number of years.    
@@ -13,7 +13,7 @@ def finance_property_depreciation(initial_cost:int, depreciation_rate:int, years
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_loan_repayment(loan_amount:float, interest_rate:float, loan_term:int):
 	"""
 	finance_loan_repayment : Calculates the monthly repayment for a loan.    
@@ -27,7 +27,7 @@ def finance_loan_repayment(loan_amount:float, interest_rate:float, loan_term:int
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_inflation_adjustment(initial_sum:float, years:int, inflation_rate:float=None):
 	"""
 	finance_inflation_adjustment : Adjusts a sum of money for inflation based on the consumer price index (CPI).    

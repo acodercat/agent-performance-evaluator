@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_bigfive_scores(characteristics:List[str], scale:str=None):
 	"""
 	get_bigfive_scores : Retrieve Big Five Personality trait scores based on individual's behavioural characteristics.    

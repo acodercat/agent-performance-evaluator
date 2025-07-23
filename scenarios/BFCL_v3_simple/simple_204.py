@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find_nearby(location:str, cuisine:str, max_distance:int=None):
 	"""
 	restaurant_find_nearby : Locate nearby restaurants based on specific criteria like cuisine type.    

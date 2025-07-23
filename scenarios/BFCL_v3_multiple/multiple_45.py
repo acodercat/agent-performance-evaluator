@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geology_get_era(era_name:str, calculate_years_ago:bool=None):
 	"""
 	geology_get_era : Get the estimated date of a geological era.    
@@ -11,7 +11,7 @@ def geology_get_era(era_name:str, calculate_years_ago:bool=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_event_date(event_name:str, calculate_years_ago:bool=None):
 	"""
 	history_get_event_date : Get the date of an historical event.    

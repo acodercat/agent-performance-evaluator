@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_discoverer(discovery:str, detail:bool):
 	"""
 	get_discoverer : Get the person or team who made a particular scientific discovery    
@@ -11,7 +11,7 @@ def get_discoverer(discovery:str, detail:bool):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def diabetes_prediction(weight:float, height:float, activity_level:str):
 	"""
 	diabetes_prediction : Predict the likelihood of diabetes type 2 based on a person's weight and height.    
@@ -25,7 +25,7 @@ def diabetes_prediction(weight:float, height:float, activity_level:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_working_hours_get(museum:str, location:str, day:str=None):
 	"""
 	museum_working_hours_get : Get the working hours of a museum in a specific location.    

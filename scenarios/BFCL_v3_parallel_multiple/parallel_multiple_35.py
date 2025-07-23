@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def image_processing_object_identification(image_url:str):
 	"""
 	image_processing_object_identification : Identify objects in a given image.    
@@ -10,7 +10,7 @@ def image_processing_object_identification(image_url:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def text_analysis_sentiment_analysis(text:str):
 	"""
 	text_analysis_sentiment_analysis : Analyze the sentiment of a given text.    

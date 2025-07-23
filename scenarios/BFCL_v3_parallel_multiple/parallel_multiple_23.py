@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratio_net_profit_margin(net_income:int, total_revenue:int):
 	"""
 	financial_ratio_net_profit_margin : Calculate net profit margin of a company given the net income and total revenue    
@@ -11,7 +11,7 @@ def financial_ratio_net_profit_margin(net_income:int, total_revenue:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratio_debt_ratio(total_liabilities:int, total_assets:int):
 	"""
 	financial_ratio_debt_ratio : Calculate the debt ratio of a company given the total liabilities and total assets.    

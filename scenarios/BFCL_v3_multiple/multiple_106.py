@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	mix_paint_color : Combine two primary paint colors and adjust the resulting color's lightness level.    
@@ -12,7 +12,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
 	"""
 	cooking_conversion_convert : Convert cooking measurements from one unit to another.    
@@ -27,7 +27,7 @@ def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:st
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	"""
 	group_dynamics_pattern : Examine the social dynamics and interactions within a group based on the personality traits and group size.    
@@ -41,7 +41,7 @@ def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electric_field_strength(charge:float, distance:int, medium:str=None):
 	"""
 	calculate_electric_field_strength : Calculate the electric field strength at a certain distance from a point charge.    

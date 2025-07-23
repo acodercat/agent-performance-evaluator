@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_theory_chordProgression(progression:List[str], returnAllPossibleKeys:bool=None, assumeMajor:bool=None):
 	"""
 	music_theory_chordProgression : Identifies a potential key signature for the given chord progression.    

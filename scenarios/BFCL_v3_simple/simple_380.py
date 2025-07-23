@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
 	"""
 	hotel_booking : Books a hotel room given the location, room type, stay duration and any additional preferences.    

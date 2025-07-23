@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_calculate_note_duration(first_note_frequency:int, second_note_frequency:int, tempo:int=None):
 	"""
 	music_calculate_note_duration : Calculate the duration between two notes based on their frequencies and harmonic rhythm.    

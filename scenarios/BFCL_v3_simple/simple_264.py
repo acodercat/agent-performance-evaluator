@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_get_details(artist:str, title:str, detail:str=None):
 	"""
 	sculpture_get_details : Retrieve details of a sculpture based on the artist and the title of the sculpture.    

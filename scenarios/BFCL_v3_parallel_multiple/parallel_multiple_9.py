@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_book(_from:str, to:str, airlines:str):
 	"""
 	flight_book : Book a flight for a specific route and airlines    
@@ -12,7 +12,7 @@ def flight_book(_from:str, to:str, airlines:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_book(location:str, nights:int):
 	"""
 	hotel_book : Book a hotel for a specific location for the number of nights    

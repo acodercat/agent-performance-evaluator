@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def movie_ratings_get_movie(movie_name:str):
 	"""
 	movie_ratings_get_movie : Get a movie by its name.    
@@ -10,7 +10,7 @@ def movie_ratings_get_movie(movie_name:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_get_summary(case_id:str, summary_type:str='brief'):
 	"""
 	legal_case_get_summary : Get a summary of a legal case    
@@ -23,7 +23,7 @@ def legal_case_get_summary(case_id:str, summary_type:str='brief'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_find_parties(party_name:str, city:str):
 	"""
 	legal_case_find_parties : Locate legal cases involving a specified party in a particular city    

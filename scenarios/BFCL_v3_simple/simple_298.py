@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_theory_key_signature(key:str, scale_type:str=None):
 	"""
 	music_theory_key_signature : Return the key signature of a major or minor scale.    

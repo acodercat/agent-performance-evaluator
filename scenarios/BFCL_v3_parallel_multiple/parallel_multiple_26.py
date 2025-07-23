@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def bank_get_transaction_history(account:str, days:int):
 	"""
 	bank_get_transaction_history : Retrieve transaction history for a specific bank account over a specified time frame.    
@@ -11,7 +11,7 @@ def bank_get_transaction_history(account:str, days:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[float, str]]]=[], starting_balance:float=None):
 	"""
 	bank_calculate_balance : Calculate the balance of a specified bank account based on the transactions.    

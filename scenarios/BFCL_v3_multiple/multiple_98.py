@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_earliest_reference(name:str, source:str=None):
 	"""
 	get_earliest_reference : Retrieve the earliest historical reference of a person.    
@@ -11,7 +11,7 @@ def get_earliest_reference(name:str, source:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_current_time(city:str, country:str, format:str=None):
 	"""
 	get_current_time : Retrieve the current time for a specified city and country.    
@@ -25,7 +25,7 @@ def get_current_time(city:str, country:str, format:str=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:int=None):
 	"""
 	music_generator_generate_melody : Generate a melody based on certain musical parameters.    
@@ -40,7 +40,7 @@ def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:i
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_circumference(radius:int, units:str=None):
 	"""
 	geometry_circumference : Calculate the circumference of a circle given the radius.    

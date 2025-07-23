@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_convert(amount:int, from_currency:str, to_currency:str):
 	"""
 	currency_conversion_convert : Convert a value from one currency to another.    
@@ -12,7 +12,7 @@ def currency_conversion_convert(amount:int, from_currency:str, to_currency:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_absolute_pressure(gauge_pressure:float, atm_pressure:float=None):
 	"""
 	calc_absolute_pressure : Calculates the absolute pressure from gauge and atmospheric pressures.    
@@ -25,7 +25,7 @@ def calc_absolute_pressure(gauge_pressure:float, atm_pressure:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:float, time:float, acceleration:float=0):
 	"""
 	calculate_displacement : Calculates the displacement of an object in motion given initial velocity, time, and acceleration.    

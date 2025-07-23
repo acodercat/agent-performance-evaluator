@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_distance(start_point:str, end_point:str):
 	"""
 	calculate_distance : Calculate distance between two locations.    
@@ -11,7 +11,7 @@ def calculate_distance(start_point:str, end_point:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def traffic_estimate(start_location:str, end_location:str, time_period:str=None):
 	"""
 	traffic_estimate : Estimate traffic from one location to another for a specific time period.    
@@ -25,7 +25,7 @@ def traffic_estimate(start_location:str, end_location:str, time_period:str=None)
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def office_designer_design(rooms:int, meeting_room:str):
 	"""
 	office_designer_design : Design an office space based on specific requirements    
@@ -11,7 +11,7 @@ def office_designer_design(rooms:int, meeting_room:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def house_designer_design(bedrooms:int, bathrooms:int, garden:bool=None):
 	"""
 	house_designer_design : Design a house based on specific criteria    

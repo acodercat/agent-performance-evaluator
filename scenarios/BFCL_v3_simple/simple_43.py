@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field_strength(current:int, distance:int, permeability:float=None):
 	"""
 	calculate_magnetic_field_strength : Calculate the magnetic field strength at a point a certain distance away from a long wire carrying a current.    

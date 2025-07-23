@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
 	"""
 	cooking_conversion_convert : Convert cooking measurements from one unit to another.    
@@ -13,7 +13,7 @@ def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:st
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def run_linear_regression(predictors:List[str], target:str, standardize:bool=None):
 	"""
 	run_linear_regression : Build a linear regression model using given predictor variables and a target variable.    
@@ -27,7 +27,7 @@ def run_linear_regression(predictors:List[str], target:str, standardize:bool=Non
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def find_recipe(recipeName:str, maxCalories:int=1000):
 	"""
 	find_recipe : Locate a recipe based on name and its calorie content    
@@ -40,7 +40,7 @@ def find_recipe(recipeName:str, maxCalories:int=1000):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def travel_itinerary_generator(destination:str, days:int, daily_budget:float, exploration_type:str='urban'):
 	"""
 	travel_itinerary_generator : Generate a travel itinerary based on specific destination, duration and daily budget, with preferred exploration type.    

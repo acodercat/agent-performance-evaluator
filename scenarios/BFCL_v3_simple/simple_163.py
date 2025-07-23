@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def property_records_get(address:str, parcel_number:str, county:str, include_owner:bool=False):
 	"""
 	property_records_get : Fetch property records based on location, parcel number and county.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculus_derivative(function:str, value:int, function_variable:str=None):
 	"""
 	calculus_derivative : Compute the derivative of a function at a specific value.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	"""
 	concert_booking_book_ticket : Book concert tickets for a specific artist in a specified city.    
@@ -12,7 +12,7 @@ def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field(current:int, radius:int, permeability:float=None):
 	"""
 	calculate_magnetic_field : Calculate the magnetic field produced at the center of a circular loop carrying current.    
@@ -26,7 +26,7 @@ def calculate_magnetic_field(current:int, radius:int, permeability:float=None):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	"""
 	lawsuit_details_find : Find details of lawsuits involving a specific company from a given year.    

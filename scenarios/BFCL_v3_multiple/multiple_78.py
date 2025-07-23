@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def tourist_spot_info(spot:str, city:str, details:List[str]='timing, attractions'):
 	"""
 	tourist_spot_info : Retrieve information about a specific tourist spot.    
@@ -12,7 +12,7 @@ def tourist_spot_info(spot:str, city:str, details:List[str]='timing, attractions
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_info(museum:str, city:str, features:List[str]='timings, exhibitions'):
 	"""
 	museum_info : Retrieve information about a specific museum.    

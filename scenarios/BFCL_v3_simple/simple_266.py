@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_value(sculpture:str, artist:str):
 	"""
 	get_sculpture_value : Retrieve the current market value of a particular sculpture by a specific artist.    

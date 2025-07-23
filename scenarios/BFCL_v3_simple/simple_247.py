@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	"""
 	historical_contrib_get_contrib : Retrieve historical contribution made by a scientist on a specific date.    

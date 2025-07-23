@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def nfl_data_player_record(player_name:str, season_year:int, team:str=None):
 	"""
 	nfl_data_player_record : Retrieve the record of an NFL player in a specified season.    

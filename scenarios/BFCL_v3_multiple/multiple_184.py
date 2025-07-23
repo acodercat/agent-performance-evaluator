@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def detailed_weather_forecast(location:str, duration:int, include_precipitation:bool=None):
 	"""
 	detailed_weather_forecast : Retrieve a detailed weather forecast for a specific location and duration including optional precipitation details.    
@@ -12,7 +12,7 @@ def detailed_weather_forecast(location:str, duration:int, include_precipitation:
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
 	"""
 	recipe_search : Search for a recipe given dietary restriction, ingredients, and number of servings.    
@@ -26,7 +26,7 @@ def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_time_difference(place1:str, place2:str):
 	"""
 	get_time_difference : Get the time difference between two places.    

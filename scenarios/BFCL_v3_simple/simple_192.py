@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_slope_gradient(point1:List[float], point2:List[float], unit:str=None):
 	"""
 	calculate_slope_gradient : Calculate the slope gradient between two geographical coordinates.    

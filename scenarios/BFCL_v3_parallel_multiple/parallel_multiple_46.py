@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_get_hours(museum_name:str):
 	"""
 	museum_get_hours : Retrieve the operational hours of a specified museum.    
@@ -10,7 +10,7 @@ def museum_get_hours(museum_name:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def location_get_travel_time(destination:str, mode:str='Driving'):
 	"""
 	location_get_travel_time : Retrieve the estimated travel time from current location to a specific destination.    
@@ -23,7 +23,7 @@ def location_get_travel_time(destination:str, mode:str='Driving'):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_get_waiting_time(museum_name:str, day:str='Monday'):
 	"""
 	museum_get_waiting_time : Retrieve the estimated waiting time at a specific museum.    

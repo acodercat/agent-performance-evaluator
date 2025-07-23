@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def lowest_price(city:str, product:str):
 	"""
 	lowest_price : Returns the lowest price for a particular product within a given city.    
@@ -11,7 +11,7 @@ def lowest_price(city:str, product:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def average_price(city:str, product:str):
 	"""
 	average_price : Returns the average price for a particular product within a given city.    
@@ -24,7 +24,7 @@ def average_price(city:str, product:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def store_count(city:str, product:str):
 	"""
 	store_count : Returns the number of stores that carry a particular product within a given city.    
@@ -37,7 +37,7 @@ def store_count(city:str, product:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def product_search(city:str, product:str):
 	"""
 	product_search : Searches a particular product within a given city.    

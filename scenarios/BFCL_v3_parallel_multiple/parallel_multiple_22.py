@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratios_interest_coverage(company_name:str, years:int):
 	"""
 	financial_ratios_interest_coverage : Calculate a company's interest coverage ratio given the company name and duration    
@@ -11,7 +11,7 @@ def financial_ratios_interest_coverage(company_name:str, years:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sales_growth_calculate(company:str, years:int):
 	"""
 	sales_growth_calculate : Calculate a company's sales growth rate given the company name and duration    
@@ -24,7 +24,7 @@ def sales_growth_calculate(company:str, years:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
 	"""
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    

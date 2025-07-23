@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_compound_interest(principle:int, rate:float, time:int, n:int):
 	"""
 	financial_compound_interest : Calculates compound interest.    
@@ -13,7 +13,7 @@ def financial_compound_interest(principle:int, rate:float, time:int, n:int):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_simple_interest(principle:float, rate:float, time:int):
 	"""
 	financial_simple_interest : Calculates simple interest.    

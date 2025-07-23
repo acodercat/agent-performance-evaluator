@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_dividend_data(company:str, years:int, frequency:str='annually'):
 	"""
 	corporate_finance_dividend_data : Get historical dividend data of a specific company within a particular duration.    
@@ -12,7 +12,7 @@ def corporate_finance_dividend_data(company:str, years:int, frequency:str='annua
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_market_data(company:str, days:int):
 	"""
 	stock_market_data : Retrieve stock market data for a specific company and time frame.    

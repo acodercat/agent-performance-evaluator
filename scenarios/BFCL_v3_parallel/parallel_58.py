@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_exchange_rate(base_currency:str, target_currency:str):
 	"""
 	get_exchange_rate : Fetch the current exchange rate for the provided currency pairs.    

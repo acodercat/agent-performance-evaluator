@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def US_president_in_year(year:int, full_name:bool=True):
 	"""
 	US_president_in_year : Retrieve the name of the U.S. president in a given year.    

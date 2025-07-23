@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_case_info(docket:str, court:str, info_type:str):
 	"""
 	get_case_info : Retrieve case details using a specific case docket number and court location.    

@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def crime_statute_lookup(jurisdiction:str, crime:str, detail_level:str=None):
 	"""
 	crime_statute_lookup : Look up the criminal statutes in a specific jurisdiction to find possible punishments for a specific crime.    

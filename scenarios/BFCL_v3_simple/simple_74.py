@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_bacteria_evolution_rate(start_population:int, duplication_frequency:int, duration:int, generation_time:int=None):
 	"""
 	calculate_bacteria_evolution_rate : Calculate the evolution rate of bacteria given the starting number, duplication frequency and total duration.    

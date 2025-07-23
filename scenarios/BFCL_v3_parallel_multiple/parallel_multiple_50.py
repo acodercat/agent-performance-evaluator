@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sport_analysis_last_game_performance(team:str, details:List[str]):
 	"""
 	sport_analysis_last_game_performance : Analyzes the team's performance in their most recent game.    
@@ -11,7 +11,7 @@ def sport_analysis_last_game_performance(team:str, details:List[str]):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def sport_analysis_compare_ppg(team:str, seasons:List[str]):
 	"""
 	sport_analysis_compare_ppg : Compares a team's average points per game in two different seasons.    

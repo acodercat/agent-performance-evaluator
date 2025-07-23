@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_entropy_change(initial_temp:int, final_temp:int, heat_capacity:int, isothermal:bool=None):
 	"""
 	calculate_entropy_change : Calculate the entropy change for an isothermal and reversible process.    

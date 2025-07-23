@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def get_zodiac_compatibility(sign1:str, sign2:str, scale:str=None):
 	"""
 	get_zodiac_compatibility : Retrieve the compatibility score between two Zodiac signs.    

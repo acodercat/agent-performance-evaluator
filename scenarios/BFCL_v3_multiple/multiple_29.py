@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def functions_zero(function:str):
 	"""
 	functions_zero : Find the zero points of a function.    
@@ -10,7 +10,7 @@ def functions_zero(function:str):
 	"""
 	pass
 
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def functions_intersect(function1:str, function2:str):
 	"""
 	functions_intersect : Locate the intersection points of two functions.    

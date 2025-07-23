@@ -1,4 +1,4 @@
-from typing import List, Dict, Any, Union, Tuple 
+from typing import List, Dict, Any, Union, Tuple, Set 
 def air_quality(location:str, date:str):
 	"""
 	air_quality : Retrieve the air quality index for a specific location.    
