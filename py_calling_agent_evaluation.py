@@ -3,7 +3,7 @@ import json
 from adapters.py_calling_agent_adapter import PyCallingAgentFactory
 from py_calling_agent.models import LiteLLMModel
 from evaluation import evaluate
-from utils.model_loader import load_model_config
+from utils import load_model_config
 
 ground_truths = json.load(open("./scenarios/ground_truths.json"))
 
