@@ -12,12 +12,12 @@ def bank_get_transaction_history(account:str, days:int):
 	pass
 
 from typing import List, Dict, Any, Union, Tuple 
-def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[str, float]]]=[], starting_balance:float=None):
+def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[float, str]]]=[], starting_balance:float=None):
 	"""
 	bank_calculate_balance : Calculate the balance of a specified bank account based on the transactions.    
 	Parameters:
 	account (str): The account number for which balance is to be calculated.
-	transactions (List[Dict[str, Union[str, float]]]): Transaction array Default is empty array.
+	transactions (List[Dict[str, Union[float, str]]]): Transaction array Default is empty array.
 	starting_balance (float): The starting balance of the account, if known. Default 0.0
 
 	Required Parameter = [account,]

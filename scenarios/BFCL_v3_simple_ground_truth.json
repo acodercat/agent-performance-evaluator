@@ -15965,13 +15965,7 @@
                 "turns": [
                     {
                         "query": "Find the closest sushi restaurant with a patio in Boston.",
-                        "expected_function_calls": [
-                            {
-                                "name": "restaurant_search_find_closest",
-                                "required": false,
-                                "arguments": []
-                            }
-                        ]
+                        "expected_function_calls": []
                     }
                 ]
             }
