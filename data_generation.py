@@ -184,33 +184,35 @@ def convert_schema_to_invocation(querry, answer, dataset):
     
     # 2. 构建预期函数调用列表
     expected_calls = []
-    for func_schema in querry_item.get("function", []):
-        arguments_list = []
-        required = False
-        function_name_answer = func_schema.get("name", "")
-        function_name = function_name_answer.replace('.', '_')  # 替换点号为下划线以创建有效的函数名
-        # 遍历函数定义的参数
-        try:
-            parameter_map = get_parameter_type_map(func_schema.get("parameters", {}))
+    for answer_fuc in answer_item["ground_truth"]:
+        for k,v in answer_fuc.items():
+            func_schema = get_data_by_function_name(querry_item.get("function", {}),k)
+            arguments_list = []
+            required = False
+            function_name_answer = func_schema.get("name", "")
+            function_name = function_name_answer.replace('.', '_')  # 替换点号为下划线以创建有效的函数名
+            # 遍历函数定义的参数
+            try:
+                parameter_map = get_parameter_type_map(func_schema.get("parameters", {}))
 
-            for param_name, param_details in func_schema.get("parameters", {}).get("properties", {}).items():
-                param_required = False
-                if param_name in func_schema["parameters"]["required"]:
-                    param_required = True
-                # 这里是关键点：输入格式没有提供参数的值
-                # 我们用一个占位符来表示这个值需要从 query 中提取
-                # if param_name=='func' or param_name=='function':
-                #     output_structure["conversations"] = None
-                #     return output_structure
-                arguments_list.append({
-                    "name": param_name,
-                    "value": answer_item["ground_truth"][0][function_name_answer][param_name], 
-                    "type": format_type(parameter_map[param_name]),
-                    "required": param_required
-                })
-        except Exception as e:
-            print(f"{e}")
-            pass
+                for param_name, param_details in func_schema.get("parameters", {}).get("properties", {}).items():
+                    param_required = False
+                    if param_name in func_schema["parameters"]["required"]:
+                        param_required = True
+                    # 这里是关键点：输入格式没有提供参数的值
+                    # 我们用一个占位符来表示这个值需要从 query 中提取
+                    # if param_name=='func' or param_name=='function':
+                    #     output_structure["conversations"] = None
+                    #     return output_structure
+                    arguments_list.append({
+                        "name": param_name,
+                        "value": v[param_name], 
+                        "type": format_type(parameter_map[param_name]),
+                        "required": param_required
+                    })
+            except Exception as e:
+                print(f"{e}")
+                pass
         
 
         if function_name in answer_calls:
@@ -237,6 +239,12 @@ def convert_schema_to_invocation(querry, answer, dataset):
     output_structure["conversations"][0]["turns"].append(turn)
 
     return output_structure
+
+def get_data_by_function_name(data_list, function_name):
+    for item in data_list:
+        if isinstance(item, dict) and item.get('name') == function_name:
+            return item
+    return None
 
 def generate_functions_from_json(data, output_filename):
     """
