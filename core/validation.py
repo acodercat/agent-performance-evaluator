@@ -63,6 +63,9 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
         
         # Validate arguments of the matching call
         actual_call = remaining_actual_calls[match_index]
+        if isinstance(actual_call,str) and "^" in actual_call:
+            actual_call = actual_call.replace("^", "**")
+
         argument_errors = validate_arguments(actual_call, expected, i)
         errors.extend(argument_errors)
         

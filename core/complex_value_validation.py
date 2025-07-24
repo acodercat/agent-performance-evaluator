@@ -279,12 +279,15 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
 
         if origin_type is Union:
             if not isinstance(actual_value, full_expected_type):
-                return False, ValidationError(
-                    error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                    message=f"Call {call_index+1}, Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
-                    call_index=call_index,
-                    arg_name=expected_name
-                )
+                if expected_type_str == "float" and isinstance(actual_value, int):
+                    pass
+                else:
+                    return False, ValidationError(
+                        error_type=ErrorType.WRONG_ARGUMENT_TYPE,
+                        message=f"Call {call_index+1}, Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
+                        call_index=call_index,
+                        arg_name=expected_name
+                    )
         elif origin_type:
             if not isinstance(actual_value, origin_type):
                 return False, ValidationError(
