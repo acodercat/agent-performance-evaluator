@@ -9,7 +9,7 @@ def nature_park_find_nearby(location:str, features:List[str]):
 	Required Parameter = [location,features,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find_nearby(location:str, amenities:List[str]=None):
@@ -22,6 +22,6 @@ def restaurant_find_nearby(location:str, amenities:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [nature_park_find_nearby, restaurant_find_nearby]

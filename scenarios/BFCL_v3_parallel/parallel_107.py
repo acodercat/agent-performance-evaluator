@@ -9,6 +9,6 @@ def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	Required Parameter = [gene,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_protein_sequence]

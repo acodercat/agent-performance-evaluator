@@ -10,7 +10,7 @@ def flights_search(from_city:str, to_city:str, date:str=None):
 	Required Parameter = [from_city,to_city,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def timezones_get_difference(city1:str, city2:str):
@@ -23,7 +23,7 @@ def timezones_get_difference(city1:str, city2:str):
 	Required Parameter = [city1,city2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geodistance_find(origin:str, destination:str, unit:str='miles'):
@@ -37,6 +37,6 @@ def geodistance_find(origin:str, destination:str, unit:str='miles'):
 	Required Parameter = [origin,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [flights_search, timezones_get_difference, geodistance_find]

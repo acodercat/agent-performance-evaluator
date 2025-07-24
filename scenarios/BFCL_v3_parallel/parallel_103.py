@@ -12,6 +12,6 @@ def entropy_change_calculate(substance:str, mass:int, initial_temperature:int, f
 	Required Parameter = [substance,mass,initial_temperature,final_temperature,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [entropy_change_calculate]

@@ -10,7 +10,7 @@ def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	Required Parameter = [player_name,matches,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_investment(purchase_price:float, sale_price:float, dividend:float=0):
@@ -24,7 +24,7 @@ def calculate_return_on_investment(purchase_price:float, sale_price:float, divid
 	Required Parameter = [purchase_price,sale_price,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def database_query(table:str, conditions:List[Dict[str, str]]):
@@ -37,7 +37,7 @@ def database_query(table:str, conditions:List[Dict[str, str]]):
 	Required Parameter = [table,conditions,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_ratio:bool=None):
@@ -51,6 +51,6 @@ def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_rat
 	Required Parameter = [success_outcomes,total_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [average_batting_score, calculate_return_on_investment, database_query, probability_of_event]

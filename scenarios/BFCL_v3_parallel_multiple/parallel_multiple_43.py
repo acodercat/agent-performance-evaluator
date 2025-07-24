@@ -9,7 +9,7 @@ def get_sculpture_details(museum_location:str, sculpture_id:int):
 	Required Parameter = [museum_location,sculpture_id,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_artwork_price(museum_location:str, sculpture_material:str, sculpture_size:List[int]):
@@ -23,6 +23,6 @@ def get_artwork_price(museum_location:str, sculpture_material:str, sculpture_siz
 	Required Parameter = [museum_location,sculpture_material,sculpture_size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_sculpture_details, get_artwork_price]

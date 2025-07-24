@@ -10,7 +10,7 @@ def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
 	Required Parameter = [function,lower_limit,upper_limit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_definite_integral(function:str, lower_limit:float, upper_limit:float):
@@ -24,6 +24,6 @@ def math_definite_integral(function:str, lower_limit:float, upper_limit:float):
 	Required Parameter = [function,lower_limit,upper_limit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_gaussian_integral, math_definite_integral]

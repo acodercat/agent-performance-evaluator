@@ -9,6 +9,6 @@ def environmental_data_air_quality_index(location:str, days:int=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [environmental_data_air_quality_index]

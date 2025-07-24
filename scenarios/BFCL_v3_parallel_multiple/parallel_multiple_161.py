@@ -10,7 +10,7 @@ def calculate_cagr(initial_value:int, final_value:int, period_in_years:int):
 	Required Parameter = [initial_value,final_value,period_in_years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_rating(player_name:str, variant:str=None):
@@ -23,7 +23,7 @@ def chess_rating(player_name:str, variant:str=None):
 	Required Parameter = [player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def solve_quadratic(a:int, b:int, c:int):
@@ -37,6 +37,6 @@ def solve_quadratic(a:int, b:int, c:int):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_cagr, chess_rating, solve_quadratic]

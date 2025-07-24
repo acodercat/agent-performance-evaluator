@@ -10,7 +10,7 @@ def calcVolume_cuboid(height:float, width:float, depth:float):
 	Required Parameter = [height,width,depth,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calcVolume_sphere(radius:float):
@@ -22,6 +22,6 @@ def calcVolume_sphere(radius:float):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calcVolume_cuboid, calcVolume_sphere]

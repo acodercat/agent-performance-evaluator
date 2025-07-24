@@ -10,6 +10,6 @@ def museum_info(museum:str, date:str, information:List[str]='all'):
 	Required Parameter = [museum,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [museum_info]

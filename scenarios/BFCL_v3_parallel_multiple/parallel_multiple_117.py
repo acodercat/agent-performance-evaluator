@@ -10,7 +10,7 @@ def concert_book_ticket(artist:str, location:str, add_ons:List[str]=None):
 	Required Parameter = [artist,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def festival_book_ticket(festival:str, location:str, add_ons:List[str]=None):
@@ -24,6 +24,6 @@ def festival_book_ticket(festival:str, location:str, add_ons:List[str]=None):
 	Required Parameter = [festival,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_book_ticket, festival_book_ticket]

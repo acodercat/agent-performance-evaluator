@@ -8,7 +8,7 @@ def calculate_fibonacci(position:int):
 	Required Parameter = [position,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_factorial(number:int):
@@ -20,7 +20,7 @@ def calculate_factorial(number:int):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def generate_prime(start:int, end:int):
@@ -33,6 +33,6 @@ def generate_prime(start:int, end:int):
 	Required Parameter = [start,end,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_fibonacci, calculate_factorial, generate_prime]

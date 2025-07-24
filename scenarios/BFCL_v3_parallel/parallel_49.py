@@ -10,6 +10,6 @@ def player_status_check(team:str, player_id:int, season:int=None):
 	Required Parameter = [team,player_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [player_status_check]

@@ -9,6 +9,6 @@ def random_normalvariate(mu:int, sigma:int):
 	Required Parameter = [mu,sigma,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [random_normalvariate]

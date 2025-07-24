@@ -8,7 +8,7 @@ def get_stock_price(company_names:List[str]):
 	Required Parameter = [company_names,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_ranking(team_name:str, year:int, gender:str=None):
@@ -22,7 +22,7 @@ def get_team_ranking(team_name:str, year:int, gender:str=None):
 	Required Parameter = [team_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_info_get_calories(website:str, recipe:str, optional_meal_time:str=None):
@@ -36,6 +36,6 @@ def recipe_info_get_calories(website:str, recipe:str, optional_meal_time:str=Non
 	Required Parameter = [website,recipe,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_price, get_team_ranking, recipe_info_get_calories]

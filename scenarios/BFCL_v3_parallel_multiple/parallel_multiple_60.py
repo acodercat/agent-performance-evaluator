@@ -8,7 +8,7 @@ def country_info_largest_city(country:str):
 	Required Parameter = [country,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def country_info_population(country:str):
@@ -20,7 +20,7 @@ def country_info_population(country:str):
 	Required Parameter = [country,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def country_info_capital(country:str):
@@ -32,6 +32,6 @@ def country_info_capital(country:str):
 	Required Parameter = [country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [country_info_largest_city, country_info_population, country_info_capital]

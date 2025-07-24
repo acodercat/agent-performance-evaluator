@@ -9,7 +9,7 @@ def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
@@ -25,7 +25,7 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	Required Parameter = [location,room_type,duration,start_date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
@@ -39,7 +39,7 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	Required Parameter = [rank,suit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, location:str=None):
@@ -54,6 +54,6 @@ def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, locati
 	Required Parameter = [team_name,num_of_games,league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [vegan_restaurant_find_nearby, hotel_booking, find_card_in_deck, sports_team_get_schedule]

@@ -10,7 +10,7 @@ def dice_roll_probability(desired_sum:int, sides_per_die:int, n_rolls:int=None):
 	Required Parameter = [desired_sum,sides_per_die,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def flip_coin_probability(desired_outcome:str, n_flips:int=None):
@@ -23,7 +23,7 @@ def flip_coin_probability(desired_outcome:str, n_flips:int=None):
 	Required Parameter = [desired_outcome,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def shuffle_card_probability(desired_card:str, n_decks:int=None):
@@ -36,6 +36,6 @@ def shuffle_card_probability(desired_card:str, n_decks:int=None):
 	Required Parameter = [desired_card,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [dice_roll_probability, flip_coin_probability, shuffle_card_probability]

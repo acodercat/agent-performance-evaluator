@@ -11,6 +11,6 @@ def religion_history_track(region:str, religion:str, start_year:int, end_year:in
 	Required Parameter = [region,religion,start_year,end_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religion_history_track]

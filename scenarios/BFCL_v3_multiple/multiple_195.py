@@ -10,7 +10,7 @@ def get_lawsuit_details(case_number:str, court_location:str, additional_details:
 	Required Parameter = [case_number,court_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_rank(team_name:str, league:str, season:str, type:str):
@@ -25,7 +25,7 @@ def get_team_rank(team_name:str, league:str, season:str, type:str):
 	Required Parameter = [team_name,league,season,type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_heat_capacity(temp:int, volume:int, gas:str=None):
@@ -39,6 +39,6 @@ def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	Required Parameter = [temp,volume,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_lawsuit_details, get_team_rank, calc_heat_capacity]

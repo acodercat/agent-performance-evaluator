@@ -9,6 +9,6 @@ def find_recipe(recipeName:str, maxCalories:int=1000):
 	Required Parameter = [recipeName,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_recipe]

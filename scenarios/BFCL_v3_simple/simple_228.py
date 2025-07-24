@@ -9,6 +9,6 @@ def get_personality_traits(hobby:str, trait_count:int=None):
 	Required Parameter = [hobby,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_personality_traits]

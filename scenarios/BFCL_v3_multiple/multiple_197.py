@@ -10,7 +10,7 @@ def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	Required Parameter = [player_name,_class,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
@@ -24,7 +24,7 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	Required Parameter = [loc,product_list,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
@@ -37,7 +37,7 @@ def mutation_type_find(snp_id:str, species:str=None):
 	Required Parameter = [snp_id,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_restaurants(location:str, food_type:str, number:int, dietary_requirements:List[str]='None'):
@@ -52,6 +52,6 @@ def find_restaurants(location:str, food_type:str, number:int, dietary_requiremen
 	Required Parameter = [location,food_type,number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [create_player_profile, walmart_purchase, mutation_type_find, find_restaurants]

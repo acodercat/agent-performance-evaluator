@@ -10,6 +10,6 @@ def parking_lot_find_nearest(location:str, radius:int, type:str=None):
 	Required Parameter = [location,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [parking_lot_find_nearest]

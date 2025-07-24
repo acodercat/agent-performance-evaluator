@@ -10,6 +10,6 @@ def calculate_cell_density(optical_density:float, dilution:int, calibration_fact
 	Required Parameter = [optical_density,dilution,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_cell_density]

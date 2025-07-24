@@ -10,6 +10,6 @@ def probability_dice_roll(desired_number:int, number_of_rolls:int, die_sides:int
 	Required Parameter = [desired_number,number_of_rolls,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [probability_dice_roll]

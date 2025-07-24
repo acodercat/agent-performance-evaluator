@@ -9,6 +9,6 @@ def get_president_and_vp(year:int, position:str):
 	Required Parameter = [year,position,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_president_and_vp]

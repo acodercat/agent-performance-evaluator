@@ -9,6 +9,6 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	Required Parameter = [allele_frequency,genotype,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_genotype_frequency]

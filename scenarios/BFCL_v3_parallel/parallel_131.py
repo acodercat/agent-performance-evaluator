@@ -10,6 +10,6 @@ def map_routing_fastest_route(start_location:str, end_location:str, avoid_tolls:
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [map_routing_fastest_route]

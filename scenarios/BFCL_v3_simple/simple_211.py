@@ -12,6 +12,6 @@ def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	Required Parameter = [to,subject,body,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [send_email]

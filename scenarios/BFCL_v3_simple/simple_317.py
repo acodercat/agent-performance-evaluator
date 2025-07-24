@@ -11,6 +11,6 @@ def get_team_rank(team_name:str, league:str, season:str, type:str):
 	Required Parameter = [team_name,league,season,type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_team_rank]

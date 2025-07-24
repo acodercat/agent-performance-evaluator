@@ -10,6 +10,6 @@ def financials_calculate_future_value(present_value:int, annual_interest_rate:fl
 	Required Parameter = [present_value,annual_interest_rate,number_of_years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [financials_calculate_future_value]

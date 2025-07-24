@@ -10,7 +10,7 @@ def integral(function:str, a:float, b:float):
 	Required Parameter = [function,a,b,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_rectangle_property(perimeter:int, area:int, property:str, tolerance:float=None):
@@ -25,6 +25,6 @@ def get_rectangle_property(perimeter:int, area:int, property:str, tolerance:floa
 	Required Parameter = [perimeter,area,property,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [integral, get_rectangle_property]

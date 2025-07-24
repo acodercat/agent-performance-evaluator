@@ -10,7 +10,7 @@ def music_shop_find_nearby(location:str, services:List[str]=None, instruments:Li
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def gym_find_nearby(location:str, classes:List[str]=None, equipment:List[str]=None):
@@ -24,6 +24,6 @@ def gym_find_nearby(location:str, classes:List[str]=None, equipment:List[str]=No
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_shop_find_nearby, gym_find_nearby]

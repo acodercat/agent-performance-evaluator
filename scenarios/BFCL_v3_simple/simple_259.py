@@ -10,6 +10,6 @@ def calculate_paint_needed(coverage_rate:int, length:int, height:int):
 	Required Parameter = [coverage_rate,length,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_paint_needed]

@@ -10,7 +10,7 @@ def translate(text:str, source_language:str, target_language:str):
 	Required Parameter = [text,source_language,target_language,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sentiment_analysis(text:str):
@@ -22,7 +22,7 @@ def sentiment_analysis(text:str):
 	Required Parameter = [text,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def word_count(text:str):
@@ -34,6 +34,6 @@ def word_count(text:str):
 	Required Parameter = [text,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [translate, sentiment_analysis, word_count]

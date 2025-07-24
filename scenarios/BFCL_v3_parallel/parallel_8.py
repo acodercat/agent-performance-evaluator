@@ -10,6 +10,6 @@ def database_us_census_get_population(area:str, type:str, year:int=2000):
 	Required Parameter = [area,type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [database_us_census_get_population]

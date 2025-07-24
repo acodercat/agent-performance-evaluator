@@ -10,6 +10,6 @@ def historic_leader_search(location:str, date:int, title:str=None):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [historic_leader_search]

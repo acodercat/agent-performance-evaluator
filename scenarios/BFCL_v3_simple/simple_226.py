@@ -10,6 +10,6 @@ def get_zodiac_compatibility(sign1:str, sign2:str, scale:str=None):
 	Required Parameter = [sign1,sign2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_zodiac_compatibility]

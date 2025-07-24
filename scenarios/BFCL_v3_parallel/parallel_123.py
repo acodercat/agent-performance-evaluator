@@ -9,6 +9,6 @@ def generate_DNA_sequence(length:int, preferences:List[str]):
 	Required Parameter = [length,preferences,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [generate_DNA_sequence]

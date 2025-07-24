@@ -10,7 +10,7 @@ def calculate_mutual_fund_balance(investment_amount:int, annual_yield:float, yea
 	Required Parameter = [investment_amount,annual_yield,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_calculate_area_circle(radius:float, unit:str=None):
@@ -23,6 +23,6 @@ def geometry_calculate_area_circle(radius:float, unit:str=None):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_mutual_fund_balance, geometry_calculate_area_circle]

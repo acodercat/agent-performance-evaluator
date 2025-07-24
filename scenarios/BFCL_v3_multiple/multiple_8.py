@@ -11,7 +11,7 @@ def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int
 	Required Parameter = [location,propertyType,bedrooms,age,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def realestate_find_properties(location:str, propertyType:str, bedrooms:int, budget:Dict[str, float]):
@@ -26,6 +26,6 @@ def realestate_find_properties(location:str, propertyType:str, bedrooms:int, bud
 	Required Parameter = [location,propertyType,bedrooms,budget,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [property_valuation_get, realestate_find_properties]

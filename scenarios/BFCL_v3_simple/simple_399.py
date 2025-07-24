@@ -11,6 +11,6 @@ def restaurant_search(location:str, cuisine:str, rating:int, accepts_credit_card
 	Required Parameter = [location,cuisine,rating,accepts_credit_cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_search]

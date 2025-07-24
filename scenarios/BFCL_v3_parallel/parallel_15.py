@@ -10,6 +10,6 @@ def calculate_capital_gains_tax(short_term_gain:int, long_term_gain:int, state:s
 	Required Parameter = [short_term_gain,long_term_gain,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_capital_gains_tax]

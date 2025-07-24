@@ -9,7 +9,7 @@ def biological_calc_biomass(energy:float, efficiency:float=0.1):
 	Required Parameter = [energy,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def biological_calc_energy(mols:float, substance:str, joules_per_mol:float=2800.0):
@@ -23,7 +23,7 @@ def biological_calc_energy(mols:float, substance:str, joules_per_mol:float=2800.
 	Required Parameter = [mols,substance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def physical_calc_work(energy:float, distance:float):
@@ -36,6 +36,6 @@ def physical_calc_work(energy:float, distance:float):
 	Required Parameter = [energy,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [biological_calc_biomass, biological_calc_energy, physical_calc_work]

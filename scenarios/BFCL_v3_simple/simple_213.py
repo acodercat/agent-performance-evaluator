@@ -12,6 +12,6 @@ def flight_book(departure_location:str, destination_location:str, date:str, time
 	Required Parameter = [departure_location,destination_location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [flight_book]

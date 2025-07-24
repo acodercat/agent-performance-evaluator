@@ -11,6 +11,6 @@ def portfolio_future_value(stock:str, invested_amount:int, expected_annual_retur
 	Required Parameter = [stock,invested_amount,expected_annual_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [portfolio_future_value]

@@ -9,7 +9,7 @@ def financial_ratios_interest_coverage(company_name:str, years:int):
 	Required Parameter = [company_name,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sales_growth_calculate(company:str, years:int):
@@ -22,7 +22,7 @@ def sales_growth_calculate(company:str, years:int):
 	Required Parameter = [company,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -35,6 +35,6 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [financial_ratios_interest_coverage, sales_growth_calculate, weather_forecast]

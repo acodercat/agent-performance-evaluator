@@ -9,6 +9,6 @@ def calc_absolute_pressure(gauge_pressure:float, atm_pressure:float=None):
 	Required Parameter = [gauge_pressure,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_absolute_pressure]

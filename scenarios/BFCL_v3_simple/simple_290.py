@@ -10,6 +10,6 @@ def concert_find_details(artist:str, month:str, year:int=2022):
 	Required Parameter = [artist,month,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_find_details]

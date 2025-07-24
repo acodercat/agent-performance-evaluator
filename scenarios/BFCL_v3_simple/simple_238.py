@@ -9,6 +9,6 @@ def us_history_get_president(event:str, year:int):
 	Required Parameter = [event,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [us_history_get_president]

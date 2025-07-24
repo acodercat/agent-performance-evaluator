@@ -10,6 +10,6 @@ def us_history_events_by_presidency(president_name:str, start_year:int=0, end_ye
 	Required Parameter = [president_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [us_history_events_by_presidency]

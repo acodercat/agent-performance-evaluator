@@ -10,6 +10,6 @@ def stats_t_test(array_1:List[int], array_2:List[int], alpha:float):
 	Required Parameter = [array_1,array_2,alpha,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [stats_t_test]

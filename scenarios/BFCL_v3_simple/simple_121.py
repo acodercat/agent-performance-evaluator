@@ -10,6 +10,6 @@ def calc_binomial_prob(num_trials:int, num_success:int, prob_success:float):
 	Required Parameter = [num_trials,num_success,prob_success,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_binomial_prob]

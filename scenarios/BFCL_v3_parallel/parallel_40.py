@@ -10,6 +10,6 @@ def museum_exhibition_detail(exhibition_name:str, museum_name:str, visitor_type:
 	Required Parameter = [exhibition_name,museum_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [museum_exhibition_detail]

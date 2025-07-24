@@ -9,7 +9,7 @@ def safeway_vegan_products(location:str, categories:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def wholefoods_vegan_products(location:str, categories:List[str]=None):
@@ -22,7 +22,7 @@ def wholefoods_vegan_products(location:str, categories:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_vegan_products(location:str, categories:List[str]=None):
@@ -35,6 +35,6 @@ def walmart_vegan_products(location:str, categories:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [safeway_vegan_products, wholefoods_vegan_products, walmart_vegan_products]

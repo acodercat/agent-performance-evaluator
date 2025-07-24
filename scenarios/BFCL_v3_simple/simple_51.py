@@ -11,6 +11,6 @@ def calculate_entropy_change(initial_temp:int, final_temp:int, heat_capacity:int
 	Required Parameter = [initial_temp,final_temp,heat_capacity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_entropy_change]

@@ -10,7 +10,7 @@ def locate_tallest_mountains(location:str, radius:float, amount:int):
 	Required Parameter = [location,radius,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_electric_field(charge:float, distance:float, permitivity:float=None):
@@ -24,7 +24,7 @@ def calculate_electric_field(charge:float, distance:float, permitivity:float=Non
 	Required Parameter = [charge,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_genotype_frequency(allele_frequency:float, genotype:str):
@@ -37,7 +37,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	Required Parameter = [allele_frequency,genotype,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
@@ -50,6 +50,6 @@ def cellbio_get_proteins(cell_compartment:str, include_description:bool='false')
 	Required Parameter = [cell_compartment,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [locate_tallest_mountains, calculate_electric_field, calculate_genotype_frequency, cellbio_get_proteins]

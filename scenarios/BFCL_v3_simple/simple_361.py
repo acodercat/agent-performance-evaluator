@@ -10,6 +10,6 @@ def restaurant_finder(city:str, cuisine:str, diet:str=None):
 	Required Parameter = [city,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_finder]

@@ -10,7 +10,7 @@ def calculus_derivative(function:str, value:int, function_variable:str=None):
 	Required Parameter = [function,value,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(type:str, traits:List[str]=None):
@@ -23,6 +23,6 @@ def get_personality_traits(type:str, traits:List[str]=None):
 	Required Parameter = [type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculus_derivative, get_personality_traits]

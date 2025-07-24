@@ -9,6 +9,6 @@ def get_act_details(act_name:str, amendment_year:int):
 	Required Parameter = [act_name,amendment_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_act_details]

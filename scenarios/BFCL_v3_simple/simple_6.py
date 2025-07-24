@@ -10,6 +10,6 @@ def solve_quadratic(a:int, b:int, c:int):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [solve_quadratic]

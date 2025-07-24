@@ -11,6 +11,6 @@ def calculate_bacteria_evolution_rate(start_population:int, duplication_frequenc
 	Required Parameter = [start_population,duplication_frequency,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_bacteria_evolution_rate]

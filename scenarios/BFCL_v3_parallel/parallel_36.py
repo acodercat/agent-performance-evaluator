@@ -9,6 +9,6 @@ def paint_color_mixture(paint_type:str, color:str):
 	Required Parameter = [paint_type,color,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [paint_color_mixture]

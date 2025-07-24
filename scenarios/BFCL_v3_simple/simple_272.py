@@ -8,6 +8,6 @@ def calculate_circle_dimensions(radius:int):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_circle_dimensions]

@@ -10,6 +10,6 @@ def get_best_sushi_places(city:str, top:int, review_rate:float=None):
 	Required Parameter = [city,top,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_best_sushi_places]

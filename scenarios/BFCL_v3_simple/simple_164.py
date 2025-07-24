@@ -11,6 +11,6 @@ def get_crime_rate(city:str, state:str, type:str=None, year:int=None):
 	Required Parameter = [city,state,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_crime_rate]

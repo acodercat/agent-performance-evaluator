@@ -10,7 +10,7 @@ def weather_humidity_forecast(location:str, days:int, min_humidity:int=None):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_team_score(team_name:str, league:str, include_player_stats:bool=False):
@@ -24,6 +24,6 @@ def get_team_score(team_name:str, league:str, include_player_stats:bool=False):
 	Required Parameter = [team_name,league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [weather_humidity_forecast, get_team_score]

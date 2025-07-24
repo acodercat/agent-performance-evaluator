@@ -10,6 +10,6 @@ def estimate_population(species:str, country:str, year:int=None):
 	Required Parameter = [species,country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [estimate_population]

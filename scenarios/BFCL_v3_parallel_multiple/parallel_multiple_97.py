@@ -10,7 +10,7 @@ def calc_Simple_Interest(principle_amount:float, duration:float, annual_rate:flo
 	Required Parameter = [principle_amount,duration,annual_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def future_value(initial_investment:float, interest_rate:float, time:int, num_compoundings:int=1):
@@ -25,7 +25,7 @@ def future_value(initial_investment:float, interest_rate:float, time:int, num_co
 	Required Parameter = [initial_investment,interest_rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_Compound_Interest(principle_amount:float, duration:float, annual_rate:float, compound_freq:int=1):
@@ -40,6 +40,6 @@ def calc_Compound_Interest(principle_amount:float, duration:float, annual_rate:f
 	Required Parameter = [principle_amount,duration,annual_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_Simple_Interest, future_value, calc_Compound_Interest]

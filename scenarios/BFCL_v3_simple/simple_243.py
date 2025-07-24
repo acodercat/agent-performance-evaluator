@@ -9,6 +9,6 @@ def get_discoverer(discovery:str, detail:bool):
 	Required Parameter = [discovery,detail,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_discoverer]

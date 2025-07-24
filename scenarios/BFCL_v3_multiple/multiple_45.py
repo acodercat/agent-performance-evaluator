@@ -9,7 +9,7 @@ def geology_get_era(era_name:str, calculate_years_ago:bool=None):
 	Required Parameter = [era_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_event_date(event_name:str, calculate_years_ago:bool=None):
@@ -22,6 +22,6 @@ def history_get_event_date(event_name:str, calculate_years_ago:bool=None):
 	Required Parameter = [event_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geology_get_era, history_get_event_date]

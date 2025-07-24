@@ -11,6 +11,6 @@ def fMRI_analyze(data_source:str, sequence_type:str, smooth:int, voxel_size:int=
 	Required Parameter = [data_source,sequence_type,smooth,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [fMRI_analyze]

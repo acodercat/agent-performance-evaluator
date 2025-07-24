@@ -8,7 +8,7 @@ def functions_zero(function:str):
 	Required Parameter = [function,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def functions_intersect(function1:str, function2:str):
@@ -21,6 +21,6 @@ def functions_intersect(function1:str, function2:str):
 	Required Parameter = [function1,function2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [functions_zero, functions_intersect]

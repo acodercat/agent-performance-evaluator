@@ -8,6 +8,6 @@ def get_stock_price(company_names:List[str]):
 	Required Parameter = [company_names,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_price]

@@ -9,7 +9,7 @@ def math_gcd(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_top_cases(field_of_law:str, top_number:int, country:str=None):
@@ -23,6 +23,6 @@ def get_top_cases(field_of_law:str, top_number:int, country:str=None):
 	Required Parameter = [field_of_law,top_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_gcd, get_top_cases]

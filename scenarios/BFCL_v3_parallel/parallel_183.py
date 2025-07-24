@@ -10,6 +10,6 @@ def math_hypot(x:int, y:int, z:int=None):
 	Required Parameter = [x,y,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_hypot]

@@ -10,7 +10,7 @@ def integral(function:str, a:float, b:float):
 	Required Parameter = [function,a,b,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def derivative(function:str, x:float):
@@ -23,6 +23,6 @@ def derivative(function:str, x:float):
 	Required Parameter = [function,x,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [integral, derivative]

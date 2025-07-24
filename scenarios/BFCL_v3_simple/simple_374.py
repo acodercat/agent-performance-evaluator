@@ -10,6 +10,6 @@ def grocery_info_nutritional_info(store:str, food:str, information:List[str]):
 	Required Parameter = [store,food,information,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_info_nutritional_info]

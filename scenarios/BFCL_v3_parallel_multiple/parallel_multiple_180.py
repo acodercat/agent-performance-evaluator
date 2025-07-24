@@ -9,7 +9,7 @@ def get_discoverer(discovery:str, detail:bool):
 	Required Parameter = [discovery,detail,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_working_hours_get(museum:str, location:str, day:str=None):
@@ -23,7 +23,7 @@ def museum_working_hours_get(museum:str, location:str, day:str=None):
 	Required Parameter = [museum,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def diabetes_prediction(weight:int, height:int, activity_level:str):
@@ -37,6 +37,6 @@ def diabetes_prediction(weight:int, height:int, activity_level:str):
 	Required Parameter = [weight,height,activity_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_discoverer, museum_working_hours_get, diabetes_prediction]

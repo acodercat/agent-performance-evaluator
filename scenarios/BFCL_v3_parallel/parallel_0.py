@@ -9,6 +9,6 @@ def spotify_play(artist:str, duration:int):
 	Required Parameter = [artist,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [spotify_play]

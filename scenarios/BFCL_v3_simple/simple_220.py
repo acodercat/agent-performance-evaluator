@@ -10,6 +10,6 @@ def calculate_neuronal_activity(input_synaptic_rate:int, decay_rate:float, weigh
 	Required Parameter = [input_synaptic_rate,decay_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_neuronal_activity]

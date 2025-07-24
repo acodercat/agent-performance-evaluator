@@ -9,6 +9,6 @@ def lawyer_get_experience(name:str, law_type:str):
 	Required Parameter = [name,law_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawyer_get_experience]

@@ -8,7 +8,7 @@ def image_processing_object_identification(image_url:str):
 	Required Parameter = [image_url,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def text_analysis_sentiment_analysis(text:str):
@@ -20,6 +20,6 @@ def text_analysis_sentiment_analysis(text:str):
 	Required Parameter = [text,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [image_processing_object_identification, text_analysis_sentiment_analysis]

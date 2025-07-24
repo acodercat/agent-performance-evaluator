@@ -9,7 +9,7 @@ def sculpture_availability_check(sculpture_name:str, material:str):
 	Required Parameter = [sculpture_name,material,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sculptor_info_get(name:str):
@@ -21,7 +21,7 @@ def sculptor_info_get(name:str):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_price_calculate(material:str, size:int, complexity:str='medium'):
@@ -35,6 +35,6 @@ def sculpture_price_calculate(material:str, size:int, complexity:str='medium'):
 	Required Parameter = [material,size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sculpture_availability_check, sculptor_info_get, sculpture_price_calculate]

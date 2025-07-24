@@ -9,7 +9,7 @@ def sport_analysis_last_game_performance(team:str, details:List[str]):
 	Required Parameter = [team,details,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sport_analysis_compare_ppg(team:str, seasons:List[str]):
@@ -22,6 +22,6 @@ def sport_analysis_compare_ppg(team:str, seasons:List[str]):
 	Required Parameter = [team,seasons,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sport_analysis_last_game_performance, sport_analysis_compare_ppg]

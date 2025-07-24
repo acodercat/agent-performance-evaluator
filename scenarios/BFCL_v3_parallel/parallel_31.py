@@ -10,6 +10,6 @@ def history_fact_fetch(event:str, depth:str='detailed', year:int=None):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_fact_fetch]

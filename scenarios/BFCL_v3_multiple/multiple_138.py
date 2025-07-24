@@ -9,7 +9,7 @@ def park_information(park_name:str, information:List[str]):
 	Required Parameter = [park_name,information,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_fetch(case_id:str, details:bool):
@@ -22,7 +22,7 @@ def legal_case_fetch(case_id:str, details:bool):
 	Required Parameter = [case_id,details,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_stock_return(investment_amount:float, annual_growth_rate:float, holding_period:int, include_dividends:bool=None):
@@ -37,6 +37,6 @@ def calculate_stock_return(investment_amount:float, annual_growth_rate:float, ho
 	Required Parameter = [investment_amount,annual_growth_rate,holding_period,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [park_information, legal_case_fetch, calculate_stock_return]

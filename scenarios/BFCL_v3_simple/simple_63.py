@@ -10,6 +10,6 @@ def genetics_calculate_similarity(species1:str, species2:str, format:str=None):
 	Required Parameter = [species1,species2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [genetics_calculate_similarity]

@@ -12,7 +12,7 @@ def plot_sine_wave(start_range:int, end_range:int, frequency:int, amplitude:int=
 	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def random_forest_train(n_estimators:int, max_depth:int, data:Any):
@@ -26,7 +26,7 @@ def random_forest_train(n_estimators:int, max_depth:int, data:Any):
 	Required Parameter = [n_estimators,max_depth,data,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def building_get_dimensions(building_name:str, unit:str):
@@ -39,7 +39,7 @@ def building_get_dimensions(building_name:str, unit:str):
 	Required Parameter = [building_name,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_get_last_match(team_name:str, include_stats:bool=None):
@@ -52,6 +52,6 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	Required Parameter = [team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [plot_sine_wave, random_forest_train, building_get_dimensions, soccer_get_last_match]

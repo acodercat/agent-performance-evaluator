@@ -10,6 +10,6 @@ def average_batting_score(player_name:str, matches:int, match_format:str=None):
 	Required Parameter = [player_name,matches,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [average_batting_score]

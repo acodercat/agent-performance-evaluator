@@ -10,6 +10,6 @@ def draw_rectangle(width:int, height:int, color:str=None):
 	Required Parameter = [width,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [draw_rectangle]

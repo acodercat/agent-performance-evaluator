@@ -10,7 +10,7 @@ def religion_history_info(religion:str, till_century:int, include_people:bool=No
 	Required Parameter = [religion,till_century,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def team_score_get_latest(team:str, include_opponent:bool='false'):
@@ -23,7 +23,7 @@ def team_score_get_latest(team:str, include_opponent:bool='false'):
 	Required Parameter = [team,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_search(genre:str, location:str, date:str, price_range:str=None):
@@ -38,6 +38,6 @@ def concert_search(genre:str, location:str, date:str, price_range:str=None):
 	Required Parameter = [genre,location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religion_history_info, team_score_get_latest, concert_search]

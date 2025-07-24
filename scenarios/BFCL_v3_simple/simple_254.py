@@ -11,6 +11,6 @@ def get_religion_history(religion:str, start_year:int, end_year:int, event_type:
 	Required Parameter = [religion,start_year,end_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_religion_history]

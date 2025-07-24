@@ -10,7 +10,7 @@ def angleToXAxis_calculate(pointA:List[int], pointB:List[int], rounding:int=2):
 	Required Parameter = [pointA,pointB,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def EuclideanDistance_calculate(pointA:List[int], pointB:List[int], rounding:int=2):
@@ -24,6 +24,6 @@ def EuclideanDistance_calculate(pointA:List[int], pointB:List[int], rounding:int
 	Required Parameter = [pointA,pointB,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [angleToXAxis_calculate, EuclideanDistance_calculate]

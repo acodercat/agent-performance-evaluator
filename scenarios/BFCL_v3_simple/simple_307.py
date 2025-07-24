@@ -10,6 +10,6 @@ def game_result_get_winner(teams:List[str], date:str, venue:str=None):
 	Required Parameter = [teams,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_result_get_winner]

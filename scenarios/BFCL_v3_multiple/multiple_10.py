@@ -11,7 +11,7 @@ def database_modify_columns(db_name:str, table:str, operation:str, columns:List[
 	Required Parameter = [db_name,table,operation,columns,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def database_create_backup(db_name:str, backup_location:str, timestamp:bool='False'):
@@ -25,6 +25,6 @@ def database_create_backup(db_name:str, backup_location:str, timestamp:bool='Fal
 	Required Parameter = [db_name,backup_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [database_modify_columns, database_create_backup]

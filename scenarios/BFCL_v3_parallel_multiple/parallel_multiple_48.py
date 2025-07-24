@@ -8,7 +8,7 @@ def frequency_to_wavelength(frequency:float):
 	Required Parameter = [frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def note_conversion_indian(note:str):
@@ -20,6 +20,6 @@ def note_conversion_indian(note:str):
 	Required Parameter = [note,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [frequency_to_wavelength, note_conversion_indian]

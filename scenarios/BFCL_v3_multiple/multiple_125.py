@@ -10,7 +10,7 @@ def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def run_two_sample_ttest(group1:List[int], group2:List[int], equal_variance:bool=True):
@@ -24,7 +24,7 @@ def run_two_sample_ttest(group1:List[int], group2:List[int], equal_variance:bool
 	Required Parameter = [group1,group2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(hobby:str, trait_count:int=None):
@@ -37,6 +37,6 @@ def get_personality_traits(hobby:str, trait_count:int=None):
 	Required Parameter = [hobby,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_search_find_closest, run_two_sample_ttest, get_personality_traits]

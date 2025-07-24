@@ -10,6 +10,6 @@ def geometry_area_triangle(base:int, height:int, unit:str=None):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geometry_area_triangle]

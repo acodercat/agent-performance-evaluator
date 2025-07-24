@@ -9,6 +9,6 @@ def team_score_get_latest(team:str, include_opponent:bool=False):
 	Required Parameter = [team,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [team_score_get_latest]

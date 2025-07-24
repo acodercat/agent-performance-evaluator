@@ -10,6 +10,6 @@ def calculate_resonant_frequency(inductance:float, capacitance:float, round_off:
 	Required Parameter = [inductance,capacitance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_resonant_frequency]

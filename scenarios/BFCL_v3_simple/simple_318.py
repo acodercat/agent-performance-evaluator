@@ -10,6 +10,6 @@ def get_team_ranking(team_name:str, year:int, gender:str=None):
 	Required Parameter = [team_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_team_ranking]

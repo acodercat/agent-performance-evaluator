@@ -10,6 +10,6 @@ def get_stock_price(company:str, days:int, exchange:str=None):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_price]

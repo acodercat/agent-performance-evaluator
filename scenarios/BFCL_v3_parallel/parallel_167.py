@@ -10,6 +10,6 @@ def linear_regression_get_r_squared(dataset_path:str, independent_variables:List
 	Required Parameter = [dataset_path,independent_variables,dependent_variable,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [linear_regression_get_r_squared]

@@ -10,6 +10,6 @@ def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	Required Parameter = [temp,volume,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_heat_capacity]

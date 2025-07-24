@@ -10,6 +10,6 @@ def prob_dist_binomial(trials:int, successes:int, p:float=None):
 	Required Parameter = [trials,successes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [prob_dist_binomial]

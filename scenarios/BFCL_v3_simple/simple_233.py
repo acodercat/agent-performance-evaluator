@@ -9,6 +9,6 @@ def european_history_get_event_date(event_name:str, format:str=None):
 	Required Parameter = [event_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [european_history_get_event_date]

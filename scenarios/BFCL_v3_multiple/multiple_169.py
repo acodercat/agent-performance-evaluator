@@ -10,7 +10,7 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	Required Parameter = [loc,product_list,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
@@ -23,6 +23,6 @@ def musical_scale(key:str, scale_type:str='major'):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [walmart_purchase, musical_scale]

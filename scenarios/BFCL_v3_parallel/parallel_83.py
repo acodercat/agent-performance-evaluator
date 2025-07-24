@@ -10,6 +10,6 @@ def final_velocity(initial_velocity:int, acceleration:int, time:int):
 	Required Parameter = [initial_velocity,acceleration,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [final_velocity]

@@ -10,6 +10,6 @@ def blackjack_check_winner(player_cards:List[str], dealer_cards:List[str], ace_v
 	Required Parameter = [player_cards,dealer_cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [blackjack_check_winner]

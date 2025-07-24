@@ -9,6 +9,6 @@ def calculate_molecular_weight(compound:str, to_unit:str):
 	Required Parameter = [compound,to_unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_molecular_weight]

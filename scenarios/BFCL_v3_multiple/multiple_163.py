@@ -9,7 +9,7 @@ def metropolitan_museum_get_top_artworks(number:int, sort_by:str=None):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
@@ -24,6 +24,6 @@ def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	Required Parameter = [company,start_date,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [metropolitan_museum_get_top_artworks, lawsuit_search]

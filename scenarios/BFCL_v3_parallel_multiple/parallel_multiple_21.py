@@ -10,7 +10,7 @@ def linear_regression_fit(x:List[float], y:List[float], return_residuals:bool='f
 	Required Parameter = [x,y,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def data_loading(file_path:str, delimiter:str=','):
@@ -23,6 +23,6 @@ def data_loading(file_path:str, delimiter:str=','):
 	Required Parameter = [file_path,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [linear_regression_fit, data_loading]

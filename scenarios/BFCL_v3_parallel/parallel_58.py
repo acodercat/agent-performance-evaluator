@@ -9,6 +9,6 @@ def get_exchange_rate(base_currency:str, target_currency:str):
 	Required Parameter = [base_currency,target_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_exchange_rate]

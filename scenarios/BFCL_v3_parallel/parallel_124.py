@@ -10,6 +10,6 @@ def population_projections(country:str, years:int, growth_rate:float=None):
 	Required Parameter = [country,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [population_projections]

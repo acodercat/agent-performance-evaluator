@@ -10,7 +10,7 @@ def linear_regression(independent_var:List[str], dependent_var:str, forecast_per
 	Required Parameter = [independent_var,dependent_var,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def random_forest_regression(independent_var:List[str], dependent_var:str, n_estimators:int=None, forecast_period:int=None):
@@ -25,6 +25,6 @@ def random_forest_regression(independent_var:List[str], dependent_var:str, n_est
 	Required Parameter = [independent_var,dependent_var,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [linear_regression, random_forest_regression]

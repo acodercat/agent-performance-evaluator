@@ -10,6 +10,6 @@ def nfl_data_player_record(player_name:str, season_year:int, team:str=None):
 	Required Parameter = [player_name,season_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [nfl_data_player_record]

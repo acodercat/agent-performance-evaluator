@@ -10,6 +10,6 @@ def math_power(base:int, exponent:int, mod:int=None):
 	Required Parameter = [base,exponent,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_power]

@@ -9,6 +9,6 @@ def retrieve_religion_info(religion_name:str, detail_level:str):
 	Required Parameter = [religion_name,detail_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [retrieve_religion_info]

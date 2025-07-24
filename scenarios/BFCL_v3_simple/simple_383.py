@@ -10,6 +10,6 @@ def book_room(hotel_name:str, room_type:str, num_nights:int):
 	Required Parameter = [hotel_name,room_type,num_nights,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [book_room]

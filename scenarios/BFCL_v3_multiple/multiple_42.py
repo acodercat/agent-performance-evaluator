@@ -11,7 +11,7 @@ def calculate_final_temperature(quantity1:int, temperature1:int, quantity2:int, 
 	Required Parameter = [quantity1,temperature1,quantity2,temperature2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_mass(quantity:int, molar_mass:int):
@@ -24,6 +24,6 @@ def calculate_mass(quantity:int, molar_mass:int):
 	Required Parameter = [quantity,molar_mass,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_final_temperature, calculate_mass]

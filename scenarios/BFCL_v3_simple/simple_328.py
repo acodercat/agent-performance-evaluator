@@ -10,6 +10,6 @@ def boardgame_get_info(name:str, parameters:List[str], language:str=None):
 	Required Parameter = [name,parameters,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [boardgame_get_info]

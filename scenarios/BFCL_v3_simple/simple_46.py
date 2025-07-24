@@ -12,6 +12,6 @@ def calculate_final_temperature(mass1:int, temperature1:int, mass2:int, temperat
 	Required Parameter = [mass1,temperature1,mass2,temperature2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_final_temperature]

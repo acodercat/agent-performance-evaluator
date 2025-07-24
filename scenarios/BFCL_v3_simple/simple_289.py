@@ -9,6 +9,6 @@ def concert_find_nearby(location:str, genre:str):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_find_nearby]

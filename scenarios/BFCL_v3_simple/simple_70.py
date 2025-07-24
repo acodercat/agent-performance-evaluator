@@ -10,6 +10,6 @@ def calculate_vehicle_emission(vehicle_type:str, miles_driven:int, emission_fact
 	Required Parameter = [vehicle_type,miles_driven,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_vehicle_emission]

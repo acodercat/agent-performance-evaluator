@@ -10,6 +10,6 @@ def highest_grossing_banks(country:str, year:int, top_n:int=None):
 	Required Parameter = [country,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [highest_grossing_banks]

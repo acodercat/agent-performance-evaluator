@@ -10,6 +10,6 @@ def guitar_price_find(model:str, condition:str, location:str):
 	Required Parameter = [model,condition,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [guitar_price_find]

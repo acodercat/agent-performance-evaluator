@@ -10,6 +10,6 @@ def get_sport_ranking(sport:str, player_name:str, gender:str='all'):
 	Required Parameter = [sport,player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_sport_ranking]

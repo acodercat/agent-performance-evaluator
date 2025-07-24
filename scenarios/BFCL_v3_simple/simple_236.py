@@ -9,6 +9,6 @@ def us_history_get_event_info(event_name:str, specific_info:str):
 	Required Parameter = [event_name,specific_info,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [us_history_get_event_info]

@@ -10,7 +10,7 @@ def math_toolkit_sum_of_multiples(lower_limit:int, upper_limit:int, multiples:Li
 	Required Parameter = [lower_limit,upper_limit,multiples,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_toolkit_product_of_primes(count:int):
@@ -22,6 +22,6 @@ def math_toolkit_product_of_primes(count:int):
 	Required Parameter = [count,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_toolkit_sum_of_multiples, math_toolkit_product_of_primes]

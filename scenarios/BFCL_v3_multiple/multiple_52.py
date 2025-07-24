@@ -10,7 +10,7 @@ def unit_conversion(value:float, from_unit:str, to_unit:str):
 	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion(amount:int, from_currency:str, to_currency:str):
@@ -24,6 +24,6 @@ def currency_conversion(amount:int, from_currency:str, to_currency:str):
 	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [unit_conversion, currency_conversion]

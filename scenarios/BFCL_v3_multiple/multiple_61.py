@@ -10,7 +10,7 @@ def home_renovation_expert_find_specialty(location:str, specialization:str, year
 	Required Parameter = [location,specialization,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def landscape_architect_find_specialty(location:str, specialization:str, years_experience:int=0):
@@ -24,6 +24,6 @@ def landscape_architect_find_specialty(location:str, specialization:str, years_e
 	Required Parameter = [location,specialization,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [home_renovation_expert_find_specialty, landscape_architect_find_specialty]

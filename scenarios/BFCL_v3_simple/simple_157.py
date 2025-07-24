@@ -10,6 +10,6 @@ def criminal_history_check_felonies(full_name:str, birth_date:str, state:str=Non
 	Required Parameter = [full_name,birth_date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [criminal_history_check_felonies]

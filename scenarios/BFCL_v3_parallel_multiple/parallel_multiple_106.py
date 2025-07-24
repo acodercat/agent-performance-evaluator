@@ -9,7 +9,7 @@ def calculate_distance(start_point:str, end_point:str):
 	Required Parameter = [start_point,end_point,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -22,7 +22,7 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def traffic_estimate(start_location:str, end_location:str, time_period:str=None):
@@ -36,6 +36,6 @@ def traffic_estimate(start_location:str, end_location:str, time_period:str=None)
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_distance, weather_forecast, traffic_estimate]

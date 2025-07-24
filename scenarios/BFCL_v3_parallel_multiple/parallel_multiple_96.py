@@ -9,7 +9,7 @@ def library_find_nearby(location:str, preferences:List[str]):
 	Required Parameter = [location,preferences,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def store_find_nearby(location:str, preferences:List[str]):
@@ -22,6 +22,6 @@ def store_find_nearby(location:str, preferences:List[str]):
 	Required Parameter = [location,preferences,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [library_find_nearby, store_find_nearby]

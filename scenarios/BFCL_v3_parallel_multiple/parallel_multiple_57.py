@@ -10,7 +10,7 @@ def hotel_find(location:str, stars:int, amenities:List[str]=None):
 	Required Parameter = [location,stars,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_search(origin:str, destination:str, date:Any=None, passengers:int=1):
@@ -25,6 +25,6 @@ def flight_search(origin:str, destination:str, date:Any=None, passengers:int=1):
 	Required Parameter = [origin,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_find, flight_search]

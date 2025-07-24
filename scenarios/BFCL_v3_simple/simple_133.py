@@ -11,6 +11,6 @@ def finance_predict_future_value(present_value:int, annual_interest_rate:float, 
 	Required Parameter = [present_value,annual_interest_rate,time_years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [finance_predict_future_value]

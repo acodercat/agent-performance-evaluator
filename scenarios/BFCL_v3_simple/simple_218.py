@@ -10,6 +10,6 @@ def patient_get_mri_report(patient_id:str, status:str, mri_type:str=None):
 	Required Parameter = [patient_id,status,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [patient_get_mri_report]

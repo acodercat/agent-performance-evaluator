@@ -10,6 +10,6 @@ def find_instrument(budget:int, type:str, make:str=None):
 	Required Parameter = [budget,type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_instrument]

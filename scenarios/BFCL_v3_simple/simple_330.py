@@ -9,6 +9,6 @@ def board_game_info(game_name:str, info_required:List[str]):
 	Required Parameter = [game_name,info_required,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [board_game_info]

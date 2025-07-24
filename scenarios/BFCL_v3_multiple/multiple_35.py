@@ -10,7 +10,7 @@ def calculate_lcm(num1:int, num2:int, method:str=None):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_gcd(num1:int, num2:int, algorithm:str=None):
@@ -24,6 +24,6 @@ def calculate_gcd(num1:int, num2:int, algorithm:str=None):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_lcm, calculate_gcd]

@@ -10,6 +10,6 @@ def currency_conversion_convert(amount:int, from_currency:str, to_currency:str):
 	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [currency_conversion_convert]

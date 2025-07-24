@@ -10,6 +10,6 @@ def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	Required Parameter = [dataset_A,dataset_B,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [t_test]

@@ -10,7 +10,7 @@ def car_rental(location:str, car_type:List[str], fuel_type:str=None):
 	Required Parameter = [location,car_type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawyer_finder(location:str, specialization:List[str], experience:int=None):
@@ -24,6 +24,6 @@ def lawyer_finder(location:str, specialization:List[str], experience:int=None):
 	Required Parameter = [location,specialization,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [car_rental, lawyer_finder]

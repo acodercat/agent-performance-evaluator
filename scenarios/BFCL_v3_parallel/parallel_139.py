@@ -10,6 +10,6 @@ def employee_fetch_data(company_name:str, employee_id:int, data_field:List[str]=
 	Required Parameter = [company_name,employee_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [employee_fetch_data]

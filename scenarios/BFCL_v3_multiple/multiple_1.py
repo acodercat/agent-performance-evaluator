@@ -10,7 +10,7 @@ def math_triangle_area_heron(side1:int, side2:int, side3:int):
 	Required Parameter = [side1,side2,side3,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_circle_area(radius:float):
@@ -22,7 +22,7 @@ def math_circle_area(radius:float):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_triangle_area_base_height(base:float, height:float):
@@ -35,6 +35,6 @@ def math_triangle_area_base_height(base:float, height:float):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_triangle_area_heron, math_circle_area, math_triangle_area_base_height]

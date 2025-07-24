@@ -10,7 +10,7 @@ def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	Required Parameter = [dietary_restrictions,recipe_type,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_discovery_details(discovery:str, method_used:str=None):
@@ -23,6 +23,6 @@ def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_recipe, science_history_get_discovery_details]

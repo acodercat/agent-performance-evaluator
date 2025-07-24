@@ -9,7 +9,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	Required Parameter = [allele_frequency,genotype,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_factorial(number:int):
@@ -21,7 +21,7 @@ def math_factorial(number:int):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_flute(brand:str, specs:List[str]):
@@ -34,6 +34,6 @@ def find_flute(brand:str, specs:List[str]):
 	Required Parameter = [brand,specs,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_genotype_frequency, math_factorial, find_flute]

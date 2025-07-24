@@ -11,7 +11,7 @@ def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	Required Parameter = [company,start_date,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_check_price(items:List[str], quantities:List[int], store_location:str=None):
@@ -25,7 +25,7 @@ def walmart_check_price(items:List[str], quantities:List[int], store_location:st
 	Required Parameter = [items,quantities,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
@@ -39,6 +39,6 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_search, walmart_check_price, event_finder_find_upcoming]

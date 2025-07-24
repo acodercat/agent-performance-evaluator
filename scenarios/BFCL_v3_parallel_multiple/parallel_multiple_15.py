@@ -10,7 +10,7 @@ def restaurant_search(location:str, cuisine:str, rating:float=None):
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_search(_from:str, to:str, type:str):
@@ -24,6 +24,6 @@ def flight_search(_from:str, to:str, type:str):
 	Required Parameter = [_from,to,type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_search, flight_search]

@@ -10,6 +10,6 @@ def investment_predictProfit(investment_amount:int, annual_return:float, years:i
 	Required Parameter = [investment_amount,annual_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [investment_predictProfit]

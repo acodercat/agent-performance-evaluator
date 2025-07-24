@@ -9,6 +9,6 @@ def grocery_store_find_by_criteria(location:str, criteria:List[str]):
 	Required Parameter = [location,criteria,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_store_find_by_criteria]

@@ -10,7 +10,7 @@ def sports_ranking(team:str, league:str, season:int=None):
 	Required Parameter = [team,league,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_compound_interest(principle:float, interest_rate:float, time:int, compounds_per_year:int=None):
@@ -25,6 +25,6 @@ def calculate_compound_interest(principle:float, interest_rate:float, time:int, 
 	Required Parameter = [principle,interest_rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_ranking, calculate_compound_interest]

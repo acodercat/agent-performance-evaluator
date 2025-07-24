@@ -11,6 +11,6 @@ def compound_interest(principal:int, annual_rate:float, compounding_freq:str, ti
 	Required Parameter = [principal,annual_rate,compounding_freq,time_in_years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [compound_interest]

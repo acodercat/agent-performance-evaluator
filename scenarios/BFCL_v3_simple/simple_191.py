@@ -10,6 +10,6 @@ def locate_tallest_mountains(location:str, radius:int, amount:int):
 	Required Parameter = [location,radius,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [locate_tallest_mountains]

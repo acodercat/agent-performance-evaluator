@@ -8,7 +8,7 @@ def briefs_display_cases(case_id:List[str]):
 	Required Parameter = [case_id,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def court_records_search_cases(location:str, query:str, year:int, limit:int=5):
@@ -23,6 +23,6 @@ def court_records_search_cases(location:str, query:str, year:int, limit:int=5):
 	Required Parameter = [location,query,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [briefs_display_cases, court_records_search_cases]

@@ -10,7 +10,7 @@ def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of
 	Required Parameter = [location,minimum_rating,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str]=None):
@@ -24,6 +24,6 @@ def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [board_game_chess_get_top_players, restaurant_search_find_closest]

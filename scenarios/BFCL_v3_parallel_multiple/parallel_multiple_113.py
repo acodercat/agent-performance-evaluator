@@ -9,7 +9,7 @@ def paint_color_trends(room:str, period:str=None):
 	Required Parameter = [room,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -22,7 +22,7 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def house_price_trends(location:str, period:str=None):
@@ -35,6 +35,6 @@ def house_price_trends(location:str, period:str=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [paint_color_trends, weather_forecast, house_price_trends]

@@ -10,6 +10,6 @@ def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	Required Parameter = [element_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [discoverer_get]

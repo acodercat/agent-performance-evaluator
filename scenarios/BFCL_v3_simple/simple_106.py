@@ -10,6 +10,6 @@ def train_random_forest_classifier(dataset:str, max_depth:int, n_estimators:int)
 	Required Parameter = [dataset,max_depth,n_estimators,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [train_random_forest_classifier]

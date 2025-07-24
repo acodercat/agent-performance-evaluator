@@ -10,6 +10,6 @@ def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
 	Required Parameter = [platform,rating,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [multiplayer_game_finder]

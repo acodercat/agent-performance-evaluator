@@ -8,7 +8,7 @@ def card_game_search(theme:str):
 	Required Parameter = [theme,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_search(complexity:float, player_count:int):
@@ -21,7 +21,7 @@ def board_game_search(complexity:float, player_count:int):
 	Required Parameter = [complexity,player_count,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def trivia_game_search(duration:float):
@@ -33,6 +33,6 @@ def trivia_game_search(duration:float):
 	Required Parameter = [duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [card_game_search, board_game_search, trivia_game_search]

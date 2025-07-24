@@ -9,7 +9,7 @@ def chess_rating(player_name:str, variant:str=None):
 	Required Parameter = [player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def court_case_search(docket_number:str, location:str, full_text:bool='false'):
@@ -23,7 +23,7 @@ def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	Required Parameter = [docket_number,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_final_speed(initial_velocity:int, height:int, gravity:float=None):
@@ -37,7 +37,7 @@ def calculate_final_speed(initial_velocity:int, height:int, gravity:float=None):
 	Required Parameter = [initial_velocity,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_event_date(event:str, location:str=None):
@@ -50,6 +50,6 @@ def get_event_date(event:str, location:str=None):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [chess_rating, court_case_search, calculate_final_speed, get_event_date]

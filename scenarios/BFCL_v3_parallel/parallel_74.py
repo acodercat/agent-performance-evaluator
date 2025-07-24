@@ -9,6 +9,6 @@ def get_prime_factors(number:int, formatted:bool):
 	Required Parameter = [number,formatted,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_prime_factors]

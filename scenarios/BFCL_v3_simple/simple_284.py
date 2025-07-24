@@ -10,6 +10,6 @@ def concert_info_get(location:str, date:str, genre:str):
 	Required Parameter = [location,date,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_info_get]

@@ -9,6 +9,6 @@ def law_civil_get_case_details(case_title:str, include_dissent:bool):
 	Required Parameter = [case_title,include_dissent,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [law_civil_get_case_details]

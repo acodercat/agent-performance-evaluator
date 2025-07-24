@@ -9,6 +9,6 @@ def chi_squared_test(table:List[List[int]], alpha:float=None):
 	Required Parameter = [table,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [chi_squared_test]

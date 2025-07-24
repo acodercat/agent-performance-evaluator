@@ -10,6 +10,6 @@ def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_dr
 	Required Parameter = [total_cards,desired_cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [card_game_probability_calculate]

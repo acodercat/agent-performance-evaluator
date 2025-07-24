@@ -10,7 +10,7 @@ def get_zodiac_compatibility(sign1:str, sign2:str, scale:str=None):
 	Required Parameter = [sign1,sign2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def local_nursery_find(location:str, plant_types:List[str]):
@@ -23,7 +23,7 @@ def local_nursery_find(location:str, plant_types:List[str]):
 	Required Parameter = [location,plant_types,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_info(artist_name:str, detail:bool=None):
@@ -36,7 +36,7 @@ def get_sculpture_info(artist_name:str, detail:bool=None):
 	Required Parameter = [artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def monarch_getMonarchOfYear(location:str, year:int, fullName:bool='false'):
@@ -50,6 +50,6 @@ def monarch_getMonarchOfYear(location:str, year:int, fullName:bool='false'):
 	Required Parameter = [location,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_zodiac_compatibility, local_nursery_find, get_sculpture_info, monarch_getMonarchOfYear]

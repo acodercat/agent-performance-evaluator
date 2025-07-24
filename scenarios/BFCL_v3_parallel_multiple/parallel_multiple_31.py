@@ -8,7 +8,7 @@ def lawsuit_fetch_details(company_name:str):
 	Required Parameter = [company_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_judge(company_name:str, lawsuit_id:int=123):
@@ -21,6 +21,6 @@ def lawsuit_judge(company_name:str, lawsuit_id:int=123):
 	Required Parameter = [company_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_fetch_details, lawsuit_judge]

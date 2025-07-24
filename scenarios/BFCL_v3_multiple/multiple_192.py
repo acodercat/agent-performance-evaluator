@@ -10,7 +10,7 @@ def currency_conversion_convert(amount:int, from_currency:str, to_currency:str):
 	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calc_absolute_pressure(gauge_pressure:float, atm_pressure:float=None):
@@ -23,7 +23,7 @@ def calc_absolute_pressure(gauge_pressure:float, atm_pressure:float=None):
 	Required Parameter = [gauge_pressure,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:float, time:float, acceleration:float=0):
@@ -37,6 +37,6 @@ def calculate_displacement(initial_velocity:float, time:float, acceleration:floa
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [currency_conversion_convert, calc_absolute_pressure, calculate_displacement]

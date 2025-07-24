@@ -10,6 +10,6 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	Required Parameter = [rank,suit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_card_in_deck]

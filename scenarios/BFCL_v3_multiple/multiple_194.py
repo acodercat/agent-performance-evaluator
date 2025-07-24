@@ -10,7 +10,7 @@ def discoverer_get(element_name:str, year:int=None, first:bool=True):
 	Required Parameter = [element_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_check_case(case_id:int, closed_status:bool):
@@ -23,7 +23,7 @@ def lawsuit_check_case(case_id:int, closed_status:bool):
 	Required Parameter = [case_id,closed_status,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_museum_hours(museum_name:str, day:str):
@@ -36,7 +36,7 @@ def get_museum_hours(museum_name:str, day:str):
 	Required Parameter = [museum_name,day,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
@@ -50,6 +50,6 @@ def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	Required Parameter = [number,dice_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [discoverer_get, lawsuit_check_case, get_museum_hours, monopoly_odds_calculator]

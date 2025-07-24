@@ -9,7 +9,7 @@ def musical_scale(key:str, scale_type:str='major'):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_paint_needed(coverage_rate:int, length:int, height:int):
@@ -23,7 +23,7 @@ def calculate_paint_needed(coverage_rate:int, length:int, height:int):
 	Required Parameter = [coverage_rate,length,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def prob_dist_binomial(trials:int, successes:int, p:float=None):
@@ -37,6 +37,6 @@ def prob_dist_binomial(trials:int, successes:int, p:float=None):
 	Required Parameter = [trials,successes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [musical_scale, calculate_paint_needed, prob_dist_binomial]

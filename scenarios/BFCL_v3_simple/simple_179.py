@@ -10,6 +10,6 @@ def find_latest_court_case(company1:str, company2:str, country:str='USA'):
 	Required Parameter = [company1,company2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_latest_court_case]

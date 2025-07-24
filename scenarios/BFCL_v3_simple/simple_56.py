@@ -9,6 +9,6 @@ def cellbio_get_proteins(cell_compartment:str, include_description:bool='false')
 	Required Parameter = [cell_compartment,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [cellbio_get_proteins]

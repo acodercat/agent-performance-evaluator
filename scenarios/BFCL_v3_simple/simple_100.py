@@ -9,6 +9,6 @@ def light_travel_time(distance_in_light_years:int, speed_of_light:int=None):
 	Required Parameter = [distance_in_light_years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [light_travel_time]

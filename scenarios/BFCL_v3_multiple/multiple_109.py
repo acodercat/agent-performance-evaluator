@@ -11,7 +11,7 @@ def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str
 	Required Parameter = [location,art_form,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
@@ -24,7 +24,7 @@ def mutation_type_find(snp_id:str, species:str=None):
 	Required Parameter = [snp_id,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cellbio_get_proteins(cell_compartment:str, include_description:bool='false'):
@@ -37,6 +37,6 @@ def cellbio_get_proteins(cell_compartment:str, include_description:bool='false')
 	Required Parameter = [cell_compartment,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_exhibition, mutation_type_find, cellbio_get_proteins]

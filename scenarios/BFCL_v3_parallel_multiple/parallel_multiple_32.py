@@ -9,7 +9,7 @@ def weather_forecast_precipitation(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_humidity(location:str, days:int):
@@ -22,7 +22,7 @@ def weather_forecast_humidity(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast_temperature(location:str, days:int):
@@ -35,6 +35,6 @@ def weather_forecast_temperature(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [weather_forecast_precipitation, weather_forecast_humidity, weather_forecast_temperature]

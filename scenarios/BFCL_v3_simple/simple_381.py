@@ -12,6 +12,6 @@ def hilton_hotel_check_availability(location:str, check_in_date:str, check_out_d
 	Required Parameter = [location,check_in_date,check_out_date,no_of_adults,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hilton_hotel_check_availability]

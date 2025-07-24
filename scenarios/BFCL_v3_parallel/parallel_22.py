@@ -10,6 +10,6 @@ def court_info_get_case_status(case_number:str, court:str, details:str=None):
 	Required Parameter = [case_number,court,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [court_info_get_case_status]

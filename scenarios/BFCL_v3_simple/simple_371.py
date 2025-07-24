@@ -9,6 +9,6 @@ def whole_foods_check_price(location:str, items:List[str]):
 	Required Parameter = [location,items,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [whole_foods_check_price]

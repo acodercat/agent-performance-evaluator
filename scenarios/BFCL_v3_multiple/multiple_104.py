@@ -10,7 +10,7 @@ def instrument_price_get(brand:str, model:str, finish:str):
 	Required Parameter = [brand,model,finish,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
@@ -24,7 +24,7 @@ def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
 	Required Parameter = [origin,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:bool):
@@ -38,7 +38,7 @@ def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:
 	Required Parameter = [molecule,organelle,specific_function,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_scientist_for_discovery(discovery:str):
@@ -50,6 +50,6 @@ def get_scientist_for_discovery(discovery:str):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [instrument_price_get, get_shortest_driving_distance, cell_biology_function_lookup, get_scientist_for_discovery]

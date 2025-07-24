@@ -9,6 +9,6 @@ def museum_info_get_info(location:str, details:List[str]):
 	Required Parameter = [location,details,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [museum_info_get_info]

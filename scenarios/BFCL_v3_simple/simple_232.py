@@ -10,6 +10,6 @@ def monarch_getMonarchOfYear(location:str, year:int, fullName:bool=False):
 	Required Parameter = [location,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [monarch_getMonarchOfYear]

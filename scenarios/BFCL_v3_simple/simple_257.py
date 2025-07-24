@@ -9,6 +9,6 @@ def identify_color_rgb(color_name:str, standard:str=None):
 	Required Parameter = [color_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [identify_color_rgb]

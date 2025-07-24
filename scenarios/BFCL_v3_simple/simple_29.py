@@ -10,6 +10,6 @@ def calculate_final_speed(time:int, initial_speed:int=None, gravity:float=None):
 	Required Parameter = [time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_final_speed]

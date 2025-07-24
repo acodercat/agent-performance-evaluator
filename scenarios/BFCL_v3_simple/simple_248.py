@@ -9,6 +9,6 @@ def science_history_get_invention(invention_name:str, want_year:bool):
 	Required Parameter = [invention_name,want_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [science_history_get_invention]

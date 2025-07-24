@@ -10,6 +10,6 @@ def calculate_velocity(distance:int, duration:int, unit:str=None):
 	Required Parameter = [distance,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_velocity]

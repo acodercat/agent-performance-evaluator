@@ -9,7 +9,7 @@ def office_designer_design(rooms:int, meeting_room:str):
 	Required Parameter = [rooms,meeting_room,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def house_designer_design(bedrooms:int, bathrooms:int, garden:bool=None):
@@ -23,6 +23,6 @@ def house_designer_design(bedrooms:int, bathrooms:int, garden:bool=None):
 	Required Parameter = [bedrooms,bathrooms,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [office_designer_design, house_designer_design]

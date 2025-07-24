@@ -9,6 +9,6 @@ def get_third_chord(key:str, type:str=None):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_third_chord]

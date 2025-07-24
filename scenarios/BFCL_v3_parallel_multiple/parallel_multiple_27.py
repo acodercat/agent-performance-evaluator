@@ -10,7 +10,7 @@ def bank_account_transfer(from_account:str, to_account:str, amount:float):
 	Required Parameter = [from_account,to_account,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def bank_account_calculate_interest(principal:float, rate:float, time:int):
@@ -24,6 +24,6 @@ def bank_account_calculate_interest(principal:float, rate:float, time:int):
 	Required Parameter = [principal,rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [bank_account_transfer, bank_account_calculate_interest]

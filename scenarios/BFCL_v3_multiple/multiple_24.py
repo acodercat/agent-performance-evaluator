@@ -10,7 +10,7 @@ def route_planner_calculate_route(start:str, destination:str, method:str='fastes
 	Required Parameter = [start,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def chess_club_details_find(name:str, city:str, event:str='null'):
@@ -24,6 +24,6 @@ def chess_club_details_find(name:str, city:str, event:str='null'):
 	Required Parameter = [name,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [route_planner_calculate_route, chess_club_details_find]

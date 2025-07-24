@@ -9,6 +9,6 @@ def history_api_get_president_by_year(year:int, full_term_only:bool=False):
 	Required Parameter = [year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_api_get_president_by_year]

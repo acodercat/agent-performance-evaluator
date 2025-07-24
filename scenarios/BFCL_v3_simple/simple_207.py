@@ -10,6 +10,6 @@ def calculate_shortest_distance(start_location:str, end_location:str, route_pref
 	Required Parameter = [start_location,end_location,route_preference,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_shortest_distance]

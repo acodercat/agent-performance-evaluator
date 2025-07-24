@@ -11,6 +11,6 @@ def calculate_compounded_interest(principal:int, rate:float, time:int, n:int):
 	Required Parameter = [principal,rate,time,n,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_compounded_interest]

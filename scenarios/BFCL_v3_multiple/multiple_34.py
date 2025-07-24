@@ -9,7 +9,7 @@ def math_gcd(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_sqrt(num:float, accuracy:int=None):
@@ -22,7 +22,7 @@ def math_sqrt(num:float, accuracy:int=None):
 	Required Parameter = [num,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_lcm(num1:int, num2:int):
@@ -35,6 +35,6 @@ def math_lcm(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_gcd, math_sqrt, math_lcm]

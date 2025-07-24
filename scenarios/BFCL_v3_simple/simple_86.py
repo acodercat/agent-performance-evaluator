@@ -11,6 +11,6 @@ def city_distance_find_shortest(start_city:str, end_city:str, transportation:str
 	Required Parameter = [start_city,end_city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [city_distance_find_shortest]

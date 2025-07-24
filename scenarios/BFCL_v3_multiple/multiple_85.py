@@ -10,7 +10,7 @@ def basketball_scores_get_scores(team:str, league:str, rounds:int):
 	Required Parameter = [team,league,rounds,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_scores_get_scores(team:str, league:str, rounds:int):
@@ -24,6 +24,6 @@ def soccer_scores_get_scores(team:str, league:str, rounds:int):
 	Required Parameter = [team,league,rounds,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [basketball_scores_get_scores, soccer_scores_get_scores]

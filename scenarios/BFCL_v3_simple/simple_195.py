@@ -11,6 +11,6 @@ def calculate_carbon_footprint(daily_miles:int, meat_meals_per_week:int, annual_
 	Required Parameter = [daily_miles,meat_meals_per_week,annual_trash_weight,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_carbon_footprint]

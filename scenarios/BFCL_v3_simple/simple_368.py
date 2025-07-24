@@ -10,6 +10,6 @@ def calculate_cooking_time(weight_kg:float, cooking_method:str=None, temp_celsiu
 	Required Parameter = [weight_kg,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_cooking_time]

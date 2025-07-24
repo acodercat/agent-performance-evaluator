@@ -9,6 +9,6 @@ def ecology_data_precipitation_stats(location:str, time_frame:str):
 	Required Parameter = [location,time_frame,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [ecology_data_precipitation_stats]

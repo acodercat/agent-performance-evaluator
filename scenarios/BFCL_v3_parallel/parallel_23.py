@@ -10,6 +10,6 @@ def alimony_calculator_ca_calculate(payor_income:int, recipient_income:int, dura
 	Required Parameter = [payor_income,recipient_income,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [alimony_calculator_ca_calculate]

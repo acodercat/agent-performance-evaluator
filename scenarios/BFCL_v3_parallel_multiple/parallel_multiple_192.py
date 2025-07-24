@@ -10,7 +10,7 @@ def find_recipe(dietary_restrictions:str, recipe_type:str, time:int):
 	Required Parameter = [dietary_restrictions,recipe_type,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def poker_probability_full_house(deck_size:int, hand_size:int):
@@ -23,7 +23,7 @@ def poker_probability_full_house(deck_size:int, hand_size:int):
 	Required Parameter = [deck_size,hand_size,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hospital_locate(location:str, radius:int, department:str=None):
@@ -37,6 +37,6 @@ def hospital_locate(location:str, radius:int, department:str=None):
 	Required Parameter = [location,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_recipe, poker_probability_full_house, hospital_locate]

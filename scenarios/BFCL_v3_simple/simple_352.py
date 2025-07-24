@@ -9,6 +9,6 @@ def gamespot_getAverageUserScore(game_name:str, platform:str):
 	Required Parameter = [game_name,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [gamespot_getAverageUserScore]

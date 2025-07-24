@@ -9,6 +9,6 @@ def get_air_quality(location:str, detail:bool=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_air_quality]

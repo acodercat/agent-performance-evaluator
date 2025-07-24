@@ -11,6 +11,6 @@ def calculate_electrostatic_potential(charge1:float, charge2:float, distance:flo
 	Required Parameter = [charge1,charge2,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_electrostatic_potential]

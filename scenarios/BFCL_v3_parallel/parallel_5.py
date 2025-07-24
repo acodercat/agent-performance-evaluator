@@ -10,6 +10,6 @@ def streaming_services_shows_list_and_ratings(streaming_service:str, show_list:L
 	Required Parameter = [streaming_service,show_list,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [streaming_services_shows_list_and_ratings]

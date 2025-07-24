@@ -8,6 +8,6 @@ def number_analysis_prime_factors(number:int):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [number_analysis_prime_factors]

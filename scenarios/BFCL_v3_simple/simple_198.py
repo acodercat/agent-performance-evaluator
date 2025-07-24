@@ -10,6 +10,6 @@ def calculate_daily_water_intake(weight:int, activity_level:str=None, climate:st
 	Required Parameter = [weight,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_daily_water_intake]

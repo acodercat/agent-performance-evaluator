@@ -9,6 +9,6 @@ def music_theory_key_signature(key:str, scale_type:str=None):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_theory_key_signature]

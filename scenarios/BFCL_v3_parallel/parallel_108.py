@@ -9,6 +9,6 @@ def biology_get_cell_info(cell_type:str, detailed:bool='false'):
 	Required Parameter = [cell_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [biology_get_cell_info]

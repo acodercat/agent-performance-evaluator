@@ -10,6 +10,6 @@ def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	Required Parameter = [game_name,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_collectables_in_season]

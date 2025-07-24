@@ -10,6 +10,6 @@ def kinematics_final_velocity_from_distance(acceleration:int, distance:int, init
 	Required Parameter = [acceleration,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [kinematics_final_velocity_from_distance]

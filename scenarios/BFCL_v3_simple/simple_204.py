@@ -10,6 +10,6 @@ def restaurant_find_nearby(location:str, cuisine:str, max_distance:int=None):
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find_nearby]

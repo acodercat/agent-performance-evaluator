@@ -10,6 +10,6 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	Required Parameter = [loc,product_list,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [walmart_purchase]

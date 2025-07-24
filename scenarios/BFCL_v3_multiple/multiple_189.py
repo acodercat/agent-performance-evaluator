@@ -10,7 +10,7 @@ def calculate_emission_savings(energy_type:str, usage_duration:int, region:str=N
 	Required Parameter = [energy_type,usage_duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def timezone_convert(time:str, from_timezone:str, to_timezone:str):
@@ -24,6 +24,6 @@ def timezone_convert(time:str, from_timezone:str, to_timezone:str):
 	Required Parameter = [time,from_timezone,to_timezone,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_emission_savings, timezone_convert]

@@ -11,7 +11,7 @@ def kinematics_calculate_final_speed(initial_speed:float, acceleration:float, ti
 	Required Parameter = [initial_speed,acceleration,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_displacement(initial_speed:float, acceleration:float, time:float, rounding:int=2):
@@ -26,6 +26,6 @@ def kinematics_calculate_displacement(initial_speed:float, acceleration:float, t
 	Required Parameter = [initial_speed,acceleration,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [kinematics_calculate_final_speed, kinematics_calculate_displacement]

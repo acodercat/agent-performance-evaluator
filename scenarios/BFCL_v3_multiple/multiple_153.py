@@ -10,7 +10,7 @@ def locate_tallest_mountains(location:str, radius:float, amount:int):
 	Required Parameter = [location,radius,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_entropy_change(initial_temp:float, final_temp:float, heat_capacity:float, isothermal:bool=None):
@@ -25,7 +25,7 @@ def calculate_entropy_change(initial_temp:float, final_temp:float, heat_capacity
 	Required Parameter = [initial_temp,final_temp,heat_capacity,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_event_date(event:str, location:str=None):
@@ -38,6 +38,6 @@ def get_event_date(event:str, location:str=None):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [locate_tallest_mountains, calculate_entropy_change, get_event_date]

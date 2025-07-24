@@ -10,6 +10,6 @@ def sculpture_locator_find_by_artist(artist:str, material:str, location:str=None
 	Required Parameter = [artist,material,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sculpture_locator_find_by_artist]

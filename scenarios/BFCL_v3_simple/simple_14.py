@@ -9,6 +9,6 @@ def calculate_derivative(function:str, x_value:float=None):
 	Required Parameter = [function,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_derivative]

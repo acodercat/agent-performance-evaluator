@@ -10,6 +10,6 @@ def get_top_cases(field_of_law:str, top_number:int, country:str=None):
 	Required Parameter = [field_of_law,top_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_top_cases]

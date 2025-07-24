@@ -9,7 +9,7 @@ def geometry_rectangle_calculate(width:int, length:int):
 	Required Parameter = [width,length,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_circle_calculate(radius:int):
@@ -21,7 +21,7 @@ def geometry_circle_calculate(radius:int):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_square_calculate(side:int):
@@ -33,6 +33,6 @@ def geometry_square_calculate(side:int):
 	Required Parameter = [side,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geometry_rectangle_calculate, geometry_circle_calculate, geometry_square_calculate]

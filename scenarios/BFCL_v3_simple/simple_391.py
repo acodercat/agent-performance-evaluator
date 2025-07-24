@@ -10,6 +10,6 @@ def get_exchange_rate_with_fee(base_currency:str, target_currency:str, fee:float
 	Required Parameter = [base_currency,target_currency,fee,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_exchange_rate_with_fee]

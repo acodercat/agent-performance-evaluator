@@ -9,7 +9,7 @@ def calculate_genotype_frequency(allele_frequency:float, genotype:str):
 	Required Parameter = [allele_frequency,genotype,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, rooms:int=1):
@@ -25,7 +25,7 @@ def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, ro
 	Required Parameter = [hotel_name,location,start_date,end_date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_highest_scoring_player(game:str, season:str, region:str=None):
@@ -39,7 +39,7 @@ def get_highest_scoring_player(game:str, season:str, region:str=None):
 	Required Parameter = [game,season,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_invention(invention_name:str, want_year:bool):
@@ -52,6 +52,6 @@ def science_history_get_invention(invention_name:str, want_year:bool):
 	Required Parameter = [invention_name,want_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_genotype_frequency, hotel_booking, get_highest_scoring_player, science_history_get_invention]

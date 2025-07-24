@@ -10,6 +10,6 @@ def current_weather_condition(city:str, country:str, measurement:str=None):
 	Required Parameter = [city,country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [current_weather_condition]

@@ -9,6 +9,6 @@ def color_converter_get_color_info(color_name:str, conversion_type:List[str]):
 	Required Parameter = [color_name,conversion_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [color_converter_get_color_info]

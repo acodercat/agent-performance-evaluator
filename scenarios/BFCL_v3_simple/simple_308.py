@@ -10,6 +10,6 @@ def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
 	Required Parameter = [team_name,num_matches,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_match_schedule]

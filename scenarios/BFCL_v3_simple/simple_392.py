@@ -10,6 +10,6 @@ def latest_exchange_rate(source_currency:str, target_currency:str, amount:float=
 	Required Parameter = [source_currency,target_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [latest_exchange_rate]

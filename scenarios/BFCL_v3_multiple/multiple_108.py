@@ -10,7 +10,7 @@ def calc_heat_capacity(temp:int, volume:int, gas:str=None):
 	Required Parameter = [temp,volume,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_discounted_cash_flow(coupon_payment:float, period:int, discount_rate:float, face_value:int=None):
@@ -25,6 +25,6 @@ def calculate_discounted_cash_flow(coupon_payment:float, period:int, discount_ra
 	Required Parameter = [coupon_payment,period,discount_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_heat_capacity, calculate_discounted_cash_flow]

@@ -10,6 +10,6 @@ def ecology_get_turtle_population(location:str, year:int=None, species:bool=None
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [ecology_get_turtle_population]

@@ -11,7 +11,7 @@ def financial_compound_interest(principle:int, rate:float, time:int, n:int):
 	Required Parameter = [principle,rate,time,n,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_simple_interest(principle:float, rate:float, time:int):
@@ -25,6 +25,6 @@ def financial_simple_interest(principle:float, rate:float, time:int):
 	Required Parameter = [principle,rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [financial_compound_interest, financial_simple_interest]

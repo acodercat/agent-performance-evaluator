@@ -10,7 +10,7 @@ def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	Required Parameter = [company_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field(current:int, radius:float, permeability:float=None):
@@ -24,7 +24,7 @@ def calculate_magnetic_field(current:int, radius:float, permeability:float=None)
 	Required Parameter = [current,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
@@ -38,6 +38,6 @@ def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	Required Parameter = [artist,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_details_find, calculate_magnetic_field, concert_booking_book_ticket]

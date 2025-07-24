@@ -11,6 +11,6 @@ def hotel_booking_check_availability(hotel_name:str, location:str, check_in_date
 	Required Parameter = [hotel_name,location,check_in_date,check_out_date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_booking_check_availability]

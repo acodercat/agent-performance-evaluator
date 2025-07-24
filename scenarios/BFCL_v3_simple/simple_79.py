@@ -9,6 +9,6 @@ def create_histogram(data:List[int], bins:int):
 	Required Parameter = [data,bins,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [create_histogram]

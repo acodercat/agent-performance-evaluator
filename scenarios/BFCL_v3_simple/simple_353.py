@@ -10,6 +10,6 @@ def find_recipes(diet:str, meal_type:str, ingredients:List[str]=None):
 	Required Parameter = [diet,meal_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_recipes]

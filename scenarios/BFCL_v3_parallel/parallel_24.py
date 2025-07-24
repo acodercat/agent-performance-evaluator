@@ -10,6 +10,6 @@ def law_case_get_details(case_number:str, include_history:bool=None, include_lit
 	Required Parameter = [case_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [law_case_get_details]

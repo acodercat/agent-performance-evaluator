@@ -8,6 +8,6 @@ def cards_shuffle_and_draw(num_cards:int):
 	Required Parameter = [num_cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [cards_shuffle_and_draw]

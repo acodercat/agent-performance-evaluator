@@ -10,7 +10,7 @@ def calculate_electric_field_strength(charge:float, distance:float, medium:str=N
 	Required Parameter = [charge,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def mix_paint_color(color1:str, color2:str, lightness:int=None):
@@ -24,7 +24,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	Required Parameter = [color1,color2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
@@ -39,7 +39,7 @@ def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:st
 	Required Parameter = [quantity,from_unit,to_unit,item,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
@@ -53,6 +53,6 @@ def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	Required Parameter = [total,extroverts,introverts,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_electric_field_strength, mix_paint_color, cooking_conversion_convert, group_dynamics_pattern]

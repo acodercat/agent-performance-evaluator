@@ -10,6 +10,6 @@ def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
 	Required Parameter = [dietary_restriction,ingredients,servings,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_search]

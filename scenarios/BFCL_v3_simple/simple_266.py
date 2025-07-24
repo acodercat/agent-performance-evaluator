@@ -9,6 +9,6 @@ def get_sculpture_value(sculpture:str, artist:str):
 	Required Parameter = [sculpture,artist,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_sculpture_value]

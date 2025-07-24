@@ -9,7 +9,7 @@ def investment_withdraw(company:str, amount:float):
 	Required Parameter = [company,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def investment_invest(company:str, amount:float):
@@ -22,6 +22,6 @@ def investment_invest(company:str, amount:float):
 	Required Parameter = [company,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [investment_withdraw, investment_invest]

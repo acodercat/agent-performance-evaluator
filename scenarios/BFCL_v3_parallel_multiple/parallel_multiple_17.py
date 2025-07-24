@@ -9,7 +9,7 @@ def payment_calculation(items:List[str], quantities:List[int]):
 	Required Parameter = [items,quantities,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def steps_calorie_calculation(calorie:float):
@@ -21,7 +21,7 @@ def steps_calorie_calculation(calorie:float):
 	Required Parameter = [calorie,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hydration_calculator(exercise_time:float):
@@ -33,6 +33,6 @@ def hydration_calculator(exercise_time:float):
 	Required Parameter = [exercise_time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [payment_calculation, steps_calorie_calculation, hydration_calculator]

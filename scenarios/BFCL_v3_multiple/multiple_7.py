@@ -10,7 +10,7 @@ def wildlife_population_assess_growth(species:str, location:str, duration:int):
 	Required Parameter = [species,location,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ecological_impact_analyze(species:str, ecosystem:str, location:str, timeframe:int=5):
@@ -25,6 +25,6 @@ def ecological_impact_analyze(species:str, ecosystem:str, location:str, timefram
 	Required Parameter = [species,ecosystem,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [wildlife_population_assess_growth, ecological_impact_analyze]

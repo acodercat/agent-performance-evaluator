@@ -10,7 +10,7 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
@@ -24,7 +24,7 @@ def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None):
 	Required Parameter = [dataset_A,dataset_B,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_triangle(base:float, height:float, unit:str=None):
@@ -38,6 +38,6 @@ def geometry_area_triangle(base:float, height:float, unit:str=None):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [event_finder_find_upcoming, t_test, geometry_area_triangle]

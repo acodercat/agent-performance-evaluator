@@ -10,6 +10,6 @@ def game_save_progress(stage:int, mode:str, level:str='user'):
 	Required Parameter = [stage,mode,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_save_progress]

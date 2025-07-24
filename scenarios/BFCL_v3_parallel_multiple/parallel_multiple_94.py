@@ -9,7 +9,7 @@ def sort_list(elements:List[int], order:str='asc'):
 	Required Parameter = [elements,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sum_elements(elements:List[int]):
@@ -21,7 +21,7 @@ def sum_elements(elements:List[int]):
 	Required Parameter = [elements,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def filter_list(elements:List[str], condition:str):
@@ -34,6 +34,6 @@ def filter_list(elements:List[str], condition:str):
 	Required Parameter = [elements,condition,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sort_list, sum_elements, filter_list]

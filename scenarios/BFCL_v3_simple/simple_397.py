@@ -10,6 +10,6 @@ def distance_calculator_calculate(origin:str, destination:str, consider_terrain:
 	Required Parameter = [origin,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [distance_calculator_calculate]

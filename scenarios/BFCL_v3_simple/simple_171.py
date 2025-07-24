@@ -10,6 +10,6 @@ def fetch_law_case_details(case_number:int, court:str, year:int):
 	Required Parameter = [case_number,court,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [fetch_law_case_details]

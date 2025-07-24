@@ -9,7 +9,7 @@ def financial_ratio_net_profit_margin(net_income:int, total_revenue:int):
 	Required Parameter = [net_income,total_revenue,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratio_debt_ratio(total_liabilities:int, total_assets:int):
@@ -22,6 +22,6 @@ def financial_ratio_debt_ratio(total_liabilities:int, total_assets:int):
 	Required Parameter = [total_liabilities,total_assets,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [financial_ratio_net_profit_margin, financial_ratio_debt_ratio]

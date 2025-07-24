@@ -11,6 +11,6 @@ def calculate_discounted_cash_flow(coupon_payment:int, period:int, discount_rate
 	Required Parameter = [coupon_payment,period,discount_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_discounted_cash_flow]

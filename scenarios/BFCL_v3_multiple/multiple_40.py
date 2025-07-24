@@ -10,7 +10,7 @@ def electromagnetism_ampere_law(enclosed_current:float, radius:float, mu0:float=
 	Required Parameter = [enclosed_current,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetism_biot_savart_law(current:int, distance:int, mu0:float=None):
@@ -24,6 +24,6 @@ def electromagnetism_biot_savart_law(current:int, distance:int, mu0:float=None):
 	Required Parameter = [current,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [electromagnetism_ampere_law, electromagnetism_biot_savart_law]

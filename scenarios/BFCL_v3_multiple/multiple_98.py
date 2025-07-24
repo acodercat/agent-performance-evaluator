@@ -9,7 +9,7 @@ def get_earliest_reference(name:str, source:str=None):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_current_time(city:str, country:str, format:str=None):
@@ -23,7 +23,7 @@ def get_current_time(city:str, country:str, format:str=None):
 	Required Parameter = [city,country,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:int=None):
@@ -38,7 +38,7 @@ def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:i
 	Required Parameter = [key,start_note,length,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_circumference(radius:int, units:str=None):
@@ -51,6 +51,6 @@ def geometry_circumference(radius:int, units:str=None):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_earliest_reference, get_current_time, music_generator_generate_melody, geometry_circumference]

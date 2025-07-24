@@ -10,7 +10,7 @@ def restaurant_find_nearby(location:str, cuisine:str, max_distance:int=None):
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ecology_data_precipitation_stats(location:str, time_frame:str):
@@ -23,6 +23,6 @@ def ecology_data_precipitation_stats(location:str, time_frame:str):
 	Required Parameter = [location,time_frame,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find_nearby, ecology_data_precipitation_stats]

@@ -11,6 +11,6 @@ def calculate_stock_return(investment_amount:int, annual_growth_rate:float, hold
 	Required Parameter = [investment_amount,annual_growth_rate,holding_period,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_stock_return]

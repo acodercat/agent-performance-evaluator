@@ -10,6 +10,6 @@ def calculate_batting_average(hits:int, at_bats:int, decimal_places:int=None):
 	Required Parameter = [hits,at_bats,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_batting_average]

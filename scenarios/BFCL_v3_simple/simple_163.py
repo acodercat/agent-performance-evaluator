@@ -11,6 +11,6 @@ def property_records_get(address:str, parcel_number:str, county:str, include_own
 	Required Parameter = [address,parcel_number,county,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [property_records_get]

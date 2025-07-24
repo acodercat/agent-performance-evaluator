@@ -9,6 +9,6 @@ def museum_info(museum_name:str, info_type:str='opening_hours'):
 	Required Parameter = [museum_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [museum_info]

@@ -10,7 +10,7 @@ def geometry_calculate_cone_volume(radius:int, height:int, round_off:int=None):
 	Required Parameter = [radius,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_calculate_cone_mass(radius:float, height:float, density:float):
@@ -24,6 +24,6 @@ def physics_calculate_cone_mass(radius:float, height:float, density:float):
 	Required Parameter = [radius,height,density,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geometry_calculate_cone_volume, physics_calculate_cone_mass]

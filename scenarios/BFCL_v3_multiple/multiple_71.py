@@ -9,7 +9,7 @@ def get_bureau_statistics(year:int, category:str):
 	Required Parameter = [year,category,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_population(year:int, category:str):
@@ -22,7 +22,7 @@ def get_population(year:int, category:str):
 	Required Parameter = [year,category,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_demographics(year:int, category:str):
@@ -35,6 +35,6 @@ def get_demographics(year:int, category:str):
 	Required Parameter = [year,category,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_bureau_statistics, get_population, get_demographics]

@@ -11,7 +11,7 @@ def temperature_converter_convert(temperature:float, from_unit:str, to_unit:str,
 	Required Parameter = [temperature,from_unit,to_unit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def energy_calculator_calculate(substance:str, mass:float, initial_temperature:float, final_temperature:float, unit:str=None):
@@ -27,6 +27,6 @@ def energy_calculator_calculate(substance:str, mass:float, initial_temperature:f
 	Required Parameter = [substance,mass,initial_temperature,final_temperature,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [temperature_converter_convert, energy_calculator_calculate]

@@ -10,6 +10,6 @@ def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	Required Parameter = [case_number,county,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [crime_record_get_record]

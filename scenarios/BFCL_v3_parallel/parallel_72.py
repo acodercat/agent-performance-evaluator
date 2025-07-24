@@ -11,6 +11,6 @@ def integrate(function:str, start_x:int, end_x:int, method:str=None):
 	Required Parameter = [function,start_x,end_x,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [integrate]

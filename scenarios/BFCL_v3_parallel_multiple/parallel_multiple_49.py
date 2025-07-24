@@ -9,7 +9,7 @@ def melody_generator(note_sequence:List[str], instrument:str='Bass'):
 	Required Parameter = [note_sequence,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def beat_generator(genre:str, bpm:int, scale:str='Major'):
@@ -23,6 +23,6 @@ def beat_generator(genre:str, bpm:int, scale:str='Major'):
 	Required Parameter = [genre,bpm,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [melody_generator, beat_generator]

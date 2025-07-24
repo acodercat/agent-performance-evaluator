@@ -10,6 +10,6 @@ def hypothesis_testing_two_sample_t_test(group1:List[float], group2:List[float],
 	Required Parameter = [group1,group2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hypothesis_testing_two_sample_t_test]

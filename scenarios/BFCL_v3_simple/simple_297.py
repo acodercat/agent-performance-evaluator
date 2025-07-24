@@ -10,6 +10,6 @@ def music_theory_chordProgression(progression:List[str], returnAllPossibleKeys:b
 	Required Parameter = [progression,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_theory_chordProgression]

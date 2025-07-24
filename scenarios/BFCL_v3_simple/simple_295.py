@@ -10,6 +10,6 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	Required Parameter = [song_title,artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_song_lyrics]

@@ -10,6 +10,6 @@ def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
 	Required Parameter = [city,specialty,fee,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawyer_find_nearby]

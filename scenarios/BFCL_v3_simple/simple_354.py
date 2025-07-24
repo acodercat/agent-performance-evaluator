@@ -10,6 +10,6 @@ def get_vegan_recipe(dish_type:str, cooking_time:int, ingredient_preference:List
 	Required Parameter = [dish_type,cooking_time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_vegan_recipe]

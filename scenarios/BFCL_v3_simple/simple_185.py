@@ -10,6 +10,6 @@ def detailed_weather_forecast(location:str, duration:int, include_precipitation:
 	Required Parameter = [location,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [detailed_weather_forecast]

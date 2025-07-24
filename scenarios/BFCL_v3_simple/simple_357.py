@@ -9,6 +9,6 @@ def get_recipe(dish_name:str, diet_preference:str='none'):
 	Required Parameter = [dish_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_recipe]

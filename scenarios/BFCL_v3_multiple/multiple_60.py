@@ -9,7 +9,7 @@ def event_search(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def movie_showtimes(location:str, days:int):
@@ -22,7 +22,7 @@ def movie_showtimes(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def humidity_temperature_forecast(location:str, days:int):
@@ -35,6 +35,6 @@ def humidity_temperature_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [event_search, movie_showtimes, humidity_temperature_forecast]

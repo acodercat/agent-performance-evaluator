@@ -10,6 +10,6 @@ def sports_db_find_athlete(name:str, sport:str, team:str=None):
 	Required Parameter = [name,sport,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_db_find_athlete]

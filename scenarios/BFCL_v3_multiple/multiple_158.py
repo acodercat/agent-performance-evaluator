@@ -10,7 +10,7 @@ def publication_year_find(author:str, work_title:str, location:str=None):
 	Required Parameter = [author,work_title,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def portfolio_future_value(stock:str, invested_amount:float, expected_annual_return:float, years:int):
@@ -25,7 +25,7 @@ def portfolio_future_value(stock:str, invested_amount:float, expected_annual_ret
 	Required Parameter = [stock,invested_amount,expected_annual_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def religious_history_get_papal_biography(papal_name:str, include_contributions:bool):
@@ -38,7 +38,7 @@ def religious_history_get_papal_biography(papal_name:str, include_contributions:
 	Required Parameter = [papal_name,include_contributions,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_info(game_name:str, info_required:List[str]):
@@ -51,6 +51,6 @@ def board_game_info(game_name:str, info_required:List[str]):
 	Required Parameter = [game_name,info_required,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [publication_year_find, portfolio_future_value, religious_history_get_papal_biography, board_game_info]

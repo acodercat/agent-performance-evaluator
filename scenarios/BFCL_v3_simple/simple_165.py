@@ -10,6 +10,6 @@ def civil_cases_retrieve(year:int, crime_type:str, location:str):
 	Required Parameter = [year,crime_type,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [civil_cases_retrieve]

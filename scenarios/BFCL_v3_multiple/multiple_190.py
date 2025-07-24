@@ -8,7 +8,7 @@ def get_stock_price(company_names:List[str]):
 	Required Parameter = [company_names,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_converter(base_currency:str, target_currency:str, amount:float):
@@ -22,7 +22,7 @@ def currency_converter(base_currency:str, target_currency:str, amount:float):
 	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, nights:int):
@@ -38,6 +38,6 @@ def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, nigh
 	Required Parameter = [hotel_name,location,room_type,start_date,nights,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_price, currency_converter, book_hotel]

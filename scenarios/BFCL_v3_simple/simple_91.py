@@ -10,6 +10,6 @@ def get_restaurant(cuisine:str, location:str, condition:str):
 	Required Parameter = [cuisine,location,condition,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_restaurant]

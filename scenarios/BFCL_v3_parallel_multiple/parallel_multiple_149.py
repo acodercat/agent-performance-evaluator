@@ -12,7 +12,7 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	Required Parameter = [location,room_type,duration,start_date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_get_last_match(team_name:str, include_stats:bool=None):
@@ -25,7 +25,7 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	Required Parameter = [team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_BMI(weight_kg:int, height_m:float):
@@ -38,6 +38,6 @@ def calculate_BMI(weight_kg:int, height_m:float):
 	Required Parameter = [weight_kg,height_m,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_booking, soccer_get_last_match, calculate_BMI]

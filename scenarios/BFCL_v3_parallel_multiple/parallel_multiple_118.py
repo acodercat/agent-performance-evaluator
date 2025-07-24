@@ -10,7 +10,7 @@ def audio_generate(frequency:int, amplitude:float, duration:float=None):
 	Required Parameter = [frequency,amplitude,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generate(key:str, tempo:int, time_signature:str=None):
@@ -24,6 +24,6 @@ def music_generate(key:str, tempo:int, time_signature:str=None):
 	Required Parameter = [key,tempo,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [audio_generate, music_generate]

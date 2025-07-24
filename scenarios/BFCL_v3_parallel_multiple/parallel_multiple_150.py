@@ -11,7 +11,7 @@ def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None
 	Required Parameter = [company_name,location,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_book(departure_location:str, destination_location:str, date:str, time:str=None, direct_flight:bool=None):
@@ -27,7 +27,7 @@ def flight_book(departure_location:str, destination_location:str, date:str, time
 	Required Parameter = [departure_location,destination_location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def imdb_find_movies_by_actor(actor_name:str, year:int, category:str=None):
@@ -41,6 +41,6 @@ def imdb_find_movies_by_actor(actor_name:str, year:int, category:str=None):
 	Required Parameter = [actor_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuits_search, flight_book, imdb_find_movies_by_actor]

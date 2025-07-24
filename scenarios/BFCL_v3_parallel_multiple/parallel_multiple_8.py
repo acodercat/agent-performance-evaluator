@@ -10,7 +10,7 @@ def kinematics_distance_traveled(initial_velocity:float, acceleration:float, tim
 	Required Parameter = [initial_velocity,acceleration,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_final_velocity(initial_velocity:float, acceleration:float, time:float):
@@ -24,6 +24,6 @@ def kinematics_final_velocity(initial_velocity:float, acceleration:float, time:f
 	Required Parameter = [initial_velocity,acceleration,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [kinematics_distance_traveled, kinematics_final_velocity]

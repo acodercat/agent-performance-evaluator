@@ -10,6 +10,6 @@ def calculate_roi(deposit:int, annual_interest_rate:float, years:int):
 	Required Parameter = [deposit,annual_interest_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_roi]

@@ -10,6 +10,6 @@ def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, r
 	Required Parameter = [topic,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [social_media_analytics_most_followed]

@@ -10,6 +10,6 @@ def whole_foods_order(location:str, items:List[str], size:str):
 	Required Parameter = [location,items,size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [whole_foods_order]

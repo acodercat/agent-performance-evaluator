@@ -10,7 +10,7 @@ def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	Required Parameter = [scientist,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def music_calculate_note_duration(first_note_frequency:int, second_note_frequency:int, tempo:int=None):
@@ -24,7 +24,7 @@ def music_calculate_note_duration(first_note_frequency:int, second_note_frequenc
 	Required Parameter = [first_note_frequency,second_note_frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_gcd(num1:int, num2:int):
@@ -37,6 +37,6 @@ def math_gcd(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [historical_contrib_get_contrib, music_calculate_note_duration, math_gcd]

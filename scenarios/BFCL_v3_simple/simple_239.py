@@ -9,6 +9,6 @@ def US_president_in_year(year:int, full_name:bool=True):
 	Required Parameter = [year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [US_president_in_year]

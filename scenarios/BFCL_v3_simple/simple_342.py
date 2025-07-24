@@ -10,6 +10,6 @@ def game_list_get_games(release_year:int, multiplayer:bool, ESRB_rating:str):
 	Required Parameter = [release_year,multiplayer,ESRB_rating,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_list_get_games]

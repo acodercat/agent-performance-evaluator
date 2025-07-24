@@ -307,7 +307,7 @@ def generate_functions_from_json(data, output_filename):
             f.write("from typing import List, Dict, Any, Union, Tuple, Set \n")
             f.write(f"def {func_name}({all_params}):\n")
             f.write(f"{func_description}")
-            f.write("\t" + "pass\n\n")
+            f.write("\t" + "return 'Success'\n\n")
             
         tool_list = tool_list.rstrip(", ") + "]\n"
         f.write(f"tools = {tool_list}")

@@ -10,6 +10,6 @@ def weather_forecast_detailed(location:str, days:int, details:bool=False):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [weather_forecast_detailed]

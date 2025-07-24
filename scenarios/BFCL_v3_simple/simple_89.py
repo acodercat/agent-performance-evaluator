@@ -11,6 +11,6 @@ def db_fetch_records(database_name:str, table_name:str, conditions:Dict[str, str
 	Required Parameter = [database_name,table_name,conditions,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [db_fetch_records]

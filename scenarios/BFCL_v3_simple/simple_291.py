@@ -11,6 +11,6 @@ def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:i
 	Required Parameter = [key,start_note,length,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_generator_generate_melody]

@@ -9,6 +9,6 @@ def ml_predict_house_price(location:str, size:int):
 	Required Parameter = [location,size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [ml_predict_house_price]

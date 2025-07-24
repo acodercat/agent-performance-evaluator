@@ -10,6 +10,6 @@ def calculate_mutual_fund_balance(investment_amount:int, annual_yield:float, yea
 	Required Parameter = [investment_amount,annual_yield,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_mutual_fund_balance]

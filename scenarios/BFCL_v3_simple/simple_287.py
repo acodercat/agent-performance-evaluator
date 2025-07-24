@@ -11,6 +11,6 @@ def concert_search(genre:str, location:str, date:str, price_range:str=None):
 	Required Parameter = [genre,location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_search]

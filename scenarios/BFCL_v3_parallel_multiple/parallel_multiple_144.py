@@ -8,7 +8,7 @@ def get_scientist_for_discovery(discovery:str):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def forest_growth_forecast(location:str, years:int, include_human_impact:bool=None):
@@ -22,6 +22,6 @@ def forest_growth_forecast(location:str, years:int, include_human_impact:bool=No
 	Required Parameter = [location,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_scientist_for_discovery, forest_growth_forecast]

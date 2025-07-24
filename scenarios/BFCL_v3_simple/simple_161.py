@@ -10,6 +10,6 @@ def crime_statute_lookup(jurisdiction:str, crime:str, detail_level:str=None):
 	Required Parameter = [jurisdiction,crime,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [crime_statute_lookup]

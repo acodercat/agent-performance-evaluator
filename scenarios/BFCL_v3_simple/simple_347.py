@@ -9,6 +9,6 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	Required Parameter = [team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [soccer_get_last_match]

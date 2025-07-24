@@ -9,6 +9,6 @@ def lawsuit_lookup(company_name:str, year:int):
 	Required Parameter = [company_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_lookup]

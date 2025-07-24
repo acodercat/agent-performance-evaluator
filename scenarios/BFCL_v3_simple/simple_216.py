@@ -9,6 +9,6 @@ def sentiment_analysis(text:str, language:str):
 	Required Parameter = [text,language,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sentiment_analysis]

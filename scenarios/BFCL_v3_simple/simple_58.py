@@ -10,6 +10,6 @@ def cell_biology_function_lookup(molecule:str, organelle:str, specific_function:
 	Required Parameter = [molecule,organelle,specific_function,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [cell_biology_function_lookup]

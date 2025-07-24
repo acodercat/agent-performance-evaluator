@@ -11,6 +11,6 @@ def confidence_interval_calculate(sample_std_dev:int, sample_size:int, sample_me
 	Required Parameter = [sample_std_dev,sample_size,sample_mean,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [confidence_interval_calculate]

@@ -10,6 +10,6 @@ def calculate_binomial_probability(number_of_trials:int, number_of_successes:int
 	Required Parameter = [number_of_trials,number_of_successes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_binomial_probability]

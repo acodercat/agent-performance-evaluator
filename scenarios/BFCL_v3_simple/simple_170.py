@@ -10,6 +10,6 @@ def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	Required Parameter = [subject,from_year,to_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [law_case_search_find_historical]

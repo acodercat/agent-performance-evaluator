@@ -9,6 +9,6 @@ def protein_info_get_sequence_and_3D(protein_name:str, model_3d:bool=True):
 	Required Parameter = [protein_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [protein_info_get_sequence_and_3D]

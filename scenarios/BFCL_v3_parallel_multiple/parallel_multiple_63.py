@@ -9,7 +9,7 @@ def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int
 	Required Parameter = [coordinates,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str):
@@ -22,7 +22,7 @@ def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str):
 	Required Parameter = [coordinates,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_get_by_city_date(city:str, date:str):
@@ -35,6 +35,6 @@ def weather_get_by_city_date(city:str, date:str):
 	Required Parameter = [city,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [weather_get_forecast_by_coordinates, weather_get_by_coordinates_date, weather_get_by_city_date]

@@ -9,6 +9,6 @@ def restaurant_find_nearby(location:str, dietary_preference:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find_nearby]

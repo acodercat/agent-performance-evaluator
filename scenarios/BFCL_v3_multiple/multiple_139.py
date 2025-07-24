@@ -10,7 +10,7 @@ def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	Required Parameter = [game_name,season,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_score_highest(game:str, platform:str, region:str=None):
@@ -24,7 +24,7 @@ def game_score_highest(game:str, platform:str, region:str=None):
 	Required Parameter = [game,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
@@ -38,7 +38,7 @@ def lawsuit_details_find(company_name:str, year:int, case_type:str=None):
 	Required Parameter = [company_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_binomial_probability(number_of_trials:int, number_of_successes:int, probability_of_success:float=0.5):
@@ -52,6 +52,6 @@ def calculate_binomial_probability(number_of_trials:int, number_of_successes:int
 	Required Parameter = [number_of_trials,number_of_successes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_collectables_in_season, game_score_highest, lawsuit_details_find, calculate_binomial_probability]

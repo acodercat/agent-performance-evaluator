@@ -10,6 +10,6 @@ def calculate_triangle_area(base:int, height:int, unit:str=None):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_triangle_area]

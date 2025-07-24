@@ -10,6 +10,6 @@ def model_DecisionTreeClassifier(criterion:str, max_depth:int, random_state:int)
 	Required Parameter = [criterion,max_depth,random_state,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [model_DecisionTreeClassifier]

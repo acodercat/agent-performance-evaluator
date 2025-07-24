@@ -11,6 +11,6 @@ def psych_research_get_preference(category:str, option_one:str, option_two:str, 
 	Required Parameter = [category,option_one,option_two,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [psych_research_get_preference]

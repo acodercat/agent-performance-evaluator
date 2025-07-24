@@ -9,6 +9,6 @@ def ancient_empires_get_religion_info(empire_name:str, include_influences:bool=F
 	Required Parameter = [empire_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [ancient_empires_get_religion_info]

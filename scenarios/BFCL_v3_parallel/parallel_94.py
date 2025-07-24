@@ -10,6 +10,6 @@ def calculate_electric_field(charge:int, distance:int, permitivity:int=None):
 	Required Parameter = [charge,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_electric_field]

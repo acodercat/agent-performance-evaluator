@@ -10,7 +10,7 @@ def european_history_get_events(country:str, century:int, event_type:str=None):
 	Required Parameter = [country,century,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_get_culture(country:str, century:int, aspect:str=None):
@@ -24,7 +24,7 @@ def european_history_get_culture(country:str, century:int, aspect:str=None):
 	Required Parameter = [country,century,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_get_monarchs(country:str, century:int):
@@ -37,6 +37,6 @@ def european_history_get_monarchs(country:str, century:int):
 	Required Parameter = [country,century,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [european_history_get_events, european_history_get_culture, european_history_get_monarchs]

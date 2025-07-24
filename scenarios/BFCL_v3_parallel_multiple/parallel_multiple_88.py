@@ -11,7 +11,7 @@ def library_search_book(book_name:str, city:str, availability:bool=None, genre:s
 	Required Parameter = [book_name,city,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def library_reserve_book(book_id:str, branch_id:str, return_date:str=''):
@@ -25,6 +25,6 @@ def library_reserve_book(book_id:str, branch_id:str, return_date:str=''):
 	Required Parameter = [book_id,branch_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [library_search_book, library_reserve_book]

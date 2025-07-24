@@ -9,7 +9,7 @@ def public_library_find_nearby(location:str, facilities:List[str]):
 	Required Parameter = [location,facilities,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
@@ -23,7 +23,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	Required Parameter = [song_title,artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
@@ -37,7 +37,7 @@ def law_case_search_find_historical(subject:str, from_year:int, to_year:int):
 	Required Parameter = [subject,from_year,to_year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends_paid:int=None):
@@ -51,6 +51,6 @@ def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends
 	Required Parameter = [net_income,shareholder_equity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [public_library_find_nearby, get_song_lyrics, law_case_search_find_historical, calculate_return_on_equity]

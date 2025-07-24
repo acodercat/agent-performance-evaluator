@@ -10,6 +10,6 @@ def calculus_derivative(function:str, value:int, function_variable:str='x'):
 	Required Parameter = [function,value,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculus_derivative]

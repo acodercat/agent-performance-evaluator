@@ -11,6 +11,6 @@ def lawsuit_search(company:str, start_date:str, location:str, status:str=None):
 	Required Parameter = [company,start_date,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_search]

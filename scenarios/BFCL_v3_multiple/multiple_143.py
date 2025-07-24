@@ -10,7 +10,7 @@ def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	Required Parameter = [player_name,_class,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def poker_probability_full_house(deck_size:int, hand_size:int):
@@ -23,7 +23,7 @@ def poker_probability_full_house(deck_size:int, hand_size:int):
 	Required Parameter = [deck_size,hand_size,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_find_nearby(location:str, genre:str):
@@ -36,7 +36,7 @@ def concert_find_nearby(location:str, genre:str):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_slope_gradient(point1:List[float], point2:List[float], unit:str=None):
@@ -50,6 +50,6 @@ def calculate_slope_gradient(point1:List[float], point2:List[float], unit:str=No
 	Required Parameter = [point1,point2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [create_player_profile, poker_probability_full_house, concert_find_nearby, calculate_slope_gradient]

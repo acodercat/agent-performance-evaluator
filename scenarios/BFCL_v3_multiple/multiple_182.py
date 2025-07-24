@@ -10,7 +10,7 @@ def geo_distance_calculate(start_location:str, end_location:str, units:str=None)
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
@@ -24,7 +24,7 @@ def multiplayer_game_finder(platform:str, rating:float, genre:str=None):
 	Required Parameter = [platform,rating,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
@@ -40,7 +40,7 @@ def send_email(to:str, subject:str, body:str, cc:str=None, bcc:str=None):
 	Required Parameter = [to,subject,body,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_area_under_curve(function:str, interval:List[float], method:str=None):
@@ -54,6 +54,6 @@ def calculate_area_under_curve(function:str, interval:List[float], method:str=No
 	Required Parameter = [function,interval,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geo_distance_calculate, multiplayer_game_finder, send_email, calculate_area_under_curve]

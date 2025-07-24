@@ -10,6 +10,6 @@ def get_shortest_driving_distance(origin:str, destination:str, unit:str=None):
 	Required Parameter = [origin,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_shortest_driving_distance]

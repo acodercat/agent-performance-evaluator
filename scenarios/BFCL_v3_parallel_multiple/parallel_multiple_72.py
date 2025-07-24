@@ -10,7 +10,7 @@ def generate_sound_wave(frequency:float, duration:int, wave_type:str='sine'):
 	Required Parameter = [frequency,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def play_sound_wave(wave_file:str, volume:float=1):
@@ -23,6 +23,6 @@ def play_sound_wave(wave_file:str, volume:float=1):
 	Required Parameter = [wave_file,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [generate_sound_wave, play_sound_wave]

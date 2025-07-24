@@ -11,7 +11,7 @@ def find_restaurants(location:str, food_type:str, number:int, dietary_requiremen
 	Required Parameter = [location,food_type,number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
@@ -25,7 +25,7 @@ def sports_match_schedule(team_name:str, num_matches:int, league:str=None):
 	Required Parameter = [team_name,num_matches,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_instrument(budget:int, type:str, make:str=None):
@@ -39,7 +39,7 @@ def find_instrument(budget:int, type:str, make:str=None):
 	Required Parameter = [budget,type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_info(company_name:str, detail_level:str, market:str=None):
@@ -53,6 +53,6 @@ def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	Required Parameter = [company_name,detail_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_restaurants, sports_match_schedule, find_instrument, get_stock_info]

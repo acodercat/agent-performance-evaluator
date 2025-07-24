@@ -10,6 +10,6 @@ def player_statistic(player_name:str, year:int, team_name:str=None):
 	Required Parameter = [player_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [player_statistic]

@@ -9,6 +9,6 @@ def waste_calculation_calculate(population:Dict[str, Any], location:str):
 	Required Parameter = [population,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [waste_calculation_calculate]

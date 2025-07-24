@@ -10,6 +10,6 @@ def recipe_finder_find(servings:int, diet:str, prep_time:int=None):
 	Required Parameter = [servings,diet,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_finder_find]

@@ -10,6 +10,6 @@ def estimate_mutual_fund_return(yearly_yield:float, investment_amount:int, years
 	Required Parameter = [yearly_yield,investment_amount,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [estimate_mutual_fund_return]

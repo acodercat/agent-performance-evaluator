@@ -10,6 +10,6 @@ def generate_law_contract(parties:List[str], contract_type:str, location:str):
 	Required Parameter = [parties,contract_type,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [generate_law_contract]

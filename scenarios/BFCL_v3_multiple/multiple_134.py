@@ -11,7 +11,7 @@ def calculate_density(country:str, year:str, population:int, land_area:float):
 	Required Parameter = [country,year,population,land_area,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def crime_record_get_record(case_number:str, county:str, details:bool=None):
@@ -25,7 +25,7 @@ def crime_record_get_record(case_number:str, county:str, details:bool=None):
 	Required Parameter = [case_number,county,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_highest_scoring_player(game:str, season:str, region:str=None):
@@ -39,7 +39,7 @@ def get_highest_scoring_player(game:str, season:str, region:str=None):
 	Required Parameter = [game,season,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_compound_interest(principle:float, interest_rate:float, time:int, compounds_per_year:int=None):
@@ -54,6 +54,6 @@ def calculate_compound_interest(principle:float, interest_rate:float, time:int, 
 	Required Parameter = [principle,interest_rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_density, crime_record_get_record, get_highest_scoring_player, calculate_compound_interest]

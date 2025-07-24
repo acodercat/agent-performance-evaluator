@@ -10,6 +10,6 @@ def thermo_calculate_energy(mass:int, phase_transition:str, substance:str=None):
 	Required Parameter = [mass,phase_transition,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [thermo_calculate_energy]

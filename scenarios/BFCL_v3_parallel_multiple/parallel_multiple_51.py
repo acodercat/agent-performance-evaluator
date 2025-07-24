@@ -9,7 +9,7 @@ def get_team_info(team:str, info:str):
 	Required Parameter = [team,info,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_player_record(player:str, stat:str):
@@ -22,6 +22,6 @@ def get_player_record(player:str, stat:str):
 	Required Parameter = [player,stat,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_team_info, get_player_record]

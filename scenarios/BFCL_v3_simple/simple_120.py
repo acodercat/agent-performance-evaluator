@@ -10,6 +10,6 @@ def run_two_sample_ttest(group1:List[int], group2:List[int], equal_variance:bool
 	Required Parameter = [group1,group2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [run_two_sample_ttest]

@@ -9,6 +9,6 @@ def chess_rating(player_name:str, variant:str=None):
 	Required Parameter = [player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [chess_rating]

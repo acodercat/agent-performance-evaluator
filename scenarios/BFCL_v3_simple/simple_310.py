@@ -9,6 +9,6 @@ def get_career_stats(player_name:str, team:str=None):
 	Required Parameter = [player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_career_stats]

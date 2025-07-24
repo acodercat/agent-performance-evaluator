@@ -10,7 +10,7 @@ def math_power(base:float, exponent:float, mod:int=None):
 	Required Parameter = [base,exponent,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round:int=None):
@@ -24,7 +24,7 @@ def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round
 	Required Parameter = [total_outcomes,event_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
@@ -38,6 +38,6 @@ def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
 	Required Parameter = [DNA_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_power, probabilities_calculate_single, fetch_DNA_sequence]

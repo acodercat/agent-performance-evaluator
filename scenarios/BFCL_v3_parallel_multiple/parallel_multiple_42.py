@@ -11,7 +11,7 @@ def book_find(library:str, author:str, genre:str='Sci-Fi', year:int=2000):
 	Required Parameter = [library,author,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def historical_landmark_find(location:str, era:str='Renaissance'):
@@ -24,7 +24,7 @@ def historical_landmark_find(location:str, era:str='Renaissance'):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def artwork_find(museum:str, type:str, material:str='', artist:str=''):
@@ -39,6 +39,6 @@ def artwork_find(museum:str, type:str, material:str='', artist:str=''):
 	Required Parameter = [museum,type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [book_find, historical_landmark_find, artwork_find]

@@ -8,7 +8,7 @@ def religion_get_core_beliefs(religion:str):
 	Required Parameter = [religion,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_get_origin(religion:str):
@@ -20,6 +20,6 @@ def religion_get_origin(religion:str):
 	Required Parameter = [religion,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religion_get_core_beliefs, religion_get_origin]

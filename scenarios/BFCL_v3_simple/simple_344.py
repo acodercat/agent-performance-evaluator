@@ -10,6 +10,6 @@ def get_game_item_stats(game:str, item:str, stat:str):
 	Required Parameter = [game,item,stat,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_game_item_stats]

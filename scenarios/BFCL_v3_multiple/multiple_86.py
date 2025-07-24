@@ -10,7 +10,7 @@ def BoardGameGeek_recommend(numPlayers:int, category:str, difficulty:str=None):
 	Required Parameter = [numPlayers,category,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def AmazonGameStore_recommend(numOfPlayers:int, category:str, priceRange:str=None):
@@ -24,6 +24,6 @@ def AmazonGameStore_recommend(numOfPlayers:int, category:str, priceRange:str=Non
 	Required Parameter = [numOfPlayers,category,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [BoardGameGeek_recommend, AmazonGameStore_recommend]

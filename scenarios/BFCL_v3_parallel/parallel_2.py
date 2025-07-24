@@ -10,6 +10,6 @@ def calculate_resistance(length:int, area:float, resistivity:str=None):
 	Required Parameter = [length,area,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_resistance]

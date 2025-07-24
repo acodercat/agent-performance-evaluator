@@ -10,6 +10,6 @@ def population_growth_estimate(location:str, years:int, rate:float=None):
 	Required Parameter = [location,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [population_growth_estimate]

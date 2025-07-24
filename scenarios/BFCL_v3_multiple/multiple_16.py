@@ -10,7 +10,7 @@ def species_distribution_modeling_project_range_shift(species:str, climate_scena
 	Required Parameter = [species,climate_scenario,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def population_genetics_calculate_ne(species:str, generations:int, probability:float):
@@ -24,7 +24,7 @@ def population_genetics_calculate_ne(species:str, generations:int, probability:f
 	Required Parameter = [species,generations,probability,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ecology_calculate_carrying_capacity(habitat_area:float, species:str, productivity:float):
@@ -38,6 +38,6 @@ def ecology_calculate_carrying_capacity(habitat_area:float, species:str, product
 	Required Parameter = [habitat_area,species,productivity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [species_distribution_modeling_project_range_shift, population_genetics_calculate_ne, ecology_calculate_carrying_capacity]

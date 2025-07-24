@@ -9,7 +9,7 @@ def physics_wave_velocity(frequency:float, wavelength:float):
 	Required Parameter = [frequency,wavelength,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_final_velocity(initial_velocity:int, time:int, acceleration:float=None):
@@ -23,7 +23,7 @@ def kinematics_final_velocity(initial_velocity:int, time:int, acceleration:float
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_distance(initial_velocity:float, time:int, acceleration:float=None):
@@ -37,6 +37,6 @@ def kinematics_distance(initial_velocity:float, time:int, acceleration:float=Non
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [physics_wave_velocity, kinematics_final_velocity, kinematics_distance]

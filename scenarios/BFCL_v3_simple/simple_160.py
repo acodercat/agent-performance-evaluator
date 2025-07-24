@@ -10,6 +10,6 @@ def get_case_info(docket:str, court:str, info_type:str):
 	Required Parameter = [docket,court,info_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_case_info]

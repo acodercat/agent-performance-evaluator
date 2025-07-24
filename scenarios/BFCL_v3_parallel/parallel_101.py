@@ -10,6 +10,6 @@ def calculate_density(mass:int, volume:int, unit:str=None):
 	Required Parameter = [mass,volume,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_density]

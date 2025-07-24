@@ -10,7 +10,7 @@ def restaurant_find_group(location:str, group_size:int, cuisine:List[str]=None):
 	Required Parameter = [location,group_size,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def events_find_event(location:str, group_size:int, event_type:List[str]=None):
@@ -24,6 +24,6 @@ def events_find_event(location:str, group_size:int, event_type:List[str]=None):
 	Required Parameter = [location,group_size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find_group, events_find_event]

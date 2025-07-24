@@ -10,6 +10,6 @@ def probability_of_event(success_outcomes:int, total_outcomes:int, format_as_rat
 	Required Parameter = [success_outcomes,total_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [probability_of_event]

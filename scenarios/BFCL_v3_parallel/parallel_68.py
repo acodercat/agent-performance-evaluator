@@ -10,6 +10,6 @@ def calculate_area(base:int, height:int, unit:str='cm'):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_area]

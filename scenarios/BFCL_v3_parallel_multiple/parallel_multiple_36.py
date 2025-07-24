@@ -9,7 +9,7 @@ def euro_history_treaty_info(treaty_name:str, info_requested:List[str]):
 	Required Parameter = [treaty_name,info_requested,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def euro_history_battle_details(battle_name:str, specific_info:List[str]):
@@ -22,6 +22,6 @@ def euro_history_battle_details(battle_name:str, specific_info:List[str]):
 	Required Parameter = [battle_name,specific_info,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [euro_history_treaty_info, euro_history_battle_details]

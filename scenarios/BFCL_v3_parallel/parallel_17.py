@@ -9,6 +9,6 @@ def get_stock_data(symbol:str, data_points:List[str]):
 	Required Parameter = [symbol,data_points,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_data]

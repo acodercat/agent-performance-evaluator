@@ -8,7 +8,7 @@ def us_history_gdp(year:int):
 	Required Parameter = [year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_life_expectancy(year:int):
@@ -20,6 +20,6 @@ def us_history_life_expectancy(year:int):
 	Required Parameter = [year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [us_history_gdp, us_history_life_expectancy]

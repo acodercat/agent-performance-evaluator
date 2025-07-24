@@ -10,6 +10,6 @@ def calculate_clock_angle(hours:int, minutes:int, round_to:int=None):
 	Required Parameter = [hours,minutes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_clock_angle]

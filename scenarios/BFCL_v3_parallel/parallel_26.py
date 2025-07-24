@@ -10,6 +10,6 @@ def court_case_find(location:str, case_number:List[str], case_type:str='Civil'):
 	Required Parameter = [location,case_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [court_case_find]

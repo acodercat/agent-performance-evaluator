@@ -9,6 +9,6 @@ def number_theory_gcd(number1:int, number2:int):
 	Required Parameter = [number1,number2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [number_theory_gcd]

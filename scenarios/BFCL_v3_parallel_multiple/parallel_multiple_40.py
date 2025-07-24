@@ -9,7 +9,7 @@ def scienceFacts_getCharge(particle:str, unit:str):
 	Required Parameter = [particle,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def scienceFacts_getWeight(particle:str, unit:str):
@@ -22,7 +22,7 @@ def scienceFacts_getWeight(particle:str, unit:str):
 	Required Parameter = [particle,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def scienceFacts_getDiameter(particle:str, unit:str):
@@ -35,6 +35,6 @@ def scienceFacts_getDiameter(particle:str, unit:str):
 	Required Parameter = [particle,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [scienceFacts_getCharge, scienceFacts_getWeight, scienceFacts_getDiameter]

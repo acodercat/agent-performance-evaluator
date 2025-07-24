@@ -10,7 +10,7 @@ def run_linear_regression(predictors:List[str], target:str, standardize:bool=Non
 	Required Parameter = [predictors,target,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def travel_itinerary_generator(destination:str, days:int, daily_budget:int, exploration_type:str='urban'):
@@ -25,7 +25,7 @@ def travel_itinerary_generator(destination:str, days:int, daily_budget:int, expl
 	Required Parameter = [destination,days,daily_budget,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
@@ -40,7 +40,7 @@ def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:st
 	Required Parameter = [quantity,from_unit,to_unit,item,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_recipe(recipeName:str, maxCalories:int=1000):
@@ -53,6 +53,6 @@ def find_recipe(recipeName:str, maxCalories:int=1000):
 	Required Parameter = [recipeName,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [run_linear_regression, travel_itinerary_generator, cooking_conversion_convert, find_recipe]

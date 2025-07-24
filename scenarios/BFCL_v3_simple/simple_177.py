@@ -10,6 +10,6 @@ def get_lawsuit_cases(company_name:str, year:int, status:str=None):
 	Required Parameter = [company_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_lawsuit_cases]

@@ -11,6 +11,6 @@ def get_criminal_records(name:str, location:str, from_year:int, to_year:int):
 	Required Parameter = [name,location,from_year,to_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_criminal_records]

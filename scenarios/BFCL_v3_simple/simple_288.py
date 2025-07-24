@@ -10,6 +10,6 @@ def concert_booking_book_ticket(artist:str, city:str, num_tickets:int=None):
 	Required Parameter = [artist,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_booking_book_ticket]

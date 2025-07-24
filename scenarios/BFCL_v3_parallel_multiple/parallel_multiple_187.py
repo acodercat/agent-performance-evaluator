@@ -10,7 +10,7 @@ def calculate_cagr(initial_value:int, final_value:int, period_in_years:int):
 	Required Parameter = [initial_value,final_value,period_in_years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_defense_ranking(season:int, top:int=1):
@@ -23,7 +23,7 @@ def get_defense_ranking(season:int, top:int=1):
 	Required Parameter = [season,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def array_sort(list:List[float], order:str):
@@ -36,6 +36,6 @@ def array_sort(list:List[float], order:str):
 	Required Parameter = [list,order,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_cagr, get_defense_ranking, array_sort]

@@ -9,6 +9,6 @@ def get_cooking_recipe(dish_name:str, serving_size:int):
 	Required Parameter = [dish_name,serving_size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_cooking_recipe]

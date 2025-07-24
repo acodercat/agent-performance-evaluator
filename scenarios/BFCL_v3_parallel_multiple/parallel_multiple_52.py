@@ -8,7 +8,7 @@ def chess_play(moves:List[str]):
 	Required Parameter = [moves,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_of_life_play(rounds:int, start_board:List[int]):
@@ -21,6 +21,6 @@ def game_of_life_play(rounds:int, start_board:List[int]):
 	Required Parameter = [rounds,start_board,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [chess_play, game_of_life_play]

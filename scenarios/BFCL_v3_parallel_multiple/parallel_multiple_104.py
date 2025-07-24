@@ -9,7 +9,7 @@ def news(topic:str, days:int):
 	Required Parameter = [topic,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def air_quality_forecast(location:str, days:int):
@@ -22,7 +22,7 @@ def air_quality_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -35,6 +35,6 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [news, air_quality_forecast, weather_forecast]

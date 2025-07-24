@@ -10,6 +10,6 @@ def finance_calculator_npv(cash_flows:List[int], discount_rate:float, years:List
 	Required Parameter = [cash_flows,discount_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [finance_calculator_npv]

@@ -9,7 +9,7 @@ def restaurant_find(cuisine:str, price:List[str]=None):
 	Required Parameter = [cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_find(mainIngredient:str, ingredientLimit:int):
@@ -22,6 +22,6 @@ def recipe_find(mainIngredient:str, ingredientLimit:int):
 	Required Parameter = [mainIngredient,ingredientLimit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find, recipe_find]

@@ -9,7 +9,7 @@ def stock_invest_calculate_investment_cost(company:str, shares:int):
 	Required Parameter = [company,shares,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_invest_calculate_dividend_payout(shares:int, dividend_per_share:float):
@@ -22,6 +22,6 @@ def stock_invest_calculate_dividend_payout(shares:int, dividend_per_share:float)
 	Required Parameter = [shares,dividend_per_share,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [stock_invest_calculate_investment_cost, stock_invest_calculate_dividend_payout]

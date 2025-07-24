@@ -10,6 +10,6 @@ def sports_ranking(team:str, league:str, season:int=None):
 	Required Parameter = [team,league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_ranking]

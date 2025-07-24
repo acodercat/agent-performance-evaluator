@@ -10,6 +10,6 @@ def calculate_magnetic_field_strength(current:int, distance:int, permeability:fl
 	Required Parameter = [current,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_magnetic_field_strength]

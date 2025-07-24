@@ -9,6 +9,6 @@ def get_metal_price(metal:str, measure:str):
 	Required Parameter = [metal,measure,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_metal_price]

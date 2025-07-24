@@ -10,6 +10,6 @@ def maps_get_distance_duration(start_location:str, end_location:str, traffic:boo
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [maps_get_distance_duration]

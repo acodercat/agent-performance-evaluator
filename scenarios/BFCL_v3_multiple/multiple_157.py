@@ -10,7 +10,7 @@ def sports_ranking_get_current(team:str, league:str, season:str=None):
 	Required Parameter = [team,league,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_earliest_reference(name:str, source:str=None):
@@ -23,6 +23,6 @@ def get_earliest_reference(name:str, source:str=None):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_ranking_get_current, get_earliest_reference]

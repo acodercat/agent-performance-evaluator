@@ -11,6 +11,6 @@ def find_restaurants(location:str, food_type:str, number:int, dietary_requiremen
 	Required Parameter = [location,food_type,number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_restaurants]

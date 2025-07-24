@@ -10,6 +10,6 @@ def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	Required Parameter = [start,end,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [map_service_get_directions]

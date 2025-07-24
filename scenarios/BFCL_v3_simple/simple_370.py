@@ -10,6 +10,6 @@ def safeway_order(location:str, items:List[str], quantity:List[int]):
 	Required Parameter = [location,items,quantity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [safeway_order]

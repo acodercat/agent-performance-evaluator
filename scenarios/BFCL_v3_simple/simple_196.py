@@ -9,6 +9,6 @@ def air_quality(location:str, date:str):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [air_quality]

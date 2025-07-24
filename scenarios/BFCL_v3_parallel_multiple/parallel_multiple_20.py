@@ -9,7 +9,7 @@ def statistics_variance(data:List[int], population:bool=True):
 	Required Parameter = [data,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def statistics_median(data:List[int]):
@@ -21,7 +21,7 @@ def statistics_median(data:List[int]):
 	Required Parameter = [data,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def statistics_mode(data:List[int]):
@@ -33,6 +33,6 @@ def statistics_mode(data:List[int]):
 	Required Parameter = [data,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [statistics_variance, statistics_median, statistics_mode]

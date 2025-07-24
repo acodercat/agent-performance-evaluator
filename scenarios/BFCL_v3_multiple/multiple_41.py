@@ -9,7 +9,7 @@ def electric_field_calculate(Q:float, r:float):
 	Required Parameter = [Q,r,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def magnetic_field_calculate(I:int, r:float):
@@ -22,7 +22,7 @@ def magnetic_field_calculate(I:int, r:float):
 	Required Parameter = [I,r,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def electric_force_calculate(Q1:float, Q2:float, r:float):
@@ -36,6 +36,6 @@ def electric_force_calculate(Q1:float, Q2:float, r:float):
 	Required Parameter = [Q1,Q2,r,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [electric_field_calculate, magnetic_field_calculate, electric_force_calculate]

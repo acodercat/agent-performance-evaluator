@@ -9,6 +9,6 @@ def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding
 	Required Parameter = [total_payout,outstanding_shares,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [finance_calculate_quarterly_dividend_per_share]

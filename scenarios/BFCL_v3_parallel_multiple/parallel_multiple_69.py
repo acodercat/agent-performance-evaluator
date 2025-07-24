@@ -10,7 +10,7 @@ def finance_loan_repayment(loan_amount:float, interest_rate:float, loan_term:int
 	Required Parameter = [loan_amount,interest_rate,loan_term,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_inflation_adjustment(initial_sum:float, years:int, inflation_rate:float):
@@ -24,7 +24,7 @@ def finance_inflation_adjustment(initial_sum:float, years:int, inflation_rate:fl
 	Required Parameter = [initial_sum,years,inflation_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_property_depreciation(initial_cost:float, depreciation_rate:float, years:int, monthly:bool=False):
@@ -39,6 +39,6 @@ def finance_property_depreciation(initial_cost:float, depreciation_rate:float, y
 	Required Parameter = [initial_cost,depreciation_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [finance_loan_repayment, finance_inflation_adjustment, finance_property_depreciation]

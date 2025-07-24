@@ -10,7 +10,7 @@ def solarFarm_potential(coordinates:List[float], panelArea:int, month:str=None):
 	Required Parameter = [coordinates,panelArea,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def windFarm_potential(coordinates:List[float], turbineCount:int, month:str=None):
@@ -24,6 +24,6 @@ def windFarm_potential(coordinates:List[float], turbineCount:int, month:str=None
 	Required Parameter = [coordinates,turbineCount,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [solarFarm_potential, windFarm_potential]

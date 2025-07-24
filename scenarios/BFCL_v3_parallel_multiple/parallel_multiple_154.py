@@ -10,7 +10,7 @@ def lawsuit_search(entity:str, county:str, state:str=None):
 	Required Parameter = [entity,county,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
@@ -24,7 +24,7 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def predict_house_price(area:int, rooms:int, year:int, location:str):
@@ -39,6 +39,6 @@ def predict_house_price(area:int, rooms:int, year:int, location:str):
 	Required Parameter = [area,rooms,year,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_search, calculate_probability, predict_house_price]

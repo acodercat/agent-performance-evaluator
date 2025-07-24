@@ -10,6 +10,6 @@ def update_user_info(user_id:int, update_info:Dict[str, str], database:str='Cust
 	Required Parameter = [user_id,update_info,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [update_user_info]

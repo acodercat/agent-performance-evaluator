@@ -10,6 +10,6 @@ def diabetes_prediction(weight:int, height:int, activity_level:str):
 	Required Parameter = [weight,height,activity_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [diabetes_prediction]

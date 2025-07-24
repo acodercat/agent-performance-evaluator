@@ -9,6 +9,6 @@ def lawsuit_check_case(case_id:int, closed_status:bool):
 	Required Parameter = [case_id,closed_status,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_check_case]

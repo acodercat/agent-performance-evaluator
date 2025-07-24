@@ -10,6 +10,6 @@ def soccer_stat_get_player_stats(player_name:str, season:str, league:str=None):
 	Required Parameter = [player_name,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [soccer_stat_get_player_stats]

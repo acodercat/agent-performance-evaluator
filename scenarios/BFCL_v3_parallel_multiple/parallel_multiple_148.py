@@ -10,7 +10,7 @@ def calculate_bmi(weight:int, height:int, unit:str=None):
 	Required Parameter = [weight,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def celebrity_net_worth_get(name:str, currency:str):
@@ -23,6 +23,6 @@ def celebrity_net_worth_get(name:str, currency:str):
 	Required Parameter = [name,currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_bmi, celebrity_net_worth_get]

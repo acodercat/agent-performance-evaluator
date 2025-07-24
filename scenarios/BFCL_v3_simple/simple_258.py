@@ -10,6 +10,6 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	Required Parameter = [color1,color2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [mix_paint_color]

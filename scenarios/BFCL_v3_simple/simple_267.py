@@ -11,6 +11,6 @@ def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str
 	Required Parameter = [location,art_form,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_exhibition]

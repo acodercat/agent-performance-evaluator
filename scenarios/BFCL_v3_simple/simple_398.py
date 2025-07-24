@@ -9,6 +9,6 @@ def get_museum_hours(museum_name:str, day:str):
 	Required Parameter = [museum_name,day,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_museum_hours]

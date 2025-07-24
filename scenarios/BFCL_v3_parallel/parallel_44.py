@@ -11,6 +11,6 @@ def concert_find_nearby(location:str, date:str, genre:str, amenities:List[str]=[
 	Required Parameter = [location,date,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_find_nearby]

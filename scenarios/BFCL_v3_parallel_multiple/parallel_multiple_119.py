@@ -9,7 +9,7 @@ def team_stats_get_top_scorer(team_name:str, competition:str=None):
 	Required Parameter = [team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def league_stats_get_top_scorer(league_name:str, season:str=None):
@@ -22,7 +22,7 @@ def league_stats_get_top_scorer(league_name:str, season:str=None):
 	Required Parameter = [league_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def player_stats_get_all_time_goals(player_name:str, team_name:str, competition:str=None):
@@ -36,6 +36,6 @@ def player_stats_get_all_time_goals(player_name:str, team_name:str, competition:
 	Required Parameter = [player_name,team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [team_stats_get_top_scorer, league_stats_get_top_scorer, player_stats_get_all_time_goals]

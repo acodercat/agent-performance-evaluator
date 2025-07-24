@@ -10,6 +10,6 @@ def get_news(topic:str, quantity:int, region:str=None):
 	Required Parameter = [topic,quantity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_news]

@@ -10,6 +10,6 @@ def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	Required Parameter = [building_id,floors,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [analyze_structure]

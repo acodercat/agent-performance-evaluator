@@ -10,6 +10,6 @@ def paint_requirement_calculate(area:Dict[str, int], paint_coverage:int, exclusi
 	Required Parameter = [area,paint_coverage,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [paint_requirement_calculate]

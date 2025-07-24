@@ -10,6 +10,6 @@ def find_movie_showing(location:str, movie:List[str], time:List[str]):
 	Required Parameter = [location,movie,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_movie_showing]

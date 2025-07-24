@@ -9,7 +9,7 @@ def sentiment_analysis(text:str, language:str):
 	Required Parameter = [text,language,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def psych_research_get_preference(category:str, option_one:str, option_two:str, demographic:str='all'):
@@ -24,7 +24,7 @@ def psych_research_get_preference(category:str, option_one:str, option_two:str, 
 	Required Parameter = [category,option_one,option_two,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
@@ -38,7 +38,7 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	Required Parameter = [my_location,products,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def train_random_forest_classifier(dataset:str, max_depth:int, n_estimators:int):
@@ -52,6 +52,6 @@ def train_random_forest_classifier(dataset:str, max_depth:int, n_estimators:int)
 	Required Parameter = [dataset,max_depth,n_estimators,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sentiment_analysis, psych_research_get_preference, grocery_store_find_best, train_random_forest_classifier]

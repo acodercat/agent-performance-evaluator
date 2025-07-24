@@ -8,7 +8,7 @@ def highest_grade(gradeDict:Dict[str, Any]):
 	Required Parameter = [gradeDict,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_average(gradeDict:Dict[str, Any]):
@@ -20,7 +20,7 @@ def calculate_average(gradeDict:Dict[str, Any]):
 	Required Parameter = [gradeDict,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_standard_deviation(gradeDict:Dict[str, Any]):
@@ -32,6 +32,6 @@ def calculate_standard_deviation(gradeDict:Dict[str, Any]):
 	Required Parameter = [gradeDict,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [highest_grade, calculate_average, calculate_standard_deviation]

@@ -10,6 +10,6 @@ def compose_melody(progression:List[str], measures:int, instrument:str=None):
 	Required Parameter = [progression,measures,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [compose_melody]

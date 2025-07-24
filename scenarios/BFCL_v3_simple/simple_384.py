@@ -13,6 +13,6 @@ def hotel_booking_book(city:str, from_date:str, to_date:str, adults:int, childre
 	Required Parameter = [city,from_date,to_date,adults,children,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_booking_book]

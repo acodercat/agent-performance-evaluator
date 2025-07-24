@@ -10,7 +10,7 @@ def get_traffic_info(start_location:str, end_location:str, mode:str=None):
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_compound_interest(principle:float, interest_rate:float, time:int, compounds_per_year:int=None):
@@ -25,7 +25,7 @@ def calculate_compound_interest(principle:float, interest_rate:float, time:int, 
 	Required Parameter = [principle,interest_rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:str):
@@ -40,7 +40,7 @@ def cooking_conversion_convert(quantity:int, from_unit:str, to_unit:str, item:st
 	Required Parameter = [quantity,from_unit,to_unit,item,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_db_find_athlete(name:str, sport:str, team:str=None):
@@ -54,6 +54,6 @@ def sports_db_find_athlete(name:str, sport:str, team:str=None):
 	Required Parameter = [name,sport,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_traffic_info, calculate_compound_interest, cooking_conversion_convert, sports_db_find_athlete]

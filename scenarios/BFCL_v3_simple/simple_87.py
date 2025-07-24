@@ -9,6 +9,6 @@ def array_sort(list:List[float], order:str):
 	Required Parameter = [list,order,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [array_sort]

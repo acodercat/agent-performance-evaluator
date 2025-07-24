@@ -10,7 +10,7 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	Required Parameter = [my_location,products,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:int, efficiency_reduction:float=None):
@@ -25,7 +25,7 @@ def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:int, effici
 	Required Parameter = [distance,fuel_type,fuel_efficiency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_get_details(artist:str, title:str, detail:str=None):
@@ -39,6 +39,6 @@ def sculpture_get_details(artist:str, title:str, detail:str=None):
 	Required Parameter = [artist,title,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_store_find_best, calculate_emissions, sculpture_get_details]

@@ -10,6 +10,6 @@ def calculate_distance(coord1:Tuple[float], coord2:Tuple[float], unit:str):
 	Required Parameter = [coord1,coord2,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_distance]

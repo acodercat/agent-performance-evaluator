@@ -10,6 +10,6 @@ def elephant_population_estimate(current_population:int, growth_rate:float, year
 	Required Parameter = [current_population,growth_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [elephant_population_estimate]

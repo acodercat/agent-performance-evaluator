@@ -9,7 +9,7 @@ def restaurant_info(location:str, food_type:str=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def exhibition_info(museum_name:str, month:int=None):
@@ -22,6 +22,6 @@ def exhibition_info(museum_name:str, month:int=None):
 	Required Parameter = [museum_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_info, exhibition_info]

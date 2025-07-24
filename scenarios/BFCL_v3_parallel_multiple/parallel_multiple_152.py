@@ -10,7 +10,7 @@ def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	Required Parameter = [start,end,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_triangle(base:int, height:int, unit:str=None):
@@ -24,7 +24,7 @@ def geometry_area_triangle(base:int, height:int, unit:str=None):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def science_history_get_invention(invention_name:str, want_year:bool):
@@ -37,6 +37,6 @@ def science_history_get_invention(invention_name:str, want_year:bool):
 	Required Parameter = [invention_name,want_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [map_service_get_directions, geometry_area_triangle, science_history_get_invention]

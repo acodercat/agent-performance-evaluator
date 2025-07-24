@@ -10,7 +10,7 @@ def grocery_delivery_order(location:str, items:List[str], max_delivery_cost:floa
 	Required Parameter = [location,items,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ride_hailing_get_rides(source:str, destination:str, max_cost:float=30.0):
@@ -24,6 +24,6 @@ def ride_hailing_get_rides(source:str, destination:str, max_cost:float=30.0):
 	Required Parameter = [source,destination,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_delivery_order, ride_hailing_get_rides]

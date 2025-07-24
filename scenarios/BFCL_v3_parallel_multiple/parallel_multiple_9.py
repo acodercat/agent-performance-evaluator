@@ -10,7 +10,7 @@ def flight_book(_from:str, to:str, airlines:str):
 	Required Parameter = [_from,to,airlines,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_book(location:str, nights:int):
@@ -23,6 +23,6 @@ def hotel_book(location:str, nights:int):
 	Required Parameter = [location,nights,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [flight_book, hotel_book]

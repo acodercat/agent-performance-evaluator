@@ -10,6 +10,6 @@ def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	Required Parameter = [company_name,detail_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_info]

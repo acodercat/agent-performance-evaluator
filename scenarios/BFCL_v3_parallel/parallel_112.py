@@ -9,6 +9,6 @@ def mutation_type_find(snp_id:str, species:str=None):
 	Required Parameter = [snp_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [mutation_type_find]

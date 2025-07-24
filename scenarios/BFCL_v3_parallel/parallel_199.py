@@ -10,6 +10,6 @@ def get_current_weather(location:str, include_temperature:bool=None, include_hum
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_current_weather]

@@ -8,6 +8,6 @@ def get_scientist_for_discovery(discovery:str):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_scientist_for_discovery]

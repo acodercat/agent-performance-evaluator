@@ -11,7 +11,7 @@ def kinematics_calculate_acceleration(initial_speed:float, final_speed:float, ti
 	Required Parameter = [initial_speed,final_speed,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_speed_from_rest(distance:float, time:float, initial_speed:float=0):
@@ -25,6 +25,6 @@ def kinematics_calculate_speed_from_rest(distance:float, time:float, initial_spe
 	Required Parameter = [distance,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [kinematics_calculate_acceleration, kinematics_calculate_speed_from_rest]

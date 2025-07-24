@@ -9,6 +9,6 @@ def get_time_difference(place1:str, place2:str):
 	Required Parameter = [place1,place2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_time_difference]

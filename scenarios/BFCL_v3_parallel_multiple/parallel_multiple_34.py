@@ -8,7 +8,7 @@ def get_current_time(location:str):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def translate_text(text:str, from_lang:str, to_lang:str):
@@ -22,6 +22,6 @@ def translate_text(text:str, from_lang:str, to_lang:str):
 	Required Parameter = [text,from_lang,to_lang,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_current_time, translate_text]

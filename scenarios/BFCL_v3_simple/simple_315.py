@@ -9,6 +9,6 @@ def get_defense_ranking(season:int, top:int=1):
 	Required Parameter = [season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_defense_ranking]

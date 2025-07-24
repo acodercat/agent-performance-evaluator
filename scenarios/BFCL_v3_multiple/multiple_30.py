@@ -9,7 +9,7 @@ def rectangle_area(length:int, width:int):
 	Required Parameter = [length,width,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def circle_area(radius:float, isDiameter:bool=False):
@@ -22,7 +22,7 @@ def circle_area(radius:float, isDiameter:bool=False):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def triangle_area(base:float, height:float):
@@ -35,6 +35,6 @@ def triangle_area(base:float, height:float):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [rectangle_area, circle_area, triangle_area]

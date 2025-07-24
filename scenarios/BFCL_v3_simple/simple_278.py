@@ -10,6 +10,6 @@ def get_instrument_details(instrument:str, manufacturer:str, features:List[str]=
 	Required Parameter = [instrument,manufacturer,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_instrument_details]

@@ -9,7 +9,7 @@ def poker_probability_full_house(deck_size:int, hand_size:int):
 	Required Parameter = [deck_size,hand_size,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_result_get_winner(teams:List[str], date:str, venue:str=None):
@@ -23,6 +23,6 @@ def game_result_get_winner(teams:List[str], date:str, venue:str=None):
 	Required Parameter = [teams,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [poker_probability_full_house, game_result_get_winner]

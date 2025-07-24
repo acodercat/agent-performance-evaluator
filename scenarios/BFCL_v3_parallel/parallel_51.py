@@ -9,6 +9,6 @@ def recipe_search_find(dish:str, diet:str='Keto'):
 	Required Parameter = [dish,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_search_find]

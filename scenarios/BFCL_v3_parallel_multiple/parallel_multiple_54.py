@@ -10,7 +10,7 @@ def BattleReignGameAPI_update_player_equipment(attribute:str, level:int, playerI
 	Required Parameter = [attribute,level,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def GameGuideAPI_search_guide(game:str, condition:str='', type:str=''):
@@ -24,6 +24,6 @@ def GameGuideAPI_search_guide(game:str, condition:str='', type:str=''):
 	Required Parameter = [game,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [BattleReignGameAPI_update_player_equipment, GameGuideAPI_search_guide]

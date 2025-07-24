@@ -10,6 +10,6 @@ def calc_distance(start_loc:str, end_loc:str, shortest_route:bool='false'):
 	Required Parameter = [start_loc,end_loc,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_distance]

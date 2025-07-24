@@ -8,7 +8,7 @@ def museum_get_hours(museum_name:str):
 	Required Parameter = [museum_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def location_get_travel_time(destination:str, mode:str='Driving'):
@@ -21,7 +21,7 @@ def location_get_travel_time(destination:str, mode:str='Driving'):
 	Required Parameter = [destination,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_get_waiting_time(museum_name:str, day:str='Monday'):
@@ -34,6 +34,6 @@ def museum_get_waiting_time(museum_name:str, day:str='Monday'):
 	Required Parameter = [museum_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [museum_get_hours, location_get_travel_time, museum_get_waiting_time]

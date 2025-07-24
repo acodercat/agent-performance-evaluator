@@ -8,7 +8,7 @@ def circle_calculate_circumference(diameter:int):
 	Required Parameter = [diameter,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def circle_calculate_area(radius:int):
@@ -20,7 +20,7 @@ def circle_calculate_area(radius:int):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def rectangle_calculate_perimeter(length:int, breadth:int):
@@ -33,6 +33,6 @@ def rectangle_calculate_perimeter(length:int, breadth:int):
 	Required Parameter = [length,breadth,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [circle_calculate_circumference, circle_calculate_area, rectangle_calculate_perimeter]

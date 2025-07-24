@@ -8,7 +8,7 @@ def math_factorial(number:float):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
@@ -22,7 +22,7 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	Required Parameter = [my_location,products,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_find_nearby(location:str, cuisine:str, max_distance:float=None):
@@ -36,7 +36,7 @@ def restaurant_find_nearby(location:str, cuisine:str, max_distance:float=None):
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def maps_get_distance_duration(start_location:str, end_location:str, traffic:bool=None):
@@ -50,6 +50,6 @@ def maps_get_distance_duration(start_location:str, end_location:str, traffic:boo
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_factorial, grocery_store_find_best, restaurant_find_nearby, maps_get_distance_duration]

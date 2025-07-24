@@ -9,7 +9,7 @@ def random_normalvariate(mu:float, sigma:float):
 	Required Parameter = [mu,sigma,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_personality_traits(type:str, traits:List[str]=None):
@@ -22,7 +22,7 @@ def get_personality_traits(type:str, traits:List[str]=None):
 	Required Parameter = [type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def elephant_population_estimate(current_population:int, growth_rate:float, years:int):
@@ -36,7 +36,7 @@ def elephant_population_estimate(current_population:int, growth_rate:float, year
 	Required Parameter = [current_population,growth_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay_duration:int, view:str='No preference'):
@@ -53,6 +53,6 @@ def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay
 	Required Parameter = [hotel_name,location,room_type,start_date,stay_duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [random_normalvariate, get_personality_traits, elephant_population_estimate, book_hotel]

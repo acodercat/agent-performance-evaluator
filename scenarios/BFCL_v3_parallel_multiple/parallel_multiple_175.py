@@ -10,7 +10,7 @@ def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	Required Parameter = [company_name,detail_level,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_current_time(location:str, country:str, timezone:str=None):
@@ -24,6 +24,6 @@ def get_current_time(location:str, country:str, timezone:str=None):
 	Required Parameter = [location,country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_info, get_current_time]

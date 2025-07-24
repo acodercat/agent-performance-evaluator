@@ -10,7 +10,7 @@ def detailed_weather_forecast(location:str, duration:int, include_precipitation:
 	Required Parameter = [location,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
@@ -24,7 +24,7 @@ def recipe_search(dietary_restriction:str, ingredients:List[str], servings:int):
 	Required Parameter = [dietary_restriction,ingredients,servings,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_time_difference(place1:str, place2:str):
@@ -37,6 +37,6 @@ def get_time_difference(place1:str, place2:str):
 	Required Parameter = [place1,place2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [detailed_weather_forecast, recipe_search, get_time_difference]

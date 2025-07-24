@@ -9,6 +9,6 @@ def park_information(park_name:str, information:List[str]):
 	Required Parameter = [park_name,information,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [park_information]

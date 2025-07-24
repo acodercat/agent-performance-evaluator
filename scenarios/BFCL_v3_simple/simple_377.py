@@ -10,6 +10,6 @@ def get_current_time(city:str, country:str, format:str=None):
 	Required Parameter = [city,country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_current_time]

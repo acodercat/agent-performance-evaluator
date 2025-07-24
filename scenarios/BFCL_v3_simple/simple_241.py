@@ -9,6 +9,6 @@ def US_President_During_Event(event:str, country:str=None):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [US_President_During_Event]

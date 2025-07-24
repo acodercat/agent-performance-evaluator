@@ -10,7 +10,7 @@ def forest_growth_forecast(location:str, years:int, include_human_impact:bool=No
 	Required Parameter = [location,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def db_fetch_records(database_name:str, table_name:str, conditions:Dict[str, str], fetch_limit:int=None):
@@ -25,6 +25,6 @@ def db_fetch_records(database_name:str, table_name:str, conditions:Dict[str, str
 	Required Parameter = [database_name,table_name,conditions,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [forest_growth_forecast, db_fetch_records]

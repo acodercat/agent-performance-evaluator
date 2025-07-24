@@ -10,6 +10,6 @@ def loan_eligibility_check(financial_institution:str, loan_amount:int, annual_in
 	Required Parameter = [financial_institution,loan_amount,annual_income,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [loan_eligibility_check]

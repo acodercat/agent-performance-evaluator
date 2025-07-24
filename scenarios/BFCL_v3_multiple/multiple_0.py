@@ -13,7 +13,7 @@ def triangle_properties_get(side1:int, side2:int, side3:int, get_area:bool=True,
 	Required Parameter = [side1,side2,side3,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def circle_properties_get(radius:float, get_area:bool=True, get_circumference:bool=True):
@@ -27,6 +27,6 @@ def circle_properties_get(radius:float, get_area:bool=True, get_circumference:bo
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [triangle_properties_get, circle_properties_get]

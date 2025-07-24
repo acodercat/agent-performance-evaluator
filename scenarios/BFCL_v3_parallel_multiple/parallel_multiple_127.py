@@ -11,7 +11,7 @@ def car_rental(location:str, days:int, car_type:str, pick_up:str=None):
 	Required Parameter = [location,days,car_type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_book(location:str, roomType:str, nights:int, additional_services:List[str]=None):
@@ -26,6 +26,6 @@ def hotel_book(location:str, roomType:str, nights:int, additional_services:List[
 	Required Parameter = [location,roomType,nights,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [car_rental, hotel_book]

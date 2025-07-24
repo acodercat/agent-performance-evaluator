@@ -10,6 +10,6 @@ def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None)
 	Required Parameter = [indexes,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [market_performance_get_data]

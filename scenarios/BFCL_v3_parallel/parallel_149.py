@@ -10,6 +10,6 @@ def calculate_distance(body1:str, body2:str, unit:str=None):
 	Required Parameter = [body1,body2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_distance]

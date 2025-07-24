@@ -10,6 +10,6 @@ def music_composer_create_mix(scale:str, note_duration:str, track_length:int):
 	Required Parameter = [scale,note_duration,track_length,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_composer_create_mix]

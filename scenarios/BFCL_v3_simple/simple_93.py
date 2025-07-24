@@ -10,6 +10,6 @@ def get_theater_movie_releases(location:str, timeframe:int, format:str=None):
 	Required Parameter = [location,timeframe,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_theater_movie_releases]

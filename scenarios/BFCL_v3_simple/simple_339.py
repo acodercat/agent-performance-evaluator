@@ -9,6 +9,6 @@ def poker_probability_full_house(deck_size:int, hand_size:int):
 	Required Parameter = [deck_size,hand_size,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [poker_probability_full_house]

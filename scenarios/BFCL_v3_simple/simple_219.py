@@ -9,6 +9,6 @@ def get_neuron_coordinates(neuron_type:str, brain_region:str):
 	Required Parameter = [neuron_type,brain_region,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_neuron_coordinates]

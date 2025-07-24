@@ -9,7 +9,7 @@ def light_travel_time(distance_in_light_years:int, speed_of_light:int=None):
 	Required Parameter = [distance_in_light_years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def safeway_order(location:str, items:List[str], quantity:List[int]):
@@ -23,7 +23,7 @@ def safeway_order(location:str, items:List[str], quantity:List[int]):
 	Required Parameter = [location,items,quantity,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay_duration:int, view:str='No preference'):
@@ -40,7 +40,7 @@ def book_hotel(hotel_name:str, location:str, room_type:str, start_date:str, stay
 	Required Parameter = [hotel_name,location,room_type,start_date,stay_duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def latest_exchange_rate(source_currency:str, target_currency:str, amount:float=None):
@@ -54,6 +54,6 @@ def latest_exchange_rate(source_currency:str, target_currency:str, amount:float=
 	Required Parameter = [source_currency,target_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [light_travel_time, safeway_order, book_hotel, latest_exchange_rate]

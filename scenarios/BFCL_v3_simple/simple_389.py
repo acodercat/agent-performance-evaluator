@@ -10,6 +10,6 @@ def currency_converter(base_currency:str, target_currency:str, amount:float):
 	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [currency_converter]

@@ -9,6 +9,6 @@ def science_history_get_discovery_details(discovery:str, method_used:str=None):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [science_history_get_discovery_details]

@@ -10,6 +10,6 @@ def hypothesis_testing_ttest_ind(sample1:List[int], sample2:List[int], significa
 	Required Parameter = [sample1,sample2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hypothesis_testing_ttest_ind]

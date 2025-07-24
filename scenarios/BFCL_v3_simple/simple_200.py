@@ -11,6 +11,6 @@ def calculate_emissions(distance:int, fuel_type:str, fuel_efficiency:float, effi
 	Required Parameter = [distance,fuel_type,fuel_efficiency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_emissions]

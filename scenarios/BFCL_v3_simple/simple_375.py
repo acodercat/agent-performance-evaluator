@@ -10,6 +10,6 @@ def walmart_check_price(items:List[str], quantities:List[int], store_location:st
 	Required Parameter = [items,quantities,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [walmart_check_price]

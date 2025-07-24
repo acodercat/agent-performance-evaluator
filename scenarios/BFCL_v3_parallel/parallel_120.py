@@ -10,6 +10,6 @@ def forest_growth_forecast(location:str, years:int, include_human_impact:bool=No
 	Required Parameter = [location,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [forest_growth_forecast]

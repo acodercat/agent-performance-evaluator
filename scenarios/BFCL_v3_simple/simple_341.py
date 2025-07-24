@@ -9,6 +9,6 @@ def deck_of_cards_odds(suit:str, deck_type:str):
 	Required Parameter = [suit,deck_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [deck_of_cards_odds]

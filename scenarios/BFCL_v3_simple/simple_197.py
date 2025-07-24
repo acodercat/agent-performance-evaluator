@@ -9,6 +9,6 @@ def get_air_quality_index(location:str, time:str):
 	Required Parameter = [location,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_air_quality_index]

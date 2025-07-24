@@ -12,7 +12,7 @@ def hilton_hotel_check_availability(location:str, check_in_date:str, check_out_d
 	Required Parameter = [location,check_in_date,check_out_date,no_of_adults,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None):
@@ -27,6 +27,6 @@ def lawsuits_search(company_name:str, location:str, year:int, case_type:str=None
 	Required Parameter = [company_name,location,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hilton_hotel_check_availability, lawsuits_search]

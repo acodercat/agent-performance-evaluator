@@ -10,6 +10,6 @@ def random_forest_train(n_estimators:int, max_depth:int, data:str):
 	Required Parameter = [n_estimators,max_depth,data,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [random_forest_train]

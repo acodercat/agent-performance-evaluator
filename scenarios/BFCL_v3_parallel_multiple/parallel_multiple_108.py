@@ -11,7 +11,7 @@ def MBTI_analyse(thinking_vs_feeling:str, introverted_vs_extroverted:str, judgin
 	Required Parameter = [thinking_vs_feeling,introverted_vs_extroverted,judging_vs_perceiving,sensing_vs_intuition,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def five_factor_model_analyse(talkative:bool, nervous:bool, artistic_interests:bool, lazy:bool, forgiving:bool):
@@ -27,6 +27,6 @@ def five_factor_model_analyse(talkative:bool, nervous:bool, artistic_interests:b
 	Required Parameter = [talkative,nervous,artistic_interests,lazy,forgiving,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [MBTI_analyse, five_factor_model_analyse]

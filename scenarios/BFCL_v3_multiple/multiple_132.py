@@ -10,7 +10,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	Required Parameter = [color1,color2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_calculate_future_value(initial_investment:int, rate_of_return:float, years:int, contribution:int=None):
@@ -25,7 +25,7 @@ def finance_calculate_future_value(initial_investment:int, rate_of_return:float,
 	Required Parameter = [initial_investment,rate_of_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def create_histogram(data:List[float], bins:int):
@@ -38,6 +38,6 @@ def create_histogram(data:List[float], bins:int):
 	Required Parameter = [data,bins,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [mix_paint_color, finance_calculate_future_value, create_histogram]

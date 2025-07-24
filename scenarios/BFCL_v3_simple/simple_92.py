@@ -10,6 +10,6 @@ def imdb_find_movies_by_actor(actor_name:str, year:int, category:str=None):
 	Required Parameter = [actor_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [imdb_find_movies_by_actor]

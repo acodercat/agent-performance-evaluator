@@ -9,7 +9,7 @@ def video_games_store_currency(platform:str, region:str='True'):
 	Required Parameter = [platform,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_on_sale(game_title:str, platform:str, region:str=None):
@@ -23,7 +23,7 @@ def video_games_on_sale(game_title:str, platform:str, region:str=None):
 	Required Parameter = [game_title,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_store_price(game_title:str, platform:str, region:str=None):
@@ -37,6 +37,6 @@ def video_games_store_price(game_title:str, platform:str, region:str=None):
 	Required Parameter = [game_title,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [video_games_store_currency, video_games_on_sale, video_games_store_price]

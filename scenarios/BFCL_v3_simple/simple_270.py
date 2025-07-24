@@ -9,6 +9,6 @@ def building_get_dimensions(building_name:str, unit:str):
 	Required Parameter = [building_name,unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [building_get_dimensions]

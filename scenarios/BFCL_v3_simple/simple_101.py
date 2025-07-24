@@ -10,6 +10,6 @@ def calculate_speed(distance:int, time:int, to_unit:str=None):
 	Required Parameter = [distance,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_speed]

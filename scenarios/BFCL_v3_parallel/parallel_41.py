@@ -9,6 +9,6 @@ def find_music_instrument_store(location:str, instruments:List[str]):
 	Required Parameter = [location,instruments,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_music_instrument_store]

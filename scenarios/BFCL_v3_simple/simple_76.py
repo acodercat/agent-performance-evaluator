@@ -10,6 +10,6 @@ def prediction_evolution(species:str, years:int, model:str=None):
 	Required Parameter = [species,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [prediction_evolution]

@@ -11,6 +11,6 @@ def sports_stats_get_performance(player_name:str, tournament:str, season:str, pe
 	Required Parameter = [player_name,tournament,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_stats_get_performance]

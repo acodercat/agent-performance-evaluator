@@ -9,7 +9,7 @@ def google_books_search(genre:str, title:str=None):
 	Required Parameter = [genre,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def library_search_books(location:str, genre:str, title:str=None):
@@ -23,7 +23,7 @@ def library_search_books(location:str, genre:str, title:str=None):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def openlibrary_books_search(genre:str, title:str=None):
@@ -36,6 +36,6 @@ def openlibrary_books_search(genre:str, title:str=None):
 	Required Parameter = [genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [google_books_search, library_search_books, openlibrary_books_search]

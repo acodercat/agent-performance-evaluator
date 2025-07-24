@@ -10,7 +10,7 @@ def painting_create(shape:str, background_color:str, dimensions:List[int]):
 	Required Parameter = [shape,background_color,dimensions,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def display_set_screen_brightness(percentage:int, duration:int):
@@ -23,7 +23,7 @@ def display_set_screen_brightness(percentage:int, duration:int):
 	Required Parameter = [percentage,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def painting_display(time:int):
@@ -35,6 +35,6 @@ def painting_display(time:int):
 	Required Parameter = [time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [painting_create, display_set_screen_brightness, painting_display]

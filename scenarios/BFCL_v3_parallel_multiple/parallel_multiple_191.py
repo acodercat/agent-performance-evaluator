@@ -10,7 +10,7 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	Required Parameter = [rank,suit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_exchange_convert(base_currency:str, target_currency:str, amount:int):
@@ -24,7 +24,7 @@ def currency_exchange_convert(base_currency:str, target_currency:str, amount:int
 	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def local_nursery_find(location:str, plant_types:List[str]):
@@ -37,7 +37,7 @@ def local_nursery_find(location:str, plant_types:List[str]):
 	Required Parameter = [location,plant_types,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_unit_conversion(value:int, from_unit:str, to_unit:str, precision:int=None):
@@ -52,6 +52,6 @@ def recipe_unit_conversion(value:int, from_unit:str, to_unit:str, precision:int=
 	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_card_in_deck, currency_exchange_convert, local_nursery_find, recipe_unit_conversion]

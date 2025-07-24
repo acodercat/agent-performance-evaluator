@@ -9,6 +9,6 @@ def get_highest_scoring_player(game:str, season:str):
 	Required Parameter = [game,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_highest_scoring_player]

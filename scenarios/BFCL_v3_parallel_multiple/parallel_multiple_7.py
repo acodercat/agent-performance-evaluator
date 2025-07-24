@@ -9,7 +9,7 @@ def physics_calculate_force(mass:int, acceleration:int):
 	Required Parameter = [mass,acceleration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def kinematics_calculate_time(velocity:int, distance:int):
@@ -22,6 +22,6 @@ def kinematics_calculate_time(velocity:int, distance:int):
 	Required Parameter = [velocity,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [physics_calculate_force, kinematics_calculate_time]

@@ -10,7 +10,7 @@ def player_statistic(player_name:str, year:int, team_name:str=None):
 	Required Parameter = [player_name,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def analyze_structure(building_id:str, floors:List[int], mode:str=None):
@@ -24,6 +24,6 @@ def analyze_structure(building_id:str, floors:List[int], mode:str=None):
 	Required Parameter = [building_id,floors,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [player_statistic, analyze_structure]

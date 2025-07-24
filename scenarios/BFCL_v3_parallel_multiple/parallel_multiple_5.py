@@ -9,7 +9,7 @@ def primeFactors(num:int, withMultiplicity:bool='false'):
 	Required Parameter = [num,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lcm(num1:int, num2:int):
@@ -22,7 +22,7 @@ def lcm(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def gcd(num1:int, num2:int):
@@ -35,6 +35,6 @@ def gcd(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [primeFactors, lcm, gcd]

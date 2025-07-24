@@ -10,7 +10,7 @@ def tourist_spot_info(spot:str, city:str, details:List[str]='timing, attractions
 	Required Parameter = [spot,city,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def museum_info(museum:str, city:str, features:List[str]='timings, exhibitions'):
@@ -24,6 +24,6 @@ def museum_info(museum:str, city:str, features:List[str]='timings, exhibitions')
 	Required Parameter = [museum,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [tourist_spot_info, museum_info]

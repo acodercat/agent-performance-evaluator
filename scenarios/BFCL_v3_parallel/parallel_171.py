@@ -10,6 +10,6 @@ def calculate_return_on_equity(net_income:int, shareholder_equity:int, dividends
 	Required Parameter = [net_income,shareholder_equity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_return_on_equity]

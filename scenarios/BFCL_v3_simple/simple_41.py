@@ -11,6 +11,6 @@ def electromagnetic_force(charge1:int, charge2:int, distance:int, medium_permitt
 	Required Parameter = [charge1,charge2,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [electromagnetic_force]

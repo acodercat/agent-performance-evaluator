@@ -9,6 +9,6 @@ def math_hcf(number1:int, number2:int):
 	Required Parameter = [number1,number2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_hcf]

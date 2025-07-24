@@ -10,6 +10,6 @@ def music_calculate_note_duration(first_note_frequency:int, second_note_frequenc
 	Required Parameter = [first_note_frequency,second_note_frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_calculate_note_duration]

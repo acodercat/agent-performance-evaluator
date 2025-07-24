@@ -10,6 +10,6 @@ def calculate_area_under_curve(function:str, interval:List[float], method:str=No
 	Required Parameter = [function,interval,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_area_under_curve]

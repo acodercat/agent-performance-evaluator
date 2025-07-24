@@ -12,6 +12,6 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	Required Parameter = [location,room_type,duration,start_date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_booking]

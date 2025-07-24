@@ -10,7 +10,7 @@ def calculate_triangle_area(base:int, height:int, unit:str=None):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_case_info(docket:str, court:str, info_type:str):
@@ -24,6 +24,6 @@ def get_case_info(docket:str, court:str, info_type:str):
 	Required Parameter = [docket,court,info_type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_triangle_area, get_case_info]

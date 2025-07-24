@@ -10,6 +10,6 @@ def get_directions(start_location:str, end_location:str, route_type:str=None):
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_directions]

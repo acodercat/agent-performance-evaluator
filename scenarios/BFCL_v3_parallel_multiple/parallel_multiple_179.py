@@ -10,7 +10,7 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	Required Parameter = [rank,suit,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_get_last_match(team_name:str, include_stats:bool=None):
@@ -23,7 +23,7 @@ def soccer_get_last_match(team_name:str, include_stats:bool=None):
 	Required Parameter = [team_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def US_president_in_year(year:int, full_name:bool=True):
@@ -36,7 +36,7 @@ def US_president_in_year(year:int, full_name:bool=True):
 	Required Parameter = [year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def update_user_info(user_id:int, update_info:Dict[str, str], database:str='CustomerInfo'):
@@ -50,6 +50,6 @@ def update_user_info(user_id:int, update_info:Dict[str, str], database:str='Cust
 	Required Parameter = [user_id,update_info,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_card_in_deck, soccer_get_last_match, US_president_in_year, update_user_info]

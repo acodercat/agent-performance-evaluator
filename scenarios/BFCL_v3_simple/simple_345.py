@@ -10,6 +10,6 @@ def game_valuation(game_name:str, release_year:int, condition:str=None):
 	Required Parameter = [game_name,release_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_valuation]

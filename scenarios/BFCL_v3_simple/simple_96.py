@@ -9,6 +9,6 @@ def database_query(table:str, conditions:List[Dict[str, str]]):
 	Required Parameter = [table,conditions,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [database_query]

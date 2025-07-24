@@ -11,7 +11,7 @@ def music_generator_generate_scale_progression(key:str, tempo:int, duration:int,
 	Required Parameter = [key,tempo,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_hcf(number1:int, number2:int):
@@ -24,6 +24,6 @@ def math_hcf(number1:int, number2:int):
 	Required Parameter = [number1,number2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_generator_generate_scale_progression, math_hcf]

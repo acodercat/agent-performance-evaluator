@@ -9,7 +9,7 @@ def games_reviews_find(game:str, region:str=None):
 	Required Parameter = [game,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def games_update_find(game:str, platform:str, region:str=None):
@@ -23,7 +23,7 @@ def games_update_find(game:str, platform:str, region:str=None):
 	Required Parameter = [game,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def games_price_find(game:str, platform:str):
@@ -36,6 +36,6 @@ def games_price_find(game:str, platform:str):
 	Required Parameter = [game,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [games_reviews_find, games_update_find, games_price_find]

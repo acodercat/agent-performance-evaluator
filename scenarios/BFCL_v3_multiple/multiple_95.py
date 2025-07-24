@@ -11,7 +11,7 @@ def currency_exchange_convert(amount:int, from_currency:str, to_currency:str, li
 	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def unit_conversion_convert(value:int, from_unit:str, to_unit:str):
@@ -25,6 +25,6 @@ def unit_conversion_convert(value:int, from_unit:str, to_unit:str):
 	Required Parameter = [value,from_unit,to_unit,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [currency_exchange_convert, unit_conversion_convert]

@@ -8,6 +8,6 @@ def calculate_average(numbers:List[int]):
 	Required Parameter = [numbers,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_average]

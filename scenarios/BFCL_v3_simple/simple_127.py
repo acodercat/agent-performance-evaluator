@@ -10,6 +10,6 @@ def calculate_NPV(cash_flows:List[int], discount_rate:float, initial_investment:
 	Required Parameter = [cash_flows,discount_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_NPV]

@@ -9,7 +9,7 @@ def history_get_timeline(event:str, region:str='Europe'):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def history_get_important_figures(event:str, number:int=1):
@@ -22,6 +22,6 @@ def history_get_important_figures(event:str, number:int=1):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_get_timeline, history_get_important_figures]

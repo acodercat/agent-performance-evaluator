@@ -9,7 +9,7 @@ def religion_history_get_councils(religion:str, count:int):
 	Required Parameter = [religion,count,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_get_reformations(religion:str, count:int):
@@ -22,7 +22,7 @@ def religion_history_get_reformations(religion:str, count:int):
 	Required Parameter = [religion,count,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def religion_history_get_schisms(religion:str, count:int):
@@ -35,6 +35,6 @@ def religion_history_get_schisms(religion:str, count:int):
 	Required Parameter = [religion,count,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religion_history_get_councils, religion_history_get_reformations, religion_history_get_schisms]

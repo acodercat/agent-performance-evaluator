@@ -11,6 +11,6 @@ def travel_itinerary_generator(destination:str, days:int, daily_budget:int, expl
 	Required Parameter = [destination,days,daily_budget,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [travel_itinerary_generator]

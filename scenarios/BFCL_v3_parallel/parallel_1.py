@@ -10,6 +10,6 @@ def calculate_em_force(b_field:int, area:int, d_time:int):
 	Required Parameter = [b_field,area,d_time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_em_force]

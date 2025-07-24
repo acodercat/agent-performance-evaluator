@@ -8,7 +8,7 @@ def time_zones_get_current_time(location:str):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def time_zones_get_time_difference(city_1:str, city_2:str):
@@ -21,6 +21,6 @@ def time_zones_get_time_difference(city_1:str, city_2:str):
 	Required Parameter = [city_1,city_2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [time_zones_get_current_time, time_zones_get_time_difference]

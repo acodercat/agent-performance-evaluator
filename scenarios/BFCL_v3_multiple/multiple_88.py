@@ -10,7 +10,7 @@ def video_games_get_player_count(game_title:str, year:int, platform:str=None):
 	Required Parameter = [game_title,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def video_games_get_sales(game_title:str, year:int, platform:str=None):
@@ -24,6 +24,6 @@ def video_games_get_sales(game_title:str, year:int, platform:str=None):
 	Required Parameter = [game_title,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [video_games_get_player_count, video_games_get_sales]

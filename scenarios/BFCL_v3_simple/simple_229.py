@@ -9,6 +9,6 @@ def get_bigfive_scores(characteristics:List[str], scale:str=None):
 	Required Parameter = [characteristics,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_bigfive_scores]

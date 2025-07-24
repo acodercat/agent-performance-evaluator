@@ -9,7 +9,7 @@ def corporate_finance_product_price(company:str, product:str):
 	Required Parameter = [company,product,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_revenue_forecast(company:str, product:str, sales_units_increase_percentage:int=None):
@@ -23,6 +23,6 @@ def corporate_finance_revenue_forecast(company:str, product:str, sales_units_inc
 	Required Parameter = [company,product,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [corporate_finance_product_price, corporate_finance_revenue_forecast]

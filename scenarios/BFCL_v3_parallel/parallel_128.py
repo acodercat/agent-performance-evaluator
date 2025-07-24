@@ -10,6 +10,6 @@ def average_temperature(location:str, days:int, temp_unit:str=None):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [average_temperature]

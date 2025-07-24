@@ -10,6 +10,6 @@ def court_case_search(docket_number:str, location:str, full_text:bool='false'):
 	Required Parameter = [docket_number,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [court_case_search]

@@ -11,7 +11,7 @@ def history_get_key_events(country:str, start_year:int, end_year:int, event_type
 	Required Parameter = [country,start_year,end_year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_sculpture_value(sculpture:str, artist:str, year:int=None):
@@ -25,6 +25,6 @@ def get_sculpture_value(sculpture:str, artist:str, year:int=None):
 	Required Parameter = [sculpture,artist,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_get_key_events, get_sculpture_value]

@@ -10,6 +10,6 @@ def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	Required Parameter = [number,dice_number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [monopoly_odds_calculator]

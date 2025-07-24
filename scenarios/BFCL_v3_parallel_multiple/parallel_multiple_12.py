@@ -10,7 +10,7 @@ def calculate_voltage_difference(electric_field:float, distance:float, charge:fl
 	Required Parameter = [electric_field,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_magnetic_field(current:float, distance:float, permeability:float=None):
@@ -24,6 +24,6 @@ def calculate_magnetic_field(current:float, distance:float, permeability:float=N
 	Required Parameter = [current,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_voltage_difference, calculate_magnetic_field]

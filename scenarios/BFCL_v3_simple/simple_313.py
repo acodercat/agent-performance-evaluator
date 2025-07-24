@@ -9,6 +9,6 @@ def celebrity_net_worth_get(name:str, currency:str):
 	Required Parameter = [name,currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [celebrity_net_worth_get]

@@ -10,6 +10,6 @@ def modify_painting(size:str, medium:str, dominant_color:str=None):
 	Required Parameter = [size,medium,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [modify_painting]

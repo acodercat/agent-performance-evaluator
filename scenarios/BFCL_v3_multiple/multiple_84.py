@@ -10,7 +10,7 @@ def getTopGoalScorers(competition:str, team:str, number:int):
 	Required Parameter = [competition,team,number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def getTopAssists(competition:str, team:str, number:int):
@@ -24,6 +24,6 @@ def getTopAssists(competition:str, team:str, number:int):
 	Required Parameter = [competition,team,number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [getTopGoalScorers, getTopAssists]

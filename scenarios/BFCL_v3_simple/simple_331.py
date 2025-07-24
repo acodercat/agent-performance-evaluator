@@ -10,6 +10,6 @@ def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of
 	Required Parameter = [location,minimum_rating,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [board_game_chess_get_top_players]

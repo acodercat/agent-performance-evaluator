@@ -9,7 +9,7 @@ def criminal_record_get_offense_nature(criminal_name:str, optional_param:bool=No
 	Required Parameter = [criminal_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def criminal_record_get_status(criminal_name:str, region:str):
@@ -22,6 +22,6 @@ def criminal_record_get_status(criminal_name:str, region:str):
 	Required Parameter = [criminal_name,region,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [criminal_record_get_offense_nature, criminal_record_get_status]

@@ -10,6 +10,6 @@ def whole_foods_find_top_brands(product:str, number:int=None, organic:bool=None)
 	Required Parameter = [product,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [whole_foods_find_top_brands]

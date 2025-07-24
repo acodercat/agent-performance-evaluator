@@ -10,7 +10,7 @@ def find_instrument(budget:float, type:str, make:str=None):
 	Required Parameter = [budget,type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_binomial_probability(number_of_trials:int, number_of_successes:int, probability_of_success:float=0.5):
@@ -24,7 +24,7 @@ def calculate_binomial_probability(number_of_trials:int, number_of_successes:int
 	Required Parameter = [number_of_trials,number_of_successes,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def electromagnetic_force(charge1:float, charge2:float, distance:float, medium_permittivity:float=None):
@@ -39,7 +39,7 @@ def electromagnetic_force(charge1:float, charge2:float, distance:float, medium_p
 	Required Parameter = [charge1,charge2,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_ranking_get_top_player(sport:str, gender:str='men'):
@@ -52,6 +52,6 @@ def sports_ranking_get_top_player(sport:str, gender:str='men'):
 	Required Parameter = [sport,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [find_instrument, calculate_binomial_probability, electromagnetic_force, sports_ranking_get_top_player]

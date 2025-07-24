@@ -9,7 +9,7 @@ def chess_rating(player_name:str, variant:str=None):
 	Required Parameter = [player_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_fitness(trait_values:List[float], trait_contributions:List[float]):
@@ -22,7 +22,7 @@ def calculate_fitness(trait_values:List[float], trait_contributions:List[float])
 	Required Parameter = [trait_values,trait_contributions,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
@@ -36,7 +36,7 @@ def lawyer_find_nearby(city:str, specialty:List[str], fee:int):
 	Required Parameter = [city,specialty,fee,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
@@ -50,6 +50,6 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None):
 	Required Parameter = [loc,product_list,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [chess_rating, calculate_fitness, lawyer_find_nearby, walmart_purchase]

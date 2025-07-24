@@ -11,6 +11,6 @@ def predict_house_price(area:int, rooms:int, year:int, location:str):
 	Required Parameter = [area,rooms,year,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [predict_house_price]

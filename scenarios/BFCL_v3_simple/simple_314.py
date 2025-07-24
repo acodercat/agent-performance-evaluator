@@ -10,6 +10,6 @@ def sports_celebrity_get_major_achievements(celebrity_name:str, sports:str=None,
 	Required Parameter = [celebrity_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_celebrity_get_major_achievements]

@@ -12,6 +12,6 @@ def plot_sine_wave(start_range:int, end_range:int, frequency:int, amplitude:int=
 	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [plot_sine_wave]

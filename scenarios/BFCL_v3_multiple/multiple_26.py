@@ -11,7 +11,7 @@ def game_scores_get(game:str, platform:str, level:int, player:str=None):
 	Required Parameter = [game,platform,level,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_rewards_get(game:str, platform:str, mission:str=None, trophy:str=None):
@@ -26,7 +26,7 @@ def game_rewards_get(game:str, platform:str, mission:str=None, trophy:str=None):
 	Required Parameter = [game,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_missions_list(game:str):
@@ -38,6 +38,6 @@ def game_missions_list(game:str):
 	Required Parameter = [game,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_scores_get, game_rewards_get, game_missions_list]

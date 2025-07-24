@@ -9,6 +9,6 @@ def calculate_winning_percentage(team:str, season:int):
 	Required Parameter = [team,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_winning_percentage]

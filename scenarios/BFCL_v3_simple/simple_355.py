@@ -10,6 +10,6 @@ def recipe_info_get_calories(website:str, recipe:str, optional_meal_time:str=Non
 	Required Parameter = [website,recipe,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_info_get_calories]

@@ -10,6 +10,6 @@ def identify_bird(color:str, habitat:str, size:str=None):
 	Required Parameter = [color,habitat,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [identify_bird]

@@ -10,7 +10,7 @@ def stock_forecast(company:str, days:int, model:str=None):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -23,6 +23,6 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [stock_forecast, weather_forecast]

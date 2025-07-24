@@ -9,6 +9,6 @@ def calculate_bmi(height:float, weight:int):
 	Required Parameter = [height,weight,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_bmi]

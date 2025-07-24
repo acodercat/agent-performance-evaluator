@@ -9,7 +9,7 @@ def geometry_area_circle(radius:float, units:str='meters'):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_recipes(diet:str, meal_type:str, ingredients:List[str]=None):
@@ -23,7 +23,7 @@ def find_recipes(diet:str, meal_type:str, ingredients:List[str]=None):
 	Required Parameter = [diet,meal_type,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def whole_foods_check_price(location:str, items:List[str]):
@@ -36,7 +36,7 @@ def whole_foods_check_price(location:str, items:List[str]):
 	Required Parameter = [location,items,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_shortest_distance(start_location:str, end_location:str, route_preference:str):
@@ -50,6 +50,6 @@ def calculate_shortest_distance(start_location:str, end_location:str, route_pref
 	Required Parameter = [start_location,end_location,route_preference,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geometry_area_circle, find_recipes, whole_foods_check_price, calculate_shortest_distance]

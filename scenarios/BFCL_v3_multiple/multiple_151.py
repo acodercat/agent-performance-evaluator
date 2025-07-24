@@ -10,7 +10,7 @@ def social_media_analytics_most_followed(topic:str, sub_topics:List[str]=None, r
 	Required Parameter = [topic,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
@@ -24,7 +24,7 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_info_get(location:str, date:str, genre:str):
@@ -38,6 +38,6 @@ def concert_info_get(location:str, date:str, genre:str):
 	Required Parameter = [location,date,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [social_media_analytics_most_followed, calculate_probability, concert_info_get]

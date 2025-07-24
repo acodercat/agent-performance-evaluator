@@ -10,6 +10,6 @@ def get_lawsuit_details(case_number:str, court_location:str, with_verdict:bool=N
 	Required Parameter = [case_number,court_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_lawsuit_details]

@@ -10,7 +10,7 @@ def get_stock_info(company_name:str, detail_level:str, market:str=None):
 	Required Parameter = [company_name,detail_level,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def portfolio_future_value(stock:str, invested_amount:float, expected_annual_return:float, years:int):
@@ -25,7 +25,7 @@ def portfolio_future_value(stock:str, invested_amount:float, expected_annual_ret
 	Required Parameter = [stock,invested_amount,expected_annual_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def solve_quadratic_equation(a:int, b:int, c:int):
@@ -39,6 +39,6 @@ def solve_quadratic_equation(a:int, b:int, c:int):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_info, portfolio_future_value, solve_quadratic_equation]

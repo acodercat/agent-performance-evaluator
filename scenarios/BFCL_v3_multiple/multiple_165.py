@@ -9,7 +9,7 @@ def identify_color_rgb(color_name:str, standard:str=None):
 	Required Parameter = [color_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of_players:int=10):
@@ -23,7 +23,7 @@ def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of
 	Required Parameter = [location,minimum_rating,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def guitar_price_find(model:str, condition:str, location:str):
@@ -37,6 +37,6 @@ def guitar_price_find(model:str, condition:str, location:str):
 	Required Parameter = [model,condition,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [identify_color_rgb, board_game_chess_get_top_players, guitar_price_find]

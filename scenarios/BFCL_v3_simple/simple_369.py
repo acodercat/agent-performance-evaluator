@@ -9,6 +9,6 @@ def grocery_store_find_nearby(location:str, categories:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_store_find_nearby]

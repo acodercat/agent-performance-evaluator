@@ -11,7 +11,7 @@ def calculate_density(country:str, year:str, population:int, land_area:float):
 	Required Parameter = [country,year,population,land_area,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_directions(start_location:str, end_location:str, route_type:str=None):
@@ -25,7 +25,7 @@ def get_directions(start_location:str, end_location:str, route_type:str=None):
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:int=None):
@@ -40,6 +40,6 @@ def music_generator_generate_melody(key:str, start_note:str, length:int, tempo:i
 	Required Parameter = [key,start_note,length,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_density, get_directions, music_generator_generate_melody]

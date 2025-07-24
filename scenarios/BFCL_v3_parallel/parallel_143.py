@@ -9,6 +9,6 @@ def calc_area_triangle(base:int, height:int):
 	Required Parameter = [base,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calc_area_triangle]

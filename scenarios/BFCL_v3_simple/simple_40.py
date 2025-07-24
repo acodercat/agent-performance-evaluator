@@ -10,6 +10,6 @@ def calculate_magnetic_field(current:int, radius:int, permeability:float=None):
 	Required Parameter = [current,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_magnetic_field]

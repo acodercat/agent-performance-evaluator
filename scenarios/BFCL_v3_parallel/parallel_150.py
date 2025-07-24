@@ -9,6 +9,6 @@ def mathematics_calculate_area_under_curve(polynomial:List[int], limits:List[int
 	Required Parameter = [polynomial,limits,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [mathematics_calculate_area_under_curve]

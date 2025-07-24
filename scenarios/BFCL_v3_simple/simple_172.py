@@ -9,6 +9,6 @@ def legal_case_fetch(case_id:str, details:bool):
 	Required Parameter = [case_id,details,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [legal_case_fetch]

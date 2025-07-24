@@ -9,7 +9,7 @@ def uv_index_get_future(location:str, date:str):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def rainfall_prediction(location:str, date:str):
@@ -22,7 +22,7 @@ def rainfall_prediction(location:str, date:str):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def snowfall_prediction(location:str, date:str):
@@ -35,6 +35,6 @@ def snowfall_prediction(location:str, date:str):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [uv_index_get_future, rainfall_prediction, snowfall_prediction]

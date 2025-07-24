@@ -9,7 +9,7 @@ def lowest_price(city:str, product:str):
 	Required Parameter = [city,product,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def average_price(city:str, product:str):
@@ -22,7 +22,7 @@ def average_price(city:str, product:str):
 	Required Parameter = [city,product,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def store_count(city:str, product:str):
@@ -35,7 +35,7 @@ def store_count(city:str, product:str):
 	Required Parameter = [city,product,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def product_search(city:str, product:str):
@@ -48,6 +48,6 @@ def product_search(city:str, product:str):
 	Required Parameter = [city,product,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lowest_price, average_price, store_count, product_search]

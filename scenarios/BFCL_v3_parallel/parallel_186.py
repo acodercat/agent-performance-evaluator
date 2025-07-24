@@ -10,6 +10,6 @@ def calculate_emission_savings(energy_type:str, usage_duration:int, region:str='
 	Required Parameter = [energy_type,usage_duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_emission_savings]

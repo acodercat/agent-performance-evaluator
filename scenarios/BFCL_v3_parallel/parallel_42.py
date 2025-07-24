@@ -9,6 +9,6 @@ def check_instrument_availability(instrument:str, city:str):
 	Required Parameter = [instrument,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [check_instrument_availability]

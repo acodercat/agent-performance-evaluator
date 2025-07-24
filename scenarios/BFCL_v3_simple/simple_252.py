@@ -11,6 +11,6 @@ def get_religion_history(religion:str, century:int, sort_by:str='chronological',
 	Required Parameter = [religion,century,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_religion_history]

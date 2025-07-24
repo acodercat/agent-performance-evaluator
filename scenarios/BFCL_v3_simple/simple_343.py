@@ -10,6 +10,6 @@ def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'
 	Required Parameter = [game,username,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_stats_fetch_player_statistics]

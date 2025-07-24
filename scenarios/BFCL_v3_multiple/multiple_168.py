@@ -8,7 +8,7 @@ def get_stock_price(company_names:List[str]):
 	Required Parameter = [company_names,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
@@ -22,7 +22,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	Required Parameter = [song_title,artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def park_information(park_name:str, information:List[str]):
@@ -35,6 +35,6 @@ def park_information(park_name:str, information:List[str]):
 	Required Parameter = [park_name,information,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_stock_price, get_song_lyrics, park_information]

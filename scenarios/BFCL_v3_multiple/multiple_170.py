@@ -9,7 +9,7 @@ def park_information(park_name:str, information:List[str]):
 	Required Parameter = [park_name,information,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def us_history_get_president(event:str, year:int):
@@ -22,7 +22,7 @@ def us_history_get_president(event:str, year:int):
 	Required Parameter = [event,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
@@ -36,7 +36,7 @@ def monopoly_odds_calculator(number:int, dice_number:int, dice_faces:int=None):
 	Required Parameter = [number,dice_number,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def soccer_stat_get_player_stats(player_name:str, season:str, league:str=None):
@@ -50,6 +50,6 @@ def soccer_stat_get_player_stats(player_name:str, season:str, league:str=None):
 	Required Parameter = [player_name,season,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [park_information, us_history_get_president, monopoly_odds_calculator, soccer_stat_get_player_stats]

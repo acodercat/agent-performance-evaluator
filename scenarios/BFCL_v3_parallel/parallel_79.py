@@ -9,6 +9,6 @@ def prime_factorize(number:int, return_type:str=None):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [prime_factorize]

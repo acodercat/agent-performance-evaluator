@@ -9,6 +9,6 @@ def get_event_date(event:str, location:str=None):
 	Required Parameter = [event,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_event_date]

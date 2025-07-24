@@ -10,6 +10,6 @@ def player_stats_getLastGame(player_name:str, team:str, metrics:List[str]=None):
 	Required Parameter = [player_name,team,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [player_stats_getLastGame]

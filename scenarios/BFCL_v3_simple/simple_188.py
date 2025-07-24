@@ -10,6 +10,6 @@ def weather_humidity_forecast(location:str, days:int, min_humidity:int=None):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [weather_humidity_forecast]

@@ -10,6 +10,6 @@ def time_zone_converter(city:str, country:str, display_format:str=None):
 	Required Parameter = [city,country,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [time_zone_converter]

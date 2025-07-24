@@ -10,7 +10,7 @@ def crop_yield_get_history(country:str, crop:str, years:int):
 	Required Parameter = [country,crop,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def animal_population_get_history(country:str, species:str, years:int):
@@ -24,7 +24,7 @@ def animal_population_get_history(country:str, species:str, years:int):
 	Required Parameter = [country,species,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def animal_population_get_projection(country:str, species:str, years:int):
@@ -38,6 +38,6 @@ def animal_population_get_projection(country:str, species:str, years:int):
 	Required Parameter = [country,species,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [crop_yield_get_history, animal_population_get_history, animal_population_get_projection]

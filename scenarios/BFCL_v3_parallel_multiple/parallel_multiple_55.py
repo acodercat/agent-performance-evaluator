@@ -8,7 +8,7 @@ def recipe_prep_time(recipe:str):
 	Required Parameter = [recipe,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_nutrition_info(recipe:str):
@@ -20,7 +20,7 @@ def recipe_nutrition_info(recipe:str):
 	Required Parameter = [recipe,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def recipe_search(ingredient:str, dietary_requirements:List[str], isHomemade:bool):
@@ -34,6 +34,6 @@ def recipe_search(ingredient:str, dietary_requirements:List[str], isHomemade:boo
 	Required Parameter = [ingredient,dietary_requirements,isHomemade,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_prep_time, recipe_nutrition_info, recipe_search]

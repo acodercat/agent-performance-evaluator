@@ -10,6 +10,6 @@ def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
 	Required Parameter = [players,cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [poker_game_winner]

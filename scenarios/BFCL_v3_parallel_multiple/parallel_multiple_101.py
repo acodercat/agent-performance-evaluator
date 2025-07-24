@@ -10,7 +10,7 @@ def volume_traded(company:str, days:int, data_source:str=None):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def total_revenue(company:str, days:int, data_source:str=None):
@@ -24,7 +24,7 @@ def total_revenue(company:str, days:int, data_source:str=None):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def avg_closing_price(company:str, days:int, data_source:str=None):
@@ -38,6 +38,6 @@ def avg_closing_price(company:str, days:int, data_source:str=None):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [volume_traded, total_revenue, avg_closing_price]

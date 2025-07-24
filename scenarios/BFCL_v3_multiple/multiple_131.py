@@ -9,7 +9,7 @@ def restaurant_find_nearby(location:str, dietary_preference:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None):
@@ -23,7 +23,7 @@ def market_performance_get_data(indexes:List[str], days:int, detailed:bool=None)
 	Required Parameter = [indexes,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_match_results(team1:str, team2:str, season:str=None):
@@ -37,6 +37,6 @@ def sports_match_results(team1:str, team2:str, season:str=None):
 	Required Parameter = [team1,team2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_find_nearby, market_performance_get_data, sports_match_results]

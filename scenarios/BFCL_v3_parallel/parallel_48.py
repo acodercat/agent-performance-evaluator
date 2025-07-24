@@ -9,6 +9,6 @@ def PokemonGO_get_moves(pokemon:str, move:str=None):
 	Required Parameter = [pokemon,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [PokemonGO_get_moves]

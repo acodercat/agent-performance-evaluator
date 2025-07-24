@@ -10,6 +10,6 @@ def publication_year_find(author:str, work_title:str, location:str=None):
 	Required Parameter = [author,work_title,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [publication_year_find]

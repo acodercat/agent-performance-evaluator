@@ -9,6 +9,6 @@ def movie_details_brief(title:str, extra_info:bool='false'):
 	Required Parameter = [title,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [movie_details_brief]

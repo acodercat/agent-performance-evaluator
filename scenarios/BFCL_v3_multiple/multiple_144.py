@@ -10,7 +10,7 @@ def sports_ranking(team:str, league:str, season:int=None):
 	Required Parameter = [team,league,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def air_quality(location:str, date:str):
@@ -23,6 +23,6 @@ def air_quality(location:str, date:str):
 	Required Parameter = [location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_ranking, air_quality]

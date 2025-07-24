@@ -10,6 +10,6 @@ def generate_circle_image(radius:int, color:str, background:str=None):
 	Required Parameter = [radius,color,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [generate_circle_image]

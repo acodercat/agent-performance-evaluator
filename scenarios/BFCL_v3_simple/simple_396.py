@@ -10,6 +10,6 @@ def hospital_locate(location:str, radius:int, department:str=None):
 	Required Parameter = [location,radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hospital_locate]

@@ -11,6 +11,6 @@ def calculate_future_value(present_value:int, annual_interest_rate:float, years:
 	Required Parameter = [present_value,annual_interest_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_future_value]

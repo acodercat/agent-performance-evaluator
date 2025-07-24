@@ -10,7 +10,7 @@ def corporate_finance_dividend_data(company:str, years:int, frequency:str=None):
 	Required Parameter = [company,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_market_data(company:str, days:int):
@@ -23,6 +23,6 @@ def stock_market_data(company:str, days:int):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [corporate_finance_dividend_data, stock_market_data]

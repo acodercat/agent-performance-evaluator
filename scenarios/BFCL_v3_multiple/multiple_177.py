@@ -10,7 +10,7 @@ def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of
 	Required Parameter = [location,minimum_rating,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_historical_GDP(country:str, start_year:int, end_year:int):
@@ -24,7 +24,7 @@ def get_historical_GDP(country:str, start_year:int, end_year:int):
 	Required Parameter = [country,start_year,end_year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def maps_get_distance_duration(start_location:str, end_location:str, traffic:bool=None):
@@ -38,6 +38,6 @@ def maps_get_distance_duration(start_location:str, end_location:str, traffic:boo
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [board_game_chess_get_top_players, get_historical_GDP, maps_get_distance_duration]

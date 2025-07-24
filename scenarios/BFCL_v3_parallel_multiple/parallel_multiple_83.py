@@ -10,7 +10,7 @@ def calculate_integral(func:str, a:int, b:int):
 	Required Parameter = [func,a,b,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_derivative(func:str, x_value:int, order:int=1):
@@ -24,6 +24,6 @@ def calculate_derivative(func:str, x_value:int, order:int=1):
 	Required Parameter = [func,x_value,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_integral, calculate_derivative]

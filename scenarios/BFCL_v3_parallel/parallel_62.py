@@ -10,6 +10,6 @@ def algebra_quadratic_roots(a:int, b:int, c:int):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [algebra_quadratic_roots]

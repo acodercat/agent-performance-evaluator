@@ -9,6 +9,6 @@ def calculate_return_on_investment(initial_investment:int, gain_loss:int):
 	Required Parameter = [initial_investment,gain_loss,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_return_on_investment]

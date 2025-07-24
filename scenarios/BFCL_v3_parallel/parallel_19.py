@@ -10,6 +10,6 @@ def calculate_mortgage_payment(loan_amount:int, interest_rate:float, loan_term:i
 	Required Parameter = [loan_amount,interest_rate,loan_term,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_mortgage_payment]

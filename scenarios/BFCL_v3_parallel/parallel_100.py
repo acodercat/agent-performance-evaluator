@@ -9,6 +9,6 @@ def get_boiling_melting_points(substance:str, sea_level:int):
 	Required Parameter = [substance,sea_level,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_boiling_melting_points]

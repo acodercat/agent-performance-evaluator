@@ -9,7 +9,7 @@ def volume_cylinder_calculate(radius:float, height:float):
 	Required Parameter = [radius,height,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def area_rectangle_calculate(length:float, breadth:float):
@@ -22,7 +22,7 @@ def area_rectangle_calculate(length:float, breadth:float):
 	Required Parameter = [length,breadth,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def area_circle_calculate(radius:float):
@@ -34,6 +34,6 @@ def area_circle_calculate(radius:float):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [volume_cylinder_calculate, area_rectangle_calculate, area_circle_calculate]

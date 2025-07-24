@@ -10,6 +10,6 @@ def get_instrument_info(name:str, maker:str, year:int):
 	Required Parameter = [name,maker,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_instrument_info]

@@ -9,7 +9,7 @@ def us_history_population_by_state_year(state:str, year:int):
 	Required Parameter = [state,year,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def us_economy_gdp_by_state_year(state:str, year:int, adjustment:str=None):
@@ -23,6 +23,6 @@ def us_economy_gdp_by_state_year(state:str, year:int, adjustment:str=None):
 	Required Parameter = [state,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [us_history_population_by_state_year, us_economy_gdp_by_state_year]

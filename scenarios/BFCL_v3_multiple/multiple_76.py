@@ -10,7 +10,7 @@ def painting_create_custom(subject:str, color:str, size:int=None):
 	Required Parameter = [subject,color,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sculpture_create_custom(item:str, material:str, size:int=None):
@@ -24,6 +24,6 @@ def sculpture_create_custom(item:str, material:str, size:int=None):
 	Required Parameter = [item,material,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [painting_create_custom, sculpture_create_custom]

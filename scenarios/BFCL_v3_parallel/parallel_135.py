@@ -10,6 +10,6 @@ def geo_distance_calculate(start_location:str, end_location:str, units:str=None)
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geo_distance_calculate]

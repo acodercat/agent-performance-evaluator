@@ -11,6 +11,6 @@ def calculate_compound_interest(principal:int, rate:float, time:int, n:int=None)
 	Required Parameter = [principal,rate,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_compound_interest]

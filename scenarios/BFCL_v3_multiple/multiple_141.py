@@ -9,7 +9,7 @@ def get_protein_sequence(gene:str, species:str='Homo sapiens'):
 	Required Parameter = [gene,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def route_estimate_time(start_location:str, end_location:str, stops:List[str]=None):
@@ -23,7 +23,7 @@ def route_estimate_time(start_location:str, end_location:str, stops:List[str]=No
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def lawsuit_check_case(case_id:int, closed_status:bool):
@@ -36,6 +36,6 @@ def lawsuit_check_case(case_id:int, closed_status:bool):
 	Required Parameter = [case_id,closed_status,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_protein_sequence, route_estimate_time, lawsuit_check_case]

@@ -10,6 +10,6 @@ def concert_finder(location:str, music_genre:str, time_period:int=30):
 	Required Parameter = [location,music_genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [concert_finder]

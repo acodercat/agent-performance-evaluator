@@ -10,6 +10,6 @@ def get_traffic_info(start_location:str, end_location:str, mode:str=None):
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_traffic_info]

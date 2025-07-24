@@ -10,6 +10,6 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_probability]

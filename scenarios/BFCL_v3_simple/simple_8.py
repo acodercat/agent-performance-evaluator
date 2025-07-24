@@ -9,6 +9,6 @@ def geometry_area_circle(radius:int, units:str=None):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [geometry_area_circle]

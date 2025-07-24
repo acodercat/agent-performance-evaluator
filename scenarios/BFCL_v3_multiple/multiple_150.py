@@ -11,7 +11,7 @@ def calculate_electrostatic_potential(charge1:float, charge2:float, distance:flo
 	Required Parameter = [charge1,charge2,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_neuronal_activity(input_synaptic_rate:int, decay_rate:float, weight:float=None):
@@ -25,7 +25,7 @@ def calculate_neuronal_activity(input_synaptic_rate:int, decay_rate:float, weigh
 	Required Parameter = [input_synaptic_rate,decay_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:float, time:int, acceleration:float=0):
@@ -39,7 +39,7 @@ def calculate_displacement(initial_velocity:float, time:int, acceleration:float=
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def grocery_store_find_best(my_location:str, products:List[str], rating:float=None):
@@ -53,6 +53,6 @@ def grocery_store_find_best(my_location:str, products:List[str], rating:float=No
 	Required Parameter = [my_location,products,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_electrostatic_potential, calculate_neuronal_activity, calculate_displacement, grocery_store_find_best]

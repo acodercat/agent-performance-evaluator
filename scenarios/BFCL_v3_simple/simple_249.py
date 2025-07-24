@@ -10,6 +10,6 @@ def religion_history_info(religion:str, till_century:int, include_people:bool=No
 	Required Parameter = [religion,till_century,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religion_history_info]

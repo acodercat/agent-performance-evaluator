@@ -10,6 +10,6 @@ def calculate_electric_field_strength(charge:int, distance:float, medium:str=Non
 	Required Parameter = [charge,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_electric_field_strength]

@@ -11,6 +11,6 @@ def card_games_poker_determine_winner(player1:str, hand1:List[str], player2:str,
 	Required Parameter = [player1,hand1,player2,hand2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [card_games_poker_determine_winner]

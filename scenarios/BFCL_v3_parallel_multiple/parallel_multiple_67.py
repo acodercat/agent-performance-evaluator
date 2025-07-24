@@ -9,7 +9,7 @@ def math_roots_polynomial(coefficients:List[float], degree:float=4):
 	Required Parameter = [coefficients,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_roots_cubic(a:float, b:float, c:float, d:float):
@@ -24,7 +24,7 @@ def math_roots_cubic(a:float, b:float, c:float, d:float):
 	Required Parameter = [a,b,c,d,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def math_roots_quadratic(a:float, b:float, c:float):
@@ -38,6 +38,6 @@ def math_roots_quadratic(a:float, b:float, c:float):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_roots_polynomial, math_roots_cubic, math_roots_quadratic]

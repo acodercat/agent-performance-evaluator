@@ -10,6 +10,6 @@ def restaurant_search_find_closest(location:str, cuisine:str, amenities:List[str
 	Required Parameter = [location,cuisine,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [restaurant_search_find_closest]

@@ -10,6 +10,6 @@ def fetch_DNA_sequence(DNA_id:str, format:str=None, upstream:int=None):
 	Required Parameter = [DNA_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [fetch_DNA_sequence]

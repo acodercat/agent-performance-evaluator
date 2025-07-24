@@ -10,6 +10,6 @@ def historical_contrib_get_contrib(scientist:str, date:str, category:str=None):
 	Required Parameter = [scientist,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [historical_contrib_get_contrib]

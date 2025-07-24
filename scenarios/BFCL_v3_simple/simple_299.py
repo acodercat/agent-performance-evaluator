@@ -9,6 +9,6 @@ def musical_scale(key:str, scale_type:str='major'):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [musical_scale]

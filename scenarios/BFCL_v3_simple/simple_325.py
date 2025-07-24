@@ -10,6 +10,6 @@ def sports_match_results(team1:str, team2:str, season:str=None):
 	Required Parameter = [team1,team2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_match_results]

@@ -8,7 +8,7 @@ def movie_ratings_get_movie(movie_name:str):
 	Required Parameter = [movie_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_get_summary(case_id:str, summary_type:str='brief'):
@@ -21,7 +21,7 @@ def legal_case_get_summary(case_id:str, summary_type:str='brief'):
 	Required Parameter = [case_id,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def legal_case_find_parties(party_name:str, city:str):
@@ -34,6 +34,6 @@ def legal_case_find_parties(party_name:str, city:str):
 	Required Parameter = [party_name,city,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [movie_ratings_get_movie, legal_case_get_summary, legal_case_find_parties]

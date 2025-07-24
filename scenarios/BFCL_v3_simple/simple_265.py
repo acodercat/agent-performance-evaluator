@@ -10,6 +10,6 @@ def sculpture_search(location:str, time_frame:str, material:str=None):
 	Required Parameter = [location,time_frame,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sculpture_search]

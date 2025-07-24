@@ -11,6 +11,6 @@ def law_case_search(topic:str, year_range:List[int], location:str, judicial_syst
 	Required Parameter = [topic,year_range,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [law_case_search]

@@ -10,7 +10,7 @@ def train_ticket_buy(origin:str, destination:str, date:str):
 	Required Parameter = [origin,destination,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_ticket_buy(show:str, date:str):
@@ -23,7 +23,7 @@ def musical_ticket_buy(show:str, date:str):
 	Required Parameter = [show,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def concert_ticket_buy(artist:str, date:str):
@@ -36,6 +36,6 @@ def concert_ticket_buy(artist:str, date:str):
 	Required Parameter = [artist,date,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [train_ticket_buy, musical_ticket_buy, concert_ticket_buy]

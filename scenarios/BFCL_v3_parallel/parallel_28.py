@@ -9,6 +9,6 @@ def get_current_and_future_temperature(location:str, hours:int):
 	Required Parameter = [location,hours,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_current_and_future_temperature]

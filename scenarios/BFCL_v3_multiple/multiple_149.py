@@ -12,7 +12,7 @@ def hotel_booking(hotel_name:str, location:str, start_date:str, end_date:str, ro
 	Required Parameter = [hotel_name,location,start_date,end_date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sentiment_analysis(text:str, language:str):
@@ -25,7 +25,7 @@ def sentiment_analysis(text:str, language:str):
 	Required Parameter = [text,language,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_time_difference(place1:str, place2:str):
@@ -38,7 +38,7 @@ def get_time_difference(place1:str, place2:str):
 	Required Parameter = [place1,place2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_bmi(weight:int, height:int, system:str=None):
@@ -52,6 +52,6 @@ def calculate_bmi(weight:int, height:int, system:str=None):
 	Required Parameter = [weight,height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [hotel_booking, sentiment_analysis, get_time_difference, calculate_bmi]

@@ -9,7 +9,7 @@ def bank_get_transaction_history(account:str, days:int):
 	Required Parameter = [account,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[float, str]]]=[], starting_balance:float=None):
@@ -23,6 +23,6 @@ def bank_calculate_balance(account:str, transactions:List[Dict[str, Union[float,
 	Required Parameter = [account,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [bank_get_transaction_history, bank_calculate_balance]

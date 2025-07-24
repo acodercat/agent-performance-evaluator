@@ -9,6 +9,6 @@ def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [vegan_restaurant_find_nearby]

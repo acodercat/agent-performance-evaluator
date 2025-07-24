@@ -10,6 +10,6 @@ def lawsuit_search(entity:str, county:str, state:str=None):
 	Required Parameter = [entity,county,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawsuit_search]

@@ -8,7 +8,7 @@ def european_history_war_details(war:str):
 	Required Parameter = [war,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_leader_info(leader:str):
@@ -20,7 +20,7 @@ def european_history_leader_info(leader:str):
 	Required Parameter = [leader,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def european_history_battle_details(battle:str):
@@ -32,6 +32,6 @@ def european_history_battle_details(battle:str):
 	Required Parameter = [battle,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [european_history_war_details, european_history_leader_info, european_history_battle_details]

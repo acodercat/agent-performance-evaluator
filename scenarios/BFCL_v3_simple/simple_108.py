@@ -10,6 +10,6 @@ def run_linear_regression(predictors:List[str], target:str, standardize:bool=Non
 	Required Parameter = [predictors,target,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [run_linear_regression]

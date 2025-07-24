@@ -10,7 +10,7 @@ def get_song_lyrics(song_title:str, artist_name:str, lang:str=None):
 	Required Parameter = [song_title,artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def mix_paint_color(color1:str, color2:str, lightness:int=None):
@@ -24,7 +24,7 @@ def mix_paint_color(color1:str, color2:str, lightness:int=None):
 	Required Parameter = [color1,color2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding_shares:int):
@@ -37,7 +37,7 @@ def finance_calculate_quarterly_dividend_per_share(total_payout:int, outstanding
 	Required Parameter = [total_payout,outstanding_shares,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def movie_details_brief(title:str, extra_info:bool='false'):
@@ -50,6 +50,6 @@ def movie_details_brief(title:str, extra_info:bool='false'):
 	Required Parameter = [title,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_song_lyrics, mix_paint_color, finance_calculate_quarterly_dividend_per_share, movie_details_brief]

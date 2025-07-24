@@ -10,6 +10,6 @@ def probabilities_calculate_single(total_outcomes:int, event_outcomes:int, round
 	Required Parameter = [total_outcomes,event_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [probabilities_calculate_single]

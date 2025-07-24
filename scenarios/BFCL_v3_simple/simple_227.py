@@ -9,6 +9,6 @@ def get_personality_traits(type:str, traits:List[str]=None):
 	Required Parameter = [type,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_personality_traits]

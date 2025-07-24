@@ -8,7 +8,7 @@ def sports_data_basketball_most_points_single_season(league:str):
 	Required Parameter = [league,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_data_basketball_most_points_career(league:str):
@@ -20,7 +20,7 @@ def sports_data_basketball_most_points_career(league:str):
 	Required Parameter = [league,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sports_data_basketball_most_points_single_game(league:str):
@@ -32,6 +32,6 @@ def sports_data_basketball_most_points_single_game(league:str):
 	Required Parameter = [league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_data_basketball_most_points_single_season, sports_data_basketball_most_points_career, sports_data_basketball_most_points_single_game]

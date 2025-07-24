@@ -10,6 +10,6 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [event_finder_find_upcoming]

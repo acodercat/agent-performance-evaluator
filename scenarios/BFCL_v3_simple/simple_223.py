@@ -10,6 +10,6 @@ def group_dynamics_pattern(total:int, extroverts:int, introverts:int):
 	Required Parameter = [total,extroverts,introverts,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [group_dynamics_pattern]

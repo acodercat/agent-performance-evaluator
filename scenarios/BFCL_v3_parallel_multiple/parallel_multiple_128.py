@@ -10,7 +10,7 @@ def flight_ticket_pricing_get(airline:str, flightClass:str, passengers:int):
 	Required Parameter = [airline,flightClass,passengers,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def car_rental_pricing_get(rentalCompany:str, carType:str, days:int):
@@ -24,7 +24,7 @@ def car_rental_pricing_get(rentalCompany:str, carType:str, days:int):
 	Required Parameter = [rentalCompany,carType,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def hotel_room_pricing_get(hotelName:str, roomType:str, nights:int):
@@ -38,6 +38,6 @@ def hotel_room_pricing_get(hotelName:str, roomType:str, nights:int):
 	Required Parameter = [hotelName,roomType,nights,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [flight_ticket_pricing_get, car_rental_pricing_get, hotel_room_pricing_get]

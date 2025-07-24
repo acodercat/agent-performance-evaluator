@@ -10,7 +10,7 @@ def house_price_forecast(location:str, months:int, features:List[str]=None):
 	Required Parameter = [location,months,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def weather_forecast(location:str, days:int):
@@ -23,7 +23,7 @@ def weather_forecast(location:str, days:int):
 	Required Parameter = [location,days,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def stock_market_forecast(company:str, days:int):
@@ -36,6 +36,6 @@ def stock_market_forecast(company:str, days:int):
 	Required Parameter = [company,days,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [house_price_forecast, weather_forecast, stock_market_forecast]

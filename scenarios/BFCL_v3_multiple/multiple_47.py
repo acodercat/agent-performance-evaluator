@@ -10,7 +10,7 @@ def cosine_similarity_calculate(vector1:List[int], vector2:List[int], rounding:i
 	Required Parameter = [vector1,vector2,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def correlation_calculate(array1:List[int], array2:List[int], type:str=None):
@@ -24,6 +24,6 @@ def correlation_calculate(array1:List[int], array2:List[int], type:str=None):
 	Required Parameter = [array1,array2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [cosine_similarity_calculate, correlation_calculate]

@@ -10,6 +10,6 @@ def get_team_score(team_name:str, league:str, include_player_stats:bool=False):
 	Required Parameter = [team_name,league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_team_score]

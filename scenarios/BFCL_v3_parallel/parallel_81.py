@@ -10,6 +10,6 @@ def calculate_final_velocity(height:int, initial_velocity:int=None, gravity:floa
 	Required Parameter = [height,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_final_velocity]

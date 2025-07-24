@@ -10,7 +10,7 @@ def artwork_search_find(type:str, location:str, era:str=None):
 	Required Parameter = [type,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def park_search_find(facilities:List[str], location:str):
@@ -23,7 +23,7 @@ def park_search_find(facilities:List[str], location:str):
 	Required Parameter = [facilities,location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def tourist_attraction_find(attractionType:str, location:str):
@@ -36,6 +36,6 @@ def tourist_attraction_find(attractionType:str, location:str):
 	Required Parameter = [attractionType,location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [artwork_search_find, park_search_find, tourist_attraction_find]

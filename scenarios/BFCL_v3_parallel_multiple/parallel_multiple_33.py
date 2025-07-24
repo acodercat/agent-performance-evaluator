@@ -10,7 +10,7 @@ def supermarket_find_in_city(city:str, state:str, openNow:bool=None):
 	Required Parameter = [city,state,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def sightseeing_popular_in_city(city:str, state:str, kidsFriendly:bool=None):
@@ -24,6 +24,6 @@ def sightseeing_popular_in_city(city:str, state:str, kidsFriendly:bool=None):
 	Required Parameter = [city,state,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [supermarket_find_in_city, sightseeing_popular_in_city]

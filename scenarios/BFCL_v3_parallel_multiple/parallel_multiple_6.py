@@ -8,7 +8,7 @@ def count_items(collection:List[str]):
 	Required Parameter = [collection,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_prime_numbers(start:int, end:int):
@@ -21,7 +21,7 @@ def find_prime_numbers(start:int, end:int):
 	Required Parameter = [start,end,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_fibonacci_sequence(count:int):
@@ -33,6 +33,6 @@ def get_fibonacci_sequence(count:int):
 	Required Parameter = [count,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [count_items, find_prime_numbers, get_fibonacci_sequence]

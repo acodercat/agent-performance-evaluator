@@ -10,6 +10,6 @@ def recipe_search(diet:List[str], dish:str, time_limit:int=None):
 	Required Parameter = [dish,diet,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_search]

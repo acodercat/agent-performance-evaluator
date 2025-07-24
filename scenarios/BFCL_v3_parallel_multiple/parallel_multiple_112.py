@@ -10,7 +10,7 @@ def library_search_book(title:str, author:str, platform:str='all'):
 	Required Parameter = [title,author,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def art_auction_fetch_artwork_price(artwork_name:str, artist:str, platform:str='all'):
@@ -24,6 +24,6 @@ def art_auction_fetch_artwork_price(artwork_name:str, artist:str, platform:str='
 	Required Parameter = [artwork_name,artist,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [library_search_book, art_auction_fetch_artwork_price]

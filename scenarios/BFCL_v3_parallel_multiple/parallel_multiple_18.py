@@ -9,7 +9,7 @@ def banking_service(account_id:str, amount:float):
 	Required Parameter = [account_id,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion(amount:float, from_currency:str, to_currency:str):
@@ -23,6 +23,6 @@ def currency_conversion(amount:float, from_currency:str, to_currency:str):
 	Required Parameter = [amount,from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [banking_service, currency_conversion]

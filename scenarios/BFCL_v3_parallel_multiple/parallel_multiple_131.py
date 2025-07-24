@@ -12,7 +12,7 @@ def plot_sine_wave(start_range:int, end_range:float, frequency:int, amplitude:fl
 	Required Parameter = [start_range,end_range,frequency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def geometry_area_circle(radius:float, units:str='meters'):
@@ -25,6 +25,6 @@ def geometry_area_circle(radius:float, units:str='meters'):
 	Required Parameter = [radius,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [plot_sine_wave, geometry_area_circle]

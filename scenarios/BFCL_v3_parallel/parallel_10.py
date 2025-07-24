@@ -9,6 +9,6 @@ def math_pythagoras(a:int, b:int):
 	Required Parameter = [a,b,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_pythagoras]

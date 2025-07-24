@@ -9,6 +9,6 @@ def parks_find_nearby(location:str, amenities:List[str]=['Playground']):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [parks_find_nearby]

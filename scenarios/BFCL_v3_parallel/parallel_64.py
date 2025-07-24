@@ -11,6 +11,6 @@ def solve_quadratic(a:int, b:int, c:int, root_type:str=None):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [solve_quadratic]

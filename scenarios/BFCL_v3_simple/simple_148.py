@@ -11,6 +11,6 @@ def finance_calculate_future_value(initial_investment:int, rate_of_return:float,
 	Required Parameter = [initial_investment,rate_of_return,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [finance_calculate_future_value]

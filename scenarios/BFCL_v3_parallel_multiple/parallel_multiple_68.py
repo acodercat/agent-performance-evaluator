@@ -9,7 +9,7 @@ def financial_ratios_calculate_ROA(net_income:float, total_assets:float):
 	Required Parameter = [net_income,total_assets,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def corporate_finance_calculate_YOY_growth_rate(company_name:str, year1:int, year1_revenue:float, year2:int, year2_revenue:float):
@@ -25,7 +25,7 @@ def corporate_finance_calculate_YOY_growth_rate(company_name:str, year1:int, yea
 	Required Parameter = [company_name,year1,year1_revenue,year2,year2_revenue,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def financial_ratios_calculate_ROE(net_income:float, shareholder_equity:float):
@@ -38,6 +38,6 @@ def financial_ratios_calculate_ROE(net_income:float, shareholder_equity:float):
 	Required Parameter = [net_income,shareholder_equity,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [financial_ratios_calculate_ROA, corporate_finance_calculate_YOY_growth_rate, financial_ratios_calculate_ROE]

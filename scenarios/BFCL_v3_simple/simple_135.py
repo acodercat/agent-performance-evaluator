@@ -10,6 +10,6 @@ def calculate_return_on_investment(purchase_price:int, sale_price:int, dividend:
 	Required Parameter = [purchase_price,sale_price,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_return_on_investment]

@@ -10,7 +10,7 @@ def solve_quadratic_equation(a:int, b:int, c:int):
 	Required Parameter = [a,b,c,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def convert_rgb_to_hex(r:int, g:int, b:int):
@@ -24,7 +24,7 @@ def convert_rgb_to_hex(r:int, g:int, b:int):
 	Required Parameter = [r,g,b,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def perform_string_reverse(input_string:str):
@@ -36,6 +36,6 @@ def perform_string_reverse(input_string:str):
 	Required Parameter = [input_string,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [solve_quadratic_equation, convert_rgb_to_hex, perform_string_reverse]

@@ -10,6 +10,6 @@ def analyze_dna_sequence(sequence:str, reference_sequence:str, mutation_type:str
 	Required Parameter = [sequence,reference_sequence,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [analyze_dna_sequence]

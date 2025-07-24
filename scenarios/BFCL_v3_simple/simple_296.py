@@ -11,6 +11,6 @@ def music_generator_generate_scale_progression(key:str, tempo:int, duration:int,
 	Required Parameter = [key,tempo,duration,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_generator_generate_scale_progression]

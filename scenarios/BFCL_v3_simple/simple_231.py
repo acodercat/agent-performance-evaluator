@@ -11,6 +11,6 @@ def history_get_key_events(country:str, start_year:int, end_year:int, event_type
 	Required Parameter = [country,start_year,end_year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_get_key_events]

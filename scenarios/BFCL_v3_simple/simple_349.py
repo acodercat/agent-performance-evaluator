@@ -10,6 +10,6 @@ def game_score_highest(game:str, platform:str, region:str=None):
 	Required Parameter = [game,platform,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [game_score_highest]

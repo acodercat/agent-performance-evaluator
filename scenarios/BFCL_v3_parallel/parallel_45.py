@@ -10,6 +10,6 @@ def musicCharts_getMostPlayed(genre:str, region:str, duration:int=None):
 	Required Parameter = [genre,region,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [musicCharts_getMostPlayed]

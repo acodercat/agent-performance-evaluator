@@ -10,7 +10,7 @@ def prediction_evolution(species:str, years:int, model:str=None):
 	Required Parameter = [species,years,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:int=2):
@@ -24,7 +24,7 @@ def calculate_probability(total_outcomes:int, favorable_outcomes:int, round_to:i
 	Required Parameter = [total_outcomes,favorable_outcomes,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def modify_painting(size:str, medium:str, dominant_color:str=None):
@@ -38,6 +38,6 @@ def modify_painting(size:str, medium:str, dominant_color:str=None):
 	Required Parameter = [size,medium,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [prediction_evolution, calculate_probability, modify_painting]

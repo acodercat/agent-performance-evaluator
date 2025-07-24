@@ -10,6 +10,6 @@ def calculate_slope_gradient(point1:List[float], point2:List[float], unit:str=No
 	Required Parameter = [point1,point2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_slope_gradient]

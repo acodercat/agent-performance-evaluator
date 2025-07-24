@@ -9,7 +9,7 @@ def lawyer_search(location:str, expertise:str):
 	Required Parameter = [location,expertise,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def doctor_search(location:str, specialization:str):
@@ -22,6 +22,6 @@ def doctor_search(location:str, specialization:str):
 	Required Parameter = [location,specialization,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [lawyer_search, doctor_search]

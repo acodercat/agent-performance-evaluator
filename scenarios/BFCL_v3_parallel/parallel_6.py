@@ -10,6 +10,6 @@ def calculate_sales_tax(purchase_amount:float, city:str, state:str):
 	Required Parameter = [purchase_amount,city,state,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_sales_tax]

@@ -9,6 +9,6 @@ def math_gcd(num1:int, num2:int):
 	Required Parameter = [num1,num2,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_gcd]

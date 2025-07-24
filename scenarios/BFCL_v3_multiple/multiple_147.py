@@ -10,7 +10,7 @@ def map_service_get_directions(start:str, end:str, avoid:List[str]=None):
 	Required Parameter = [start,end,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def convert_currency(base_currency:str, target_currency:str, amount:int):
@@ -24,7 +24,7 @@ def convert_currency(base_currency:str, target_currency:str, amount:int):
 	Required Parameter = [base_currency,target_currency,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ecology_get_turtle_population(location:str, year:int=None, species:bool=None):
@@ -38,6 +38,6 @@ def ecology_get_turtle_population(location:str, year:int=None, species:bool=None
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [map_service_get_directions, convert_currency, ecology_get_turtle_population]

@@ -10,7 +10,7 @@ def maps_shortest_path(start_location:str, end_location:str, mode:str='walk'):
 	Required Parameter = [start_location,end_location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def maps_route_times(route:str, mode:str='walk'):
@@ -23,6 +23,6 @@ def maps_route_times(route:str, mode:str='walk'):
 	Required Parameter = [route,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [maps_shortest_path, maps_route_times]

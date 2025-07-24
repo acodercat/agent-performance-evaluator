@@ -9,7 +9,7 @@ def grocery_store_find_nearby(location:str, categories:List[str]=None):
 	Required Parameter = [location,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_NPV(cash_flows:List[float], discount_rate:float, initial_investment:float=None):
@@ -23,7 +23,7 @@ def calculate_NPV(cash_flows:List[float], discount_rate:float, initial_investmen
 	Required Parameter = [cash_flows,discount_rate,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def get_stock_price(company_name:str, date:str, exchange:str=None):
@@ -37,7 +37,7 @@ def get_stock_price(company_name:str, date:str, exchange:str=None):
 	Required Parameter = [company_name,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def instrument_price_get(brand:str, model:str, finish:str):
@@ -51,6 +51,6 @@ def instrument_price_get(brand:str, model:str, finish:str):
 	Required Parameter = [brand,model,finish,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [grocery_store_find_nearby, calculate_NPV, get_stock_price, instrument_price_get]

@@ -11,7 +11,7 @@ def get_crime_rate(city:str, state:str, type:str=None, year:int=None):
 	Required Parameter = [city,state,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
@@ -25,6 +25,6 @@ def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
 	Required Parameter = [players,cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_crime_rate, poker_game_winner]

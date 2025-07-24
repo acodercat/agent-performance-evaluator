@@ -11,6 +11,6 @@ def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, locati
 	Required Parameter = [team_name,num_of_games,league,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [sports_team_get_schedule]

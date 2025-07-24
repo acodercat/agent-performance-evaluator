@@ -8,7 +8,7 @@ def get_scientist_for_discovery(discovery:str):
 	Required Parameter = [discovery,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'):
@@ -22,7 +22,7 @@ def game_stats_fetch_player_statistics(game:str, username:str, platform:str='PC'
 	Required Parameter = [game,username,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def flight_book(departure_location:str, destination_location:str, date:str, time:str=None, direct_flight:bool=None):
@@ -38,7 +38,7 @@ def flight_book(departure_location:str, destination_location:str, date:str, time
 	Required Parameter = [departure_location,destination_location,date,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
@@ -52,6 +52,6 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7):
 	Required Parameter = [location,genre,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_scientist_for_discovery, game_stats_fetch_player_statistics, flight_book, event_finder_find_upcoming]

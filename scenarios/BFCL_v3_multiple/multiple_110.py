@@ -10,7 +10,7 @@ def get_collectables_in_season(game_name:str, season:str, item_type:str=None):
 	Required Parameter = [game_name,season,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def mutation_type_find(snp_id:str, species:str=None):
@@ -23,6 +23,6 @@ def mutation_type_find(snp_id:str, species:str=None):
 	Required Parameter = [snp_id,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_collectables_in_season, mutation_type_find]

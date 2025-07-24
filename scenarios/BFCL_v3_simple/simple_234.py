@@ -10,6 +10,6 @@ def history_eu_fetch_events(century:int, region:str, category:str=None):
 	Required Parameter = [century,region,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [history_eu_fetch_events]

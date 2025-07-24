@@ -10,6 +10,6 @@ def nature_reserve_find_nearby(location:str, amenities:List[str], proximity:int)
 	Required Parameter = [location,proximity,amenities,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [nature_reserve_find_nearby]

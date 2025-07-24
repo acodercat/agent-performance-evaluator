@@ -9,6 +9,6 @@ def get_sculpture_info(artist_name:str, detail:bool=None):
 	Required Parameter = [artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_sculpture_info]

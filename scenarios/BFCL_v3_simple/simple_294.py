@@ -10,6 +10,6 @@ def music_generation_create_chord_progression(key:str, chords:int, progression_t
 	Required Parameter = [key,chords,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [music_generation_create_chord_progression]

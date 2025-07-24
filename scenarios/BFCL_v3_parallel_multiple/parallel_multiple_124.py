@@ -10,7 +10,7 @@ def recipe_search(ingredients:List[str], calories:int, meal:str=None):
 	Required Parameter = [ingredients,calories,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def ingredient_replace(original_ingredient:str, replacement_ingredient:str, calories:int):
@@ -24,7 +24,7 @@ def ingredient_replace(original_ingredient:str, replacement_ingredient:str, calo
 	Required Parameter = [original_ingredient,replacement_ingredient,calories,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def restaurant_search(ingredients:List[str], calories:int, meal:str=None):
@@ -38,6 +38,6 @@ def restaurant_search(ingredients:List[str], calories:int, meal:str=None):
 	Required Parameter = [ingredients,calories,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [recipe_search, ingredient_replace, restaurant_search]

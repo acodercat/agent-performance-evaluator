@@ -9,7 +9,7 @@ def get_sculpture_info(artist_name:str, detail:bool=None):
 	Required Parameter = [artist_name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str=None):
@@ -24,7 +24,7 @@ def find_exhibition(location:str, art_form:str, month:str=None, user_ratings:str
 	Required Parameter = [location,art_form,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_drawn:int=1):
@@ -38,6 +38,6 @@ def card_game_probability_calculate(total_cards:int, desired_cards:int, cards_dr
 	Required Parameter = [total_cards,desired_cards,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_sculpture_info, find_exhibition, card_game_probability_calculate]

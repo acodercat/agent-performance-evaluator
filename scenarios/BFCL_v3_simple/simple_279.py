@@ -10,6 +10,6 @@ def instrument_price_get(brand:str, model:str, finish:str):
 	Required Parameter = [brand,model,finish,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [instrument_price_get]

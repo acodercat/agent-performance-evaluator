@@ -10,6 +10,6 @@ def calculate_present_value(payment_per_year:int, interest_rate:float, years:int
 	Required Parameter = [payment_per_year,interest_rate,years,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_present_value]

@@ -10,6 +10,6 @@ def law_crimes_search(crime:str, location:str, year:int):
 	Required Parameter = [crime,location,year,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [law_crimes_search]

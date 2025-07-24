@@ -9,6 +9,6 @@ def get_plants_for_slope(slope_type:str, num_results:int):
 	Required Parameter = [slope_type,num_results,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_plants_for_slope]

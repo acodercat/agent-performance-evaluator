@@ -10,6 +10,6 @@ def calculate_displacement(initial_velocity:int, time:int, acceleration:float=0)
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_displacement]

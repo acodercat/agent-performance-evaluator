@@ -10,7 +10,7 @@ def poker_game_winner(players:List[str], cards:Dict[str, Any], type:str=None):
 	Required Parameter = [players,cards,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def calculate_displacement(initial_velocity:int, time:int, acceleration:int=0):
@@ -24,7 +24,7 @@ def calculate_displacement(initial_velocity:int, time:int, acceleration:int=0):
 	Required Parameter = [initial_velocity,time,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def musical_scale(key:str, scale_type:str='major'):
@@ -37,6 +37,6 @@ def musical_scale(key:str, scale_type:str='major'):
 	Required Parameter = [key,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [poker_game_winner, calculate_displacement, musical_scale]

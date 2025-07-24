@@ -10,7 +10,7 @@ def currency_conversion_convert(from_currency:str, to_currency:str, amount:float
 	Required Parameter = [from_currency,to_currency,amount,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_get_latest_rate(from_currency:str, to_currency:str):
@@ -23,7 +23,7 @@ def currency_conversion_get_latest_rate(from_currency:str, to_currency:str):
 	Required Parameter = [from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def currency_conversion_get_rate(from_currency:str, to_currency:str, date:str='today'):
@@ -37,6 +37,6 @@ def currency_conversion_get_rate(from_currency:str, to_currency:str, date:str='t
 	Required Parameter = [from_currency,to_currency,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [currency_conversion_convert, currency_conversion_get_latest_rate, currency_conversion_get_rate]

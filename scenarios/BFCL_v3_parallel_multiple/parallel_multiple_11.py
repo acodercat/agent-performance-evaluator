@@ -10,7 +10,7 @@ def physics_magnetic_field(current:float, turnsPerMeter:float, length:float):
 	Required Parameter = [current,turnsPerMeter,length,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def physics_electric_field(charge:float, distance:float):
@@ -23,6 +23,6 @@ def physics_electric_field(charge:float, distance:float):
 	Required Parameter = [charge,distance,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [physics_magnetic_field, physics_electric_field]

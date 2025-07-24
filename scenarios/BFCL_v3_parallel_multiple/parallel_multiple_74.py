@@ -9,7 +9,7 @@ def basketball_player_stats_get(player_name:str, stats_fields:List[str]):
 	Required Parameter = [player_name,stats_fields,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def basketball_team_stats_get(team_name:str, stats_fields:List[str]):
@@ -22,7 +22,7 @@ def basketball_team_stats_get(team_name:str, stats_fields:List[str]):
 	Required Parameter = [team_name,stats_fields,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def basketball_game_stats_get(team1:str, team2:str, date:str, stats_fields:List[str]):
@@ -37,6 +37,6 @@ def basketball_game_stats_get(team1:str, team2:str, date:str, stats_fields:List[
 	Required Parameter = [team1,team2,date,stats_fields,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [basketball_player_stats_get, basketball_team_stats_get, basketball_game_stats_get]

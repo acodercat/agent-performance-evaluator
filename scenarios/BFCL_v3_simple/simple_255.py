@@ -9,6 +9,6 @@ def religious_history_get_papal_biography(papal_name:str, include_contributions:
 	Required Parameter = [papal_name,include_contributions,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [religious_history_get_papal_biography]

@@ -9,6 +9,6 @@ def metropolitan_museum_get_top_artworks(number:int, sort_by:str=None):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [metropolitan_museum_get_top_artworks]

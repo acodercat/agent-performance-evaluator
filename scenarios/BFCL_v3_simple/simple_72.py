@@ -9,6 +9,6 @@ def calculate_fitness(trait_values:List[float], trait_contributions:List[float])
 	Required Parameter = [trait_values,trait_contributions,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [calculate_fitness]

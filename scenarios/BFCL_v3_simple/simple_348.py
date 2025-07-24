@@ -10,6 +10,6 @@ def create_player_profile(player_name:str, _class:str, starting_level:int=1):
 	Required Parameter = [player_name,_class,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [create_player_profile]

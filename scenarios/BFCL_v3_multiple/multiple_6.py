@@ -9,7 +9,7 @@ def resistance_calculator_calculate(I:float, V:float):
 	Required Parameter = [I,V,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def capacitance_calculator_calculate(A:int, d:float, K:float=None):
@@ -23,7 +23,7 @@ def capacitance_calculator_calculate(A:int, d:float, K:float=None):
 	Required Parameter = [A,d,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def magnetic_field_calculate(I:float, r:float):
@@ -36,6 +36,6 @@ def magnetic_field_calculate(I:float, r:float):
 	Required Parameter = [I,r,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [resistance_calculator_calculate, capacitance_calculator_calculate, magnetic_field_calculate]

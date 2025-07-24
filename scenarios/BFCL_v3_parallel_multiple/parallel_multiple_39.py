@@ -8,7 +8,7 @@ def scientist_info_get_birthdate(name:str):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
 def scientist_info_get_famous_discovery(name:str, discovery_order:int=1):
@@ -21,6 +21,6 @@ def scientist_info_get_famous_discovery(name:str, discovery_order:int=1):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [scientist_info_get_birthdate, scientist_info_get_famous_discovery]

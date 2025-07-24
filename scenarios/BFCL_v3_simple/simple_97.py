@@ -8,6 +8,6 @@ def math_factorial(number:int):
 	Required Parameter = [number,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [math_factorial]

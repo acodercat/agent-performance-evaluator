@@ -9,6 +9,6 @@ def get_earliest_reference(name:str, source:str=None):
 	Required Parameter = [name,]
 
 	"""
-	pass
+	return 'Success'
 
 tools = [get_earliest_reference]
