@@ -1,9 +1,10 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def chess_play(moves:List[str]):
+def chess_play(moves:List[str]) -> str:
 	"""
 	chess_play : Makes moves in a chess game.    
 	Parameters:
 	moves (List[str]): List of moves to play in the game.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [moves,]
 
@@ -11,12 +12,14 @@ def chess_play(moves:List[str]):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def game_of_life_play(rounds:int, start_board:List[int]):
+def game_of_life_play(rounds:int, start_board:List[int]) -> str:
 	"""
 	game_of_life_play : Runs a round of game of life based on provided board.    
 	Parameters:
 	rounds (int): Number of rounds to play.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	start_board (List[int]): Starting board of game, leave empty for random starting point.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [rounds,start_board,]
 

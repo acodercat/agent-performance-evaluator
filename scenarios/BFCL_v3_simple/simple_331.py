@@ -1,11 +1,14 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of_players:int=10):
+def board_game_chess_get_top_players(location:str, minimum_rating:int, number_of_players:int=10) -> str:
 	"""
 	board_game_chess_get_top_players : Find top chess players in a location based on rating.    
 	Parameters:
 	location (str): The city you want to find the players from.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	minimum_rating (int): Minimum rating to filter the players.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	number_of_players (int): Number of players you want to retrieve, default value is 10
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,minimum_rating,]
 

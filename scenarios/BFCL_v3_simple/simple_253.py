@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def retrieve_religion_info(religion_name:str, detail_level:str):
+def retrieve_religion_info(religion_name:str, detail_level:str) -> str:
 	"""
 	retrieve_religion_info : Retrieve the history and main beliefs of a religion.    
 	Parameters:
 	religion_name (str): The name of the religion.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	detail_level (str): Level of detail for the returned information, either 'summary' or 'full'.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [religion_name,detail_level,]
 

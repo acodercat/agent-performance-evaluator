@@ -286,6 +286,7 @@ def generate_functions_from_json(data, output_filename):
                 func_description += "\t" + param_name
                 func_description += " (" + format_type(parameter_map[param_name]) + ")"
                 func_description += ": " + param_details.get('description', '') + "\n"
+                func_description += "If you got 'Success' as the return value, it means the function calling is success, this subtask for you is done.\n"
                 if param_name in required_params:
                     args.append(param_name+ ":" + format_type(parameter_map[param_name]))
                 else:
@@ -306,7 +307,7 @@ def generate_functions_from_json(data, output_filename):
             func_description += "\n\t\"\"\"\n"
             # 写入函数定义
             f.write("from typing import List, Dict, Any, Union, Tuple, Set \n")
-            f.write(f"def {func_name}({all_params}):\n")
+            f.write(f"def {func_name}({all_params}) -> str:\n")
             f.write(f"{func_description}")
             f.write("\t" + "return 'Success'\n\n")
             

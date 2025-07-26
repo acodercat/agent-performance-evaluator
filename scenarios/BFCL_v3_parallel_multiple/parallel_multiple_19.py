@@ -1,11 +1,14 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
+def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float) -> str:
 	"""
 	math_gaussian_integral : Perform Gaussian integration over the range of the function.    
 	Parameters:
 	function (str): The function to integrate, given in terms of x.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	lower_limit (float): The lower limit of the integral.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	upper_limit (float): The upper limit of the integral.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [function,lower_limit,upper_limit,]
 
@@ -13,13 +16,16 @@ def math_gaussian_integral(function:str, lower_limit:float, upper_limit:float):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_definite_integral(function:str, lower_limit:float, upper_limit:float):
+def math_definite_integral(function:str, lower_limit:float, upper_limit:float) -> str:
 	"""
 	math_definite_integral : Calculate the definite integral of a function within specified bounds.    
 	Parameters:
 	function (str): The function to integrate, given in terms of x.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	lower_limit (float): The lower limit of the integral.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	upper_limit (float): The upper limit of the integral.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [function,lower_limit,upper_limit,]
 

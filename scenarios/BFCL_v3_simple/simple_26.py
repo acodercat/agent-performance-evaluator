@@ -1,11 +1,14 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def calculate_velocity(distance:int, duration:int, unit:str=None):
+def calculate_velocity(distance:int, duration:int, unit:str=None) -> str:
 	"""
 	calculate_velocity : Calculate the velocity for a certain distance travelled within a specific duration.    
 	Parameters:
 	distance (int): The distance travelled by the object, typically in kilometers.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	duration (int): The duration of the journey, typically in hours.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	unit (str): Optional parameter. The unit to return the velocity in. If not provided, the default is km/h.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [distance,duration,]
 

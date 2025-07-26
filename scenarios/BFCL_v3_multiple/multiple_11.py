@@ -1,11 +1,14 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_roots_quadratic(a:int, b:int, c:int):
+def math_roots_quadratic(a:int, b:int, c:int) -> str:
 	"""
 	math_roots_quadratic : Calculate the roots of a quadratic equation.    
 	Parameters:
 	a (int): Coefficient of the second-degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	b (int): Coefficient of the first-degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	c (int): Constant term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [a,b,c,]
 
@@ -13,14 +16,18 @@ def math_roots_quadratic(a:int, b:int, c:int):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_roots_cubic(a:float, b:float, c:float, d:float):
+def math_roots_cubic(a:float, b:float, c:float, d:float) -> str:
 	"""
 	math_roots_cubic : Calculate the roots of a cubic equation.    
 	Parameters:
 	a (float): Coefficient of the third-degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	b (float): Coefficient of the second-degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	c (float): Coefficient of the first-degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	d (float): Constant term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [a,b,c,d,]
 
@@ -28,12 +35,14 @@ def math_roots_cubic(a:float, b:float, c:float, d:float):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_roots_polynomial(coefficients:List[float], degree:int=None):
+def math_roots_polynomial(coefficients:List[float], degree:int=None) -> str:
 	"""
 	math_roots_polynomial : Calculate the roots of a polynomial equation.    
 	Parameters:
 	coefficients (List[float]): Array of coefficients of the polynomial equation starting from highest degree term.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	degree (int): Degree of the polynomial equation. Default 0
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [coefficients,]
 

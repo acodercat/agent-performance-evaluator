@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def air_quality(location:str, date:str):
+def air_quality(location:str, date:str) -> str:
 	"""
 	air_quality : Retrieve the air quality index for a specific location.    
 	Parameters:
 	location (str): The city that you want to get the air quality index for.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	date (str): The date (month-day-year) you want to get the air quality index for.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,date,]
 

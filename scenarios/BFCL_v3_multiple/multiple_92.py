@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def safeway_vegan_products(location:str, categories:List[str]=None):
+def safeway_vegan_products(location:str, categories:List[str]=None) -> str:
 	"""
 	safeway_vegan_products : Get available vegan products at specified Safeway store    
 	Parameters:
 	location (str): City and state where the Safeway store is located, e.g. Denver, CO
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	categories (List[str]): Product categories to search within. Default empty array
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 
@@ -12,12 +14,14 @@ def safeway_vegan_products(location:str, categories:List[str]=None):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def wholefoods_vegan_products(location:str, categories:List[str]=None):
+def wholefoods_vegan_products(location:str, categories:List[str]=None) -> str:
 	"""
 	wholefoods_vegan_products : Get available vegan products at specified Whole Foods store    
 	Parameters:
 	location (str): City and state where the Whole Foods store is located, e.g. Denver, CO
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	categories (List[str]): Product categories to search within. Default empty array
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 
@@ -25,12 +29,14 @@ def wholefoods_vegan_products(location:str, categories:List[str]=None):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def walmart_vegan_products(location:str, categories:List[str]=None):
+def walmart_vegan_products(location:str, categories:List[str]=None) -> str:
 	"""
 	walmart_vegan_products : Get available vegan products at specified Walmart store    
 	Parameters:
 	location (str): City and state where the Walmart store is located, e.g. Denver, CO
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	categories (List[str]): Product categories to search within. Default empty array
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 

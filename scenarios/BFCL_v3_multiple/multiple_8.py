@@ -1,12 +1,16 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int):
+def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int) -> str:
 	"""
 	property_valuation_get : Get estimated value of a property based on location, specifications and age    
 	Parameters:
 	location (str): City and state where the property is located, e.g. San Diego, CA.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	propertyType (str): Type of property such as villa, condo, apartment, etc.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	bedrooms (int): Number of bedrooms required in the property.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	age (int): Age of the property in years.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,propertyType,bedrooms,age,]
 
@@ -14,14 +18,18 @@ def property_valuation_get(location:str, propertyType:str, bedrooms:int, age:int
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def realestate_find_properties(location:str, propertyType:str, bedrooms:int, budget:Dict[str, float]):
+def realestate_find_properties(location:str, propertyType:str, bedrooms:int, budget:Dict[str, float]) -> str:
 	"""
 	realestate_find_properties : Find properties based on location, budget, and specifications    
 	Parameters:
 	location (str): City and state where the property is located, e.g. San Diego, CA.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	propertyType (str): Type of property such as villa, condo, apartment, etc.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	bedrooms (int): Number of bedrooms required in the property.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	budget (Dict[str, float]): Budget range for the property.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,propertyType,bedrooms,budget,]
 

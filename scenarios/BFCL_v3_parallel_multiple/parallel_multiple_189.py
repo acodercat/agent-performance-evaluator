@@ -1,13 +1,18 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None):
+def hotel_booking(location:str, room_type:str, duration:int, start_date:str, preferences:List[str]=None) -> str:
 	"""
 	hotel_booking : Books a hotel room given the location, room type, stay duration and any additional preferences.    
 	Parameters:
 	location (str): The city where you want to book the hotel.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	room_type (str): Type of the room required. Options: 'single', 'double', 'deluxe', etc.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	duration (int): The number of nights you want to book the hotel for.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	start_date (str): The date when your stay begins.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	preferences (List[str]): Optional preferences of stay at the hotel. Default is none if not provided.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,room_type,duration,start_date,]
 
@@ -15,14 +20,18 @@ def hotel_booking(location:str, room_type:str, duration:int, start_date:str, pre
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, location:str=None):
+def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, location:str=None) -> str:
 	"""
 	sports_team_get_schedule : Fetches the schedule of the specified sports team for the specified number of games in the given league.    
 	Parameters:
 	team_name (str): The name of the sports team.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	num_of_games (int): Number of games for which to fetch the schedule.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	league (str): The name of the sports league. If not provided, the function will fetch the schedule for all games, regardless of the league.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	location (str): Optional. The city or venue where games are to be held. If not provided, all venues will be considered by default.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [team_name,num_of_games,league,]
 
@@ -30,13 +39,16 @@ def sports_team_get_schedule(team_name:str, num_of_games:int, league:str, locati
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
+def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None) -> str:
 	"""
 	find_card_in_deck : Locate a particular card in a deck based on rank and suit.    
 	Parameters:
 	rank (str): Rank of the card (e.g. Ace, Two, King).
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	suit (str): Suit of the card (e.g. Hearts, Spades, Diamonds, Clubs).
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	deck (List[Dict[str, str]]): Deck of cards. If not provided, the deck will be a default standard 52 card deck
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [rank,suit,]
 
@@ -44,12 +56,14 @@ def find_card_in_deck(rank:str, suit:str, deck:List[Dict[str, str]]=None):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def vegan_restaurant_find_nearby(location:str, operating_hours:int=None):
+def vegan_restaurant_find_nearby(location:str, operating_hours:int=None) -> str:
 	"""
 	vegan_restaurant_find_nearby : Locate nearby vegan restaurants based on specific criteria like operating hours.    
 	Parameters:
 	location (str): The city and state, e.g. New York, NY
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	operating_hours (int): Preferred latest closing time of the restaurant. E.g. if 11 is given, then restaurants that close at or after 11 PM will be considered. This is in 24 hour format. Default is 24
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 

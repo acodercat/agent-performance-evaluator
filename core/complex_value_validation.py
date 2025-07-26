@@ -99,7 +99,7 @@ def actual_in_expected_pattern(actual_value: Any, expected_pattern: List[Any]) -
                     return True
     return False
 
-def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expected_type_str: str, param_path: str, call_index: int) -> Union[bool, ValidationError]:
+def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expected_type_str: str, param_path: str, call_index: int, function_name: str) -> Union[bool, ValidationError]:
     try:
         full_expected_type = restore_type(current_expected_type_str)
         origin_type = get_origin(full_expected_type)
@@ -111,7 +111,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
                 if actual_in_expected_pattern(actual, expected_pattern) == False:
                     return ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                        message=f"Call {call_index+1}, Arg '{param_path}': Actual value '{actual}' not in expected value list '{expected_pattern}'.",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Actual value '{actual}' not in expected value list '{expected_pattern}'.",
                         call_index=call_index,
                         arg_name=param_path
                     )
@@ -124,14 +124,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
                         else:
                             return ValidationError(
                                 error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                                message=f"Call {call_index+1}, Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
+                                message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
                                 call_index=call_index,
                                 arg_name=param_path
                             )
                     else:
                         return ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                            message=f"Call {call_index+1}, Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
                             call_index=call_index,
                             arg_name=param_path
                         )
@@ -141,14 +141,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if not isinstance(actual, dict):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Expected dictionary, got non-dictionary type '{type(actual).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected dictionary, got non-dictionary type '{type(actual).__name__}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
             if not (actual.keys() <= expected_pattern.keys() and expected_pattern.keys() <= actual.keys()):
                  return ValidationError(
                      error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                     message=f"Call {call_index+1}, Arg '{param_path}': Dictionary key sets do not match. Expected keys: {list(expected_pattern.keys())}, Actual keys: {list(actual.keys())}.",
+                     message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Dictionary key sets do not match. Expected keys: {list(expected_pattern.keys())}, Actual keys: {list(actual.keys())}.",
                      call_index=call_index,
                      arg_name=param_path
                  )
@@ -156,7 +156,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if len(args_types) != 2:
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Dict type hint incomplete, requires key and value types.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Dict type hint incomplete, requires key and value types.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -166,7 +166,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
                 if key not in actual:
                     return ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                        message=f"Call {call_index+1}, Arg '{param_path}.{key}': Dictionary field is missing.",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}.{key}': Dictionary field is missing.",
                         call_index=call_index,
                         arg_name=f"{param_path}.{key}"
                     )
@@ -176,14 +176,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
                     if actual_in_expected_pattern(actual[key], expected_pattern[key]) == False:
                         return ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                            message=f"Call {call_index+1}, Arg '{param_path}.{key}': Actual value '{actual[key]}' not in expected value list '{expected_pattern[key]}'.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}.{key}': Actual value '{actual[key]}' not in expected value list '{expected_pattern[key]}'.",
                             call_index=call_index,
                             arg_name=f"{param_path}.{key}"
                         )
                     continue
 
                 next_expected_type_str = _get_type_name(expected_value_type_obj)
-                comparison_result = _compare_single_value_deep(actual[key], expected_pattern[key], next_expected_type_str, f"{param_path}.{key}", call_index)
+                comparison_result = _compare_single_value_deep(actual[key], expected_pattern[key], next_expected_type_str, f"{param_path}.{key}", call_index, function_name)
                 if not comparison_result:
                     return comparison_result
             return True
@@ -192,14 +192,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if not isinstance(actual, list):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Expected list, got non-list type '{type(actual).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected list, got non-list type '{type(actual).__name__}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
             if len(actual) != len(expected_pattern):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': List lengths do not match. Expected length: {len(expected_pattern)}, Actual length: {len(actual)}.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': List lengths do not match. Expected length: {len(expected_pattern)}, Actual length: {len(actual)}.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -207,7 +207,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if len(args_types) != 1:
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': List type hint incomplete, requires element type.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': List type hint incomplete, requires element type.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -215,7 +215,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
 
             for i in range(len(actual)):
                 next_expected_type_str = _get_type_name(expected_item_type_obj)
-                comparison_result = _compare_single_value_deep(actual[i], expected_pattern[i], next_expected_type_str, f"{param_path}[{i}]", call_index)
+                comparison_result = _compare_single_value_deep(actual[i], expected_pattern[i], next_expected_type_str, f"{param_path}[{i}]", call_index, function_name)
                 if not comparison_result:
                     return comparison_result
             return True
@@ -224,14 +224,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if not isinstance(actual, tuple):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Expected tuple, got non-tuple type '{type(actual).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected tuple, got non-tuple type '{type(actual).__name__}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
             if len(actual) != len(expected_pattern):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Tuple lengths do not match. Expected length: {len(expected_pattern)}, Actual length: {len(actual)}.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Tuple lengths do not match. Expected length: {len(expected_pattern)}, Actual length: {len(actual)}.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -242,7 +242,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
 
             for i in range(len(actual)):
                 next_expected_type_str = expected_types_for_elements[i]
-                comparison_result = _compare_single_value_deep(actual[i], expected_pattern[i], next_expected_type_str, f"{param_path}[{i}]", call_index)
+                comparison_result = _compare_single_value_deep(actual[i], expected_pattern[i], next_expected_type_str, f"{param_path}[{i}]", call_index, function_name)
                 if not comparison_result:
                     return comparison_result
             return True
@@ -251,14 +251,14 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
             if not isinstance(actual, set):
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Expected set, got non-set type '{type(actual).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected set, got non-set type '{type(actual).__name__}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
             if actual != expected_pattern:
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Sets are not equal. Expected: '{expected_pattern}', Actual: '{actual}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Sets are not equal. Expected: '{expected_pattern}', Actual: '{actual}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -272,13 +272,13 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
                     else:
                         return ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                            message=f"Call {call_index+1}, Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
                             call_index=call_index,
                             arg_name=param_path
                         )
                 return ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                    message=f"Call {call_index+1}, Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Expected value '{expected_pattern}', got '{actual}'.",
                     call_index=call_index,
                     arg_name=param_path
                 )
@@ -287,7 +287,7 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
     except (ValueError, RuntimeError) as e:
         return ValidationError(
             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-            message=f"Call {call_index+1}, Arg '{param_path}': Value validation failed due to type parsing exception. Details: {e}",
+            message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': Value validation failed due to type parsing exception. Details: {e}",
             call_index=call_index,
             arg_name=param_path
         )
@@ -295,13 +295,13 @@ def _compare_single_value_deep(actual: Any, expected_pattern: Any, current_expec
         import traceback
         return ValidationError(
             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-            message=f"Call {call_index+1}, Arg '{param_path}': An unexpected error occurred during recursive value validation. Details: {e}\n{traceback.format_exc()}",
+            message=f"Call {function_name}(call_index={call_index}), Arg '{param_path}': An unexpected error occurred during recursive value validation. Details: {e}\n{traceback.format_exc()}",
             call_index=call_index,
             arg_name=param_path
         )
 
 
-def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_index: int = 0) -> Union[Tuple[bool, str], Tuple[bool, ValidationError]]:
+def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_index: int, function_name: str) -> Union[Tuple[bool, str], Tuple[bool, ValidationError]]:
     expected_name = expected_arg.get("name", "unknown_param")
     expected_type_str = expected_arg["type"]
     expected_value = expected_arg["value"]
@@ -319,7 +319,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
             if not isinstance(actual_value, full_expected_type):
                 return False, ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                    message=f"Call {call_index+1}, Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
                     call_index=call_index,
                     arg_name=expected_name
                 )
@@ -329,7 +329,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
             if not isinstance(actual_value, origin_type) and not isinstance(actual_value, list):
                 return False, ValidationError(
                     error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                    message=f"Call {call_index+1}, Arg '{expected_name}': Expected container type '{expected_type_str}' (base type: '{origin_type.__name__}'), got '{type(actual_value).__name__}'.",
+                    message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected container type '{expected_type_str}' (base type: '{origin_type.__name__}'), got '{type(actual_value).__name__}'.",
                     call_index=call_index,
                     arg_name=expected_name
                 )
@@ -343,7 +343,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                             if not isinstance(item, args_types[0]):
                                 return False, ValidationError(
                                     error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                                    message=f"Call {call_index+1}, Arg '{expected_name}': List inner element type mismatch. Expected inner element type: '{_get_type_name(args_types[0])}'.got '{type(item).__name__}'.",
+                                    message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': List inner element type mismatch. Expected inner element type: '{_get_type_name(args_types[0])}'.got '{type(item).__name__}'.",
                                     call_index=call_index,
                                     arg_name=expected_name
                                 )
@@ -351,7 +351,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                 if len(args_types) != 2:
                     return False, ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                        message=f"Call {call_index+1}, Arg '{expected_name}': Dict type hint incomplete, requires key and value types.",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Dict type hint incomplete, requires key and value types.",
                         call_index=call_index,
                         arg_name=expected_name
                     )
@@ -361,7 +361,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                     if not isinstance(k, expected_key_type) or not isinstance(v, expected_value_type):
                         return False, ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                            message=f"Call {call_index+1}, Arg '{expected_name}': Dict key-value type mismatch. Expected key type: '{_get_type_name(expected_key_type)}', Expected value type: '{_get_type_name(expected_value_type)}'.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Dict key-value type mismatch. Expected key type: '{_get_type_name(expected_key_type)}', Expected value type: '{_get_type_name(expected_value_type)}'.",
                             call_index=call_index,
                             arg_name=expected_name
                         )
@@ -375,7 +375,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                         if not all(isinstance(item, expected_item_type) for item in actual_value):
                             return False, ValidationError(
                                 error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                                message=f"Call {call_index+1}, Arg '{expected_name}': Tuple inner element type mismatch. Expected inner element type: '{_get_type_name(expected_item_type)}'.",
+                                message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Tuple inner element type mismatch. Expected inner element type: '{_get_type_name(expected_item_type)}'.",
                                 call_index=call_index,
                                 arg_name=expected_name
                             )
@@ -383,7 +383,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                     if len(actual_value) != len(args_types):
                         return False, ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                            message=f"Call {call_index+1}, Arg '{expected_name}': Tuple length mismatch. Expected length: {len(args_types)}, Actual length: {len(actual_value)}.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Tuple length mismatch. Expected length: {len(args_types)}, Actual length: {len(actual_value)}.",
                             call_index=call_index,
                             arg_name=expected_name
                         )
@@ -391,7 +391,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                         if not isinstance(item, args_types[i]):
                             return False, ValidationError(
                                 error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                                message=f"Call {call_index+1}, Arg '{expected_name}': Tuple element at index {i} type mismatch. Expected type: '{_get_type_name(args_types[i])}'.",
+                                message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Tuple element at index {i} type mismatch. Expected type: '{_get_type_name(args_types[i])}'.",
                                 call_index=call_index,
                                 arg_name=expected_name
                             )
@@ -402,7 +402,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                     if not all(isinstance(item, args_types[0]) for item in actual_value):
                         return False, ValidationError(
                             error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                            message=f"Call {call_index+1}, Arg '{expected_name}': Set inner element type mismatch. Expected inner element type: '{_get_type_name(args_types[0])}'.",
+                            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Set inner element type mismatch. Expected inner element type: '{_get_type_name(args_types[0])}'.",
                             call_index=call_index,
                             arg_name=expected_name
                         )
@@ -413,7 +413,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
                 else:
                     return False, ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                        message=f"Call {call_index+1}, Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected type '{expected_type_str}', got '{type(actual_value).__name__}'.",
                         call_index=call_index,
                         arg_name=expected_name
                     )
@@ -421,7 +421,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
     except ValueError as e:
         return False, ValidationError(
             error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-            message=f"Call {call_index+1}, Arg '{expected_name}': Expected type definition is invalid. Details: {e}",
+            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected type definition is invalid. Details: {e}",
             call_index=call_index,
             arg_name=expected_name
         )
@@ -430,7 +430,7 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
             return True, "Success"
         return False, ValidationError(
             error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-            message=f"Call {call_index+1}, Arg '{expected_name}': An unexpected error occurred during type validation. Details: {e}",
+            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': An unexpected error occurred during type validation. Details: {e}",
             call_index=call_index,
             arg_name=expected_name
         )
@@ -441,19 +441,19 @@ def validate_argument(actual_value: Any, expected_arg: Dict[str, Any], call_inde
             if isinstance(pattern_item, str) is str and isinstance(actual_value, str):
                 if pattern_item.lower() == actual_value.lower():
                     return True, "Success"
-            comparison_result = _compare_single_value_deep(actual_value, pattern_item, expected_type_str, expected_name, call_index)
+            comparison_result = _compare_single_value_deep(actual_value, pattern_item, expected_type_str, expected_name, call_index, function_name)
             if isinstance(comparison_result, bool) and comparison_result:
                 return True, "Success"
             elif isinstance(comparison_result, ValidationError):
                 continue
         return False, ValidationError(
             error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-            message=f"Call {call_index+1}, Arg '{expected_name}': Actual value: '{actual_value}' not found in any matching item in expected value list '{expected_value}'.",
+            message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Actual value: '{actual_value}' not found in any matching item in expected value list '{expected_value}'.",
             call_index=call_index,
             arg_name=expected_name
         )
     else:
-        comparison_result = _compare_single_value_deep(actual_value, expected_value, expected_type_str, expected_name, call_index)
+        comparison_result = _compare_single_value_deep(actual_value, expected_value, expected_type_str, expected_name, call_index, function_name)
         if isinstance(comparison_result, bool) and comparison_result:
             return True, "Success"
         elif isinstance(comparison_result, ValidationError):

@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def physics_calculate_force(mass:int, acceleration:int):
+def physics_calculate_force(mass:int, acceleration:int) -> str:
 	"""
 	physics_calculate_force : Calculate the force required to move an object of a particular mass at a particular acceleration.    
 	Parameters:
 	mass (int): The mass of the object in kg.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	acceleration (int): The acceleration of the object in m/s^2.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [mass,acceleration,]
 
@@ -12,12 +14,14 @@ def physics_calculate_force(mass:int, acceleration:int):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def kinematics_calculate_time(velocity:int, distance:int):
+def kinematics_calculate_time(velocity:int, distance:int) -> str:
 	"""
 	kinematics_calculate_time : Calculate time required for an object to travel a particular distance at a particular velocity.    
 	Parameters:
 	velocity (int): The velocity of the object in m/s.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	distance (int): The distance covered by the object in meters.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [velocity,distance,]
 

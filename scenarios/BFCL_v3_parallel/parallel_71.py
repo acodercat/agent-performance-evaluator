@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def calculate_derivative(function:str, x_value:int=None):
+def calculate_derivative(function:str, x_value:int=None) -> str:
 	"""
 	calculate_derivative : Calculate the derivative of a polynomial function.    
 	Parameters:
 	function (str): The polynomial function.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	x_value (int): The x-value at which the derivative is calculated. Optional, if not given, the function will return a function of the derivative instead of a specific value. default is 0.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [function,]
 

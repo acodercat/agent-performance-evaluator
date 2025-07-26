@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_gcd(num1:int, num2:int):
+def math_gcd(num1:int, num2:int) -> str:
 	"""
 	math_gcd : Calculates the greatest common divisor of two numbers.    
 	Parameters:
 	num1 (int): The first number.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	num2 (int): The second number.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [num1,num2,]
 
@@ -12,12 +14,14 @@ def math_gcd(num1:int, num2:int):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_sqrt(num:float, accuracy:int=None):
+def math_sqrt(num:float, accuracy:int=None) -> str:
 	"""
 	math_sqrt : Calculates the square root of a number.    
 	Parameters:
 	num (float): The number.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	accuracy (int): The number of decimal places in the result. Default to 0
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [num,]
 
@@ -25,12 +29,14 @@ def math_sqrt(num:float, accuracy:int=None):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def math_lcm(num1:int, num2:int):
+def math_lcm(num1:int, num2:int) -> str:
 	"""
 	math_lcm : Calculates the least common multiple of two numbers.    
 	Parameters:
 	num1 (int): The first number.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	num2 (int): The second number.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [num1,num2,]
 

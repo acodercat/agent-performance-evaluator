@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int=None):
+def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int=None) -> str:
 	"""
 	weather_get_forecast_by_coordinates : Get the weather forecast for a specific geographical coordinates.    
 	Parameters:
 	coordinates (Tuple[float]): The geographical coordinates for which to retrieve the weather. The first element of the tuple is the latitude and the second is the longitude.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	days_ahead (int): Number of days to forecast from current date (optional, default is 7).
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [coordinates,]
 
@@ -12,12 +14,14 @@ def weather_get_forecast_by_coordinates(coordinates:Tuple[float], days_ahead:int
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str):
+def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str) -> str:
 	"""
 	weather_get_by_coordinates_date : Retrieves the historical weather data based on coordinates and date.    
 	Parameters:
 	coordinates (Tuple[float]): The geographical coordinates for which to retrieve the weather. The first element of the tuple is the latitude and the second is the longitude.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	date (str): The date for which to retrieve the historical weather data in the format YYYY-MM-DD.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [coordinates,date,]
 
@@ -25,12 +29,14 @@ def weather_get_by_coordinates_date(coordinates:Tuple[float], date:str):
 	return 'Success'
 
 from typing import List, Dict, Any, Union, Tuple, Set 
-def weather_get_by_city_date(city:str, date:str):
+def weather_get_by_city_date(city:str, date:str) -> str:
 	"""
 	weather_get_by_city_date : Retrieves the historical weather data based on city and date.    
 	Parameters:
 	city (str): The city for which to retrieve the weather.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	date (str): The date for which to retrieve the historical weather data in the format YYYY-MM-DD.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,date,]
 

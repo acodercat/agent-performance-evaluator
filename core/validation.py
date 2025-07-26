@@ -18,7 +18,6 @@ class ValidationError(NamedTuple):
     call_index: Optional[int] = None
     arg_name: Optional[str] = None
 
-# Update the validation function to return structured errors
 def validate_function_calls(actual_calls: List[AgentToolCall],
                           expected_calls: List[Dict[str, Any]]) -> List[ValidationError]:
     """
@@ -43,13 +42,13 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
         
         # Find a matching function call by name
         match_found = False
-        match_index = None
+        match_index = []
         
         for j, actual in enumerate(remaining_actual_calls):
             if actual.function == expected_name:
                 match_found = True
-                match_index = j
-                break
+                match_index.append(j)
+                # break
         
         if not match_found:
             # Only report missing functions that are required
@@ -61,20 +60,119 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
                 ))
             continue
         
-        # Validate arguments of the matching call
-        actual_call = remaining_actual_calls[match_index]
+        argument_errors = []
+        delete_index = []
+        for index in match_index:
+            # Validate arguments of the matching call
+            actual_call = remaining_actual_calls[index]
+            e = validate_arguments(actual_call, expected, i, expected_name+str(i))
+            if e == []:
+                delete_index.append(index)
+            else:
+                argument_errors.extend(e)
 
-        argument_errors = validate_arguments(actual_call, expected, i)
-        errors.extend(argument_errors)
+        # Just for BFCL, we dont check if there are any extra calls in actual_calls        
+        if len(argument_errors) == len(match_index):
+            for error in argument_errors:
+                errors.extend(error)
         
-        # Remove the matched call so we don't match it again
-        remaining_actual_calls.pop(match_index)
-    
+        for index in delete_index:
+            remaining_actual_calls.pop(index)
+
     return errors
+
+# def calculate_mismatch_cost(actual: AgentToolCall, expected: Dict[str, Any]) -> float:
+#     """Calculate the mismatch cost between actual and expected arguments"""
+#     expected_args = expected.get("arguments", [])
+#     if not expected_args:
+#         return 0.0
+    
+#     total_cost = 0.0
+#     total_weight = 0.0
+    
+#     for expected_arg in expected_args:
+#         if "name" not in expected_arg:
+#             continue
+            
+#         expected_name = expected_arg["name"]
+#         weight = 1.0
+        
+#         if expected_name not in actual.arguments:
+#             if expected_arg.get("required", True):
+#                 total_cost += 1.0  # Fixed cost for missing required parameters
+#             total_weight += weight
+#             continue
+        
+#         actual_value = actual.arguments[expected_name]
+        
+#         # Value matching check
+#         if "value" in expected_arg:
+#             if normalize_value(actual_value) != normalize_value(expected_arg["value"]):
+#                 total_cost += 0.5  # Value mismatch cost    
+#             total_weight += 1.0
+        
+#         # Type matching check  
+#         if "type" in expected_arg:
+#             if not is_type_compatible(actual_value, expected_arg["type"]):
+#                 total_cost += 0.3  # Type mismatch cost
+#             total_weight += 0.5
+    
+#     return total_cost / max(total_weight, 1.0)
+
+# def normalize_value(value):
+#     """Normalize value for comparison, handle type conversion and nested structures"""
+    
+#     # Handle None
+#     if value is None:
+#         return "None"
+    
+#     # Handle numeric values
+#     if isinstance(value, (int, float)):
+#         # Convert both int and float to the same representation
+#         if isinstance(value, float):
+#             # Check if it's a whole number
+#             if value == int(value):
+#                 return str(int(value))  # 2750.0 -> "2750"
+#             else:
+#                 return f"{value:g}"     # Remove trailing zeros: 5.60 -> "5.6"
+#         else:
+#             return str(value)           # int -> str
+    
+#     # Handle strings
+#     if isinstance(value, str):
+#         return value.strip()
+    
+#     # Handle lists - recursively normalize each element
+#     if isinstance(value, list):
+#         normalized_list = [normalize_value(item) for item in value]
+#         return str(normalized_list)
+    
+#     # Handle dictionaries - recursively normalize keys and values
+#     if isinstance(value, dict):
+#         # Sort keys to ensure consistent ordering
+#         normalized_dict = {}
+#         for k in sorted(value.keys()):
+#             # Normalize both key and value
+#             normalized_key = normalize_value(k) if not isinstance(k, str) else k
+#             normalized_value = normalize_value(value[k])
+#             normalized_dict[normalized_key] = normalized_value
+#         return str(normalized_dict)
+    
+#     # Handle other types (bool, etc.)
+#     return str(value)
+
+# def is_type_compatible(actual_value, expected_type):
+#     """More lenient type checking"""
+#     actual_type = type(actual_value).__name__
+#     if actual_type == expected_type:
+#         return True
+    
+#     return False
 
 def validate_arguments(actual: AgentToolCall,
                      expected: Dict[str, Any],
-                     call_index: int) -> List[ValidationError]:
+                     call_index: int,
+                     function_name: str) -> List[ValidationError]:
     """
     Validate arguments of a function call with smarter handling of renamed parameters.
     
@@ -96,7 +194,7 @@ def validate_arguments(actual: AgentToolCall,
         if "name" not in expected_arg:
             errors.append(ValidationError(
                 error_type=ErrorType.MISSING_ARGUMENT,
-                message=f"Call {call_index+1}, Arg {arg_index+1}: Expected argument is missing required 'name' field",
+                message=f"Call {function_name}(call_index={call_index}), Arg {arg_index+1}: Expected argument is missing required 'name' field",
                 call_index=call_index
             ))
             continue
@@ -107,7 +205,7 @@ def validate_arguments(actual: AgentToolCall,
         if is_required and expected_name not in actual_args:
             errors.append(ValidationError(
                 error_type=ErrorType.MISSING_ARGUMENT,
-                message=f"Call {call_index+1}: Expected parameter '{expected_name}' not found in actual arguments",
+                message=f"Call {function_name}(call_index={call_index}): Expected parameter '{expected_name}' not found in actual arguments",
                 call_index=call_index,
                 arg_name=expected_name
             ))
@@ -126,7 +224,7 @@ def validate_arguments(actual: AgentToolCall,
                 expected_type = expected_arg["type"]
                 if isinstance(actual_value,str) and "^" in actual_value:
                     actual_value = actual_value.replace("^", "**")
-                status,error = complex_validate_argument(actual_value, expected_arg, call_index)
+                status,error = complex_validate_argument(actual_value, expected_arg, call_index, function_name)
                 if status == False:
                     errors.append(error)
     
@@ -144,5 +242,5 @@ if __name__ == "__main__":
 
     actual = AgentToolCall(function="calculate_fitness", arguments={"trait_values": [0.8,0.7], "trait_contributions": [0.4, 0.6]}, call_id=0)
     expected = {'name': 'calculate_fitness', 'arguments': [{'name': 'trait_values', 'value': [[0.8, 0.7]], 'type': List[float]}, {'name': 'trait_contributions', 'value': [[0.4, 0.6]], 'type': List[float]}]}
-    argument_errors = validate_arguments(actual, expected, 0)
-    print(argument_errors)
+    # argument_errors = validate_arguments(actual, expected, 0)
+    # print(argument_errors)

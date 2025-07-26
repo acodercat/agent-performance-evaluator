@@ -1,9 +1,10 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def calculate_average(numbers:List[float]):
+def calculate_average(numbers:List[float]) -> str:
 	"""
 	calculate_average : Calculates the average of a list of numbers.    
 	Parameters:
 	numbers (List[float]): The list of numbers to calculate the average of.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [numbers,]
 

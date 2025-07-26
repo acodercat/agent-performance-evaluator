@@ -1,10 +1,12 @@
 from typing import List, Dict, Any, Union, Tuple, Set 
-def get_stock_prices(companies:List[str], duration:str):
+def get_stock_prices(companies:List[str], duration:str) -> str:
 	"""
 	get_stock_prices : Retrieves stock prices for specified companies and duration.    
 	Parameters:
 	companies (List[str]): List of companies to retrieve stock prices for.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	duration (str): Time duration to retrieve stock prices for. E.g., '1 week', '2 weeks', '1 month', etc.
+If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [companies,duration,]
 
