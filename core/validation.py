@@ -15,58 +15,117 @@ class ValidationError(NamedTuple):
     call_index: Optional[int] = None
     arg_name: Optional[str] = None
 
-# Update the validation function to return structured errors
 def validate_function_calls(actual_calls: List[AgentToolCall],
                           expected_calls: List[Dict[str, Any]]) -> List[ValidationError]:
-    """
-    Validate that actual function calls match expected calls.
+    """Simple validation handling mismatched counts"""
+    from collections import defaultdict
     
-    Args:
-        actual_calls: List of actual function calls from the tracker
-        expected_calls: List of expected function calls from ground_truths.json
-        
-    Returns:
-        List of validation errors with structured type information
-    """
     errors = []
     
-    # Create a copy of actual_calls to mark matches
-    remaining_actual_calls = list(actual_calls)
+    # Group actual calls by function name
+    actual_groups = defaultdict(list)
+    for call in actual_calls:
+        actual_groups[call.function].append(call)
     
-    # For each expected call, try to find a matching actual call
+    expected_groups = defaultdict(list)
     for i, expected in enumerate(expected_calls):
-        expected_name = expected["name"]
-        is_required = expected.get("required", True)  # Default to True if not specified
+        expected_groups[expected["name"]].append((i, expected))
+    
+    # Validate each expected function
+    for func_name, expected_list in expected_groups.items():
+        actual_list = actual_groups.get(func_name, [])
         
-        # Find a matching function call by name
-        match_found = False
-        match_index = None
+        # Simple strategy: as long as actual count >= expected count
+        required_count = sum(1 for _, exp in expected_list if exp.get("required", True))
         
-        for j, actual in enumerate(remaining_actual_calls):
-            if actual.function == expected_name:
-                match_found = True
-                match_index = j
-                break
-        
-        if not match_found:
-            # Only report missing functions that are required
-            if is_required:
-                errors.append(ValidationError(
-                    error_type=ErrorType.MISSING_FUNCTION,
-                    message=f"Missing required function call: {expected_name}",
-                    call_index=i
-                ))
+        if len(actual_list) < required_count:
+            errors.append(ValidationError(
+                error_type=ErrorType.MISSING_FUNCTION,
+                message=f"Function '{func_name}' called {len(actual_list)} times, expected at least {required_count}",
+            ))
             continue
         
-        # Validate arguments of the matching call
-        actual_call = remaining_actual_calls[match_index]
-        argument_errors = validate_arguments(actual_call, expected, i)
-        errors.extend(argument_errors)
+        # Try to match: find the most similar actual for each expected
+        used_actual_indices = set()
         
-        # Remove the matched call so we don't match it again
-        remaining_actual_calls.pop(match_index)
+        for exp_index, expected in expected_list:
+            best_match_idx = None
+            best_score = float('inf')
+            
+            # Find the best matching actual call
+            for j, actual in enumerate(actual_list):
+                if j in used_actual_indices:
+                    continue
+                    
+                score = calculate_mismatch_cost(actual, expected)
+                if score < best_score:
+                    best_score = score
+                    best_match_idx = j
+            
+            if best_match_idx is not None:
+                # Validate parameters
+                used_actual_indices.add(best_match_idx)
+                argument_errors = validate_arguments(actual_list[best_match_idx], expected, exp_index, func_name)
+                errors.extend(argument_errors)
+            elif expected.get("required", True):
+                errors.append(ValidationError(
+                    error_type=ErrorType.MISSING_FUNCTION,
+                    message=f"No suitable match found for required function call: {func_name}",
+                    call_index=exp_index
+                ))
     
     return errors
+
+def calculate_mismatch_cost(actual: AgentToolCall, expected: Dict[str, Any]) -> float:
+    """Calculate the mismatch cost between actual and expected arguments"""
+    expected_args = expected.get("arguments", [])
+    if not expected_args:
+        return 0.0
+    
+    total_cost = 0.0
+    total_weight = 0.0
+    
+    for expected_arg in expected_args:
+        if "name" not in expected_arg:
+            continue
+            
+        expected_name = expected_arg["name"]
+        weight = 1.0
+        
+        if expected_name not in actual.arguments:
+            if expected_arg.get("required", True):
+                total_cost += 1.0  # Fixed cost for missing required parameters
+            total_weight += weight
+            continue
+        
+        actual_value = actual.arguments[expected_name]
+        
+        # Value matching check
+        if "value" in expected_arg:
+            if normalize_value(actual_value) != normalize_value(expected_arg["value"]):
+                total_cost += 0.5  # Value mismatch cost    
+            total_weight += 1.0
+        
+        # Type matching check  
+        if "type" in expected_arg:
+            if not is_type_compatible(actual_value, expected_arg["type"]):
+                total_cost += 0.3  # Type mismatch cost
+            total_weight += 0.5
+    
+    return total_cost / max(total_weight, 1.0)
+
+def normalize_value(value):
+    """Normalize value for comparison, handle type conversion"""
+    if isinstance(value, (int, float)):
+        # Normalize numeric values
+        if isinstance(value, float) and value == int(value):
+            return str(int(value))  # 6.0 -> '6'
+        elif isinstance(value, float):
+            return f"{value:g}"     # Remove trailing zeros: 5.60 -> '5.6'
+        else:
+            return str(value)       # int -> str
+    
+    return str(value).strip()
 
 def validate_arguments(actual: AgentToolCall,
                      expected: Dict[str, Any],
