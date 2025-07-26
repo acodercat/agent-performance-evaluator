@@ -23,7 +23,7 @@ class LitellmModel:
 class LitellmAgentWrapper(Agent):
     """Agent implementation that wraps Litellm's FunctionAgent"""
     
-    def __init__(self, model: LitellmModel, tools: List[Callable] = None):
+    def __init__(self, model: LitellmModel, tools: List[Callable] = []):
         """
         Initialize the LitellmAgentWrapper.
         
@@ -31,8 +31,12 @@ class LitellmAgentWrapper(Agent):
             model: The model to use
             tools: List of callable functions/tools
         """
+     
         self._model = model
+        
         self._tools = [{"type": "function", "function": function_to_schema(tool)} for tool in tools]
+        print(function_to_schema(tools[0]))
+     
 
     async def _run_with_tracking(self, query: str) -> AgentResponse:
         """
@@ -50,7 +54,7 @@ class LitellmAgentWrapper(Agent):
         )
 
         tool_calls = []
-
+        print(f"Response: {response.choices}")
         for choice in response.choices:
             if choice.finish_reason == "tool_calls":
                 for item in choice.message.tool_calls:
@@ -74,6 +78,7 @@ class LitellmAgentWrapper(Agent):
         Returns:
             The agent's response as an AgentResponse object
         """
+        # print(f"Running LitellmAgentWrapper with query: {query}")
             
         return await self._run_with_tracking(query)
     
@@ -100,6 +105,7 @@ class LitellmAgentFactory(AgentFactory):
         Returns:
             An OpenAIAgentWrapper instance
         """
+    
         return LitellmAgentWrapper(
             model=self.model,
             tools=functions,

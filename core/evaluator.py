@@ -93,9 +93,10 @@ class AgentEvaluator:
             "id": conversation_id,
             "turns": []
         }
-   
+    
         # Initialize agent
         agent = self.agent_factory.create_agent(functions=tools)
+        print(f"Created agent for conversation: {conversation_id}, {conversation.get('turns', [])}")
         # Process each turn
         for turn_index, turn in enumerate(conversation.get("turns", [])):
             turn_results = await self._evaluate_turn(
@@ -137,6 +138,7 @@ class AgentEvaluator:
         query = turn["query"]
         reference_response = turn.get("reference_response", "")
         expected_calls = turn.get("expected_function_calls", [])
+        
         
         # Initialize results
         turn_results = {

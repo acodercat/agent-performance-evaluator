@@ -2,6 +2,7 @@ import json
 import os
 from typing import List, Dict, Any, Union, Tuple
 from tqdm import tqdm
+import collections.abc
 # from dafault_prompt import (DEFAULT_SYSTEM_PROMPT, DEFAULT_USER_PROMPT_FOR_ADDITIONAL_FUNCTION_FC, DEFAULT_USER_PROMPT_FOR_ADDITIONAL_FUNCTION_PROMPTING)
 # from openai.types.chat.chat_completion_message_tool_call import ChatCompletionMessageToolCall
 
@@ -314,6 +315,22 @@ def generate_functions_from_json(data, output_filename):
             
     # print(f"代码已成功生成并保存到 '{output_filename}' 文件中。")
 
+def rename_keys(data):
+    if isinstance(data, collections.abc.Mapping): 
+        new_data = {}
+        for key, value in data.items():
+            new_key = key
+            if isinstance(key, str) and key.startswith('_'):
+                new_key = 'test_' + key[1:] 
+            new_data[new_key] = rename_keys(value) 
+        return new_data
+    elif isinstance(data, collections.abc.Sequence) and not isinstance(data, str): 
+        return [rename_keys(elem) for elem in data] 
+    elif isinstance(data, str) and data.startswith('_'):
+        return 'test_' + data[1:]
+    else:
+        return data
+
 if __name__ == "__main__":
     datasets = ["BFCL_v3_simple","BFCL_v3_parallel","BFCL_v3_parallel_multiple","BFCL_v3_multiple"]
     for dataset in datasets:
@@ -325,7 +342,7 @@ if __name__ == "__main__":
             print("目录创建成功。")
         scenario_list = list()
         for i in tqdm(range(len(querry_list))):
-            converted_output = convert_schema_to_invocation(querry_list[i],answer_list[i],dataset)
+            converted_output = convert_schema_to_invocation(rename_keys(querry_list[i]),rename_keys(answer_list[i]),dataset)
             scenario_list.append(converted_output)
         # print(json.dumps(converted_output, indent=2, ensure_ascii=False))
 
