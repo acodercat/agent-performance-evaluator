@@ -70,7 +70,8 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
 
 def validate_arguments(actual: AgentToolCall,
                      expected: Dict[str, Any],
-                     call_index: int) -> List[ValidationError]:
+                     call_index: int,
+                     function_name: str) -> List[ValidationError]:
     """
     Validate arguments of a function call with smarter handling of renamed parameters.
     
@@ -92,7 +93,7 @@ def validate_arguments(actual: AgentToolCall,
         if "name" not in expected_arg:
             errors.append(ValidationError(
                 error_type=ErrorType.MISSING_ARGUMENT,
-                message=f"Call {call_index+1}, Arg {arg_index+1}: Expected argument is missing required 'name' field",
+                message=f"Call {function_name}(call_index={call_index}), Arg {arg_index+1}: Expected argument is missing required 'name' field",
                 call_index=call_index
             ))
             continue
@@ -103,7 +104,7 @@ def validate_arguments(actual: AgentToolCall,
         if is_required and expected_name not in actual_args:
             errors.append(ValidationError(
                 error_type=ErrorType.MISSING_ARGUMENT,
-                message=f"Call {call_index+1}: Expected parameter '{expected_name}' not found in actual arguments",
+                message=f"Call {function_name}(call_index={call_index}): Expected parameter '{expected_name}' not found in actual arguments",
                 call_index=call_index,
                 arg_name=expected_name
             ))
@@ -122,7 +123,7 @@ def validate_arguments(actual: AgentToolCall,
                     print(str(actual_value), str(expected_value))
                     errors.append(ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_VALUE,
-                        message=f"Call {call_index+1}, Arg '{expected_name}': Expected value '{expected_value}', got '{actual_value}'",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected value '{expected_value}', got '{actual_value}'",
                         call_index=call_index,
                         arg_name=expected_name
                     ))
@@ -136,7 +137,7 @@ def validate_arguments(actual: AgentToolCall,
                 if actual_type != expected_type:
                     errors.append(ValidationError(
                         error_type=ErrorType.WRONG_ARGUMENT_TYPE,
-                        message=f"Call {call_index+1}, Arg '{expected_name}': Expected type '{expected_type}', got '{actual_type}'",
+                        message=f"Call {function_name}(call_index={call_index}), Arg '{expected_name}': Expected type '{expected_type}', got '{actual_type}'",
                         call_index=call_index,
                         arg_name=expected_name
                     ))
