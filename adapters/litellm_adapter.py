@@ -35,7 +35,7 @@ class LitellmAgentWrapper(Agent):
         self._model = model
         
         self._tools = [{"type": "function", "function": function_to_schema(tool)} for tool in tools]
-        print(function_to_schema(tools[0]))
+        # print(function_to_schema(tools[0]))
      
 
     async def _run_with_tracking(self, query: str) -> AgentResponse:
@@ -54,7 +54,7 @@ class LitellmAgentWrapper(Agent):
         )
 
         tool_calls = []
-        print(f"Response: {response.choices}")
+        # print(f"Response: {response.choices}")
         for choice in response.choices:
             if choice.finish_reason == "tool_calls":
                 for item in choice.message.tool_calls:

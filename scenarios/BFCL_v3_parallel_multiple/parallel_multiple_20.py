@@ -4,9 +4,7 @@ def statistics_variance(data:List[int], population:bool=True) -> str:
 	statistics_variance : This function calculates the variance of a given set of numbers.    
 	Parameters:
 	data (List[int]): The list of data points.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	population (bool): Determines whether to use population variance formula. Default to True
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [data,]
 
@@ -19,7 +17,6 @@ def statistics_median(data:List[int]) -> str:
 	statistics_median : This function returns the median of the data set provided.    
 	Parameters:
 	data (List[int]): The list of data points.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [data,]
 
@@ -32,7 +29,6 @@ def statistics_mode(data:List[int]) -> str:
 	statistics_mode : This function determines the mode of a list of numbers.    
 	Parameters:
 	data (List[int]): The list of data points.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [data,]
 

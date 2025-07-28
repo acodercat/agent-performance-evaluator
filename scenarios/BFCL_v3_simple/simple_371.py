@@ -4,9 +4,7 @@ def whole_foods_check_price(location:str, items:List[str]) -> str:
 	whole_foods_check_price : Check the price of items at a specific Whole Foods location.    
 	Parameters:
 	location (str): Location of the Whole Foods store.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	items (List[str]): List of items for which the price needs to be checked.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,items,]
 

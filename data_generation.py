@@ -286,7 +286,7 @@ def generate_functions_from_json(data, output_filename):
                 func_description += "\t" + param_name
                 func_description += " (" + format_type(parameter_map[param_name]) + ")"
                 func_description += ": " + param_details.get('description', '') + "\n"
-                func_description += "If you got 'Success' as the return value, it means the function calling is success, this subtask for you is done.\n"
+                # func_description += "If you got 'Success' as the return value, it means the function calling is success, this subtask for you is done.\n"
                 if param_name in required_params:
                     args.append(param_name+ ":" + format_type(parameter_map[param_name]))
                 else:
@@ -359,4 +359,4 @@ if __name__ == "__main__":
         for i in range(len(querry_list)):
             print(f"Processing query {i+1}/{len(querry_list)}")
             output_filename = output_path + f"{querry_list[i]['id']}.py"
-            generate_functions_from_json(querry_list[i].get("function", []), output_filename = output_filename)
+            generate_functions_from_json(rename_keys(querry_list[i]).get("function", []), output_filename = output_filename)

@@ -4,9 +4,7 @@ def chess_rating(player_name:str, variant:str=None) -> str:
 	chess_rating : Fetches the current chess rating of a given player    
 	Parameters:
 	player_name (str): The full name of the chess player.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	variant (str): The variant of chess for which rating is requested (e.g., 'classical', 'blitz', 'bullet'). Default is 'classical'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [player_name,]
 
@@ -19,9 +17,7 @@ def calculate_fitness(trait_values:List[float], trait_contributions:List[float])
 	calculate_fitness : Calculate the expected evolutionary fitness of a creature based on the individual values and contributions of its traits.    
 	Parameters:
 	trait_values (List[float]): List of trait values, which are decimal numbers between 0 and 1, where 1 represents the trait maximally contributing to fitness.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	trait_contributions (List[float]): List of the percentage contributions of each trait to the overall fitness, which must sum to 1.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [trait_values,trait_contributions,]
 
@@ -34,11 +30,8 @@ def walmart_purchase(loc:str, product_list:List[str], pack_size:List[int]=None) 
 	walmart_purchase : Retrieve information of items from Walmart including stock availability.    
 	Parameters:
 	loc (str): Location of the nearest Walmart.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	product_list (List[str]): Items to be purchased listed in an array.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	pack_size (List[int]): Size of the product pack if applicable. The size of the array should be equal to product_list. Default is empty array.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [loc,product_list,]
 
@@ -51,11 +44,8 @@ def lawyer_find_nearby(city:str, specialty:List[str], fee:int) -> str:
 	lawyer_find_nearby : Locate nearby lawyers based on specific criteria like specialty, fee per hour and city.    
 	Parameters:
 	city (str): The city and state, e.g. Chicago, IL.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	specialty (List[str]): Specialization of the lawyer.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	fee (int): Hourly fee charged by lawyer
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,specialty,fee,]
 

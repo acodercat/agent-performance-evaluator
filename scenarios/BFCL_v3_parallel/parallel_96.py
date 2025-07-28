@@ -4,13 +4,9 @@ def electromagnetic_force(charge1:int, charge2:int, distance:int, medium_permitt
 	electromagnetic_force : Calculate the electromagnetic force between two charges placed at a certain distance.    
 	Parameters:
 	charge1 (int): The magnitude of the first charge in coulombs.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	charge2 (int): The magnitude of the second charge in coulombs.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	distance (int): The distance between the two charges in meters.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	medium_permittivity (float): The relative permittivity of the medium in which the charges are present. Default is 8.854 x 10^-12 F/m (vacuum permittivity).
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [charge1,charge2,distance,]
 

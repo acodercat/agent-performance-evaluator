@@ -4,11 +4,8 @@ def concert_finder(location:str, music_genre:str, time_period:int=30) -> str:
 	concert_finder : Locate upcoming concerts based on music genre in specified city and state.    
 	Parameters:
 	location (str): The city and state to find concerts.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	music_genre (str): Music genre of the concerts.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	time_period (int): Number of days to search upcoming concerts.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,music_genre,]
 

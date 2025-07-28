@@ -4,11 +4,8 @@ def get_directions(start_location:str, end_location:str, route_type:str=None) ->
 	get_directions : Retrieve directions from one location to another.    
 	Parameters:
 	start_location (str): The starting point of the journey.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	end_location (str): The destination point of the journey.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	route_type (str): Type of route to use (e.g., 'fastest', 'scenic'). Default is 'fastest'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [start_location,end_location,]
 

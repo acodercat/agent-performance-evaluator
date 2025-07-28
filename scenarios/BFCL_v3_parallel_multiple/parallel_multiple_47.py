@@ -4,9 +4,7 @@ def lowest_price(city:str, product:str) -> str:
 	lowest_price : Returns the lowest price for a particular product within a given city.    
 	Parameters:
 	city (str): The city where the product will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	product (str): The product for which the lowest price will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,product,]
 
@@ -19,9 +17,7 @@ def average_price(city:str, product:str) -> str:
 	average_price : Returns the average price for a particular product within a given city.    
 	Parameters:
 	city (str): The city where the product will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	product (str): The product for which the average price will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,product,]
 
@@ -34,9 +30,7 @@ def store_count(city:str, product:str) -> str:
 	store_count : Returns the number of stores that carry a particular product within a given city.    
 	Parameters:
 	city (str): The city where the product will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	product (str): The product for which the number of stores will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,product,]
 
@@ -49,9 +43,7 @@ def product_search(city:str, product:str) -> str:
 	product_search : Searches a particular product within a given city.    
 	Parameters:
 	city (str): The city where the product will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	product (str): The product that will be searched.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [city,product,]
 

@@ -46,11 +46,11 @@ async def evaluate(agent_factory, ground_truths, results_file):
    
     for ground_truth in tqdm(ground_truths, desc="Evaluating scenarios"):
         if not ground_truth:
+            logger.info("Warning: Found an empty ground truth entry, skipping.")
             continue
         try:
             scenario_name = ground_truth['scenario']
             
-            # 使用 set 进行高效的状态检查
             if scenario_name in completed_scenarios:
                 # print(f"Skipping already evaluated scenario: {scenario_name}") # 可以取消注释来显示跳过信息
                 continue
@@ -59,33 +59,26 @@ async def evaluate(agent_factory, ground_truths, results_file):
                 logger.info(json.dumps({"scenario": scenario_name, "error": "conversations is not exist"}))
                 continue
 
-            # 导入模块并执行评估
             scenario_module = importlib.import_module(ground_truth['module'])
             results = await evaluator.evaluate(scenario_name, scenario_module, ground_truth['conversations'])
             
-            # 在结果中加入 scenario_name 以便恢复状态
             results['scenario_name'] = scenario_name
             
-            # --- 4. 简化和修正的写入逻辑 ---
-            # 只写入刚刚完成的这一个结果，而不是遍历任何东西
             try:
                 # json_string = json.dumps(results, indent=2, ensure_ascii=False)
                 json_string = json.dumps(results, ensure_ascii=False)
                 logger.info(json_string)
                 handler.flush()
                 
-                # 更新内存中的状态
                 completed_scenarios.add(scenario_name)
                 
-                # 打印实时指标
-                print(f"completed: {scenario_name}, metric: {results.get('metrics', 'N/A')}")
+                # print(f"completed: {scenario_name}, metric: {results.get('metrics', 'N/A')}")
 
             except Exception as e:
                 logging.info(json.dumps({"scenario": scenario_name, "error": f"processing '{scenario_name}' failed，error: {e}"}))
                 handler.flush()
                 
         except Exception as e:
-            # 捕获评估过程中的任何其他错误
             scenario_name_for_error = ground_truth.get('scenario', 'unknown scenario')
             
             logging.info(json.dumps({"scenario": scenario_name_for_error, "Serious error": f"evaluate '{scenario_name_for_error}'  Serious error: {e}"}))

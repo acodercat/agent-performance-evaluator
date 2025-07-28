@@ -4,11 +4,8 @@ def forest_growth_forecast(location:str, years:int, include_human_impact:bool=No
 	forest_growth_forecast : Predicts the forest growth over the next N years based on current trends.    
 	Parameters:
 	location (str): The location where you want to predict forest growth.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	years (int): The number of years for the forecast.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	include_human_impact (bool): Whether or not to include the impact of human activities in the forecast. If not provided, defaults to false.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,years,]
 

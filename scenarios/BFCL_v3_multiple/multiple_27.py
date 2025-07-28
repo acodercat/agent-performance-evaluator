@@ -4,9 +4,7 @@ def maps_route_times(route:str, mode:str='walk') -> str:
 	maps_route_times : Estimates the time it will take to travel from one location to another by a specific mode of transportation.    
 	Parameters:
 	route (str): The string representation of the route.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	mode (str): The mode of transportation (walk, bike, transit, drive).
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [route,]
 
@@ -19,11 +17,8 @@ def maps_shortest_path(start_location:str, end_location:str, mode:str='walk') ->
 	maps_shortest_path : Find the shortest path from one location to another by using a specific mode of transportation.    
 	Parameters:
 	start_location (str): The name or coordinates of the start location.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	end_location (str): The name or coordinates of the end location.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	mode (str): The mode of transportation (walk, bike, transit, drive).
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [start_location,end_location,]
 

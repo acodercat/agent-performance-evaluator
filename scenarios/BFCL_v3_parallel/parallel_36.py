@@ -4,9 +4,7 @@ def paint_color_mixture(paint_type:str, color:str) -> str:
 	paint_color_mixture : Gives a combination of primary colors to mix for creating a certain color. This function requires type of paint and color.    
 	Parameters:
 	paint_type (str): The type of paint (Watercolor, Oil, Acrylic).
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	color (str): The color to be produced from the mixture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [paint_type,color,]
 

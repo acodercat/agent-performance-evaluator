@@ -4,7 +4,6 @@ def sports_data_basketball_most_points_single_season(league:str) -> str:
 	sports_data_basketball_most_points_single_season : Returns the record for the most points scored by a single player in one season of NBA, including the player name, points scored, and season.    
 	Parameters:
 	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [league,]
 
@@ -17,7 +16,6 @@ def sports_data_basketball_most_points_career(league:str) -> str:
 	sports_data_basketball_most_points_career : Returns the record for the most points scored by a player in his career in NBA, including the player name, total points scored, and career span.    
 	Parameters:
 	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [league,]
 
@@ -30,7 +28,6 @@ def sports_data_basketball_most_points_single_game(league:str) -> str:
 	sports_data_basketball_most_points_single_game : Returns the record for the most points scored by a single player in one game of NBA, including the player name, points scored, and game date.    
 	Parameters:
 	league (str): The specific basketball league for which to fetch the record. In this case, 'NBA'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [league,]
 

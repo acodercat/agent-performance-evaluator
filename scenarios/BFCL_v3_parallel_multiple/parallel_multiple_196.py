@@ -4,7 +4,6 @@ def get_stock_price(company_names:List[str]) -> str:
 	get_stock_price : Retrieves the current stock price of the specified companies    
 	Parameters:
 	company_names (List[str]): The list of companies for which to retrieve the stock price.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [company_names,]
 
@@ -17,11 +16,8 @@ def get_team_ranking(team_name:str, year:int, gender:str=None) -> str:
 	get_team_ranking : Retrieve the FIFA ranking of a specific soccer team for a certain year.    
 	Parameters:
 	team_name (str): The name of the soccer team.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	year (int): The year for which the ranking is to be retrieved.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	gender (str): The gender of the team. It can be either 'men' or 'women'. Default is 'men'.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [team_name,year,]
 
@@ -34,11 +30,8 @@ def recipe_info_get_calories(website:str, recipe:str, optional_meal_time:str=Non
 	recipe_info_get_calories : Retrieve the amount of calories from a specific recipe in a food website.    
 	Parameters:
 	website (str): The food website that has the recipe.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	recipe (str): Name of the recipe.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	optional_meal_time (str): Specific meal time of the day for the recipe (optional, could be 'Breakfast', 'Lunch', 'Dinner'). Default is 'Dinner'
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [website,recipe,]
 

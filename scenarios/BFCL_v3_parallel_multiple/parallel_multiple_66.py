@@ -4,7 +4,6 @@ def highest_grade(gradeDict:Dict[str, Any]) -> str:
 	highest_grade : This function finds the subject where the student got the highest score.    
 	Parameters:
 	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [gradeDict,]
 
@@ -17,7 +16,6 @@ def calculate_average(gradeDict:Dict[str, Any]) -> str:
 	calculate_average : This function calculates the average grade across different subjects for a specific student.    
 	Parameters:
 	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [gradeDict,]
 
@@ -30,7 +28,6 @@ def calculate_standard_deviation(gradeDict:Dict[str, Any]) -> str:
 	calculate_standard_deviation : This function calculates the standard deviation across different scores for a specific student.    
 	Parameters:
 	gradeDict (Dict[str, Any]): A dictionary where keys represent subjects and values represent scores
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [gradeDict,]
 

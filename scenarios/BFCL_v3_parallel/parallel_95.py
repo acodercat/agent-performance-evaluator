@@ -4,11 +4,8 @@ def calculate_magnetic_field(current:int, radius:float, permeability:int=None) -
 	calculate_magnetic_field : Calculate the magnetic field produced at the center of a circular loop carrying current.    
 	Parameters:
 	current (int): The current through the circular loop in Amperes.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	radius (float): The radius of the circular loop in meters.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	permeability (int): The magnetic permeability. Default is permeability in free space.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [current,radius,]
 

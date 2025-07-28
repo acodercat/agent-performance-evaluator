@@ -4,11 +4,8 @@ def get_current_weather(location:str, include_temperature:bool=None, include_hum
 	get_current_weather : Retrieves the current temperature and humidity for a specific location.    
 	Parameters:
 	location (str): The city name to get the weather for.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	include_temperature (bool): Whether to include the temperature in the result. Default is true.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	include_humidity (bool): Whether to include the humidity in the result. Default is true.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 

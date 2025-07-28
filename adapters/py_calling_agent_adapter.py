@@ -25,7 +25,7 @@ class PyCallingAgentWrapper(Agent):
             functions=functions,
         )
 
-        self._agent = PyCallingAgent(model=model, runtime=runtime, max_steps=100, max_history=200, log_level=LogLevel.DEBUG)
+        self._agent = PyCallingAgent(model=model, runtime=runtime, max_steps=100, max_history=200, log_level=LogLevel.INFO)
         self._functions = [f.name for f in functions]
         self._previous_steps = 0
 

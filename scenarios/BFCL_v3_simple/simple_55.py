@@ -4,9 +4,7 @@ def biology_get_cell_info(cell_type:str, detailed:bool='false') -> str:
 	biology_get_cell_info : Retrieve information about the structure and functioning of a specified type of cell    
 	Parameters:
 	cell_type (str): Type of cell you want information about
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	detailed (bool): Indicate if you want a detailed description of the cell
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [cell_type,]
 

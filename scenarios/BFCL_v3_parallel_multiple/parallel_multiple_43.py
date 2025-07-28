@@ -4,9 +4,7 @@ def get_sculpture_details(museum_location:str, sculpture_id:int) -> str:
 	get_sculpture_details : Retrieves details of a sculpture, such as its material and size, from a museum database.    
 	Parameters:
 	museum_location (str): Location of the museum housing the sculpture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	sculpture_id (int): Database ID of the sculpture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [museum_location,sculpture_id,]
 
@@ -19,11 +17,8 @@ def get_artwork_price(museum_location:str, sculpture_material:str, sculpture_siz
 	get_artwork_price : Retrieves the price of a sculpture based on size and material.    
 	Parameters:
 	museum_location (str): Location of the museum housing the sculpture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	sculpture_material (str): Material of the sculpture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	sculpture_size (List[int]): Dimensions of the sculpture.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [museum_location,sculpture_material,sculpture_size,]
 

@@ -4,11 +4,8 @@ def windFarm_potential(coordinates:List[float], turbineCount:float, month:str=''
 	windFarm_potential : Estimate the energy output of a wind farm given its location and turbine count for a particular month.    
 	Parameters:
 	coordinates (List[float]): The geographic coordinates of the location of the wind farm.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	turbineCount (float): The total number of wind turbines at the location.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	month (str): The month for which to calculate the potential energy output.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [coordinates,turbineCount,]
 
@@ -21,11 +18,8 @@ def solarFarm_potential(coordinates:List[float], panelArea:float, month:str='') 
 	solarFarm_potential : Estimate the energy output of a solar farm given its location and panel area for a particular month.    
 	Parameters:
 	coordinates (List[float]): The geographic coordinates of the location of the solar farm.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	panelArea (float): The total solar panel area in square feet at the location.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	month (str): The month for which to calculate the potential energy output.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [coordinates,panelArea,]
 

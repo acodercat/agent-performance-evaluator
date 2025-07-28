@@ -4,9 +4,7 @@ def vegan_restaurant_find_nearby(location:str, operating_hours:int=21) -> str:
 	vegan_restaurant_find_nearby : Locate nearby vegan restaurants based on specific criteria like operating hours.    
 	Parameters:
 	location (str): The city and state, e.g. New York, NY
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	operating_hours (int): Preferred latest closing time of the restaurant. E.g. if 11 is given, then restaurants that close at or after 11 PM will be considered. This is in 24 hour format.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 

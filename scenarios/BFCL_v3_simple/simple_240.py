@@ -4,9 +4,7 @@ def history_api_get_president_by_year(year:int, full_term_only:bool=False) -> st
 	history_api_get_president_by_year : Get the name of the U.S. President for a specified year.    
 	Parameters:
 	year (int): The year you want to know the U.S. president of.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	full_term_only (bool): Flag to determine if we should only return presidents that served a full term for the specified year.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [year,]
 

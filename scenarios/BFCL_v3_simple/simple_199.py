@@ -4,9 +4,7 @@ def environmental_data_air_quality_index(location:str, days:int=None) -> str:
 	environmental_data_air_quality_index : Retrieves Air Quality Index (AQI) for specified location over a number of days.    
 	Parameters:
 	location (str): Name of the city or town to retrieve air quality index for.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	days (int): Number of days for which to retrieve data. If not provided, default to today.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,]
 

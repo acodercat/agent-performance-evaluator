@@ -4,11 +4,8 @@ def house_price_forecast(location:str, months:int, features:List[str]=None) -> s
 	house_price_forecast : Predict the house prices for a specific location and time frame.    
 	Parameters:
 	location (str): The city that you want to get the house price prediction for.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	months (int): Number of future months for the prediction.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	features (List[str]): Additional features considered for prediction. Not required. Default empty array
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,months,]
 
@@ -21,9 +18,7 @@ def weather_forecast(location:str, days:int) -> str:
 	weather_forecast : Retrieve a weather forecast for a specific location and time frame.    
 	Parameters:
 	location (str): The city that you want to get the weather for.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	days (int): Number of days for the forecast.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,days,]
 
@@ -36,9 +31,7 @@ def stock_market_forecast(company:str, days:int) -> str:
 	stock_market_forecast : Predict the stock prices for a specific company and time frame.    
 	Parameters:
 	company (str): The company that you want to get the stock price prediction for.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	days (int): Number of future days for the prediction.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [company,days,]
 

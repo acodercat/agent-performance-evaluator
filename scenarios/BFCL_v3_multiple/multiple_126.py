@@ -4,11 +4,8 @@ def event_finder_find_upcoming(location:str, genre:str, days_ahead:int=7) -> str
 	event_finder_find_upcoming : Find upcoming events of a specific genre in a given location.    
 	Parameters:
 	location (str): The city and state where the search will take place, e.g. New York, NY.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	genre (str): The genre of events.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	days_ahead (int): The number of days from now to include in the search.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [location,genre,]
 
@@ -21,11 +18,8 @@ def t_test(dataset_A:List[int], dataset_B:List[int], alpha:float=None) -> str:
 	t_test : Perform a statistical t-test to check if the means of two independent datasets are statistically different.    
 	Parameters:
 	dataset_A (List[int]): Dataset A for comparison.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	dataset_B (List[int]): Dataset B for comparison.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	alpha (float): Significance level for the test. Default is 0.05.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [dataset_A,dataset_B,]
 
@@ -38,11 +32,8 @@ def geometry_area_triangle(base:float, height:float, unit:str=None) -> str:
 	geometry_area_triangle : Calculate the area of a triangle.    
 	Parameters:
 	base (float): The length of the base of the triangle.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	height (float): The height of the triangle from the base.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 	unit (str): The measurement unit for the area. Defaults to square meters.
-If you got 'Success' as the return value, it means the function calling is success, you dont need to modify to get the return.
 
 	Required Parameter = [base,height,]
 
