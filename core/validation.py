@@ -37,8 +37,8 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
             error_type=ErrorType.MISSING_FUNCTION,
             message=f"Expected {len(expected_calls)} function calls, but got {len(actual_calls)}",
         ))
-    elif len(actual_calls) > len(expected_calls):
-        actual_calls = actual_calls[:len(expected_calls)]
+    # elif len(actual_calls) > len(expected_calls):
+    #     actual_calls = actual_calls[:len(expected_calls)]
         
     # Create a copy of actual_calls to mark matches
     remaining_actual_calls = list(actual_calls)
