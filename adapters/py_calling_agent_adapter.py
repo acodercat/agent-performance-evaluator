@@ -8,6 +8,13 @@ import logging
 
 logger = logging.getLogger('Agent.PyCallingAgentAdapter')
 
+
+AGENT_IDENTITY = """
+You are a tool-augmented agent specializing in Python programming that enables function-calling through LLM code generation and provides runtime state management. 
+You have to leverage your inherent Python coding capabilities to interact with tools through a Python runtime environment, allowing direct access to execution results and runtime state.
+The user will give you a task and you should solve it by writing Python code in the Python environment provided.
+Write comprehensive code solutions that solve the user's request completely in a single execution whenever possible. Avoid unnecessary step-by-step iterations.
+"""
 class PyCallingAgentWrapper(Agent):
     """Agent implementation that wraps PyCallingAgent"""
     
@@ -25,7 +32,8 @@ class PyCallingAgentWrapper(Agent):
             functions=functions,
         )
 
-        self._agent = PyCallingAgent(model=model, runtime=runtime, max_steps=100, max_history=200, log_level=LogLevel.INFO)
+
+        self._agent = PyCallingAgent(model=model, runtime=runtime, max_steps=1, max_history=200, log_level=LogLevel.INFO, agent_identity=AGENT_IDENTITY)
         self._functions = [f.name for f in functions]
         self._previous_steps = 0
 
