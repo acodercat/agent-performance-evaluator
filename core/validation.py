@@ -31,10 +31,18 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
         List of validation errors with structured type information
     """
     errors = []
-    
+
+    if len(actual_calls) < len(expected_calls):
+        errors.append(ValidationError(
+            error_type=ErrorType.MISSING_FUNCTION,
+            message=f"Expected {len(expected_calls)} function calls, but got {len(actual_calls)}",
+        ))
+    elif len(actual_calls) > len(expected_calls):
+        actual_calls = actual_calls[:len(expected_calls)]
+        
     # Create a copy of actual_calls to mark matches
     remaining_actual_calls = list(actual_calls)
-    
+
     # For each expected call, try to find a matching actual call
     for i, expected in enumerate(expected_calls):
         expected_name = expected["name"]
@@ -61,23 +69,30 @@ def validate_function_calls(actual_calls: List[AgentToolCall],
             continue
         
         argument_errors = []
-        delete_index = []
+        right_status = False
+        # delete_index = []
+        delete_index = None
         for index in match_index:
             # Validate arguments of the matching call
             actual_call = remaining_actual_calls[index]
             e = validate_arguments(actual_call, expected, i, expected_name+str(i))
             if e == []:
-                delete_index.append(index)
+                # delete_index.append(index)
+                delete_index = index
+                right_status = True
+                break
             else:
                 argument_errors.extend(e)
 
         # Just for BFCL, we dont check if there are any extra calls in actual_calls        
-        if len(argument_errors) == len(match_index):
-            for error in argument_errors:
-                errors.extend(error)
+        if right_status == False:
+                errors.extend(argument_errors)
         
-        for index in delete_index:
-            remaining_actual_calls.pop(index)
+        # delete_index.sort(reverse=True)
+        # for index in delete_index:
+        #     remaining_actual_calls.pop(index)
+        if delete_index is not None:
+            remaining_actual_calls.pop(delete_index)
 
     return errors
 
@@ -242,5 +257,5 @@ if __name__ == "__main__":
 
     actual = AgentToolCall(function="calculate_fitness", arguments={"trait_values": [0.8,0.7], "trait_contributions": [0.4, 0.6]}, call_id=0)
     expected = {'name': 'calculate_fitness', 'arguments': [{'name': 'trait_values', 'value': [[0.8, 0.7]], 'type': List[float]}, {'name': 'trait_contributions', 'value': [[0.4, 0.6]], 'type': List[float]}]}
-    # argument_errors = validate_arguments(actual, expected, 0)
-    # print(argument_errors)
+    argument_errors = validate_arguments(actual, expected, 0)
+    print(argument_errors)

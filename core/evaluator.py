@@ -67,10 +67,13 @@ class AgentEvaluator:
         
         # Process each conversation
         for conversation in conversations:
-            conversation_results = await self._evaluate_conversation(
-                conversation, tools
-            )
-            results["conversations"].append(conversation_results)
+            try:
+                conversation_results = await self._evaluate_conversation(
+                    conversation, tools
+                )
+                results["conversations"].append(conversation_results)
+            except Exception as e:
+                raise RuntimeError(f"Failed to evaluate conversation {conversation}: {e}")
         
         # Calculate success rate
         self.metrics["success_rate"] = self.metrics["successful_turns"] / self.metrics["total_turns"] if self.metrics["total_turns"] > 0 else 0
@@ -96,7 +99,6 @@ class AgentEvaluator:
     
         # Initialize agent
         agent = self.agent_factory.create_agent(functions=tools)
-        print(f"Created agent for conversation: {conversation_id}, {conversation.get('turns', [])}")
         # Process each turn
         for turn_index, turn in enumerate(conversation.get("turns", [])):
             turn_results = await self._evaluate_turn(
