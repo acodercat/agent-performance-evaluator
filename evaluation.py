@@ -10,7 +10,7 @@ from core.evaluator import AgentEvaluator
 async def evaluate(agent_factory, ground_truths, results_file):
 
     logger = logging.getLogger(results_file)
-    logger.setLevel(logging.DEBUG)
+    logger.setLevel(logging.INFO)
     formatter = logging.Formatter('%(message)s')
     
     if logger.hasHandlers():
@@ -75,12 +75,12 @@ async def evaluate(agent_factory, ground_truths, results_file):
                 # print(f"completed: {scenario_name}, metric: {results.get('metrics', 'N/A')}")
 
             except Exception as e:
-                logging.info(json.dumps({"scenario": scenario_name, "error": f"processing '{scenario_name}' failed，error: {e}"}))
+                print(json.dumps({"scenario": scenario_name, "error": f"processing '{scenario_name}' failed，error: {e}"}))
                 handler.flush()
                 
         except Exception as e:
             scenario_name_for_error = ground_truth.get('scenario', 'unknown scenario')
             
-            logging.info(json.dumps({"scenario": scenario_name_for_error, "Serious error": f"evaluate '{scenario_name_for_error}'  Serious error: {e}"}))
+            print(json.dumps({"scenario": scenario_name_for_error, "Serious error": f"evaluate '{scenario_name_for_error}'  Serious error: {e}"}))
             handler.flush()
             continue
