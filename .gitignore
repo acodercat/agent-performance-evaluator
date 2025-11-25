@@ -8,7 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+venv/
+ENV/
 
+# Configuration files with secrets
+.env
+
+# Results and logs
+results/
+*.log
 
 # OS generated files
 .DS_Store
@@ -19,11 +27,31 @@ wheels/
 ehthumbs.db
 Thumbs.db
 
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*.code-workspace
 
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
 
-# PyCharm
-.idea/
-*.iml
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Distribution
+*.egg
+*.whl
+
+# Claude code
+.claude/

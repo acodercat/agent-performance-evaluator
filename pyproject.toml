@@ -1,20 +1,10 @@
 [project]
-name = "agent-performance-evaluator"
+name = "cave-bench"
 version = "0.1.0"
-description = "A comprehensive benchmarking framework for evaluating AI agent implementations and their tool-calling capabilities across multiple scenarios."
+description = "A comprehensive benchmarking framework for evaluating CaveAgent's tool-calling and code-generation capabilities."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
-    "langchain>=0.3.24",
-    "langchain-anthropic>=0.3.12",
-    "langchain-openai>=0.3.14",
-    "langgraph>=0.3.34",
-    "litellm>=1.74.7",
-    "llama-index>=0.12.34",
-    "llama-index-llms-anthropic>=0.6.10",
-    "llama-index-llms-openai-like>=0.4.0",
-    "openai-agents>=0.0.14",
     "pandas>=2.2.3",
-    "py-calling-agent[litellm]>=0.3.1",
-    "tqdm>=4.67.1",
+    "cave-agent[all] @ file:///${PROJECT_ROOT}/cave-agent",
 ]

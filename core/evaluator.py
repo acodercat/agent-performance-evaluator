@@ -1,21 +1,72 @@
 import logging
-from typing import Dict, List, Any, Callable
-from core.validation import validate_function_calls, ErrorType
-from core.agent import Agent, AgentFactory, AgentToolCall
+import ast
+from typing import Dict, List, Callable, Set
+from core.validation import validate_function_calls, ErrorType, ValidationError, ValidatorResult
+from core.types import (
+    ToolCall, TurnMetrics, TurnResult,
+    ConversationResult, ScenarioMetrics, ScenarioResult, VariableAccess,
+    BenchmarkTurn, BenchmarkConversation, ExpectedFunctionCall, BenchmarkScenario
+)
+from core.tracker import FunctionCallTracker
+from cave_agent import CaveAgent, LogLevel, Model
+from cave_agent.python_runtime import PythonRuntime, Function, Variable
+from core.prompts import DEFAULT_AGENT_IDENTITY, DEFAULT_INSTRUCTIONS
+
 
 logger = logging.getLogger('Agent.Evaluator')
 
 
 
-class AgentEvaluator:
-    def __init__(self, agent_factory: AgentFactory):
+def analyze_variable_access(code: str) -> VariableAccess:
+    """
+    Analyze the variable access in a Python code string.
+
+    Args:
+        code: Python code string
+
+    Returns:
+        VariableAccess with reads and writes lists
+    """
+    try:
+        tree = ast.parse(code)
+        analyzer = VariableAnalyzer()
+        analyzer.visit(tree)
+
+        return VariableAccess(
+            reads=list(analyzer.reads),
+            writes=list(analyzer.writes)
+        )
+    except SyntaxError:
+        # If AST parsing fails, return empty results
+        return VariableAccess(reads=[], writes=[])
+
+class VariableAnalyzer(ast.NodeVisitor):
+    """A simple variable access analyzer"""
+
+    def __init__(self):
+        self.reads: Set[str] = set()
+        self.writes: Set[str] = set()
+
+    def visit_Name(self, node):
+        """Visit variable names"""
+        if isinstance(node.ctx, ast.Load):
+            # Variable read
+            self.reads.add(node.id)
+        elif isinstance(node.ctx, ast.Store):
+            # Variable write
+            self.writes.add(node.id)
+
+        self.generic_visit(node)
+
+class BenchmarkEvaluator:
+    def __init__(self, model: Model):
         """
-        Initialize the evaluator with an agent factory.
-        
+        Initialize the benchmark evaluator.
+
         Args:
-            agent_factory: Factory for creating agent instances
+            model: The LLM model to use for creating agents
         """
-        self.agent_factory = agent_factory
+        self.model = model
         self._reset_metrics()
 
     def _reset_metrics(self):
@@ -24,186 +75,271 @@ class AgentEvaluator:
         This should be called before starting a new evaluation.
         """
         logger.debug("Resetting evaluation metrics")
-        self.metrics = {
-            "total_turns": 0,
-            "successful_turns": 0,
-            "failed_turns": 0,
-            "total_expected_calls": 0,
-            "total_actual_calls": 0,
-            "missing_calls": 0,
-            "wrong_argument_values": 0,
-            "wrong_argument_types": 0,
-            "missing_arguments": 0,
-            "wrong_argument_names": 0,
-            "total_steps": 0,
-            "success_rate": 0,
-        }
+        self.metrics = ScenarioMetrics()
 
-    async def evaluate(self, scenario: str, module, conversations: Dict[str, Any]) -> Dict[str, Any]:
+    def _create_agent(
+        self,
+        functions: List[Callable],
+        variables: List[Variable],
+        description: str | None = None,
+        requirements: str | None = None
+    ) -> CaveAgent:
+        """
+        Create a CaveAgent instance for benchmarking.
+
+        Args:
+            functions: List of callable functions
+            variables: List of variables
+            description: Optional scenario-specific agent identity (defaults to DEFAULT_AGENT_IDENTITY)
+            requirements: Optional scenario-specific requirements (defaults to DEFAULT_INSTRUCTIONS)
+
+        Returns:
+            Configured CaveAgent instance
+        """
+        functions = [Function(f) for f in functions]
+        runtime = PythonRuntime(
+            functions=functions,
+            variables=variables
+        )
+
+        if description:
+            instructions = DEFAULT_INSTRUCTIONS + "\n TASK DESCRIPTION: \n" + description + "\n"
+        else:
+            instructions = DEFAULT_INSTRUCTIONS
+
+        if requirements:
+            instructions = instructions + "\nTASK REQUIREMENTS: \n" + requirements
+
+        return CaveAgent(
+            model=self.model,
+            runtime=runtime,
+            max_steps=100,
+            max_history=200,
+            max_execution_result_length=10000,
+            log_level=LogLevel.DEBUG,
+            agent_identity=DEFAULT_AGENT_IDENTITY,
+            instructions=instructions
+        )
+
+    async def evaluate(
+        self,
+        scenario: str,
+        module,
+        conversations: List[BenchmarkConversation],
+        json_config: dict | None = None
+    ) -> ScenarioResult:
         """
         Evaluate an agent against a specific scenario.
-        
+
         Args:
             scenario: The scenario name
             module: The scenario module
-            conversations: The conversations to evaluate
-            
-        Returns:
-            Evaluation results
-        """
-        results = {
-            "scenario": scenario,
-            "conversations": []
-        }
+            conversations: List of benchmark conversations to evaluate
+            json_config: Optional JSON config dict containing 'description' and 'requirements'
 
+        Returns:
+            ScenarioResult with complete evaluation results
+        """
         # Reset metrics at the start of evaluation
         self._reset_metrics()
 
-        # Get tools from the module
-        tools = getattr(module, "tools", None)
-        if not tools:
-            raise ValueError(f"No tools found in scenario module {scenario}. Please define a 'tools' list in the scenario module.")
+        # Load scenario contents with optional JSON overrides for prompts
+        scenario_contents = BenchmarkScenario.from_module(module, json_config)
+
         logger.info(f"Evaluating scenario {scenario} with {len(conversations)} conversations")
-        
+
         # Process each conversation
+        conversation_results = []
         for conversation in conversations:
-            conversation_results = await self._evaluate_conversation(
-                conversation, tools
+            result = await self._evaluate_conversation(
+                conversation, scenario_contents
             )
-            results["conversations"].append(conversation_results)
-        
+            conversation_results.append(result)
+
         # Calculate success rate
-        self.metrics["success_rate"] = self.metrics["successful_turns"] / self.metrics["total_turns"] if self.metrics["total_turns"] > 0 else 0
-        
-        logger.info(f"Evaluation complete. Success rate: {self.metrics['success_rate']:.2f}")
-        # Add metrics to results
-        results["metrics"] = self.metrics
+        self.metrics.success_rate = (
+            self.metrics.successful_turns / self.metrics.total_turns
+            if self.metrics.total_turns > 0 else 0
+        )
 
-        return results
+        logger.info(f"Evaluation complete. Success rate: {self.metrics.success_rate:.2f}")
 
-    
-    async def _evaluate_conversation(self, conversation: Dict[str, Any], 
-                               tools: List[Callable]) -> Dict[str, Any]:
+        return ScenarioResult(
+            scenario=scenario,
+            conversations=conversation_results,
+            metrics=self.metrics
+        )
+
+
+    async def _evaluate_conversation(self, conversation: BenchmarkConversation,
+                               scenario: BenchmarkScenario) -> ConversationResult:
         """Evaluate a single conversation within a scenario."""
-        conversation_id = conversation.get("id", "unnamed_conversation")
-        logger.debug(f"Evaluating conversation: {conversation_id}")
-        
-        # Initialize results structure
-        results = {
-            "id": conversation_id,
-            "turns": []
-        }
-   
-        # Initialize agent
-        agent = self.agent_factory.create_agent(functions=tools)
+        logger.debug(f"Evaluating conversation: {conversation.id}")
+
+        # Extract function names for tracking
+        function_names = [f.__name__ for f in scenario.tools]
+
+        agent = self._create_agent(
+            functions=scenario.tools,
+            variables=scenario.variables,
+            description=scenario.description,
+            requirements=scenario.requirements
+        )
+
         # Process each turn
-        for turn_index, turn in enumerate(conversation.get("turns", [])):
-            turn_results = await self._evaluate_turn(
-                turn, agent
+        turn_results = []
+        for turn in conversation.turns:
+            result = await self._evaluate_turn(
+                turn, agent, function_names, scenario.validators
             )
-            results["turns"].append(turn_results)
-            self.metrics["total_steps"] += turn_results["metrics"]["steps"]
-     
-        return results
-    
-    def calculate_missing_calls_metric(self, expected_calls: List[Dict[str, Any]], actual_calls: List[AgentToolCall]) -> int:
+            turn_results.append(result)
+            self.metrics.total_steps += result.metrics.steps
+
+        return ConversationResult(
+            id=conversation.id,
+            turns=turn_results
+        )
+
+    def calculate_missing_calls_metric(self, expected_calls: List[ExpectedFunctionCall], actual_calls: List[ToolCall]) -> int:
         """
         Calculate the number of missing required function calls.
-        
+
         Args:
-            expected_calls: List of expected function calls from ground_truths.json
+            expected_calls: List of expected function calls from benchmarks
             actual_calls: List of actual function calls from the tracker
-            
+
         Returns:
             Number of missing required function calls
         """
         missing_required_calls = 0
-        
+
         # Create a set of function names from actual calls for quick lookup
         actual_function_names = {call.function for call in actual_calls}
-        
+
         # Count missing required calls
         for expected in expected_calls:
-            is_required = expected.get("required", True)  # Default to True if not specified
-            expected_name = expected.get("name")
-            if is_required and expected_name not in actual_function_names:
+            if expected.required and expected.name not in actual_function_names:
                 missing_required_calls += 1
 
         return missing_required_calls
 
-    async def _evaluate_turn(self, turn: Dict[str, Any], 
-                       agent: Agent) -> Dict[str, Any]:
+    async def _evaluate_turn(self, turn: BenchmarkTurn,
+                       agent: CaveAgent, function_names: List[str], validators: Dict[str, Callable] | None = None) -> TurnResult:
         """Evaluate a single turn within a conversation and return detailed metrics."""
-        query = turn["query"]
-        reference_response = turn.get("reference_response", "")
-        expected_calls = turn.get("expected_function_calls", [])
-        
-        # Initialize results
-        turn_results = {
-            "query": query,
-            "reference_response": reference_response,
-            "actual_response": "",
-            "expected_calls": expected_calls,
-            "actual_calls": [],
-            "validation_errors": [],
-            "metrics": {
-                "missing_calls": 0,
-                "wrong_argument_types": 0,
-                "wrong_argument_values": 0,
-                "missing_arguments": 0,
-                "steps": 0,
-            }
-        }
+        if validators is None:
+            validators = {}
 
-        self.metrics["total_expected_calls"] += len(expected_calls)
-        self.metrics["total_turns"] += 1
-        
-        # Run the agent with tracking
-        response = await agent.run(query)
-        turn_results["actual_response"] = response.get_result()
-        turn_results["metrics"]["steps"] = response.get_steps()
-        
+        query = turn.query
+        reference_response = turn.reference_response
+        expected_calls = turn.expected_function_calls
+        expected_variable_reads = turn.expected_variable_reads
+        expected_variable_writes = turn.expected_variable_writes
+
+        # Initialize metrics
+        turn_metrics = TurnMetrics()
+
+        self.metrics.total_expected_calls += len(expected_calls)
+        self.metrics.total_turns += 1
+
+        # Create tracker with provided function names and use context manager for safe cleanup
+        with FunctionCallTracker(target_functions=function_names) as tracker:
+            # Run the agent
+            result = await agent.run(query)
+
+        turn_metrics.steps = result.steps_taken
+
+        # Analyze code snippets for variable access
+        code_snippets = result.code_snippets
+        actual_variable_reads = []
+        actual_variable_writes = []
+
+        for code_snippet in code_snippets:
+            variable_access = analyze_variable_access(code_snippet)
+            for read in variable_access.reads:
+                if read in expected_variable_reads:
+                    actual_variable_reads.append(read)
+            for write in variable_access.writes:
+                if write in expected_variable_writes:
+                    actual_variable_writes.append(write)
+
         # Get function calls and convert to dictionaries
-        actual_calls = response.get_tool_calls()
-        turn_results["actual_calls"] = [call.__dict__ for call in actual_calls]
-        self.metrics["total_actual_calls"] += len(actual_calls)
-        
+        actual_calls = tracker.get_tool_calls()
+        actual_calls_dict = [{"function": call.function, "arguments": call.arguments, "call_id": call.call_id} for call in actual_calls]
+        self.metrics.total_actual_calls += len(actual_calls)
+
+        # Run validator if specified (after we have actual_calls)
+        validator_name = turn.validator
+        if validator_name:
+            if validator_name not in validators:
+                raise KeyError(f"Validator '{validator_name}' not found. Available validators: {list(validators.keys())}")
+            validator_result = validators[validator_name](result.content, agent.runtime, turn, actual_calls)
+        else:
+            validator_result = ValidatorResult(success=True, message="")
+
         # Validate function calls
         validation_errors = validate_function_calls(actual_calls, expected_calls)
-        
+
+        # Check for missing variable reads/writes
+        for expected_variable_read in expected_variable_reads:
+            if expected_variable_read not in actual_variable_reads:
+                validation_errors.append(ValidationError(
+                    error_type=ErrorType.MISSING_VARIABLE_READ,
+                    message=f"Variable {expected_variable_read} is not read",
+                ))
+        for expected_variable_write in expected_variable_writes:
+            if expected_variable_write not in actual_variable_writes:
+                validation_errors.append(ValidationError(
+                    error_type=ErrorType.MISSING_VARIABLE_WRITE,
+                    message=f"Variable {expected_variable_write} is not written",
+                ))
+
         # Store error messages for display
         error_messages = [error.message for error in validation_errors]
-        turn_results["validation_errors"] = error_messages
-        # Count missing required calls
+        if not validator_result.success:
+            error_messages.append(f"Custom validator failed: {validator_result.message}")
 
-        turn_results["metrics"]["missing_calls"] = self.calculate_missing_calls_metric(expected_calls, actual_calls)
-        self.metrics["missing_calls"] += turn_results["metrics"]["missing_calls"]
+        # Calculate missing calls metric
+        turn_metrics.missing_calls = self.calculate_missing_calls_metric(expected_calls, actual_calls)
+        self.metrics.missing_calls += turn_metrics.missing_calls
 
-        # Count error types with separate missing and extra argument counts
+        # Count error types
         for error in validation_errors:
-            # if error.error_type == ErrorType.EXTRA_FUNCTION:
-            #     self.metrics["extra_calls"] += 1
-            
-            # if error.error_type == ErrorType.WRONG_FUNCTION_NAME:
-            #     self.metrics["wrong_function_names"] += 1
-            #     self.metrics["missing_calls"] += 1  
-            
             if error.error_type == ErrorType.WRONG_ARGUMENT_TYPE:
-                self.metrics["wrong_argument_types"] += 1
-                turn_results["metrics"]["wrong_argument_types"] += 1
+                self.metrics.wrong_argument_types += 1
+                turn_metrics.wrong_argument_types += 1
             elif error.error_type == ErrorType.WRONG_ARGUMENT_VALUE:
-                self.metrics["wrong_argument_values"] += 1
-                turn_results["metrics"]["wrong_argument_values"] += 1
+                self.metrics.wrong_argument_values += 1
+                turn_metrics.wrong_argument_values += 1
             elif error.error_type == ErrorType.MISSING_ARGUMENT:
-                self.metrics["missing_arguments"] += 1
-                turn_results["metrics"]["missing_arguments"] += 1
+                self.metrics.missing_arguments += 1
+                turn_metrics.missing_arguments += 1
+            elif error.error_type == ErrorType.MISSING_VARIABLE_READ:
+                self.metrics.missing_variable_reads += 1
+                turn_metrics.missing_variable_reads += 1
+            elif error.error_type == ErrorType.MISSING_VARIABLE_WRITE:
+                self.metrics.missing_variable_writes += 1
+                turn_metrics.missing_variable_writes += 1
 
         # Determine turn success
-        if not validation_errors:
-            self.metrics["successful_turns"] += 1
-            turn_results["success"] = True
+        success = not validation_errors and validator_result.success
+        if success:
+            self.metrics.successful_turns += 1
         else:
-            self.metrics["failed_turns"] += 1
-            turn_results["success"] = False
-        
-        return turn_results
+            self.metrics.failed_turns += 1
+
+        return TurnResult(
+            query=query,
+            reference_response=reference_response,
+            actual_response=result.content,
+            expected_calls=[call.to_dict() for call in expected_calls],
+            actual_calls=actual_calls_dict,
+            validation_errors=error_messages,
+            metrics=turn_metrics,
+            success=success,
+            validator_result=validator_result.success,
+            code_snippets=code_snippets,
+            expected_variable_reads=expected_variable_reads,
+            expected_variable_writes=expected_variable_writes,
+            actual_variable_reads=actual_variable_reads,
+            actual_variable_writes=actual_variable_writes
+        )

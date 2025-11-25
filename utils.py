@@ -1,65 +1,82 @@
-import tomllib
-from typing import TypedDict, Callable
-import inspect
+"""Utility functions for configuration and model loading."""
 
-class ModelConfig(TypedDict):
+import tomllib
+from typing import TypedDict, Callable, Dict, Any, Optional
+from pathlib import Path
+
+
+class ModelConfig(TypedDict, total=False):
+    """Type definition for model configuration."""
     model_id: str
     api_key: str
     base_url: str
+    temperature: float
 
-def load_model_config(model_name: str) -> ModelConfig:
-    """Load model configuration from models.toml"""
-    with open("models.toml", "rb") as f:
+
+def load_model_config(
+    model_name: str,
+    config_path: str = "models.toml"
+) -> ModelConfig:
+    """
+    Load model configuration from a TOML file.
+
+    Args:
+        model_name: The name of the model configuration to load
+        config_path: Path to the TOML configuration file (default: models.toml)
+
+    Returns:
+        Dictionary containing model configuration
+
+    Raises:
+        FileNotFoundError: If config file doesn't exist
+        ValueError: If model_name not found in config
+    """
+    config_file = Path(config_path)
+
+    if not config_file.exists():
+        raise FileNotFoundError(
+            f"Configuration file '{config_path}' not found. "
+            f"Create it from models.toml.example"
+        )
+
+    with open(config_file, "rb") as f:
         models = tomllib.load(f)
-    
+
     if model_name not in models:
         available = list(models.keys())
-        raise ValueError(f"Model '{model_name}' not found. Available: {available}")
-    
+        raise ValueError(
+            f"Model '{model_name}' not found in {config_path}. "
+            f"Available models: {', '.join(available)}"
+        )
+
     return models[model_name]
 
 
-def function_to_schema(func: Callable) -> dict:
+def function_to_schema(func: Callable) -> Dict[str, Any]:
     """
-    Convert a Python function to an OpenAI tool schema.
-    """
-    type_map = {
-        str: "string",
-        int: "integer", 
-        float: "number",
-        bool: "boolean",
-        list: "array",
-        dict: "object",
-        type(None): "null",
-    }
+    Convert a Python function to an OpenAI-compatible tool schema.
 
+    Args:
+        func: Python function with type hints and docstring
+
+    Returns:
+        Dictionary with name, description, and parameters schema
+
+    Note:
+        This requires the 'agents' package. Used for compatibility
+        with non-CaveAgent frameworks.
+    """
     try:
-        signature = inspect.signature(func)
-    except ValueError as e:
-        raise ValueError(
-            f"Failed to get signature for function {func.__name__}: {str(e)}"
+        from agents import function_tool
+    except ImportError:
+        raise ImportError(
+            "The 'agents' package is required for function_to_schema. "
+            "Install it with: pip install agents"
         )
 
-    parameters = {}
-    for param in signature.parameters.values():
-        try:
-            param_type = type_map.get(param.annotation, "string")
-        except KeyError:
-            param_type = "string"
-        parameters[param.name] = {"type": param_type}
-
-    required = [
-        param.name
-        for param in signature.parameters.values()
-        if param.default == inspect._empty
-    ]
-
+    tool = function_tool(func, strict_mode=False)
     return {
-            "name": func.__name__,
-            "description": func.__doc__ or "",
-            "parameters": {
-                "type": "object",
-                "properties": parameters,
-                "required": required,
-            }
-        }
+        "name": func.__name__,
+        "description": func.__doc__ or tool.description,
+        "parameters": tool.params_json_schema
+    }
